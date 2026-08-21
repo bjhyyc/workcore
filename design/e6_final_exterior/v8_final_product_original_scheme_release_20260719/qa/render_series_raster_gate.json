@@ -1,0 +1,1774 @@
+{
+  "schema_version": 1,
+  "gate": "layout/appearance 32-image raster delivery",
+  "status": "PASS",
+  "expected_render_count": 32,
+  "actual_render_count": 32,
+  "required_resolution_px": [
+    1600,
+    1200
+  ],
+  "failures": [],
+  "renders": [
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/follow/preview_class_a_follow.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "d8c86bcd1d4ea9fe8828cbdffdba4d94d14c8da5a2b36c59edacac7119806693",
+      "mtime_ns": 1784528666841494500,
+      "background_rgb_median": [
+        46.0,
+        48.0,
+        48.0
+      ],
+      "mean_luminance_8bit": 58.20664002718749,
+      "luminance_stddev_8bit": 25.934514981016314,
+      "near_black_fraction": 0.00045729166666666666,
+      "content_pixel_count": 603945,
+      "content_fraction": 0.3145546875,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 65,
+      "clear_frame_required": false,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "follow",
+      "view": "hero"
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/follow/preview_class_a_follow_qa_overlay.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "0a2fdcb8e0d169ee3287d6a5e38bf4b022172e0f2d5c7b24bbeccb71c5e143a5",
+      "mtime_ns": 1784528668771616400,
+      "background_rgb_median": [
+        46.0,
+        48.0,
+        48.0
+      ],
+      "mean_luminance_8bit": 58.840777916979164,
+      "luminance_stddev_8bit": 25.500203807034552,
+      "near_black_fraction": 4.53125e-05,
+      "content_pixel_count": 613579,
+      "content_fraction": 0.31957239583333336,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 65,
+      "clear_frame_required": false,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "follow",
+      "view": "qa_overlay"
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/follow/silhouette_front_follow.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "2ab40505bc2f2ef49193cfb472da12050731ccfbae94d6760326160fda420229",
+      "mtime_ns": 1784528670585086500,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 71.02585441166669,
+      "luminance_stddev_8bit": 20.978300266154278,
+      "near_black_fraction": 0.016151041666666668,
+      "content_pixel_count": 922237,
+      "content_fraction": 0.48033177083333334,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "follow",
+      "view": "front",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.527999997138977,
+          0.35199999809265137,
+          -0.37880000472068787,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          0.7310000061988831
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.3654703605807299,
+        "applied_parallel_scale_m": 0.40932680385041753,
+        "projected_half_width_m": 0.3771499991416931,
+        "projected_half_height_m": 0.3654703605807299,
+        "focal_point_m": [
+          -0.08799999952316284,
+          -0.001650005578994751,
+          0.36552964561815315
+        ],
+        "camera_position_m": [
+          -3.513677685096867,
+          -0.001650005578994751,
+          0.36552964561815315
+        ],
+        "view_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/follow/silhouette_rear_follow.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "1b7cef8ccd15ada56dc0c4880133cf3476058972c0d05b7feede5f9361eab7b6",
+      "mtime_ns": 1784528672208606800,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 66.24176963614583,
+      "luminance_stddev_8bit": 20.187901649757528,
+      "near_black_fraction": 0.0074723958333333335,
+      "content_pixel_count": 922899,
+      "content_fraction": 0.4806765625,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "follow",
+      "view": "rear",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.527999997138977,
+          0.35199999809265137,
+          -0.37880000472068787,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          0.7310000061988831
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.3654703605807299,
+        "applied_parallel_scale_m": 0.40932680385041753,
+        "projected_half_width_m": 0.3771499991416931,
+        "projected_half_height_m": 0.3654703605807299,
+        "focal_point_m": [
+          -0.08799999952316284,
+          -0.001650005578994751,
+          0.36552964561815315
+        ],
+        "camera_position_m": [
+          3.3376776860505415,
+          -0.001650005578994751,
+          0.36552964561815315
+        ],
+        "view_direction": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/follow/silhouette_left_follow.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "f706c851e15b686c27fcb525392c5f6a009ce3b25817a065049be22645cf7ad2",
+      "mtime_ns": 1784528673778395900,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 64.29638435416668,
+      "luminance_stddev_8bit": 19.91208427941176,
+      "near_black_fraction": 0.0011213541666666668,
+      "content_pixel_count": 1087309,
+      "content_fraction": 0.5663067708333334,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "follow",
+      "view": "left",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.527999997138977,
+          0.35199999809265137,
+          -0.37880000472068787,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          0.7310000061988831
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.3654703605807299,
+        "applied_parallel_scale_m": 0.40932680385041753,
+        "projected_half_width_m": 0.4399999976158142,
+        "projected_half_height_m": 0.3654703605807299,
+        "focal_point_m": [
+          -0.08799999952316284,
+          -0.001650005578994751,
+          0.36552964561815315
+        ],
+        "camera_position_m": [
+          -0.08799999952316284,
+          -3.427327691152699,
+          0.36552964561815315
+        ],
+        "view_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/follow/silhouette_right_follow.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "8b28f74bc758a8710d34c42f1f194d2827c43a95af3dbefaec8cae2f4ad085b2",
+      "mtime_ns": 1784528675367170000,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 75.61295150677084,
+      "luminance_stddev_8bit": 22.584820480301925,
+      "near_black_fraction": 0.0012333333333333332,
+      "content_pixel_count": 1090073,
+      "content_fraction": 0.5677463541666666,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "follow",
+      "view": "right",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.527999997138977,
+          0.35199999809265137,
+          -0.37880000472068787,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          0.7310000061988831
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.3654703605807299,
+        "applied_parallel_scale_m": 0.40932680385041753,
+        "projected_half_width_m": 0.4399999976158142,
+        "projected_half_height_m": 0.3654703605807299,
+        "focal_point_m": [
+          -0.08799999952316284,
+          -0.001650005578994751,
+          0.36552964561815315
+        ],
+        "camera_position_m": [
+          -0.08799999952316284,
+          3.4240276799947096,
+          0.36552964561815315
+        ],
+        "view_direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/follow/silhouette_top_follow.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "d48efadde3358b29ad6bf2cd945c53cd29879d1e344e32de1d4c5c03468b7dd5",
+      "mtime_ns": 1784528676956086800,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 89.60112857364584,
+      "luminance_stddev_8bit": 33.93354617882337,
+      "near_black_fraction": 7.864583333333333e-05,
+      "content_pixel_count": 914286,
+      "content_fraction": 0.476190625,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "follow",
+      "view": "top",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.527999997138977,
+          0.35199999809265137,
+          -0.37880000472068787,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          0.7310000061988831
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.4399999976158142,
+        "applied_parallel_scale_m": 0.49279999732971197,
+        "projected_half_width_m": 0.3771499991416931,
+        "projected_half_height_m": 0.4399999976158142,
+        "focal_point_m": [
+          -0.08799999952316284,
+          -0.001650005578994751,
+          0.36552964561815315
+        ],
+        "camera_position_m": [
+          -0.08799999952316284,
+          -0.001650005578994751,
+          3.7912073311918575
+        ],
+        "view_direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "view_up": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/follow/silhouette_bottom_follow.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "5f4ab1f4653e1180378b543cabe07dfb718a61d3591373ad4c881a34ff6117e4",
+      "mtime_ns": 1784528678589817100,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 82.76149387510418,
+      "luminance_stddev_8bit": 32.62961152348033,
+      "near_black_fraction": 0.0,
+      "content_pixel_count": 914643,
+      "content_fraction": 0.4763765625,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "follow",
+      "view": "bottom",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.527999997138977,
+          0.35199999809265137,
+          -0.37880000472068787,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          0.7310000061988831
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.4399999976158142,
+        "applied_parallel_scale_m": 0.49279999732971197,
+        "projected_half_width_m": 0.3771499991416931,
+        "projected_half_height_m": 0.4399999976158142,
+        "focal_point_m": [
+          -0.08799999952316284,
+          -0.001650005578994751,
+          0.36552964561815315
+        ],
+        "camera_position_m": [
+          -0.08799999952316284,
+          -0.001650005578994751,
+          -3.060148039955551
+        ],
+        "view_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "view_up": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/preview_class_a_ride.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "abde6b79192fda3f8ff22c39460eebc5b3f8e0008e3b1ce8c168da593c21660c",
+      "mtime_ns": 1784529032791695800,
+      "background_rgb_median": [
+        46.0,
+        48.0,
+        48.0
+      ],
+      "mean_luminance_8bit": 53.29293959479166,
+      "luminance_stddev_8bit": 20.329887633896128,
+      "near_black_fraction": 0.00025052083333333334,
+      "content_pixel_count": 558693,
+      "content_fraction": 0.2909859375,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 16,
+      "clear_frame_required": false,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "ride",
+      "view": "hero"
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/preview_class_a_ride_qa_overlay.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "e3764f2ce8a4f71a22187316ffa3d9c25673d317ef955578d500cefa889f9ea8",
+      "mtime_ns": 1784529034820345100,
+      "background_rgb_median": [
+        46.0,
+        48.0,
+        48.0
+      ],
+      "mean_luminance_8bit": 53.95081733489583,
+      "luminance_stddev_8bit": 19.366830832566478,
+      "near_black_fraction": 2.2916666666666667e-05,
+      "content_pixel_count": 566522,
+      "content_fraction": 0.29506354166666665,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 16,
+      "clear_frame_required": false,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "ride",
+      "view": "qa_overlay"
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/silhouette_front_ride.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "85649e6d8a8615cea45f4c0076a83f23f4f38bf7875d6e35072871f64eaf7a13",
+      "mtime_ns": 1784529036600841600,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 70.14695068833335,
+      "luminance_stddev_8bit": 19.94812685544394,
+      "near_black_fraction": 0.0079640625,
+      "content_pixel_count": 588217,
+      "content_fraction": 0.30636302083333333,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "ride",
+      "view": "front",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.7099999785423279,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.0720000267028809
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.5359703708327288,
+        "applied_parallel_scale_m": 0.6002868153326563,
+        "projected_half_width_m": 0.37549999356269836,
+        "projected_half_height_m": 0.5359703708327288,
+        "focal_point_m": [
+          -0.17041750252246857,
+          0.0,
+          0.536029655870152
+        ],
+        "camera_position_m": [
+          -4.41133052922993,
+          0.0,
+          0.536029655870152
+        ],
+        "view_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/silhouette_rear_ride.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "c74bb3029e1f10b511be61b74b5c2b9593e881eca4a8a27de91bbc8f1ce2d0f1",
+      "mtime_ns": 1784529038177764700,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 73.17461536427085,
+      "luminance_stddev_8bit": 15.070390999352004,
+      "near_black_fraction": 0.0021359375,
+      "content_pixel_count": 591549,
+      "content_fraction": 0.3080984375,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "ride",
+      "view": "rear",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.7099999785423279,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.0720000267028809
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.5359703708327288,
+        "applied_parallel_scale_m": 0.6002868153326563,
+        "projected_half_width_m": 0.37549999356269836,
+        "projected_half_height_m": 0.5359703708327288,
+        "focal_point_m": [
+          -0.17041750252246857,
+          0.0,
+          0.536029655870152
+        ],
+        "camera_position_m": [
+          4.0704955241849925,
+          0.0,
+          0.536029655870152
+        ],
+        "view_direction": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/silhouette_left_ride.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "428424663c6cab962f2d39bcd98de2c132c83b9fe6ecf0d23f906f43af173b6e",
+      "mtime_ns": 1784529039742596700,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 71.61551311125001,
+      "luminance_stddev_8bit": 15.085149292546527,
+      "near_black_fraction": 0.0008255208333333334,
+      "content_pixel_count": 590388,
+      "content_fraction": 0.30749375,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "ride",
+      "view": "left",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.7099999785423279,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.0720000267028809
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.5359703708327288,
+        "applied_parallel_scale_m": 0.6002868153326563,
+        "projected_half_width_m": 0.5395824760198593,
+        "projected_half_height_m": 0.5359703708327288,
+        "focal_point_m": [
+          -0.17041750252246857,
+          0.0,
+          0.536029655870152
+        ],
+        "camera_position_m": [
+          -0.17041750252246857,
+          -4.240913026707461,
+          0.536029655870152
+        ],
+        "view_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/silhouette_right_ride.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "e0f32cd48d63e3dcc1791fb8eca07522f506f5539b3098a892941c391411ca23",
+      "mtime_ns": 1784529041343655800,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 76.71299319906251,
+      "luminance_stddev_8bit": 16.394441797340743,
+      "near_black_fraction": 0.0006984375,
+      "content_pixel_count": 596006,
+      "content_fraction": 0.31041979166666667,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "ride",
+      "view": "right",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.7099999785423279,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.0720000267028809
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.5359703708327288,
+        "applied_parallel_scale_m": 0.6002868153326563,
+        "projected_half_width_m": 0.5395824760198593,
+        "projected_half_height_m": 0.5359703708327288,
+        "focal_point_m": [
+          -0.17041750252246857,
+          0.0,
+          0.536029655870152
+        ],
+        "camera_position_m": [
+          -0.17041750252246857,
+          4.240913026707461,
+          0.536029655870152
+        ],
+        "view_direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/silhouette_top_ride.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "d8fdca546a03fe40fd8c6b00dab3e61ba2061ffdfba12956850a5e4161797b1d",
+      "mtime_ns": 1784529042989099000,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 71.83061309895835,
+      "luminance_stddev_8bit": 25.54434768824927,
+      "near_black_fraction": 0.0,
+      "content_pixel_count": 730882,
+      "content_fraction": 0.38066770833333335,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 63,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "ride",
+      "view": "top",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.7099999785423279,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.0720000267028809
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.5395824760198593,
+        "applied_parallel_scale_m": 0.6043323731422425,
+        "projected_half_width_m": 0.37549999356269836,
+        "projected_half_height_m": 0.5395824760198593,
+        "focal_point_m": [
+          -0.17041750252246857,
+          0.0,
+          0.536029655870152
+        ],
+        "camera_position_m": [
+          -0.17041750252246857,
+          0.0,
+          4.776942682577613
+        ],
+        "view_direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "view_up": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/silhouette_bottom_ride.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "75a8f38220f54b684cf627d37d6efcb337bf4b74208b1335b7e5065c2d93eb1d",
+      "mtime_ns": 1784529044670875900,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 86.45325638427084,
+      "luminance_stddev_8bit": 33.38119668634093,
+      "near_black_fraction": 0.0,
+      "content_pixel_count": 730945,
+      "content_fraction": 0.38070052083333333,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 63,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "ride",
+      "view": "bottom",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.7099999785423279,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.0720000267028809
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.5395824760198593,
+        "applied_parallel_scale_m": 0.6043323731422425,
+        "projected_half_width_m": 0.37549999356269836,
+        "projected_half_height_m": 0.5395824760198593,
+        "focal_point_m": [
+          -0.17041750252246857,
+          0.0,
+          0.536029655870152
+        ],
+        "camera_position_m": [
+          -0.17041750252246857,
+          0.0,
+          -3.704883370837309
+        ],
+        "view_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "view_up": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/preview_class_a_cafe.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "7bbdb9223150ff6ea7d905c21350c9e525e662cd46d1b498f56a2edef9ffdab0",
+      "mtime_ns": 1784528332824018800,
+      "background_rgb_median": [
+        46.0,
+        48.0,
+        48.0
+      ],
+      "mean_luminance_8bit": 52.41622611895833,
+      "luminance_stddev_8bit": 19.30577018398293,
+      "near_black_fraction": 0.00025,
+      "content_pixel_count": 516874,
+      "content_fraction": 0.26920520833333333,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 35,
+      "clear_frame_required": false,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "cafe",
+      "view": "hero"
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/preview_class_a_cafe_qa_overlay.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "85a5c46159255eb316f23e5493a4193a71f3c6a7e540779ee0062ca1894f5687",
+      "mtime_ns": 1784528334894556700,
+      "background_rgb_median": [
+        46.0,
+        48.0,
+        48.0
+      ],
+      "mean_luminance_8bit": 53.23418353624999,
+      "luminance_stddev_8bit": 18.44096287860296,
+      "near_black_fraction": 1.9791666666666665e-05,
+      "content_pixel_count": 522972,
+      "content_fraction": 0.27238125,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 35,
+      "clear_frame_required": false,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "cafe",
+      "view": "qa_overlay"
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/silhouette_front_cafe.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "475d1d148c074fb057eb43b888bfeea2b07df32cd028bd11cb66674493e9c43e",
+      "mtime_ns": 1784528336777865800,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 70.40193215104168,
+      "luminance_stddev_8bit": 20.000037837094432,
+      "near_black_fraction": 0.0080125,
+      "content_pixel_count": 571370,
+      "content_fraction": 0.29758854166666665,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "cafe",
+      "view": "front",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.527999997138977,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.0720000267028809
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.5359703708327288,
+        "applied_parallel_scale_m": 0.6002868153326563,
+        "projected_half_width_m": 0.37549999356269836,
+        "projected_half_height_m": 0.5359703708327288,
+        "focal_point_m": [
+          -0.07941751182079315,
+          0.0,
+          0.536029655870152
+        ],
+        "camera_position_m": [
+          -4.046440103483204,
+          0.0,
+          0.536029655870152
+        ],
+        "view_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/silhouette_rear_cafe.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "a42553c615420750c7ab8344eadb018b6bed824969dda7bab9659755d6a0700c",
+      "mtime_ns": 1784528338421529000,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 73.62908873218751,
+      "luminance_stddev_8bit": 14.797557185892948,
+      "near_black_fraction": 0.002409375,
+      "content_pixel_count": 574445,
+      "content_fraction": 0.2991901041666667,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "cafe",
+      "view": "rear",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.527999997138977,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.0720000267028809
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.5359703708327288,
+        "applied_parallel_scale_m": 0.6002868153326563,
+        "projected_half_width_m": 0.37549999356269836,
+        "projected_half_height_m": 0.5359703708327288,
+        "focal_point_m": [
+          -0.07941751182079315,
+          0.0,
+          0.536029655870152
+        ],
+        "camera_position_m": [
+          3.8876050798416175,
+          0.0,
+          0.536029655870152
+        ],
+        "view_direction": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/silhouette_left_cafe.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "1c848742d931506bbe8403287bdda1f37ed6c4e8063c4601cd6175d8630e653d",
+      "mtime_ns": 1784528340160150300,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 71.71997226145834,
+      "luminance_stddev_8bit": 15.17483947463639,
+      "near_black_fraction": 0.000821875,
+      "content_pixel_count": 436456,
+      "content_fraction": 0.22732083333333333,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "cafe",
+      "view": "left",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.527999997138977,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.0720000267028809
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.5359703708327288,
+        "applied_parallel_scale_m": 0.6002868153326563,
+        "projected_half_width_m": 0.4485824853181839,
+        "projected_half_height_m": 0.5359703708327288,
+        "focal_point_m": [
+          -0.07941751182079315,
+          0.0,
+          0.536029655870152
+        ],
+        "camera_position_m": [
+          -0.07941751182079315,
+          -3.9670225916624107,
+          0.536029655870152
+        ],
+        "view_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/silhouette_right_cafe.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "12d7b367ba84afd67edb652ed80f84376b75384d7fef237e9286666c6a87cc7b",
+      "mtime_ns": 1784528341833845000,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 76.58386496239584,
+      "luminance_stddev_8bit": 16.415687190101167,
+      "near_black_fraction": 0.0007046875,
+      "content_pixel_count": 590383,
+      "content_fraction": 0.3074911458333333,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "cafe",
+      "view": "right",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.527999997138977,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.0720000267028809
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.5359703708327288,
+        "applied_parallel_scale_m": 0.6002868153326563,
+        "projected_half_width_m": 0.4485824853181839,
+        "projected_half_height_m": 0.5359703708327288,
+        "focal_point_m": [
+          -0.07941751182079315,
+          0.0,
+          0.536029655870152
+        ],
+        "camera_position_m": [
+          -0.07941751182079315,
+          3.9670225916624107,
+          0.536029655870152
+        ],
+        "view_direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/silhouette_top_cafe.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "0a1911d2b521cd0a487db66833270f71231916a09a696609384539e168a5489f",
+      "mtime_ns": 1784528343534461300,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 69.36851074364584,
+      "luminance_stddev_8bit": 28.099709221428515,
+      "near_black_fraction": 0.0,
+      "content_pixel_count": 930821,
+      "content_fraction": 0.48480260416666665,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 63,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "cafe",
+      "view": "top",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.527999997138977,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.0720000267028809
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.4485824853181839,
+        "applied_parallel_scale_m": 0.502412383556366,
+        "projected_half_width_m": 0.37549999356269836,
+        "projected_half_height_m": 0.4485824853181839,
+        "focal_point_m": [
+          -0.07941751182079315,
+          0.0,
+          0.536029655870152
+        ],
+        "camera_position_m": [
+          -0.07941751182079315,
+          0.0,
+          4.503052247532563
+        ],
+        "view_direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "view_up": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/silhouette_bottom_cafe.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "4946b78cd77edc429a1c7700322d2a1d93599ccb082be54bfaec3c5910029fdf",
+      "mtime_ns": 1784528345265648600,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 83.76031345458335,
+      "luminance_stddev_8bit": 33.65593923108853,
+      "near_black_fraction": 0.0,
+      "content_pixel_count": 931849,
+      "content_fraction": 0.48533802083333333,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 63,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "cafe",
+      "view": "bottom",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.527999997138977,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.0720000267028809
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.4485824853181839,
+        "applied_parallel_scale_m": 0.502412383556366,
+        "projected_half_width_m": 0.37549999356269836,
+        "projected_half_height_m": 0.4485824853181839,
+        "focal_point_m": [
+          -0.07941751182079315,
+          0.0,
+          0.536029655870152
+        ],
+        "camera_position_m": [
+          -0.07941751182079315,
+          0.0,
+          -3.4309929357922586
+        ],
+        "view_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "view_up": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/preview_class_a_focus.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "1a4db1b8080ca13ddb5a5c0f72d6484aed14250611d5dd5193b8c6e8fe504b64",
+      "mtime_ns": 1784527699478215800,
+      "background_rgb_median": [
+        46.0,
+        48.0,
+        48.0
+      ],
+      "mean_luminance_8bit": 51.11557709677083,
+      "luminance_stddev_8bit": 15.941931966825024,
+      "near_black_fraction": 5.885416666666667e-05,
+      "content_pixel_count": 349942,
+      "content_fraction": 0.18226145833333332,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 59,
+      "clear_frame_required": false,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "focus",
+      "view": "hero"
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/preview_class_a_focus_qa_overlay.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "60d259cc38a5c972e771d9363bb6f3b7a857856492457f7058a4dbbf3958b036",
+      "mtime_ns": 1784527702044991300,
+      "background_rgb_median": [
+        46.0,
+        48.0,
+        48.0
+      ],
+      "mean_luminance_8bit": 51.61831094520832,
+      "luminance_stddev_8bit": 15.329493403733528,
+      "near_black_fraction": 3.125e-06,
+      "content_pixel_count": 357126,
+      "content_fraction": 0.186003125,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 59,
+      "clear_frame_required": false,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "focus",
+      "view": "qa_overlay"
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/silhouette_front_focus.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "33daaf37d626712cef62d6be642b2fe0a8ef888033d8ce037c450eb77d3c5a3f",
+      "mtime_ns": 1784527704189775700,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 74.41921811927085,
+      "luminance_stddev_8bit": 14.96918753596402,
+      "near_black_fraction": 0.0036296875,
+      "content_pixel_count": 319838,
+      "content_fraction": 0.16658229166666666,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "focus",
+      "view": "front",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.6200000047683716,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.4919999837875366
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.7459703493750567,
+        "applied_parallel_scale_m": 0.8354867913000635,
+        "projected_half_width_m": 0.37549999356269836,
+        "projected_half_height_m": 0.7459703493750567,
+        "focal_point_m": [
+          -0.12541751563549042,
+          0.0,
+          0.7460296344124799
+        ],
+        "camera_position_m": [
+          -4.97846770564282,
+          0.0,
+          0.7460296344124799
+        ],
+        "view_direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/silhouette_rear_focus.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "36b7dd81eaee72e808cd2541495e690f60db55cd53ef9c3b0bbc59dcc3fbb386",
+      "mtime_ns": 1784527706073132300,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 76.03871794885417,
+      "luminance_stddev_8bit": 10.87521455746769,
+      "near_black_fraction": 0.0007552083333333333,
+      "content_pixel_count": 322048,
+      "content_fraction": 0.16773333333333335,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "focus",
+      "view": "rear",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.6200000047683716,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.4919999837875366
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.7459703493750567,
+        "applied_parallel_scale_m": 0.8354867913000635,
+        "projected_half_width_m": 0.37549999356269836,
+        "projected_half_height_m": 0.7459703493750567,
+        "focal_point_m": [
+          -0.12541751563549042,
+          0.0,
+          0.7460296344124799
+        ],
+        "camera_position_m": [
+          4.727632674371839,
+          0.0,
+          0.7460296344124799
+        ],
+        "view_direction": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/silhouette_left_focus.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "a33c26eec796163be424bafdf16436626044256afdcfc28c5deaaf8d06ae9cd0",
+      "mtime_ns": 1784527708029740200,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 75.08906480677085,
+      "luminance_stddev_8bit": 11.286425579634276,
+      "near_black_fraction": 0.000240625,
+      "content_pixel_count": 191950,
+      "content_fraction": 0.09997395833333333,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "focus",
+      "view": "left",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.6200000047683716,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.4919999837875366
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.7459703493750567,
+        "applied_parallel_scale_m": 0.8354867913000635,
+        "projected_half_width_m": 0.49458248913288116,
+        "projected_half_height_m": 0.7459703493750567,
+        "focal_point_m": [
+          -0.12541751563549042,
+          0.0,
+          0.7460296344124799
+        ],
+        "camera_position_m": [
+          -0.12541751563549042,
+          -4.8530501900073295,
+          0.7460296344124799
+        ],
+        "view_direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/silhouette_right_focus.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "f70ba806cc5aa465ad25def0fa41cf22bfe70b91ccc0ad3e5574853b6a55f5cd",
+      "mtime_ns": 1784527710100091300,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 77.76938929833335,
+      "luminance_stddev_8bit": 12.16381335705785,
+      "near_black_fraction": 0.0002875,
+      "content_pixel_count": 316629,
+      "content_fraction": 0.1649109375,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 64,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "focus",
+      "view": "right",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.6200000047683716,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.4919999837875366
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.7459703493750567,
+        "applied_parallel_scale_m": 0.8354867913000635,
+        "projected_half_width_m": 0.49458248913288116,
+        "projected_half_height_m": 0.7459703493750567,
+        "focal_point_m": [
+          -0.12541751563549042,
+          0.0,
+          0.7460296344124799
+        ],
+        "camera_position_m": [
+          -0.12541751563549042,
+          4.8530501900073295,
+          0.7460296344124799
+        ],
+        "view_direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "view_up": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/silhouette_top_focus.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "92f372a9105bffaf20d3ed939f9053a2dffb52e078e7ae23d78412e9c832df34",
+      "mtime_ns": 1784527712218934800,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 68.77850347229167,
+      "luminance_stddev_8bit": 25.81310672734577,
+      "near_black_fraction": 0.0,
+      "content_pixel_count": 828005,
+      "content_fraction": 0.43125260416666666,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 63,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "focus",
+      "view": "top",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.6200000047683716,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.4919999837875366
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.49458248913288116,
+        "applied_parallel_scale_m": 0.5539323878288269,
+        "projected_half_width_m": 0.37549999356269836,
+        "projected_half_height_m": 0.49458248913288116,
+        "focal_point_m": [
+          -0.12541751563549042,
+          0.0,
+          0.7460296344124799
+        ],
+        "camera_position_m": [
+          -0.12541751563549042,
+          0.0,
+          5.5990798244198094
+        ],
+        "view_direction": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "view_up": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/silhouette_bottom_focus.png",
+      "status": "PASS",
+      "decoded_size_px": [
+        1600,
+        1200
+      ],
+      "channels": 4,
+      "sha256": "1128d2a82405cc777142c34a54fa84e7c3765a0d55dd100c1722991fae9a78f1",
+      "mtime_ns": 1784527714231601000,
+      "background_rgb_median": [
+        76.0,
+        79.0,
+        79.0
+      ],
+      "mean_luminance_8bit": 83.57619031958335,
+      "luminance_stddev_8bit": 31.145511287838215,
+      "near_black_fraction": 0.0,
+      "content_pixel_count": 815316,
+      "content_fraction": 0.42464375,
+      "edge_contact_pixels": 0,
+      "frame_clearance_px": 63,
+      "clear_frame_required": true,
+      "minimum_content_fraction": 0.001,
+      "failures": [],
+      "state": "focus",
+      "view": "bottom",
+      "camera": {
+        "policy": "visible_glb_bounds_auto_frame",
+        "model_bounds_m": [
+          -0.6200000047683716,
+          0.36916497349739075,
+          -0.37549999356269836,
+          0.37549999356269836,
+          5.92850374232512e-05,
+          1.4919999837875366
+        ],
+        "frame_margin_ratio": 1.12,
+        "minimum_parallel_scale_m": 0.49458248913288116,
+        "applied_parallel_scale_m": 0.5539323878288269,
+        "projected_half_width_m": 0.37549999356269836,
+        "projected_half_height_m": 0.49458248913288116,
+        "focal_point_m": [
+          -0.12541751563549042,
+          0.0,
+          0.7460296344124799
+        ],
+        "camera_position_m": [
+          -0.12541751563549042,
+          0.0,
+          -4.10702055559485
+        ],
+        "view_direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "view_up": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}

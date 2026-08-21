@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "gate": "semantic self-contained glTF PBR material contract",
+  "state": "ride",
+  "status": "PASS",
+  "checks": [
+    {
+      "state": "ride",
+      "purpose": "final_review",
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/workcore_e6_class_a_ride.glb",
+      "sha256": "d3a09387d6b20cc3142dbe1981a01f89c7b12b4a80cbb3c979a3cbf8694760f1",
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "meshes": 114,
+        "primitives": 114,
+        "materials": 114,
+        "textures": 24,
+        "images": 24
+      },
+      "required_semantic_materials": {
+        "leather": [
+          "A04_seat_cushion_contact_island__semi_aniline_full_grain_leather",
+          "A05_right_removable_drive_pod__full_grain_leather_hand_contact",
+          "A06_backrest_contact_panel__semi_aniline_full_grain_leather"
+        ],
+        "stainless": [
+          "A05_left_hmi_precision_bezel__fine_brushed_stainless_steel",
+          "A06_backrest_lock_witness_left__fine_brushed_stainless_steel",
+          "A06_backrest_lock_witness_right__fine_brushed_stainless_steel",
+          "A07_privacy_shutter_carriage_bezel__fine_brushed_stainless_steel",
+          "A07_mast_lock_pin_confirmation_lens_left__fine_brushed_stainless_steel",
+          "A07_mast_lock_pin_confirmation_lens_right__fine_brushed_stainless_steel"
+        ]
+      },
+      "all_textures_embedded": true,
+      "all_referenced_materials_double_sided": true,
+      "binary_chunk_bytes": 47384456
+    },
+    {
+      "state": "ride",
+      "purpose": "qa_overlay",
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/workcore_e6_class_a_ride_qa_overlay.glb",
+      "sha256": "146339e531f3a3c97ff161c84326373ff067cbbd50243c7d85a70defd98fd73f",
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "meshes": 355,
+        "primitives": 355,
+        "materials": 355,
+        "textures": 38,
+        "images": 38
+      },
+      "required_semantic_materials": {
+        "leather": [
+          "A04_seat_cushion_contact_island__semi_aniline_full_grain_leather",
+          "A05_right_removable_drive_pod__full_grain_leather_hand_contact",
+          "A06_backrest_contact_panel__semi_aniline_full_grain_leather"
+        ],
+        "stainless": [
+          "A05_left_hmi_precision_bezel__fine_brushed_stainless_steel",
+          "A06_backrest_lock_witness_left__fine_brushed_stainless_steel",
+          "A06_backrest_lock_witness_right__fine_brushed_stainless_steel",
+          "A07_privacy_shutter_carriage_bezel__fine_brushed_stainless_steel",
+          "A07_mast_lock_pin_confirmation_lens_left__fine_brushed_stainless_steel",
+          "A07_mast_lock_pin_confirmation_lens_right__fine_brushed_stainless_steel"
+        ]
+      },
+      "all_textures_embedded": true,
+      "all_referenced_materials_double_sided": true,
+      "binary_chunk_bytes": 64159708
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "gate": "semantic self-contained glTF PBR material contract",
+  "state": "cafe",
+  "status": "PASS",
+  "checks": [
+    {
+      "state": "cafe",
+      "purpose": "final_review",
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/workcore_e6_class_a_cafe.glb",
+      "sha256": "918cddc59817004cf3061724e063b727b4c7ca171bbadff9c3d0489f8c05578c",
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "meshes": 116,
+        "primitives": 116,
+        "materials": 116,
+        "textures": 32,
+        "images": 32
+      },
+      "required_semantic_materials": {
+        "leather": [
+          "A04_seat_cushion_contact_island__semi_aniline_full_grain_leather",
+          "A05_right_removable_drive_pod__full_grain_leather_hand_contact",
+          "A06_backrest_contact_panel__semi_aniline_full_grain_leather"
+        ],
+        "stainless": [
+          "A05_left_hmi_precision_bezel__fine_brushed_stainless_steel",
+          "A06_backrest_lock_witness_left__fine_brushed_stainless_steel",
+          "A06_backrest_lock_witness_right__fine_brushed_stainless_steel",
+          "A07_privacy_shutter_carriage_bezel__fine_brushed_stainless_steel",
+          "A07_mast_lock_pin_confirmation_lens_left__fine_brushed_stainless_steel",
+          "A07_mast_lock_pin_confirmation_lens_right__fine_brushed_stainless_steel"
+        ],
+        "walnut": [
+          "A09_table_edge_band_right__solid_smoked_walnut_lipping",
+          "A09_table_top_skin_right__natural_smoked_walnut_veneer",
+          "A09_table_edge_band_right_fold_half_inner__solid_smoked_walnut_lipping",
+          "A09_table_top_skin_right_fold_half_inner__natural_smoked_walnut_veneer"
+        ]
+      },
+      "all_textures_embedded": true,
+      "all_referenced_materials_double_sided": true,
+      "binary_chunk_bytes": 48174744
+    },
+    {
+      "state": "cafe",
+      "purpose": "qa_overlay",
+      "path": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/workcore_e6_class_a_cafe_qa_overlay.glb",
+      "sha256": "55146d177af0aa059fee32520cec364c500c0405defde82e9e2c18ca9616b89c",
+      "status": "PASS",
+      "failures": [],
+      "counts": {
+        "meshes": 383,
+        "primitives": 383,
+        "materials": 383,
+        "textures": 48,
+        "images": 48
+      },
+      "required_semantic_materials": {
+        "leather": [
+          "A04_seat_cushion_contact_island__semi_aniline_full_grain_leather",
+          "A05_right_removable_drive_pod__full_grain_leather_hand_contact",
+          "A06_backrest_contact_panel__semi_aniline_full_grain_leather"
+        ],
+        "stainless": [
+          "A05_left_hmi_precision_bezel__fine_brushed_stainless_steel",
+          "A06_backrest_lock_witness_left__fine_brushed_stainless_steel",
+          "A06_backrest_lock_witness_right__fine_brushed_stainless_steel",
+          "A07_privacy_shutter_carriage_bezel__fine_brushed_stainless_steel",
+          "A07_mast_lock_pin_confirmation_lens_left__fine_brushed_stainless_steel",
+          "A07_mast_lock_pin_confirmation_lens_right__fine_brushed_stainless_steel"
+        ],
+        "walnut": [
+          "A09_table_edge_band_right__solid_smoked_walnut_lipping",
+          "A09_table_top_skin_right__natural_smoked_walnut_veneer",
+          "A09_table_edge_band_right_fold_half_inner__solid_smoked_walnut_lipping",
+          "A09_table_top_skin_right_fold_half_inner__natural_smoked_walnut_veneer"
+        ]
+      },
+      "all_textures_embedded": true,
+      "all_referenced_materials_double_sided": true,
+      "binary_chunk_bytes": 69626940
+    }
+  ]
+}

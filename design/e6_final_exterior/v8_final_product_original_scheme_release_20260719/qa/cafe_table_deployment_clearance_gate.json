@@ -1,0 +1,2852 @@
+{
+  "schema_version": 1,
+  "gate": "Cafe complete top-access and high-clearance deployment BRep",
+  "state": "cafe",
+  "status": "PASS",
+  "failures": [],
+  "collision_count": 0,
+  "collisions": [],
+  "final_endpoint_unchanged": true,
+  "clearance_lift_mm": 90.0,
+  "old_same_height_path_released": false,
+  "support_policy": "parameterised connected guided-support packaging envelope; supplier rail/bearing/telescopic architecture is not claimed",
+  "support_joint_location": "inside A05 below closed top lid",
+  "only_smooth_tongue_crosses_sealed_gland": true,
+  "table_support_hinges_outside_armrest": false,
+  "right_controls_remain_present_and_lid_carried_during_extraction": true,
+  "right_controls_return_to_fixed_top_datum_before_rotation": true,
+  "motion_samples_per_leg": 21,
+  "extraction_pose_count": 61,
+  "unfold_pose_count": 21,
+  "lid_close_pose_count": 22,
+  "post_extraction_pose_count": 82,
+  "minimum_open_extraction_unfold_clearance_mm": 3.5,
+  "minimum_open_extraction_unfold_pair": [
+    "A09_table_anti_rub_guide_right_2",
+    "obstacle_compound"
+  ],
+  "minimum_raised_table_lid_close_clearance_mm": 70.240002,
+  "minimum_raised_table_lid_close_pair": [
+    "A09_table_underbelly_shell_right",
+    "obstacle_compound"
+  ],
+  "minimum_closed_motion_clearance_mm": 1.0,
+  "minimum_closed_motion_pair": [
+    "A09_cafe_transient_guided_support_envelope_right",
+    "obstacle_compound"
+  ],
+  "minimum_fixed_control_clearance_mm": 13.0,
+  "minimum_fixed_control_pair": [
+    "A09_cafe_underleaf_motion_belly_right",
+    "obstacle_compound"
+  ],
+  "rigid_occurrence_maximum_volume_drift_mm3": 0.0,
+  "final_brep_identity": {
+    "A09_table_edge_band_right": {
+      "status": "PASS",
+      "expected_volume_mm3": 459671.811228,
+      "actual_volume_mm3": 459671.811228,
+      "common_volume_mm3": 459671.811228,
+      "symmetric_difference_volume_mm3": 0.0,
+      "maximum_bound_delta_mm": 0.0,
+      "expected_signature": {
+        "volume_mm3": 459671.811228,
+        "area_mm2": 130056.368413,
+        "centre_mm": [
+          -421.237408,
+          56.810683,
+          699.256697
+        ],
+        "bounds_mm": [
+          -485.0,
+          -350.5,
+          -154.0,
+          276.0,
+          695.0,
+          705.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 46,
+          "edges": 108,
+          "vertices": 64
+        },
+        "valid": true
+      },
+      "actual_signature": {
+        "volume_mm3": 459671.811228,
+        "area_mm2": 130056.368413,
+        "centre_mm": [
+          -421.237408,
+          56.810683,
+          699.256697
+        ],
+        "bounds_mm": [
+          -485.0,
+          -350.5,
+          -154.0,
+          276.0,
+          695.0,
+          705.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 46,
+          "edges": 108,
+          "vertices": 64
+        },
+        "valid": true
+      }
+    },
+    "A09_table_top_skin_right": {
+      "status": "PASS",
+      "expected_volume_mm3": 99439.097336,
+      "actual_volume_mm3": 99439.097336,
+      "common_volume_mm3": 99439.097336,
+      "symmetric_difference_volume_mm3": 0.0,
+      "maximum_bound_delta_mm": 0.0,
+      "expected_signature": {
+        "volume_mm3": 99439.097336,
+        "area_mm2": 101542.796447,
+        "centre_mm": [
+          -411.731382,
+          61.0,
+          704.0
+        ],
+        "bounds_mm": [
+          -473.0,
+          -350.5,
+          -142.0,
+          264.0,
+          703.0,
+          705.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 8,
+          "edges": 18,
+          "vertices": 12
+        },
+        "valid": true
+      },
+      "actual_signature": {
+        "volume_mm3": 99439.097336,
+        "area_mm2": 101542.796447,
+        "centre_mm": [
+          -411.731382,
+          61.0,
+          704.0
+        ],
+        "bounds_mm": [
+          -473.0,
+          -350.5,
+          -142.0,
+          264.0,
+          703.0,
+          705.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 8,
+          "edges": 18,
+          "vertices": 12
+        },
+        "valid": true
+      }
+    },
+    "A09_table_underbelly_shell_right": {
+      "status": "PASS",
+      "expected_volume_mm3": 115335.163354,
+      "actual_volume_mm3": 115335.163354,
+      "common_volume_mm3": 115335.163354,
+      "symmetric_difference_volume_mm3": 0.0,
+      "maximum_bound_delta_mm": 0.0,
+      "expected_signature": {
+        "volume_mm3": 115335.163354,
+        "area_mm2": 117604.11674,
+        "centre_mm": [
+          -417.856261,
+          60.586514,
+          694.00004
+        ],
+        "bounds_mm": [
+          -485.0,
+          -350.5,
+          -154.0,
+          276.0,
+          693.0,
+          695.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 20,
+          "edges": 50,
+          "vertices": 32
+        },
+        "valid": true
+      },
+      "actual_signature": {
+        "volume_mm3": 115335.163354,
+        "area_mm2": 117604.11674,
+        "centre_mm": [
+          -417.856261,
+          60.586514,
+          694.00004
+        ],
+        "bounds_mm": [
+          -485.0,
+          -350.5,
+          -154.0,
+          276.0,
+          693.0,
+          695.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 20,
+          "edges": 50,
+          "vertices": 32
+        },
+        "valid": true
+      }
+    },
+    "A09_table_edge_band_right_fold_half_inner": {
+      "status": "PASS",
+      "expected_volume_mm3": 478361.521963,
+      "actual_volume_mm3": 478361.521963,
+      "common_volume_mm3": 478361.521963,
+      "symmetric_difference_volume_mm3": 0.0,
+      "maximum_bound_delta_mm": 0.0,
+      "expected_signature": {
+        "volume_mm3": 478361.521963,
+        "area_mm2": 127192.477796,
+        "centre_mm": [
+          -280.998884,
+          61.0,
+          699.168503
+        ],
+        "bounds_mm": [
+          -349.5,
+          -215.0,
+          -154.0,
+          276.0,
+          695.0,
+          705.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 16,
+          "edges": 42,
+          "vertices": 28
+        },
+        "valid": true
+      },
+      "actual_signature": {
+        "volume_mm3": 478361.521963,
+        "area_mm2": 127192.477796,
+        "centre_mm": [
+          -280.998884,
+          61.0,
+          699.168503
+        ],
+        "bounds_mm": [
+          -349.5,
+          -215.0,
+          -154.0,
+          276.0,
+          695.0,
+          705.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 16,
+          "edges": 42,
+          "vertices": 28
+        },
+        "valid": true
+      }
+    },
+    "A09_table_top_skin_right_fold_half_inner": {
+      "status": "PASS",
+      "expected_volume_mm3": 99439.097336,
+      "actual_volume_mm3": 99439.097336,
+      "common_volume_mm3": 99439.097336,
+      "symmetric_difference_volume_mm3": 0.0,
+      "maximum_bound_delta_mm": 0.0,
+      "expected_signature": {
+        "volume_mm3": 99439.097336,
+        "area_mm2": 101542.796447,
+        "centre_mm": [
+          -288.268618,
+          61.0,
+          704.0
+        ],
+        "bounds_mm": [
+          -349.5,
+          -227.0,
+          -142.0,
+          264.0,
+          703.0,
+          705.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 8,
+          "edges": 18,
+          "vertices": 12
+        },
+        "valid": true
+      },
+      "actual_signature": {
+        "volume_mm3": 99439.097336,
+        "area_mm2": 101542.796447,
+        "centre_mm": [
+          -288.268618,
+          61.0,
+          704.0
+        ],
+        "bounds_mm": [
+          -349.5,
+          -227.0,
+          -142.0,
+          264.0,
+          703.0,
+          705.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 8,
+          "edges": 18,
+          "vertices": 12
+        },
+        "valid": true
+      }
+    },
+    "A09_table_underbelly_shell_right_fold_half_inner": {
+      "status": "PASS",
+      "expected_volume_mm3": 115560.12386,
+      "actual_volume_mm3": 115560.12386,
+      "common_volume_mm3": 115560.12386,
+      "symmetric_difference_volume_mm3": 0.0,
+      "maximum_bound_delta_mm": 0.0,
+      "expected_signature": {
+        "volume_mm3": 115560.12386,
+        "area_mm2": 117790.654825,
+        "centre_mm": [
+          -282.25,
+          61.0,
+          694.0
+        ],
+        "bounds_mm": [
+          -349.5,
+          -215.0,
+          -154.0,
+          276.0,
+          693.0,
+          695.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 10,
+          "edges": 24,
+          "vertices": 16
+        },
+        "valid": true
+      },
+      "actual_signature": {
+        "volume_mm3": 115560.12386,
+        "area_mm2": 117790.654825,
+        "centre_mm": [
+          -282.25,
+          61.0,
+          694.0
+        ],
+        "bounds_mm": [
+          -349.5,
+          -215.0,
+          -154.0,
+          276.0,
+          693.0,
+          695.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 10,
+          "edges": 24,
+          "vertices": 16
+        },
+        "valid": true
+      }
+    },
+    "A09_table_fold_flexure_right": {
+      "status": "PASS",
+      "expected_volume_mm3": 151.077039,
+      "actual_volume_mm3": 151.077039,
+      "common_volume_mm3": 151.077039,
+      "symmetric_difference_volume_mm3": 0.0,
+      "maximum_bound_delta_mm": 0.0,
+      "expected_signature": {
+        "volume_mm3": 151.077039,
+        "area_mm2": 1011.665844,
+        "centre_mm": [
+          -350.0,
+          61.0,
+          704.75
+        ],
+        "bounds_mm": [
+          -350.5,
+          -349.5,
+          -142.0,
+          264.0,
+          704.55,
+          704.95
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 26,
+          "edges": 48,
+          "vertices": 24
+        },
+        "valid": true
+      },
+      "actual_signature": {
+        "volume_mm3": 151.077039,
+        "area_mm2": 1011.665844,
+        "centre_mm": [
+          -350.0,
+          61.0,
+          704.75
+        ],
+        "bounds_mm": [
+          -350.5,
+          -349.5,
+          -142.0,
+          264.0,
+          704.55,
+          704.95
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 26,
+          "edges": 48,
+          "vertices": 24
+        },
+        "valid": true
+      }
+    },
+    "A09_cafe_underleaf_motion_belly_right": {
+      "status": "PASS",
+      "expected_volume_mm3": 35521.507416,
+      "actual_volume_mm3": 35521.507416,
+      "common_volume_mm3": 35521.507416,
+      "symmetric_difference_volume_mm3": 0.0,
+      "maximum_bound_delta_mm": 0.0,
+      "expected_signature": {
+        "volume_mm3": 35521.507416,
+        "area_mm2": 16963.790178,
+        "centre_mm": [
+          -361.128745,
+          234.842129,
+          689.297831
+        ],
+        "bounds_mm": [
+          -375.0,
+          -348.0,
+          54.0,
+          339.5,
+          654.0,
+          699.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 133,
+          "edges": 284,
+          "vertices": 153
+        },
+        "valid": true
+      },
+      "actual_signature": {
+        "volume_mm3": 35521.507416,
+        "area_mm2": 16963.790178,
+        "centre_mm": [
+          -361.128745,
+          234.842129,
+          689.297831
+        ],
+        "bounds_mm": [
+          -375.0,
+          -348.0,
+          54.0,
+          339.5,
+          654.0,
+          699.0
+        ],
+        "topology": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 133,
+          "edges": 284,
+          "vertices": 153
+        },
+        "valid": true
+      }
+    }
+  },
+  "table_access_sequence": [
+    "traction_disabled_and_parked",
+    "clear_lid_payload_and_deenergise_table_motion",
+    "release_double_latch",
+    "flip_lid_outward_to_105_deg_stop",
+    "lift_same_folded_table_pack_through_top",
+    "move_folded_pack_forward_clear_of_lid",
+    "unfold_table_clear_of_open_lid",
+    "raise_table_90_mm_above_fixed_control_sweep",
+    "close_and_confirm_double_latch",
+    "extend_concealed_support_through_sealed_inner_gland",
+    "rotate_table_90_deg_at_clearance_height",
+    "return_table_inboard_at_clearance_height",
+    "lower_and_confirm_final_root_lock"
+  ],
+  "sequence_interlock_status": "PASS",
+  "sequence_interlock_failures": [],
+  "closed_obstacle_inventory": [
+    "A05_armrest_table_bay_shell_right",
+    "A05_armrest_top_lid_hinge_reveal_right",
+    "A05_armrest_top_lid_release_right",
+    "A05_table_cassette_lowpoint_drain_right",
+    "A05_armrest_touch_lid_right",
+    "A05_right_table_root_tongue_compression_gland",
+    "A05_right_removable_drive_pod",
+    "A05_right_joystick",
+    "A05_right_authorisation_key"
+  ],
+  "released_table_rigid_layer_inventory": [
+    "A09_table_edge_band_right",
+    "A09_table_edge_band_right_fold_half_inner",
+    "A09_table_fold_flexure_right",
+    "A09_table_top_skin_right",
+    "A09_table_top_skin_right_fold_half_inner",
+    "A09_table_underbelly_shell_right",
+    "A09_table_underbelly_shell_right_fold_half_inner"
+  ],
+  "lid_carried_inventory": [
+    "A05_armrest_touch_lid_right",
+    "A05_right_authorisation_key",
+    "A05_right_joystick",
+    "A05_right_removable_drive_pod"
+  ],
+  "final_part_signatures": {
+    "A05_armrest_table_bay_shell_right": {
+      "volume_mm3": 2319564.176281,
+      "area_mm2": 704535.840395,
+      "centre_mm": [
+        -68.828642,
+        339.154696,
+        538.209015
+      ],
+      "bounds_mm": [
+        -380.0,
+        247.5,
+        310.0,
+        367.5,
+        420.0,
+        675.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 202,
+        "edges": 547,
+        "vertices": 344
+      },
+      "valid": true
+    },
+    "A05_armrest_top_lid_hinge_reveal_right": {
+      "volume_mm3": 931.001088,
+      "area_mm2": 2658.395645,
+      "centre_mm": [
+        -122.0,
+        367.0,
+        677.5
+      ],
+      "bounds_mm": [
+        -372.0,
+        128.0,
+        366.5,
+        367.5,
+        676.5,
+        678.5
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 26,
+        "edges": 48,
+        "vertices": 24
+      },
+      "valid": true
+    },
+    "A05_armrest_top_lid_release_right": {
+      "volume_mm3": 1591.185945,
+      "area_mm2": 1083.636063,
+      "centre_mm": [
+        -340.0,
+        310.0,
+        642.0
+      ],
+      "bounds_mm": [
+        -358.0,
+        -322.0,
+        308.0,
+        312.0,
+        636.0,
+        648.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 26,
+        "edges": 48,
+        "vertices": 24
+      },
+      "valid": true
+    },
+    "A05_armrest_touch_lid_right": {
+      "volume_mm3": 151853.288127,
+      "area_mm2": 77508.609754,
+      "centre_mm": [
+        -42.25443,
+        338.434299,
+        677.354024
+      ],
+      "bounds_mm": [
+        -375.0,
+        245.0,
+        305.5,
+        367.5,
+        675.0,
+        680.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 66,
+        "edges": 186,
+        "vertices": 122
+      },
+      "valid": true
+    },
+    "A05_right_authorisation_key": {
+      "volume_mm3": 3238.196628,
+      "area_mm2": 1845.685684,
+      "centre_mm": [
+        -216.0,
+        333.0,
+        700.858234
+      ],
+      "bounds_mm": [
+        -230.5,
+        -201.5,
+        318.5,
+        347.5,
+        698.0,
+        705.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 5,
+        "edges": 6,
+        "vertices": 4
+      },
+      "valid": true
+    },
+    "A05_right_joystick": {
+      "volume_mm3": 18439.476377,
+      "area_mm2": 3819.679003,
+      "centre_mm": [
+        -268.0,
+        333.0,
+        718.296855
+      ],
+      "bounds_mm": [
+        -284.0,
+        -252.0,
+        317.0,
+        349.0,
+        697.0,
+        731.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 31,
+        "edges": 63,
+        "vertices": 34
+      },
+      "valid": true
+    },
+    "A05_right_removable_drive_pod": {
+      "volume_mm3": 108397.264761,
+      "area_mm2": 18492.534786,
+      "centre_mm": [
+        -251.445908,
+        333.0,
+        689.65563
+      ],
+      "bounds_mm": [
+        -310.0,
+        -190.0,
+        304.0,
+        362.0,
+        681.0,
+        699.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 30,
+        "edges": 54,
+        "vertices": 28
+      },
+      "valid": true
+    },
+    "A05_right_table_root_tongue_compression_gland": {
+      "volume_mm3": 87.924104,
+      "area_mm2": 327.003178,
+      "centre_mm": [
+        -353.5,
+        328.0,
+        680.6
+      ],
+      "bounds_mm": [
+        -361.0,
+        -346.0,
+        314.5,
+        341.5,
+        680.0,
+        681.2
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 18,
+        "edges": 48,
+        "vertices": 32
+      },
+      "valid": true
+    },
+    "A05_table_cassette_lowpoint_drain_right": {
+      "volume_mm3": 848.409222,
+      "area_mm2": 934.543808,
+      "centre_mm": [
+        -300.0,
+        368.0,
+        526.0
+      ],
+      "bounds_mm": [
+        -315.0,
+        -285.0,
+        366.5,
+        369.5,
+        519.0,
+        533.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 50,
+        "edges": 104,
+        "vertices": 56
+      },
+      "valid": true
+    },
+    "A09_cafe_underleaf_motion_belly_right": {
+      "volume_mm3": 35521.507416,
+      "area_mm2": 16963.790178,
+      "centre_mm": [
+        -361.128745,
+        234.842129,
+        689.297831
+      ],
+      "bounds_mm": [
+        -375.0,
+        -348.0,
+        54.0,
+        339.5,
+        654.0,
+        699.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 133,
+        "edges": 284,
+        "vertices": 153
+      },
+      "valid": true
+    },
+    "A09_table_edge_band_right": {
+      "volume_mm3": 459671.811228,
+      "area_mm2": 130056.368413,
+      "centre_mm": [
+        -421.237408,
+        56.810683,
+        699.256697
+      ],
+      "bounds_mm": [
+        -485.0,
+        -350.5,
+        -154.0,
+        276.0,
+        695.0,
+        705.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 46,
+        "edges": 108,
+        "vertices": 64
+      },
+      "valid": true
+    },
+    "A09_table_edge_band_right_fold_half_inner": {
+      "volume_mm3": 478361.521963,
+      "area_mm2": 127192.477796,
+      "centre_mm": [
+        -280.998884,
+        61.0,
+        699.168503
+      ],
+      "bounds_mm": [
+        -349.5,
+        -215.0,
+        -154.0,
+        276.0,
+        695.0,
+        705.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 16,
+        "edges": 42,
+        "vertices": 28
+      },
+      "valid": true
+    },
+    "A09_table_fold_flexure_right": {
+      "volume_mm3": 151.077039,
+      "area_mm2": 1011.665844,
+      "centre_mm": [
+        -350.0,
+        61.0,
+        704.75
+      ],
+      "bounds_mm": [
+        -350.5,
+        -349.5,
+        -142.0,
+        264.0,
+        704.55,
+        704.95
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 26,
+        "edges": 48,
+        "vertices": 24
+      },
+      "valid": true
+    },
+    "A09_table_top_skin_right": {
+      "volume_mm3": 99439.097336,
+      "area_mm2": 101542.796447,
+      "centre_mm": [
+        -411.731382,
+        61.0,
+        704.0
+      ],
+      "bounds_mm": [
+        -473.0,
+        -350.5,
+        -142.0,
+        264.0,
+        703.0,
+        705.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 8,
+        "edges": 18,
+        "vertices": 12
+      },
+      "valid": true
+    },
+    "A09_table_top_skin_right_fold_half_inner": {
+      "volume_mm3": 99439.097336,
+      "area_mm2": 101542.796447,
+      "centre_mm": [
+        -288.268618,
+        61.0,
+        704.0
+      ],
+      "bounds_mm": [
+        -349.5,
+        -227.0,
+        -142.0,
+        264.0,
+        703.0,
+        705.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 8,
+        "edges": 18,
+        "vertices": 12
+      },
+      "valid": true
+    },
+    "A09_table_underbelly_shell_right": {
+      "volume_mm3": 115335.163354,
+      "area_mm2": 117604.11674,
+      "centre_mm": [
+        -417.856261,
+        60.586514,
+        694.00004
+      ],
+      "bounds_mm": [
+        -485.0,
+        -350.5,
+        -154.0,
+        276.0,
+        693.0,
+        695.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 20,
+        "edges": 50,
+        "vertices": 32
+      },
+      "valid": true
+    },
+    "A09_table_underbelly_shell_right_fold_half_inner": {
+      "volume_mm3": 115560.12386,
+      "area_mm2": 117790.654825,
+      "centre_mm": [
+        -282.25,
+        61.0,
+        694.0
+      ],
+      "bounds_mm": [
+        -349.5,
+        -215.0,
+        -154.0,
+        276.0,
+        693.0,
+        695.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 10,
+        "edges": 24,
+        "vertices": 16
+      },
+      "valid": true
+    }
+  },
+  "frames": [
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 0,
+      "phase_progress": 0.0,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 0.0,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 1,
+      "phase_progress": 0.05,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 4.5,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 2,
+      "phase_progress": 0.1,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 9.0,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 3,
+      "phase_progress": 0.15,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 13.5,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 4,
+      "phase_progress": 0.2,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 18.0,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 5,
+      "phase_progress": 0.25,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 22.5,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 6,
+      "phase_progress": 0.3,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 27.0,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 7,
+      "phase_progress": 0.35,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 31.5,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 8,
+      "phase_progress": 0.4,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 36.0,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 9,
+      "phase_progress": 0.45,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 40.5,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 10,
+      "phase_progress": 0.5,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 45.0,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 11,
+      "phase_progress": 0.55,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 49.5,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 12,
+      "phase_progress": 0.6,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 54.0,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 13,
+      "phase_progress": 0.65,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 58.5,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 14,
+      "phase_progress": 0.7,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 63.0,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 15,
+      "phase_progress": 0.75,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 67.5,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 16,
+      "phase_progress": 0.8,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 72.0,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 17,
+      "phase_progress": 0.85,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 76.5,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 18,
+      "phase_progress": 0.9,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 81.0,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 19,
+      "phase_progress": 0.95,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 85.5,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "raise_with_lid_open",
+      "phase_index": 20,
+      "phase_progress": 1.0,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 105.0,
+      "support_docked": false,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": []
+    },
+    {
+      "phase": "dock_support_after_lid_close",
+      "phase_index": 0,
+      "phase_progress": 1.0,
+      "rotation_progress": 0.0,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 1,
+      "phase_progress": 0.05,
+      "rotation_progress": 0.05,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 2,
+      "phase_progress": 0.1,
+      "rotation_progress": 0.1,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 3,
+      "phase_progress": 0.15,
+      "rotation_progress": 0.15,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 4,
+      "phase_progress": 0.2,
+      "rotation_progress": 0.2,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 5,
+      "phase_progress": 0.25,
+      "rotation_progress": 0.25,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 6,
+      "phase_progress": 0.3,
+      "rotation_progress": 0.3,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 7,
+      "phase_progress": 0.35,
+      "rotation_progress": 0.35,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 8,
+      "phase_progress": 0.4,
+      "rotation_progress": 0.4,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 9,
+      "phase_progress": 0.45,
+      "rotation_progress": 0.45,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 10,
+      "phase_progress": 0.5,
+      "rotation_progress": 0.5,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 11,
+      "phase_progress": 0.55,
+      "rotation_progress": 0.55,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 12,
+      "phase_progress": 0.6,
+      "rotation_progress": 0.6,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 13,
+      "phase_progress": 0.65,
+      "rotation_progress": 0.65,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 14,
+      "phase_progress": 0.7,
+      "rotation_progress": 0.7,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 15,
+      "phase_progress": 0.75,
+      "rotation_progress": 0.75,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 16,
+      "phase_progress": 0.8,
+      "rotation_progress": 0.8,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 17,
+      "phase_progress": 0.85,
+      "rotation_progress": 0.85,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 18,
+      "phase_progress": 0.9,
+      "rotation_progress": 0.9,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 19,
+      "phase_progress": 0.95,
+      "rotation_progress": 0.95,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "rotate_at_clearance_height",
+      "phase_index": 20,
+      "phase_progress": 1.0,
+      "rotation_progress": 1.0,
+      "return_progress": 0.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 1,
+      "phase_progress": 0.05,
+      "rotation_progress": 1.0,
+      "return_progress": 0.05,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 2,
+      "phase_progress": 0.1,
+      "rotation_progress": 1.0,
+      "return_progress": 0.1,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 3,
+      "phase_progress": 0.15,
+      "rotation_progress": 1.0,
+      "return_progress": 0.15,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 4,
+      "phase_progress": 0.2,
+      "rotation_progress": 1.0,
+      "return_progress": 0.2,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 5,
+      "phase_progress": 0.25,
+      "rotation_progress": 1.0,
+      "return_progress": 0.25,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 6,
+      "phase_progress": 0.3,
+      "rotation_progress": 1.0,
+      "return_progress": 0.3,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 7,
+      "phase_progress": 0.35,
+      "rotation_progress": 1.0,
+      "return_progress": 0.35,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 8,
+      "phase_progress": 0.4,
+      "rotation_progress": 1.0,
+      "return_progress": 0.4,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 9,
+      "phase_progress": 0.45,
+      "rotation_progress": 1.0,
+      "return_progress": 0.45,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 10,
+      "phase_progress": 0.5,
+      "rotation_progress": 1.0,
+      "return_progress": 0.5,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 11,
+      "phase_progress": 0.55,
+      "rotation_progress": 1.0,
+      "return_progress": 0.55,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 12,
+      "phase_progress": 0.6,
+      "rotation_progress": 1.0,
+      "return_progress": 0.6,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 13,
+      "phase_progress": 0.65,
+      "rotation_progress": 1.0,
+      "return_progress": 0.65,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 14,
+      "phase_progress": 0.7,
+      "rotation_progress": 1.0,
+      "return_progress": 0.7,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 15,
+      "phase_progress": 0.75,
+      "rotation_progress": 1.0,
+      "return_progress": 0.75,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 16,
+      "phase_progress": 0.8,
+      "rotation_progress": 1.0,
+      "return_progress": 0.8,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 17,
+      "phase_progress": 0.85,
+      "rotation_progress": 1.0,
+      "return_progress": 0.85,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 18,
+      "phase_progress": 0.9,
+      "rotation_progress": 1.0,
+      "return_progress": 0.9,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 19,
+      "phase_progress": 0.95,
+      "rotation_progress": 1.0,
+      "return_progress": 0.95,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "return_inboard_at_clearance_height",
+      "phase_index": 20,
+      "phase_progress": 1.0,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 90.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 1,
+      "phase_progress": 0.05,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 85.5,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 2,
+      "phase_progress": 0.1,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 81.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 3,
+      "phase_progress": 0.15,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 76.5,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 4,
+      "phase_progress": 0.2,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 72.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 5,
+      "phase_progress": 0.25,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 67.5,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 6,
+      "phase_progress": 0.3,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 63.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 7,
+      "phase_progress": 0.35,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 58.5,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 8,
+      "phase_progress": 0.4,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 54.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 9,
+      "phase_progress": 0.45,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 49.5,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 10,
+      "phase_progress": 0.5,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 45.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 11,
+      "phase_progress": 0.55,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 40.5,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 12,
+      "phase_progress": 0.6,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 36.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 13,
+      "phase_progress": 0.65,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 31.5,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 14,
+      "phase_progress": 0.7,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 27.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 15,
+      "phase_progress": 0.75,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 22.5,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 16,
+      "phase_progress": 0.8,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 18.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 17,
+      "phase_progress": 0.85,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 13.5,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 18,
+      "phase_progress": 0.9,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 9.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 19,
+      "phase_progress": 0.95,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 4.5,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    },
+    {
+      "phase": "lower_into_final_root_lock",
+      "phase_index": 20,
+      "phase_progress": 1.0,
+      "rotation_progress": 1.0,
+      "return_progress": 1.0,
+      "lift_mm": 0.0,
+      "lid_angle_deg": 0.0,
+      "support_docked": true,
+      "rigid_occurrence_names": [
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right"
+      ],
+      "support_envelope_names": [
+        "A09_cafe_transient_guided_support_envelope_right"
+      ]
+    }
+  ],
+  "controlled_source_step": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_cafe.step",
+  "controlled_source_step_sha256": "8118b34c83bde30f316717e028279de656db4640d1c1f74e2c7fb6c96ecddd88",
+  "generated_skin_shape_signature": {
+    "bounds_mm": {
+      "xmin": -528.0000001,
+      "xmax": 369.1750075267015,
+      "ymin": -375.5,
+      "ymax": 375.5,
+      "zmin": 8.599999899999995,
+      "zmax": 1072.0000001000008,
+      "xlen": 897.1750076267015,
+      "ylen": 751.0,
+      "zlen": 1063.4000002000007
+    },
+    "volume_mm3": 45874073.42549107,
+    "area_mm2": 12527321.621865073,
+    "centroid_mm": [
+      -31.449437154091875,
+      3.083277140527281,
+      472.61442377524725
+    ],
+    "solid_count": 194,
+    "face_count": 6430,
+    "edge_count": 15005
+  },
+  "generated_skin_part_count": 194
+}

@@ -1,0 +1,2353 @@
+{
+  "schema_version": 1,
+  "gate": "physical disposition-filtered battery/equipment/device-bay inclusion in full-layout STEP",
+  "state": "focus",
+  "status": "PASS",
+  "failures": [],
+  "controlled_source_step": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_focus.step",
+  "controlled_source_step_sha256": "598ad5a8686989be548140c5629a1b996b85bc833f1672850c98da400626ed4c",
+  "full_layout_step": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/workcore_e6_layout_full_focus.step",
+  "full_layout_step_sha256": "b87a2fa3c9e33953c5a240cc526fd6386bf8bb74824661b9b58332d118b9a30f",
+  "underlay_assembly_name": "E6_DFR5_focus_FINAL_LAYOUT_UNDERLAY",
+  "underlay_name_occurrences_in_output_step": 2,
+  "required_internal_occurrences": {
+    "schema_version": 1,
+    "state": "focus",
+    "source_step": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_focus.step",
+    "source_step_bytes": 6267448,
+    "required_occurrence_count": 31,
+    "groups": {
+      "battery_and_power": {
+        "required_count": 8,
+        "product_definition_counts": {
+          "battery_lfp_16s30ah_1p536kwh": 1,
+          "power_distribution_unit": 1,
+          "safety_backup_battery_24v60wh": 1,
+          "battery_safety_cassette": 1,
+          "battery_pressure_vent_duct": 1,
+          "battery_compartment_temperature_sensor_-150": 1,
+          "battery_compartment_temperature_sensor_170": 1,
+          "service_battery_disconnect_guarded": 1
+        },
+        "status": "PASS"
+      },
+      "device_bays_and_daily_storage": {
+        "required_count": 17,
+        "product_definition_counts": {
+          "drawer_tray_left_upper": 1,
+          "drawer_front_left_upper": 1,
+          "cots_slide_left_upper_a": 1,
+          "cots_slide_left_upper_b": 1,
+          "cots_latch_left_upper": 1,
+          "device_bay_shock_liner_left": 1,
+          "universal_flat_device_keepout_left": 1,
+          "drawer_tray_right_upper": 1,
+          "drawer_front_right_upper": 1,
+          "cots_slide_right_upper_a": 1,
+          "cots_slide_right_upper_b": 1,
+          "cots_latch_right_upper": 1,
+          "device_bay_shock_liner_right": 1,
+          "laptop_16in_keepout_right": 1,
+          "daily_caddy_liftout_bin_4p9l": 1,
+          "daily_caddy_soft_liner": 1,
+          "daily_caddy_unpowered_access_lid": 1
+        },
+        "status": "PASS"
+      },
+      "core_equipment_and_service": {
+        "required_count": 6,
+        "product_definition_counts": {
+          "compute_core_cartridge": 1,
+          "encrypted_data_vault": 1,
+          "communications_5g_wifi_uwb_module": 1,
+          "drive_imu_controller": 1,
+          "occupant_energy_firewall": 1,
+          "service_charge_port_guarded": 1
+        },
+        "status": "PASS"
+      }
+    },
+    "status": "PASS",
+    "failures": []
+  },
+  "controlled_full_source_shape_signature": {
+    "bounds_mm": {
+      "xmin": -620.0,
+      "xmax": 351.0,
+      "ymin": -361.0,
+      "ymax": 374.0,
+      "zmin": 0.0,
+      "zmax": 1492.0,
+      "xlen": 971.0,
+      "ylen": 735.0,
+      "zlen": 1492.0
+    },
+    "volume_mm3": 91164502.04273546,
+    "area_mm2": 16695633.714111898,
+    "centroid_mm": [
+      -14.49078620612859,
+      1.8461718146353214,
+      366.215508255315
+    ],
+    "solid_count": 196,
+    "face_count": 1768,
+    "edge_count": 4107
+  },
+  "controlled_layout_source_shape_signature": {
+    "bounds_mm": {
+      "xmin": -620.0,
+      "xmax": 345.0,
+      "ymin": -361.0,
+      "ymax": 359.0,
+      "zmin": 0.0,
+      "zmax": 1476.0,
+      "xlen": 965.0,
+      "ylen": 720.0,
+      "zlen": 1476.0
+    },
+    "volume_mm3": 56150142.57471579,
+    "area_mm2": 9322517.924140811,
+    "centroid_mm": [
+      14.74785210677739,
+      1.6158824688147206,
+      272.7555007889848
+    ],
+    "solid_count": 125,
+    "face_count": 1011,
+    "edge_count": 2258
+  },
+  "controlled_source_selection_evidence": {
+    "schema_version": 1,
+    "state": "focus",
+    "source_step": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_focus.step",
+    "source_occurrence_count": 196,
+    "source_shape_signature": {
+      "bounds_mm": {
+        "xmin": -620.0,
+        "xmax": 351.0,
+        "ymin": -361.0,
+        "ymax": 374.0,
+        "zmin": 0.0,
+        "zmax": 1492.0,
+        "xlen": 971.0,
+        "ylen": 735.0,
+        "zlen": 1492.0
+      },
+      "volume_mm3": 91164502.04273546,
+      "area_mm2": 16695633.714111898,
+      "centroid_mm": [
+        -14.49078620612859,
+        1.8461718146353214,
+        366.215508255315
+      ],
+      "solid_count": 196,
+      "face_count": 1768,
+      "edge_count": 4107
+    },
+    "included_dispositions": [
+      "conceal_behind_access",
+      "internal_enclosed",
+      "retain_exposed"
+    ],
+    "selected_occurrence_count": 125,
+    "selected_occurrence_names": [
+      "axle_front_left",
+      "axle_front_right",
+      "axle_rear_left",
+      "axle_rear_right",
+      "backrest_structural_carrier",
+      "battery_compartment_temperature_sensor_-150",
+      "battery_compartment_temperature_sensor_170",
+      "battery_lfp_16s30ah_1p536kwh",
+      "battery_pressure_vent_duct",
+      "battery_safety_cassette",
+      "chassis_crossmember_1",
+      "chassis_crossmember_2",
+      "chassis_crossmember_3",
+      "chassis_rail_left",
+      "chassis_rail_right",
+      "communications_5g_wifi_uwb_module",
+      "compute_core_cartridge",
+      "cots_latch_left_upper",
+      "cots_latch_right_upper",
+      "cots_mast_actuator_focus",
+      "cots_slide_left_upper_a",
+      "cots_slide_left_upper_b",
+      "cots_slide_right_upper_a",
+      "cots_slide_right_upper_b",
+      "daily_caddy_liftout_bin_4p9l",
+      "daily_caddy_soft_liner",
+      "desk_forward_carriage_left",
+      "desk_forward_carriage_right",
+      "desk_leaf_fold_hinge_left",
+      "desk_leaf_fold_hinge_right",
+      "desk_leaf_rigidizer_left_1",
+      "desk_leaf_rigidizer_left_2",
+      "desk_leaf_rigidizer_right_1",
+      "desk_leaf_rigidizer_right_2",
+      "desk_lift_tube_left",
+      "desk_lift_tube_right",
+      "desk_yoke_left",
+      "desk_yoke_right",
+      "device_bay_shock_liner_left",
+      "device_bay_shock_liner_right",
+      "drawer_front_left_upper",
+      "drawer_front_right_upper",
+      "drawer_tray_left_upper",
+      "drawer_tray_right_upper",
+      "drive_imu_controller",
+      "encrypted_data_vault",
+      "follow_cliff_ir_module_front_left",
+      "follow_cliff_ir_module_front_right",
+      "follow_cliff_ir_module_rear_left",
+      "follow_cliff_ir_module_rear_right",
+      "follow_front_tof_left_module",
+      "follow_front_tof_right_module",
+      "follow_hidden_backrest_antenna_left",
+      "follow_hidden_backrest_antenna_right",
+      "follow_leg_scanner_module",
+      "follow_rear_tof_module",
+      "follow_side_ultrasonic_module_front_left",
+      "follow_side_ultrasonic_module_front_right",
+      "follow_side_ultrasonic_module_rear_left",
+      "follow_side_ultrasonic_module_rear_right",
+      "follow_uwb_rear_module",
+      "follow_uwb_side_module_left",
+      "follow_uwb_side_module_right",
+      "follow_voice_mic_strip_left",
+      "follow_voice_mic_strip_right",
+      "footrest_support_left_stowed",
+      "footrest_support_right_stowed",
+      "hmi_qi2_charging_coil_left",
+      "hmi_qi2_power_fod_module_left",
+      "hmi_qi2_presence_temperature_sensor_left",
+      "hub_front_left",
+      "hub_front_right",
+      "hub_rear_left",
+      "hub_rear_right",
+      "laptop_16in_keepout_right",
+      "mast_camera_4k_focus",
+      "mast_camera_depth_ir_focus",
+      "mast_environment_sensor_focus",
+      "mast_guide_x_focus_1_+1",
+      "mast_guide_x_focus_1_-1",
+      "mast_guide_x_focus_2_+1",
+      "mast_guide_x_focus_2_-1",
+      "mast_guide_y_focus_1_+1",
+      "mast_guide_y_focus_1_-1",
+      "mast_guide_y_focus_2_+1",
+      "mast_guide_y_focus_2_-1",
+      "mast_harness_24v_data_focus",
+      "mast_inner_focus",
+      "mast_microphone_array_focus",
+      "mast_outer_focus",
+      "mast_reeving_pulley_focus_1",
+      "mast_reeving_pulley_focus_2",
+      "obstacle_handle_inner_tube_left_stowed",
+      "obstacle_handle_inner_tube_right_stowed",
+      "obstacle_handle_outer_tube_left_stowed",
+      "obstacle_handle_outer_tube_right_stowed",
+      "obstacle_handle_positive_latch_left",
+      "obstacle_handle_positive_latch_right",
+      "occupant_energy_firewall",
+      "pelvic_belt_hidden_anchor_+1",
+      "pelvic_belt_hidden_anchor_-1",
+      "pelvic_belt_hidden_buckle_dock",
+      "pelvic_belt_hidden_retractor_+1",
+      "pelvic_belt_hidden_retractor_-1",
+      "power_distribution_unit",
+      "safety_backup_battery_24v60wh",
+      "seat_occupancy_sensor",
+      "seat_structural_pan",
+      "service_battery_disconnect_guarded",
+      "service_brake_release_guarded",
+      "service_charge_port_guarded",
+      "service_rear_horn_behind_door",
+      "suspension_centre_pivot_left",
+      "suspension_centre_pivot_right",
+      "suspension_elastomer_stop_left_+42",
+      "suspension_elastomer_stop_left_-42",
+      "suspension_elastomer_stop_right_+42",
+      "suspension_elastomer_stop_right_-42",
+      "suspension_rocker_left",
+      "suspension_rocker_right",
+      "tyre_front_left",
+      "tyre_front_right",
+      "tyre_rear_left",
+      "tyre_rear_right",
+      "universal_flat_device_keepout_left"
+    ],
+    "selected_shape_signature": {
+      "bounds_mm": {
+        "xmin": -620.0,
+        "xmax": 345.0,
+        "ymin": -361.0,
+        "ymax": 359.0,
+        "zmin": 0.0,
+        "zmax": 1476.0,
+        "xlen": 965.0,
+        "ylen": 720.0,
+        "zlen": 1476.0
+      },
+      "volume_mm3": 56150142.57471579,
+      "area_mm2": 9322517.924140811,
+      "centroid_mm": [
+        14.74785210677739,
+        1.6158824688147206,
+        272.7555007889848
+      ],
+      "solid_count": 125,
+      "face_count": 1011,
+      "edge_count": 2258
+    },
+    "excluded_by_disposition": {
+      "replace_surface": [
+        "armrest_base_shell_left",
+        "armrest_base_shell_right",
+        "armrest_lid_left",
+        "armrest_lid_right",
+        "armrest_shell_left",
+        "armrest_shell_right",
+        "armrest_transfer_hinge_shroud_right",
+        "armrest_transfer_link_shroud_right",
+        "backrest_cushion_envelope",
+        "backrest_rear_cosmetic_shell",
+        "daily_caddy_unpowered_access_lid",
+        "desk_centre_latch_-255",
+        "desk_centre_latch_-555",
+        "desk_lift_column_boot_left",
+        "desk_lift_column_boot_right",
+        "desk_lock_pin_-255",
+        "desk_lock_pin_-555",
+        "desk_panel_left",
+        "desk_panel_right",
+        "follow_cliff_ir_window_front_left",
+        "follow_cliff_ir_window_front_right",
+        "follow_cliff_ir_window_rear_left",
+        "follow_cliff_ir_window_rear_right",
+        "follow_front_tactile_bumper_membrane",
+        "follow_front_tof_left_window",
+        "follow_front_tof_right_window",
+        "follow_leg_scanner_window",
+        "follow_rear_tof_window",
+        "follow_side_ultrasonic_face_front_left",
+        "follow_side_ultrasonic_face_front_right",
+        "follow_side_ultrasonic_face_rear_left",
+        "follow_side_ultrasonic_face_rear_right",
+        "follow_uwb_rear_radome",
+        "follow_uwb_side_radome_left",
+        "follow_uwb_side_radome_right",
+        "follow_voice_acoustic_slot_left_1",
+        "follow_voice_acoustic_slot_left_2",
+        "follow_voice_acoustic_slot_right_1",
+        "follow_voice_acoustic_slot_right_2",
+        "footrest_manual_latch_stowed",
+        "footrest_platform_stowed",
+        "footrest_support_boot_left_stowed",
+        "footrest_support_boot_right_stowed",
+        "hmi_drive_authorization_key_right",
+        "hmi_drive_control_pod_right",
+        "hmi_emergency_stop_guard",
+        "hmi_joystick_right",
+        "hmi_left_display_qi_tray",
+        "hmi_mechanical_emergency_stop",
+        "hmi_rear_status_light",
+        "hmi_status_display_left",
+        "lower_body_enclosure",
+        "mast_fill_light_focus_+1",
+        "mast_fill_light_focus_-1",
+        "mast_lock_pin_focus_+1",
+        "mast_lock_pin_focus_-1",
+        "mast_outer_cosmetic_shroud_focus",
+        "mast_privacy_shutter_parked_focus",
+        "mast_smoked_sensor_window_focus",
+        "obstacle_handle_crossbar_stowed",
+        "obstacle_handle_deck_recess",
+        "obstacle_handle_grip_inlay_stowed",
+        "seat_cushion_envelope",
+        "sensor_beam_shell_focus",
+        "service_rear_flush_door",
+        "upper_deck_panel",
+        "wheel_arch_side_fairing_left",
+        "wheel_arch_side_fairing_right"
+      ],
+      "trace_only_retired": [
+        "armrest_transfer_hinge_right",
+        "armrest_transfer_link_right",
+        "armrest_transfer_positive_lock_right"
+      ]
+    },
+    "retired_side_opening_armrest_absent": true,
+    "manufacturing_bom_claimed": false,
+    "layout_envelopes_included": true,
+    "underlay_assembly_name": "E6_DFR5_focus_FINAL_LAYOUT_UNDERLAY"
+  },
+  "selected_output_product_counts": {
+    "suspension_centre_pivot_right": 1,
+    "communications_5g_wifi_uwb_module": 1,
+    "compute_core_cartridge": 1,
+    "chassis_crossmember_3": 1,
+    "follow_hidden_backrest_antenna_left": 1,
+    "service_battery_disconnect_guarded": 1,
+    "mast_guide_y_focus_1_-1": 1,
+    "mast_guide_y_focus_2_-1": 1,
+    "follow_uwb_side_module_right": 1,
+    "pelvic_belt_hidden_anchor_-1": 1,
+    "device_bay_shock_liner_left": 1,
+    "cots_slide_left_upper_b": 1,
+    "hmi_qi2_charging_coil_left": 1,
+    "mast_guide_x_focus_1_+1": 1,
+    "seat_occupancy_sensor": 1,
+    "follow_uwb_rear_module": 1,
+    "follow_voice_mic_strip_left": 1,
+    "mast_camera_4k_focus": 1,
+    "safety_backup_battery_24v60wh": 1,
+    "desk_forward_carriage_left": 1,
+    "chassis_rail_left": 1,
+    "obstacle_handle_inner_tube_right_stowed": 1,
+    "cots_slide_right_upper_a": 1,
+    "obstacle_handle_outer_tube_right_stowed": 1,
+    "cots_mast_actuator_focus": 1,
+    "mast_outer_focus": 1,
+    "mast_guide_x_focus_2_-1": 1,
+    "hmi_qi2_power_fod_module_left": 1,
+    "follow_hidden_backrest_antenna_right": 1,
+    "mast_reeving_pulley_focus_1": 1,
+    "mast_environment_sensor_focus": 1,
+    "follow_leg_scanner_module": 1,
+    "hub_front_left": 1,
+    "mast_inner_focus": 1,
+    "desk_yoke_left": 1,
+    "footrest_support_right_stowed": 1,
+    "service_rear_horn_behind_door": 1,
+    "laptop_16in_keepout_right": 1,
+    "obstacle_handle_positive_latch_right": 1,
+    "obstacle_handle_positive_latch_left": 1,
+    "backrest_structural_carrier": 1,
+    "desk_leaf_fold_hinge_right": 1,
+    "suspension_elastomer_stop_right_+42": 1,
+    "desk_lift_tube_left": 1,
+    "drawer_front_left_upper": 1,
+    "service_brake_release_guarded": 1,
+    "chassis_rail_right": 1,
+    "battery_safety_cassette": 1,
+    "encrypted_data_vault": 1,
+    "obstacle_handle_inner_tube_left_stowed": 1,
+    "obstacle_handle_outer_tube_left_stowed": 1,
+    "follow_uwb_side_module_left": 1,
+    "suspension_elastomer_stop_right_-42": 1,
+    "follow_cliff_ir_module_rear_right": 1,
+    "desk_leaf_rigidizer_left_2": 1,
+    "cots_slide_left_upper_a": 1,
+    "power_distribution_unit": 1,
+    "mast_reeving_pulley_focus_2": 1,
+    "daily_caddy_liftout_bin_4p9l": 1,
+    "axle_rear_left": 1,
+    "cots_latch_left_upper": 1,
+    "drawer_tray_left_upper": 1,
+    "battery_pressure_vent_duct": 1,
+    "mast_guide_y_focus_1_+1": 1,
+    "battery_compartment_temperature_sensor_-150": 1,
+    "mast_microphone_array_focus": 1,
+    "seat_structural_pan": 1,
+    "follow_front_tof_left_module": 1,
+    "desk_lift_tube_right": 1,
+    "drive_imu_controller": 1,
+    "universal_flat_device_keepout_left": 1,
+    "cots_latch_right_upper": 1,
+    "suspension_elastomer_stop_left_+42": 1,
+    "drawer_tray_right_upper": 1,
+    "follow_cliff_ir_module_rear_left": 1,
+    "hub_rear_left": 1,
+    "follow_side_ultrasonic_module_front_left": 1,
+    "battery_lfp_16s30ah_1p536kwh": 1,
+    "cots_slide_right_upper_b": 1,
+    "desk_leaf_rigidizer_right_2": 1,
+    "follow_voice_mic_strip_right": 1,
+    "tyre_front_left": 1,
+    "tyre_rear_right": 1,
+    "desk_forward_carriage_right": 1,
+    "axle_front_right": 1,
+    "hub_rear_right": 1,
+    "mast_guide_y_focus_2_+1": 1,
+    "footrest_support_left_stowed": 1,
+    "hmi_qi2_presence_temperature_sensor_left": 1,
+    "follow_cliff_ir_module_front_left": 1,
+    "drawer_front_right_upper": 1,
+    "follow_cliff_ir_module_front_right": 1,
+    "desk_leaf_rigidizer_left_1": 1,
+    "suspension_elastomer_stop_left_-42": 1,
+    "suspension_centre_pivot_left": 1,
+    "follow_front_tof_right_module": 1,
+    "chassis_crossmember_1": 1,
+    "axle_front_left": 1,
+    "suspension_rocker_right": 1,
+    "tyre_rear_left": 1,
+    "follow_side_ultrasonic_module_rear_left": 1,
+    "desk_leaf_fold_hinge_left": 1,
+    "hub_front_right": 1,
+    "desk_yoke_right": 1,
+    "follow_side_ultrasonic_module_front_right": 1,
+    "pelvic_belt_hidden_anchor_+1": 1,
+    "pelvic_belt_hidden_buckle_dock": 1,
+    "mast_camera_depth_ir_focus": 1,
+    "service_charge_port_guarded": 1,
+    "axle_rear_right": 1,
+    "tyre_front_right": 1,
+    "chassis_crossmember_2": 1,
+    "occupant_energy_firewall": 1,
+    "follow_rear_tof_module": 1,
+    "pelvic_belt_hidden_retractor_+1": 1,
+    "mast_guide_x_focus_1_-1": 1,
+    "daily_caddy_soft_liner": 1,
+    "device_bay_shock_liner_right": 1,
+    "pelvic_belt_hidden_retractor_-1": 1,
+    "suspension_rocker_left": 1,
+    "battery_compartment_temperature_sensor_170": 1,
+    "follow_side_ultrasonic_module_rear_right": 1,
+    "mast_guide_x_focus_2_+1": 1,
+    "desk_leaf_rigidizer_right_1": 1,
+    "mast_harness_24v_data_focus": 1
+  },
+  "forbidden_output_product_counts": {
+    "armrest_base_shell_right": 0,
+    "hmi_joystick_right": 0,
+    "obstacle_handle_crossbar_stowed": 0,
+    "follow_side_ultrasonic_face_rear_right": 0,
+    "follow_cliff_ir_window_front_left": 0,
+    "armrest_shell_left": 0,
+    "armrest_lid_right": 0,
+    "follow_rear_tof_window": 0,
+    "mast_outer_cosmetic_shroud_focus": 0,
+    "mast_fill_light_focus_+1": 0,
+    "hmi_drive_control_pod_right": 0,
+    "desk_lift_column_boot_right": 0,
+    "obstacle_handle_grip_inlay_stowed": 0,
+    "hmi_status_display_left": 0,
+    "follow_front_tactile_bumper_membrane": 0,
+    "follow_side_ultrasonic_face_front_left": 0,
+    "follow_voice_acoustic_slot_left_2": 0,
+    "daily_caddy_unpowered_access_lid": 0,
+    "desk_lift_column_boot_left": 0,
+    "armrest_transfer_link_right": 0,
+    "armrest_lid_left": 0,
+    "armrest_transfer_hinge_shroud_right": 0,
+    "follow_uwb_side_radome_left": 0,
+    "mast_lock_pin_focus_+1": 0,
+    "mast_fill_light_focus_-1": 0,
+    "follow_voice_acoustic_slot_right_1": 0,
+    "footrest_manual_latch_stowed": 0,
+    "follow_voice_acoustic_slot_right_2": 0,
+    "armrest_transfer_positive_lock_right": 0,
+    "follow_uwb_side_radome_right": 0,
+    "backrest_cushion_envelope": 0,
+    "follow_uwb_rear_radome": 0,
+    "hmi_rear_status_light": 0,
+    "mast_smoked_sensor_window_focus": 0,
+    "hmi_mechanical_emergency_stop": 0,
+    "wheel_arch_side_fairing_left": 0,
+    "follow_side_ultrasonic_face_front_right": 0,
+    "upper_deck_panel": 0,
+    "desk_lock_pin_-555": 0,
+    "service_rear_flush_door": 0,
+    "desk_lock_pin_-255": 0,
+    "follow_cliff_ir_window_front_right": 0,
+    "obstacle_handle_deck_recess": 0,
+    "desk_centre_latch_-255": 0,
+    "mast_privacy_shutter_parked_focus": 0,
+    "hmi_left_display_qi_tray": 0,
+    "follow_front_tof_left_window": 0,
+    "desk_panel_left": 0,
+    "follow_cliff_ir_window_rear_left": 0,
+    "armrest_base_shell_left": 0,
+    "backrest_rear_cosmetic_shell": 0,
+    "mast_lock_pin_focus_-1": 0,
+    "wheel_arch_side_fairing_right": 0,
+    "seat_cushion_envelope": 0,
+    "desk_centre_latch_-555": 0,
+    "armrest_shell_right": 0,
+    "follow_voice_acoustic_slot_left_1": 0,
+    "armrest_transfer_hinge_right": 0,
+    "sensor_beam_shell_focus": 0,
+    "lower_body_enclosure": 0,
+    "follow_leg_scanner_window": 0,
+    "footrest_support_boot_right_stowed": 0,
+    "follow_front_tof_right_window": 0,
+    "hmi_drive_authorization_key_right": 0,
+    "follow_cliff_ir_window_rear_right": 0,
+    "footrest_platform_stowed": 0,
+    "hmi_emergency_stop_guard": 0,
+    "footrest_support_boot_left_stowed": 0,
+    "desk_panel_right": 0,
+    "armrest_transfer_link_shroud_right": 0,
+    "follow_side_ultrasonic_face_rear_left": 0
+  },
+  "replacement_proxy_output_product_counts": {
+    "A04_daily_caddy_flush_hatch": 1
+  },
+  "required_internal_occurrence_brep_identity_status": "PASS",
+  "required_internal_occurrence_brep_evidence_sha256": "285388f9c72d9446c26861af3cae2c82a067609718d2056eafb047b87b2e9a86",
+  "required_internal_occurrence_brep_evidence": {
+    "battery_compartment_temperature_sensor_-150": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 7840.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -164.0,
+          "xmax": -136.0,
+          "ymin": -14.0,
+          "ymax": 14.0,
+          "zmin": 197.0,
+          "zmax": 207.0,
+          "xlen": 28.0,
+          "ylen": 28.0,
+          "zlen": 10.0
+        },
+        "volume_mm3": 7840.0,
+        "area_mm2": 2687.999999999999,
+        "centroid_mm": [
+          -150.0,
+          1.7763568394002506e-16,
+          202.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -164.0,
+          "xmax": -136.0,
+          "ymin": -14.0,
+          "ymax": 14.0,
+          "zmin": 197.0,
+          "zmax": 207.0,
+          "xlen": 28.0,
+          "ylen": 28.0,
+          "zlen": 10.0
+        },
+        "volume_mm3": 7840.0,
+        "area_mm2": 2687.999999999999,
+        "centroid_mm": [
+          -150.0,
+          1.7763568394002506e-16,
+          202.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "battery_compartment_temperature_sensor_170": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 7840.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": 156.0,
+          "xmax": 184.0,
+          "ymin": -14.0,
+          "ymax": 14.0,
+          "zmin": 197.0,
+          "zmax": 207.0,
+          "xlen": 28.0,
+          "ylen": 28.0,
+          "zlen": 10.0
+        },
+        "volume_mm3": 7840.0,
+        "area_mm2": 2687.999999999999,
+        "centroid_mm": [
+          170.0,
+          1.7763568394002506e-16,
+          202.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": 156.0,
+          "xmax": 184.0,
+          "ymin": -14.0,
+          "ymax": 14.0,
+          "zmin": 197.0,
+          "zmax": 207.0,
+          "xlen": 28.0,
+          "ylen": 28.0,
+          "zlen": 10.0
+        },
+        "volume_mm3": 7840.0,
+        "area_mm2": 2687.999999999999,
+        "centroid_mm": [
+          170.0,
+          1.7763568394002506e-16,
+          202.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "battery_lfp_16s30ah_1p536kwh": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 14256000.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.14256,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -180.0,
+          "xmax": 180.0,
+          "ymin": -220.0,
+          "ymax": 220.0,
+          "zmin": 100.0,
+          "zmax": 190.0,
+          "xlen": 360.0,
+          "ylen": 440.0,
+          "zlen": 90.0
+        },
+        "volume_mm3": 14256000.0,
+        "area_mm2": 460800.0,
+        "centroid_mm": [
+          -1.0582780443214825e-15,
+          -6.736997790910579e-16,
+          145.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -180.0,
+          "xmax": 180.0,
+          "ymin": -220.0,
+          "ymax": 220.0,
+          "zmin": 100.0,
+          "zmax": 190.0,
+          "xlen": 360.0,
+          "ylen": 440.0,
+          "zlen": 90.0
+        },
+        "volume_mm3": 14256000.0,
+        "area_mm2": 460800.0,
+        "centroid_mm": [
+          -1.0582780443214825e-15,
+          -6.736997790910579e-16,
+          145.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "battery_pressure_vent_duct": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 229320.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": 200.0,
+          "xmax": 330.0,
+          "ymin": -21.0,
+          "ymax": 21.0,
+          "zmin": 157.0,
+          "zmax": 199.0,
+          "xlen": 130.0,
+          "ylen": 42.0,
+          "zlen": 42.0
+        },
+        "volume_mm3": 229320.0,
+        "area_mm2": 25367.999999999996,
+        "centroid_mm": [
+          265.0,
+          1.4575235605335388e-16,
+          178.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": 200.0,
+          "xmax": 330.0,
+          "ymin": -21.0,
+          "ymax": 21.0,
+          "zmin": 157.0,
+          "zmax": 199.0,
+          "xlen": 130.0,
+          "ylen": 42.0,
+          "zlen": 42.0
+        },
+        "volume_mm3": 229320.0,
+        "area_mm2": 25367.999999999996,
+        "centroid_mm": [
+          265.0,
+          1.4575235605335388e-16,
+          178.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "battery_safety_cassette": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 1558709.094079956,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01558709094079956,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 3.410605131648481e-13,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -190.0,
+          "xmax": 190.0,
+          "ymin": -230.0,
+          "ymax": 230.0,
+          "zmin": 90.0,
+          "zmax": 200.0,
+          "xlen": 380.0,
+          "ylen": 460.0,
+          "zlen": 110.0
+        },
+        "volume_mm3": 1558709.094079956,
+        "area_mm2": 1039195.944721059,
+        "centroid_mm": [
+          7.647949832559729e-14,
+          4.417736646444413e-14,
+          144.99999999999974
+        ],
+        "solid_count": 1,
+        "face_count": 20,
+        "edge_count": 48
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -190.0,
+          "xmax": 190.0,
+          "ymin": -230.0,
+          "ymax": 230.0,
+          "zmin": 90.0,
+          "zmax": 200.0,
+          "xlen": 380.0,
+          "ylen": 460.0,
+          "zlen": 110.0
+        },
+        "volume_mm3": 1558709.0940799532,
+        "area_mm2": 1039195.944721059,
+        "centroid_mm": [
+          -3.823974916279871e-14,
+          3.9397397819094375e-14,
+          144.9999999999994
+        ],
+        "solid_count": 1,
+        "face_count": 20,
+        "edge_count": 48
+      }
+    },
+    "communications_5g_wifi_uwb_module": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 2368800.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.023688,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": 221.0,
+          "xmax": 315.0,
+          "ymin": 45.0,
+          "ymax": 225.0,
+          "zmin": 170.0,
+          "zmax": 310.0,
+          "xlen": 94.0,
+          "ylen": 180.0,
+          "zlen": 140.0
+        },
+        "volume_mm3": 2368800.0,
+        "area_mm2": 110560.0,
+        "centroid_mm": [
+          268.0,
+          135.0,
+          240.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": 221.0,
+          "xmax": 315.0,
+          "ymin": 45.0,
+          "ymax": 225.0,
+          "zmin": 170.0,
+          "zmax": 310.0,
+          "xlen": 94.0,
+          "ylen": 180.0,
+          "zlen": 140.0
+        },
+        "volume_mm3": 2368800.0,
+        "area_mm2": 110560.0,
+        "centroid_mm": [
+          268.0,
+          135.0,
+          240.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "compute_core_cartridge": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 1710799.9999999998,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.017107999999999998,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": 221.0,
+          "xmax": 315.0,
+          "ymin": -180.0,
+          "ymax": -40.0,
+          "zmin": 160.0,
+          "zmax": 290.0,
+          "xlen": 94.0,
+          "ylen": 140.0,
+          "zlen": 130.0
+        },
+        "volume_mm3": 1710799.9999999998,
+        "area_mm2": 87159.99999999999,
+        "centroid_mm": [
+          268.0,
+          -110.0,
+          225.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": 221.0,
+          "xmax": 315.0,
+          "ymin": -180.0,
+          "ymax": -40.0,
+          "zmin": 160.0,
+          "zmax": 290.0,
+          "xlen": 94.0,
+          "ylen": 140.0,
+          "zlen": 130.0
+        },
+        "volume_mm3": 1710799.9999999998,
+        "area_mm2": 87159.99999999999,
+        "centroid_mm": [
+          268.0,
+          -110.0,
+          225.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "cots_latch_left_upper": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 55440.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -58.5,
+          "xmax": 18.5,
+          "ymin": -322.0,
+          "ymax": -286.0,
+          "zmin": 384.0,
+          "zmax": 404.0,
+          "xlen": 77.0,
+          "ylen": 36.0,
+          "zlen": 20.0
+        },
+        "volume_mm3": 55440.0,
+        "area_mm2": 10063.999999999998,
+        "centroid_mm": [
+          -19.999999999999996,
+          -304.0,
+          393.99999999999994
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -58.5,
+          "xmax": 18.5,
+          "ymin": -322.0,
+          "ymax": -286.0,
+          "zmin": 384.0,
+          "zmax": 404.0,
+          "xlen": 77.0,
+          "ylen": 36.0,
+          "zlen": 20.0
+        },
+        "volume_mm3": 55440.0,
+        "area_mm2": 10063.999999999998,
+        "centroid_mm": [
+          -19.999999999999996,
+          -304.0,
+          393.99999999999994
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "cots_latch_right_upper": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 55440.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -58.5,
+          "xmax": 18.5,
+          "ymin": 286.0,
+          "ymax": 322.0,
+          "zmin": 384.0,
+          "zmax": 404.0,
+          "xlen": 77.0,
+          "ylen": 36.0,
+          "zlen": 20.0
+        },
+        "volume_mm3": 55440.0,
+        "area_mm2": 10063.999999999998,
+        "centroid_mm": [
+          -19.999999999999996,
+          304.0,
+          393.99999999999994
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -58.5,
+          "xmax": 18.5,
+          "ymin": 286.0,
+          "ymax": 322.0,
+          "zmin": 384.0,
+          "zmax": 404.0,
+          "xlen": 77.0,
+          "ylen": 36.0,
+          "zlen": 20.0
+        },
+        "volume_mm3": 55440.0,
+        "area_mm2": 10063.999999999998,
+        "centroid_mm": [
+          -19.999999999999996,
+          304.0,
+          393.99999999999994
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "cots_slide_left_upper_a": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 174117.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -252.7,
+          "xmax": -240.0,
+          "ymin": -345.0,
+          "ymax": -45.0,
+          "zmin": 329.15,
+          "zmax": 374.85,
+          "xlen": 12.699999999999989,
+          "ylen": 300.0,
+          "zlen": 45.700000000000045
+        },
+        "volume_mm3": 174117.0,
+        "area_mm2": 36200.78000000001,
+        "centroid_mm": [
+          -246.34999999999997,
+          -195.0,
+          352.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -252.7,
+          "xmax": -240.0,
+          "ymin": -345.0,
+          "ymax": -45.0,
+          "zmin": 329.15,
+          "zmax": 374.85,
+          "xlen": 12.699999999999989,
+          "ylen": 300.0,
+          "zlen": 45.700000000000045
+        },
+        "volume_mm3": 174117.0,
+        "area_mm2": 36200.78000000001,
+        "centroid_mm": [
+          -246.34999999999997,
+          -195.0,
+          352.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "cots_slide_left_upper_b": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 174117.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": 200.0,
+          "xmax": 212.7,
+          "ymin": -345.0,
+          "ymax": -45.0,
+          "zmin": 329.15,
+          "zmax": 374.85,
+          "xlen": 12.699999999999989,
+          "ylen": 300.0,
+          "zlen": 45.700000000000045
+        },
+        "volume_mm3": 174117.0,
+        "area_mm2": 36200.78000000001,
+        "centroid_mm": [
+          206.35000000000002,
+          -195.0,
+          352.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": 200.0,
+          "xmax": 212.7,
+          "ymin": -345.0,
+          "ymax": -45.0,
+          "zmin": 329.15,
+          "zmax": 374.85,
+          "xlen": 12.699999999999989,
+          "ylen": 300.0,
+          "zlen": 45.700000000000045
+        },
+        "volume_mm3": 174117.0,
+        "area_mm2": 36200.78000000001,
+        "centroid_mm": [
+          206.35000000000002,
+          -195.0,
+          352.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "cots_slide_right_upper_a": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 174117.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -252.7,
+          "xmax": -240.0,
+          "ymin": 45.0,
+          "ymax": 345.0,
+          "zmin": 329.15,
+          "zmax": 374.85,
+          "xlen": 12.699999999999989,
+          "ylen": 300.0,
+          "zlen": 45.700000000000045
+        },
+        "volume_mm3": 174117.0,
+        "area_mm2": 36200.78000000001,
+        "centroid_mm": [
+          -246.34999999999997,
+          195.0,
+          352.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -252.7,
+          "xmax": -240.0,
+          "ymin": 45.0,
+          "ymax": 345.0,
+          "zmin": 329.15,
+          "zmax": 374.85,
+          "xlen": 12.699999999999989,
+          "ylen": 300.0,
+          "zlen": 45.700000000000045
+        },
+        "volume_mm3": 174117.0,
+        "area_mm2": 36200.78000000001,
+        "centroid_mm": [
+          -246.34999999999997,
+          195.0,
+          352.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "cots_slide_right_upper_b": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 174117.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": 200.0,
+          "xmax": 212.7,
+          "ymin": 45.0,
+          "ymax": 345.0,
+          "zmin": 329.15,
+          "zmax": 374.85,
+          "xlen": 12.699999999999989,
+          "ylen": 300.0,
+          "zlen": 45.700000000000045
+        },
+        "volume_mm3": 174117.0,
+        "area_mm2": 36200.78000000001,
+        "centroid_mm": [
+          206.35000000000002,
+          195.0,
+          352.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": 200.0,
+          "xmax": 212.7,
+          "ymin": 45.0,
+          "ymax": 345.0,
+          "zmin": 329.15,
+          "zmax": 374.85,
+          "xlen": 12.699999999999989,
+          "ylen": 300.0,
+          "zlen": 45.700000000000045
+        },
+        "volume_mm3": 174117.0,
+        "area_mm2": 36200.78000000001,
+        "centroid_mm": [
+          206.35000000000002,
+          195.0,
+          352.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "daily_caddy_liftout_bin_4p9l": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 221308.49999999953,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -350.0,
+          "xmax": -20.0,
+          "ymin": -110.0,
+          "ymax": 110.0,
+          "zmin": 240.0,
+          "zmax": 310.0,
+          "xlen": 330.0,
+          "ylen": 220.0,
+          "zlen": 70.0
+        },
+        "volume_mm3": 221308.49999999953,
+        "area_mm2": 296728.0,
+        "centroid_mm": [
+          -185.00000000000006,
+          0.0,
+          258.52743511884995
+        ],
+        "solid_count": 1,
+        "face_count": 11,
+        "edge_count": 24
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -350.0,
+          "xmax": -20.0,
+          "ymin": -110.0,
+          "ymax": 110.0,
+          "zmin": 240.0,
+          "zmax": 310.0,
+          "xlen": 330.0,
+          "ylen": 220.0,
+          "zlen": 70.0
+        },
+        "volume_mm3": 221308.49999999953,
+        "area_mm2": 296728.0,
+        "centroid_mm": [
+          -185.00000000000006,
+          0.0,
+          258.52743511884995
+        ],
+        "solid_count": 1,
+        "face_count": 11,
+        "edge_count": 24
+      }
+    },
+    "daily_caddy_soft_liner": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 495313.274122873,
+      "symmetric_difference_volume_mm3": 1.1641532182693481e-09,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 4.700674417946469e-16,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -340.0,
+          "xmax": -30.0,
+          "ymin": -100.0,
+          "ymax": 100.0,
+          "zmin": 241.0,
+          "zmax": 249.0,
+          "xlen": 310.0,
+          "ylen": 200.0,
+          "zlen": 8.0
+        },
+        "volume_mm3": 495313.274122873,
+        "area_mm2": 131850.97335529237,
+        "centroid_mm": [
+          -185.0,
+          4.2875292054316434e-16,
+          245.00000000000003
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -340.0,
+          "xmax": -30.0,
+          "ymin": -100.0,
+          "ymax": 100.0,
+          "zmin": 241.0,
+          "zmax": 249.0,
+          "xlen": 310.0,
+          "ylen": 200.0,
+          "zlen": 8.0
+        },
+        "volume_mm3": 495313.2741228742,
+        "area_mm2": 131850.97335529237,
+        "centroid_mm": [
+          -185.0,
+          -4.1314521251482546e-17,
+          245.00000000000003
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      }
+    },
+    "device_bay_shock_liner_left": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 884611.1147369373,
+      "symmetric_difference_volume_mm3": 1.862645149230957e-09,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 5.684341886080802e-14,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -225.0,
+          "xmax": 185.0,
+          "ymin": -325.0,
+          "ymax": -55.0,
+          "zmin": 326.0,
+          "zmax": 334.0,
+          "xlen": 410.0,
+          "ylen": 270.0,
+          "zlen": 8.0
+        },
+        "volume_mm3": 884611.1147369373,
+        "area_mm2": 231867.96447372317,
+        "centroid_mm": [
+          -19.999999999999993,
+          -189.99999999999997,
+          330.0
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -225.0,
+          "xmax": 185.0,
+          "ymin": -325.0,
+          "ymax": -55.0,
+          "zmin": 326.0,
+          "zmax": 334.0,
+          "xlen": 410.0,
+          "ylen": 270.0,
+          "zlen": 8.0
+        },
+        "volume_mm3": 884611.1147369392,
+        "area_mm2": 231867.96447372317,
+        "centroid_mm": [
+          -19.999999999999993,
+          -189.99999999999997,
+          330.00000000000006
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      }
+    },
+    "device_bay_shock_liner_right": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 884611.1147369373,
+      "symmetric_difference_volume_mm3": 1.862645149230957e-09,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 5.684341886080802e-14,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -225.0,
+          "xmax": 185.0,
+          "ymin": 55.0,
+          "ymax": 325.0,
+          "zmin": 326.0,
+          "zmax": 334.0,
+          "xlen": 410.0,
+          "ylen": 270.0,
+          "zlen": 8.0
+        },
+        "volume_mm3": 884611.1147369373,
+        "area_mm2": 231867.96447372317,
+        "centroid_mm": [
+          -19.999999999999993,
+          189.99999999999997,
+          330.0
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -225.0,
+          "xmax": 185.0,
+          "ymin": 55.0,
+          "ymax": 325.0,
+          "zmin": 326.0,
+          "zmax": 334.0,
+          "xlen": 410.0,
+          "ylen": 270.0,
+          "zlen": 8.0
+        },
+        "volume_mm3": 884611.1147369392,
+        "area_mm2": 231867.96447372317,
+        "centroid_mm": [
+          -19.999999999999993,
+          190.0,
+          330.00000000000006
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      }
+    },
+    "drawer_front_left_upper": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 359890.04569869215,
+      "symmetric_difference_volume_mm3": 2.4330802261829376e-08,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 5.684341886080802e-14,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -246.0,
+          "xmax": 206.0,
+          "ymin": -338.0,
+          "ymax": -328.0,
+          "zmin": 324.0,
+          "zmax": 404.0,
+          "xlen": 452.0,
+          "ylen": 10.0,
+          "zlen": 80.0
+        },
+        "volume_mm3": 359890.04569869215,
+        "area_mm2": 82231.89871709353,
+        "centroid_mm": [
+          -19.999999999999996,
+          -333.0,
+          364.00000000000006
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -246.0,
+          "xmax": 206.0,
+          "ymin": -338.0,
+          "ymax": -328.0,
+          "zmin": 324.0,
+          "zmax": 404.0,
+          "xlen": 452.0,
+          "ylen": 10.0,
+          "zlen": 80.0
+        },
+        "volume_mm3": 359890.0456987164,
+        "area_mm2": 82231.89871709353,
+        "centroid_mm": [
+          -20.000000000000014,
+          -332.99999999999994,
+          364.00000000000006
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      }
+    },
+    "drawer_front_right_upper": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 359890.04569869215,
+      "symmetric_difference_volume_mm3": 2.4330802261829376e-08,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 1.7763568394002505e-14,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -246.0,
+          "xmax": 206.0,
+          "ymin": 328.0,
+          "ymax": 338.0,
+          "zmin": 324.0,
+          "zmax": 404.0,
+          "xlen": 452.0,
+          "ylen": 10.0,
+          "zlen": 80.0
+        },
+        "volume_mm3": 359890.04569869215,
+        "area_mm2": 82231.89871709353,
+        "centroid_mm": [
+          -19.999999999999996,
+          333.0,
+          364.00000000000006
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -246.0,
+          "xmax": 206.0,
+          "ymin": 328.0,
+          "ymax": 338.0,
+          "zmin": 324.0,
+          "zmax": 404.0,
+          "xlen": 452.0,
+          "ylen": 10.0,
+          "zlen": 80.0
+        },
+        "volume_mm3": 359890.0456987164,
+        "area_mm2": 82231.89871709353,
+        "centroid_mm": [
+          -20.000000000000014,
+          333.0,
+          364.00000000000006
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      }
+    },
+    "drawer_tray_left_upper": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 323355.7500000007,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -240.00000000000003,
+          "xmax": 200.00000000000003,
+          "ymin": -340.0,
+          "ymax": -49.99999999999994,
+          "zmin": 320.0,
+          "zmax": 408.0,
+          "xlen": 440.00000000000006,
+          "ylen": 290.00000000000006,
+          "zlen": 88.0
+        },
+        "volume_mm3": 323355.7500000007,
+        "area_mm2": 433590.5,
+        "centroid_mm": [
+          -19.999999999999357,
+          -169.70562008716396,
+          338.7056200871648
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -240.00000000000003,
+          "xmax": 200.00000000000003,
+          "ymin": -340.0,
+          "ymax": -49.99999999999994,
+          "zmin": 320.0,
+          "zmax": 408.0,
+          "xlen": 440.00000000000006,
+          "ylen": 290.00000000000006,
+          "zlen": 88.0
+        },
+        "volume_mm3": 323355.7500000007,
+        "area_mm2": 433590.5,
+        "centroid_mm": [
+          -19.999999999999357,
+          -169.70562008716396,
+          338.7056200871648
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      }
+    },
+    "drawer_tray_right_upper": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 323355.75000000163,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -240.0,
+          "xmax": 200.0,
+          "ymin": 50.0,
+          "ymax": 340.0,
+          "zmin": 320.0,
+          "zmax": 408.0,
+          "xlen": 440.0,
+          "ylen": 290.0,
+          "zlen": 88.0
+        },
+        "volume_mm3": 323355.75000000163,
+        "area_mm2": 433590.5,
+        "centroid_mm": [
+          -20.000000000000107,
+          169.70562008716385,
+          338.70562008716456
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -240.0,
+          "xmax": 200.0,
+          "ymin": 50.0,
+          "ymax": 340.0,
+          "zmin": 320.0,
+          "zmax": 408.0,
+          "xlen": 440.0,
+          "ylen": 290.0,
+          "zlen": 88.0
+        },
+        "volume_mm3": 323355.75000000163,
+        "area_mm2": 433590.5,
+        "centroid_mm": [
+          -20.000000000000107,
+          169.70562008716385,
+          338.70562008716456
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      }
+    },
+    "drive_imu_controller": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 627200.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -70.0,
+          "xmax": 90.0,
+          "ymin": -70.0,
+          "ymax": 70.0,
+          "zmin": 211.0,
+          "zmax": 239.0,
+          "xlen": 160.0,
+          "ylen": 140.0,
+          "zlen": 28.0
+        },
+        "volume_mm3": 627200.0,
+        "area_mm2": 61599.999999999985,
+        "centroid_mm": [
+          9.999999999999996,
+          -8.120488408686861e-16,
+          225.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -70.0,
+          "xmax": 90.0,
+          "ymin": -70.0,
+          "ymax": 70.0,
+          "zmin": 211.0,
+          "zmax": 239.0,
+          "xlen": 160.0,
+          "ylen": 140.0,
+          "zlen": 28.0
+        },
+        "volume_mm3": 627200.0,
+        "area_mm2": 61599.999999999985,
+        "centroid_mm": [
+          9.999999999999996,
+          -8.120488408686861e-16,
+          225.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "encrypted_data_vault": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 723800.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": 221.0,
+          "xmax": 315.0,
+          "ymin": -180.0,
+          "ymax": -40.0,
+          "zmin": 300.0,
+          "zmax": 355.0,
+          "xlen": 94.0,
+          "ylen": 140.0,
+          "zlen": 55.0
+        },
+        "volume_mm3": 723800.0,
+        "area_mm2": 52059.99999999999,
+        "centroid_mm": [
+          268.0,
+          -110.0,
+          327.5
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": 221.0,
+          "xmax": 315.0,
+          "ymin": -180.0,
+          "ymax": -40.0,
+          "zmin": 300.0,
+          "zmax": 355.0,
+          "xlen": 94.0,
+          "ylen": 140.0,
+          "zlen": 55.0
+        },
+        "volume_mm3": 723800.0,
+        "area_mm2": 52059.99999999999,
+        "centroid_mm": [
+          268.0,
+          -110.0,
+          327.5
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "laptop_16in_keepout_right": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 2604561.734035237,
+      "symmetric_difference_volume_mm3": 2.7939677238464355e-09,
+      "symmetric_difference_tolerance_mm3": 0.02604561734035237,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 2.842170943040401e-14,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -202.5,
+          "xmax": 162.5,
+          "ymin": 62.5,
+          "ymax": 317.5,
+          "zmin": 335.0,
+          "zmax": 363.0,
+          "xlen": 365.0,
+          "ylen": 255.0,
+          "zlen": 28.0
+        },
+        "volume_mm3": 2604561.734035237,
+        "area_mm2": 220375.55736846788,
+        "centroid_mm": [
+          -20.000000000000004,
+          189.99999999999997,
+          349.0
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -202.5,
+          "xmax": 162.5,
+          "ymin": 62.5,
+          "ymax": 317.5,
+          "zmin": 335.0,
+          "zmax": 363.0,
+          "xlen": 365.0,
+          "ylen": 255.0,
+          "zlen": 28.0
+        },
+        "volume_mm3": 2604561.7340352405,
+        "area_mm2": 220375.55736846788,
+        "centroid_mm": [
+          -20.000000000000004,
+          190.0,
+          349.0
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      }
+    },
+    "occupant_energy_firewall": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 1088814.4250492577,
+      "symmetric_difference_volume_mm3": 6.984919309616089e-09,
+      "symmetric_difference_tolerance_mm3": 0.010888144250492577,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 1.7195134205394424e-12,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -415.0,
+          "xmax": 285.0,
+          "ymin": -260.0,
+          "ymax": 260.0,
+          "zmin": 417.0,
+          "zmax": 420.0,
+          "xlen": 700.0,
+          "ylen": 520.0,
+          "zlen": 3.0
+        },
+        "volume_mm3": 1088814.4250492577,
+        "area_mm2": 733686.3718201334,
+        "centroid_mm": [
+          -65.90697570863408,
+          1.122653090426788e-15,
+          418.50000000000006
+        ],
+        "solid_count": 1,
+        "face_count": 8,
+        "edge_count": 18
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -415.0,
+          "xmax": 285.0,
+          "ymin": -260.0,
+          "ymax": 260.0,
+          "zmin": 417.0,
+          "zmax": 420.0,
+          "xlen": 700.0,
+          "ylen": 520.0,
+          "zlen": 3.0
+        },
+        "volume_mm3": 1088814.4250492647,
+        "area_mm2": 733686.3718201332,
+        "centroid_mm": [
+          -65.90697570863236,
+          7.484353936178539e-16,
+          418.50000000000006
+        ],
+        "solid_count": 1,
+        "face_count": 8,
+        "edge_count": 18
+      }
+    },
+    "power_distribution_unit": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 1654400.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.016544,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": 221.0,
+          "xmax": 315.0,
+          "ymin": -220.0,
+          "ymax": 220.0,
+          "zmin": 370.0,
+          "zmax": 410.0,
+          "xlen": 94.0,
+          "ylen": 440.0,
+          "zlen": 40.0
+        },
+        "volume_mm3": 1654400.0,
+        "area_mm2": 125439.99999999997,
+        "centroid_mm": [
+          268.0,
+          -6.4385891846980995e-15,
+          390.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": 221.0,
+          "xmax": 315.0,
+          "ymin": -220.0,
+          "ymax": 220.0,
+          "zmin": 370.0,
+          "zmax": 410.0,
+          "xlen": 94.0,
+          "ylen": 440.0,
+          "zlen": 40.0
+        },
+        "volume_mm3": 1654400.0,
+        "area_mm2": 125439.99999999997,
+        "centroid_mm": [
+          268.0,
+          -6.4385891846980995e-15,
+          390.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "safety_backup_battery_24v60wh": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 450000.0,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 0.0,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": 100.0,
+          "xmax": 200.0,
+          "ymin": -50.0,
+          "ymax": 50.0,
+          "zmin": 249.5,
+          "zmax": 294.5,
+          "xlen": 100.0,
+          "ylen": 100.0,
+          "zlen": 45.0
+        },
+        "volume_mm3": 450000.0,
+        "area_mm2": 38000.0,
+        "centroid_mm": [
+          150.0,
+          2.021099337273174e-16,
+          272.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": 100.0,
+          "xmax": 200.0,
+          "ymin": -50.0,
+          "ymax": 50.0,
+          "zmin": 249.5,
+          "zmax": 294.5,
+          "xlen": 100.0,
+          "ylen": 100.0,
+          "zlen": 45.0
+        },
+        "volume_mm3": 450000.0,
+        "area_mm2": 38000.0,
+        "centroid_mm": [
+          150.0,
+          2.021099337273174e-16,
+          272.0
+        ],
+        "solid_count": 1,
+        "face_count": 6,
+        "edge_count": 12
+      }
+    },
+    "service_battery_disconnect_guarded": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 40488.05298271925,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 5.684341886080802e-14,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": 319.0,
+          "xmax": 327.0,
+          "ymin": -36.0,
+          "ymax": 36.0,
+          "zmin": 294.0,
+          "zmax": 366.0,
+          "xlen": 8.0,
+          "ylen": 72.0,
+          "zlen": 72.0
+        },
+        "volume_mm3": 40488.05298271925,
+        "area_mm2": 12151.461613455496,
+        "centroid_mm": [
+          323.0,
+          1.8868317618631826e-15,
+          330.00000000000006
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": 319.0,
+          "xmax": 327.0,
+          "ymin": -36.0,
+          "ymax": 36.0,
+          "zmin": 294.0,
+          "zmax": 366.0,
+          "xlen": 8.0,
+          "ylen": 72.0,
+          "zlen": 72.0
+        },
+        "volume_mm3": 40488.05298271672,
+        "area_mm2": 12151.461613455496,
+        "centroid_mm": [
+          323.0,
+          1.1680066193167485e-15,
+          330.0000000000001
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      }
+    },
+    "service_charge_port_guarded": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 40488.05298271926,
+      "symmetric_difference_volume_mm3": 0.0,
+      "symmetric_difference_tolerance_mm3": 0.01,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 5.684341886080802e-14,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": 319.0,
+          "xmax": 327.0,
+          "ymin": -176.0,
+          "ymax": -104.0,
+          "zmin": 224.0,
+          "zmax": 296.0,
+          "xlen": 8.0,
+          "ylen": 72.0,
+          "zlen": 72.0
+        },
+        "volume_mm3": 40488.05298271926,
+        "area_mm2": 12151.461613455498,
+        "centroid_mm": [
+          323.00000000000006,
+          -140.0,
+          260.00000000000006
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": 319.0,
+          "xmax": 327.0,
+          "ymin": -176.0,
+          "ymax": -104.0,
+          "zmin": 224.0,
+          "zmax": 296.0,
+          "xlen": 8.0,
+          "ylen": 72.0,
+          "zlen": 72.0
+        },
+        "volume_mm3": 40488.052982716734,
+        "area_mm2": 12151.461613455498,
+        "centroid_mm": [
+          323.00000000000006,
+          -140.0,
+          260.0
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      }
+    },
+    "universal_flat_device_keepout_left": {
+      "status": "PASS",
+      "boolean_error": null,
+      "common_volume_mm3": 2275351.8578948956,
+      "symmetric_difference_volume_mm3": 3.725290298461914e-09,
+      "symmetric_difference_tolerance_mm3": 0.022753518578948955,
+      "maximum_bound_delta_mm": 0.0,
+      "maximum_centroid_delta_mm": 3.552713678800501e-15,
+      "expected_signature": {
+        "bounds_mm": {
+          "xmin": -185.0,
+          "xmax": 145.0,
+          "ymin": -305.0,
+          "ymax": -75.0,
+          "zmin": 334.0,
+          "zmax": 364.0,
+          "xlen": 330.0,
+          "ylen": 230.0,
+          "zlen": 30.0
+        },
+        "volume_mm3": 2275351.8578948956,
+        "area_mm2": 184878.08833338268,
+        "centroid_mm": [
+          -20.000000000000004,
+          -190.00000000000003,
+          349.0000000000001
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      },
+      "reimported_signature": {
+        "bounds_mm": {
+          "xmin": -185.0,
+          "xmax": 145.0,
+          "ymin": -305.0,
+          "ymax": -75.0,
+          "zmin": 334.0,
+          "zmax": 364.0,
+          "xlen": 330.0,
+          "ylen": 230.0,
+          "zlen": 30.0
+        },
+        "volume_mm3": 2275351.857894899,
+        "area_mm2": 184878.08833338268,
+        "centroid_mm": [
+          -20.0,
+          -190.00000000000003,
+          349.0000000000001
+        ],
+        "solid_count": 1,
+        "face_count": 10,
+        "edge_count": 24
+      }
+    }
+  },
+  "generated_skin_shape_signature": {
+    "bounds_mm": {
+      "xmin": -620.0,
+      "xmax": 369.1750075267015,
+      "ymin": -375.5,
+      "ymax": 375.5,
+      "zmin": 8.599999899999995,
+      "zmax": 1492.0000001000008,
+      "xlen": 989.1750075267015,
+      "ylen": 751.0,
+      "zlen": 1483.4000002000007
+    },
+    "volume_mm3": 47249904.47803347,
+    "area_mm2": 13315147.752787512,
+    "centroid_mm": [
+      -44.06333777345068,
+      0.29719006986357804,
+      492.62226142489607
+    ],
+    "solid_count": 212,
+    "face_count": 7130,
+    "edge_count": 16536
+  },
+  "expected_full_layout_shape_signature": {
+    "bounds_mm": {
+      "xmin": -620.0,
+      "xmax": 369.1750075267015,
+      "ymin": -375.5,
+      "ymax": 375.5,
+      "zmin": 0.0,
+      "zmax": 1492.0000001000008,
+      "xlen": 989.1750075267015,
+      "ylen": 751.0,
+      "zlen": 1492.0000001000008
+    },
+    "volume_mm3": 103400010.30209476,
+    "area_mm2": 22637665.676928397,
+    "centroid_mm": [
+      -12.12650609063099,
+      1.013338388813031,
+      373.2260228638751
+    ],
+    "solid_count": 337,
+    "face_count": 8141,
+    "edge_count": 18794
+  },
+  "reimported_full_layout_shape_signature": {
+    "bounds_mm": {
+      "xmin": -620.0,
+      "xmax": 369.1750075266987,
+      "ymin": -375.5,
+      "ymax": 375.5,
+      "zmin": 0.0,
+      "zmax": 1492.0000001000003,
+      "xlen": 989.1750075266987,
+      "ylen": 751.0,
+      "zlen": 1492.0000001000003
+    },
+    "volume_mm3": 103400008.55636944,
+    "area_mm2": 22637665.696926627,
+    "centroid_mm": [
+      -12.126511489259874,
+      1.0133397828001014,
+      373.22602119523094
+    ],
+    "solid_count": 337,
+    "face_count": 8217,
+    "edge_count": 19045
+  },
+  "roundtrip_delta": {
+    "max_bound_abs_mm": 2.7853275241795927e-12,
+    "volume_relative": 1.6883221903838782e-08,
+    "volume_absolute_mm3": 1.7457253187894821,
+    "area_relative": 8.834051322020789e-10,
+    "area_absolute_mm2": 0.019998230040073395,
+    "centroid_max_abs_mm": 5.398628884378809e-06
+  },
+  "component_signature_arithmetic": {
+    "solid_count": {
+      "component_total": 337,
+      "expected_compound": 337,
+      "exact": true
+    },
+    "volume_mm3": {
+      "component_total": 103400047.05274926,
+      "expected_compound": 103400010.30209476,
+      "absolute_delta": 36.75065450370312,
+      "tolerance": 1034.0004705274928,
+      "within_tolerance": true
+    },
+    "area_mm2": {
+      "component_total": 22637665.676928323,
+      "expected_compound": 22637665.676928397,
+      "absolute_delta": 7.450580596923828e-08,
+      "tolerance": 226.37665676928324,
+      "within_tolerance": true
+    }
+  },
+  "physical_inclusion_assertions": {
+    "controlled_source_hash_pinned": true,
+    "required_battery_equipment_and_device_products_present_exactly_once": true,
+    "required_battery_equipment_and_device_breps_and_poses_identical": true,
+    "replaced_and_retired_source_occurrences_absent": true,
+    "required_replacement_proxies_present_exactly_once": true,
+    "source_and_skin_solid_counts_add": true,
+    "source_and_skin_mass_properties_add": true,
+    "final_step_reimport_valid": true,
+    "final_step_roundtrip_within_tolerance": true
+  },
+  "critical_internal_packaging_gate": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/qa/critical_internal_packaging_focus.json",
+  "critical_internal_packaging_gate_sha256": "727e3659f05820bcb9aea19947c7e4e130d5eb2f415e4fcc185e93382ecd007b"
+}

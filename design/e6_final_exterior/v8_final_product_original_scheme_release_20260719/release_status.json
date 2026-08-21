@@ -1,0 +1,17 @@
+{
+  "status": "RENDER_SERIES_COMPLETE_PENDING_VISUAL_REVIEW",
+  "production_certification_claimed": false,
+  "complete_manufacturing_bom_claimed": false,
+  "step_count": 8,
+  "glb_count": 8,
+  "render_count": 32,
+  "state_count": 4,
+  "full_layout_internal_inventory": "PASS",
+  "critical_internal_packaging": "PASS",
+  "source_disposition_full_proxy_closure": "PASS",
+  "a07_direct_brep_four_state": "PASS",
+  "focus_root_neck_direct_brep": "PASS",
+  "cafe_table_deployment_clearance": "PASS",
+  "manifest": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/layout_appearance_manifest.json",
+  "next_review_phase": "human semantic review of silhouette simplicity, concealed function, material coherence and four-state physical continuity"
+}

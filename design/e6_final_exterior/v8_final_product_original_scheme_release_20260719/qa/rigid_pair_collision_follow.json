@@ -1,0 +1,4113 @@
+{
+  "gate": "rigid_pair_collision_report",
+  "state": "follow",
+  "status": "PASS",
+  "part_count": 182,
+  "possible_pair_count": 16471,
+  "broadphase_candidate_count": 256,
+  "exact_boolean_count": 256,
+  "hard_collision_count": 0,
+  "interference_volume_mm3": 0.1,
+  "numerical_epsilon_mm3": 1e-06,
+  "pairs": [
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A01_perception_horizon_carrier",
+      "bbox_overlap_lengths_mm": [
+        113.99381531795649,
+        430.0,
+        143.0
+      ],
+      "bbox_overlap_volume_mm3": 7009479.703901145,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_left_tof_window",
+      "b": "A01_front_nose_shell",
+      "bbox_overlap_lengths_mm": [
+        4.0,
+        52.0,
+        24.0
+      ],
+      "bbox_overlap_volume_mm3": 4992.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A01_front_right_tof_window",
+      "bbox_overlap_lengths_mm": [
+        4.0,
+        52.0,
+        24.0
+      ],
+      "bbox_overlap_volume_mm3": 4992.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_leg_scanner_window",
+      "b": "A01_front_nose_shell",
+      "bbox_overlap_lengths_mm": [
+        4.0,
+        78.0,
+        24.0
+      ],
+      "bbox_overlap_volume_mm3": 7488.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A01_front_tactile_bumper_skin",
+      "bbox_overlap_lengths_mm": [
+        9.000000100000022,
+        500.0,
+        24.0
+      ],
+      "bbox_overlap_volume_mm3": 108000.00120000028,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A04_underseat_belly_closeout",
+      "bbox_overlap_lengths_mm": [
+        16.000000200000045,
+        280.0000002,
+        61.455013357109465
+      ],
+      "bbox_overlap_volume_mm3": 275318.46347798797,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_footrest_top_skin",
+      "bbox_overlap_lengths_mm": [
+        103.00000010000002,
+        496.0,
+        6.0
+      ],
+      "bbox_overlap_volume_mm3": 306528.00029760005,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_footrest_inset_tread",
+      "bbox_overlap_lengths_mm": [
+        92.00000010000002,
+        468.0,
+        3.0
+      ],
+      "bbox_overlap_volume_mm3": 129168.00014040002,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        105.00000010000002,
+        500.0,
+        10.0
+      ],
+      "bbox_overlap_volume_mm3": 525000.0005000001,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A04_front_waist_fascia",
+      "bbox_overlap_lengths_mm": [
+        64.00000020000016,
+        526.0000002,
+        6.255013357109419
+      ],
+      "bbox_overlap_volume_mm3": 210568.77039182358,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_foot_zone_interlock_channel_a",
+      "bbox_overlap_lengths_mm": [
+        20.0,
+        10.0,
+        16.0
+      ],
+      "bbox_overlap_volume_mm3": 3200.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_foot_zone_interlock_channel_b",
+      "bbox_overlap_lengths_mm": [
+        20.0,
+        10.0,
+        16.0
+      ],
+      "bbox_overlap_volume_mm3": 3200.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_footrest_drop_link_left_front",
+      "bbox_overlap_lengths_mm": [
+        8.000000200000045,
+        4.000000199999988,
+        26.3606798949979
+      ],
+      "bbox_overlap_volume_mm3": 843.541819905568,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_footrest_drop_link_left_front_upper_bearing",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.899999999999977
+      ],
+      "bbox_overlap_volume_mm3": 139.23999999999893,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_footrest_drop_link_left_front_upper_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        10.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 144.3999999999987,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_footrest_drop_link_right_front",
+      "bbox_overlap_lengths_mm": [
+        8.000000200000045,
+        4.000000199999988,
+        26.3606798949979
+      ],
+      "bbox_overlap_volume_mm3": 843.541819905568,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_footrest_drop_link_right_front_upper_bearing",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.899999999999977
+      ],
+      "bbox_overlap_volume_mm3": 139.23999999999893,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_footrest_drop_link_right_front_upper_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        10.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 144.3999999999987,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        94.00000020000004,
+        476.0000002,
+        29.346016449333803
+      ],
+      "bbox_overlap_volume_mm3": 1313058.163354438,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_nose_shell",
+      "b": "A08_footrest_root_monocoque",
+      "bbox_overlap_lengths_mm": [
+        20.000000100000022,
+        526.0000002,
+        40.36067979499791
+      ],
+      "bbox_overlap_volume_mm3": 424594.353727793,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_left_tof_window",
+      "b": "A01_perception_horizon_carrier",
+      "bbox_overlap_lengths_mm": [
+        4.0,
+        52.0,
+        24.0
+      ],
+      "bbox_overlap_volume_mm3": 4992.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_right_tof_window",
+      "b": "A01_perception_horizon_carrier",
+      "bbox_overlap_lengths_mm": [
+        4.0,
+        52.0,
+        24.0
+      ],
+      "bbox_overlap_volume_mm3": 4992.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_leg_scanner_window",
+      "b": "A01_perception_horizon_carrier",
+      "bbox_overlap_lengths_mm": [
+        4.0,
+        78.0,
+        24.0
+      ],
+      "bbox_overlap_volume_mm3": 7488.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_perception_horizon_carrier",
+      "b": "A04_underseat_belly_closeout",
+      "bbox_overlap_lengths_mm": [
+        7.993815317956489,
+        280.0000002,
+        44.00000010000002
+      ],
+      "bbox_overlap_volume_mm3": 98483.8050113964,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_perception_horizon_carrier",
+      "b": "A08_foot_zone_interlock_channel_a",
+      "bbox_overlap_lengths_mm": [
+        20.0,
+        10.0,
+        16.0
+      ],
+      "bbox_overlap_volume_mm3": 3200.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_perception_horizon_carrier",
+      "b": "A08_foot_zone_interlock_channel_b",
+      "bbox_overlap_lengths_mm": [
+        20.0,
+        10.0,
+        16.0
+      ],
+      "bbox_overlap_volume_mm3": 3200.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A01_front_tactile_bumper_skin",
+      "b": "A08_footrest_root_monocoque",
+      "bbox_overlap_lengths_mm": [
+        12.0,
+        500.0,
+        12.0
+      ],
+      "bbox_overlap_volume_mm3": 72000.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A02_main_side_shell_left",
+      "b": "A04_front_waist_fascia",
+      "bbox_overlap_lengths_mm": [
+        114.00000020330793,
+        6.000000200000102,
+        43.1442924788206
+      ],
+      "bbox_overlap_volume_mm3": 29510.697091833124,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A02_main_side_shell_left",
+      "b": "A08_footrest_support_monocoque_left",
+      "bbox_overlap_lengths_mm": [
+        158.00000010000002,
+        5.000000100000079,
+        32.54734052162317
+      ],
+      "bbox_overlap_volume_mm3": 25712.39954260437,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A02_main_side_shell_right",
+      "b": "A04_front_waist_fascia",
+      "bbox_overlap_lengths_mm": [
+        114.00000020330793,
+        6.000000200000102,
+        43.1442924788206
+      ],
+      "bbox_overlap_volume_mm3": 29510.697091833124,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A02_main_side_shell_right",
+      "b": "A08_footrest_support_monocoque_right",
+      "bbox_overlap_lengths_mm": [
+        158.00000010000002,
+        5.000000100000079,
+        32.54734052162317
+      ],
+      "bbox_overlap_volume_mm3": 25712.39954260437,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_left",
+      "b": "A03_wheel_interspace_bridge_left",
+      "bbox_overlap_lengths_mm": [
+        286.0,
+        20.000000200000045,
+        82.0000001
+      ],
+      "bbox_overlap_volume_mm3": 469040.005262401,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_right",
+      "b": "A03_wheel_interspace_bridge_right",
+      "bbox_overlap_lengths_mm": [
+        286.0,
+        20.000000200000045,
+        82.0000001
+      ],
+      "bbox_overlap_volume_mm3": 469040.005262401,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_open_u_seat_pan_ring",
+      "b": "A04_open_u_seat_pan_ring_service_segment_2",
+      "bbox_overlap_lengths_mm": [
+        401.59745756588256,
+        34.000000200000045,
+        28.000000200000045
+      ],
+      "bbox_overlap_volume_mm3": 382320.7845825298,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_open_u_seat_pan_ring",
+      "b": "A04_open_u_seat_pan_ring_service_segment_3",
+      "bbox_overlap_lengths_mm": [
+        401.5974575658827,
+        34.00000020015068,
+        28.000000200000102
+      ],
+      "bbox_overlap_volume_mm3": 382320.7845842245,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_open_u_seat_pan_ring",
+      "b": "A04_seat_cushion_contact_island",
+      "bbox_overlap_lengths_mm": [
+        435.169180972031,
+        592.4981032123919,
+        28.000000200000102
+      ],
+      "bbox_overlap_volume_mm3": 7219433.652035126,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_open_u_seat_pan_ring",
+      "b": "A04_recovery_handle_grip_shell",
+      "bbox_overlap_lengths_mm": [
+        31.000000199999988,
+        556.0000002,
+        3.5787678957795492
+      ],
+      "bbox_overlap_volume_mm3": 61683.643871803644,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_open_u_seat_pan_ring",
+      "b": "A05_armrest_table_bay_shell_left",
+      "bbox_overlap_lengths_mm": [
+        520.0000002000002,
+        40.0000002000001,
+        28.000000200000102
+      ],
+      "bbox_overlap_volume_mm3": 582400.0072960039,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_open_u_seat_pan_ring",
+      "b": "A05_armrest_table_bay_shell_right",
+      "bbox_overlap_lengths_mm": [
+        520.0000002000002,
+        40.00000020015045,
+        28.000000200000102
+      ],
+      "bbox_overlap_volume_mm3": 582400.0072981929,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_open_u_seat_pan_ring_service_segment_2",
+      "b": "A05_armrest_table_bay_shell_left",
+      "bbox_overlap_lengths_mm": [
+        401.59745756588256,
+        34.000000200000045,
+        28.000000200000102
+      ],
+      "bbox_overlap_volume_mm3": 382320.7845825306,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_open_u_seat_pan_ring_service_segment_3",
+      "b": "A05_armrest_table_bay_shell_right",
+      "bbox_overlap_lengths_mm": [
+        401.5974575658827,
+        34.00000020034912,
+        28.000000200093723
+      ],
+      "bbox_overlap_volume_mm3": 382320.78458773426,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_front_waist_fascia",
+      "b": "A04_seat_cushion_contact_island",
+      "bbox_overlap_lengths_mm": [
+        3.4603104624802654,
+        592.4981032123919,
+        38.000000200001125
+      ],
+      "bbox_overlap_volume_mm3": 77908.64106077875,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_seat_cushion_contact_island",
+      "b": "A06_backrest_weather_shell",
+      "bbox_overlap_lengths_mm": [
+        472.70205549726825,
+        592.4981032123919,
+        20.934790429875648
+      ],
+      "bbox_overlap_volume_mm3": 5863312.9216014845,
+      "common_volume_mm3": 63699.89019143994,
+      "classification": "allowlisted_interference",
+      "allowlisted": true,
+      "allowlist_reason": "Intentional unoccupied Follow preload into the explicitly non-rigid foam cushion; bounded by release check a04_a06.follow.compliant_cushion_preload_bounded_and_state_exclusive. Supplier compression-set data, occupied-fold interlock and physical cycle validation remain mandatory.",
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_seat_cushion_contact_island",
+      "b": "A06_backrest_hinge_shaft",
+      "bbox_overlap_lengths_mm": [
+        26.169180973848142,
+        592.4981032123919,
+        11.000000200000727
+      ],
+      "bbox_overlap_volume_mm3": 170557.09408694453,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_daily_caddy_flush_hatch",
+      "b": "A04_underseat_belly_closeout",
+      "bbox_overlap_lengths_mm": [
+        340.0,
+        230.0,
+        4.0
+      ],
+      "bbox_overlap_volume_mm3": 312800.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_front_waist_fascia",
+      "b": "A04_underseat_belly_closeout",
+      "bbox_overlap_lengths_mm": [
+        66.00000020330782,
+        280.0000002,
+        24.422485336529633
+      ],
+      "bbox_overlap_volume_mm3": 451327.5307317234,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_upper_equipment_door_left",
+      "b": "A04_upper_equipment_release_left",
+      "bbox_overlap_lengths_mm": [
+        30.0,
+        2.0,
+        10.0
+      ],
+      "bbox_overlap_volume_mm3": 600.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_side_uwb_radome_left",
+      "b": "A04_upper_equipment_door_left",
+      "bbox_overlap_lengths_mm": [
+        120.0,
+        2.0,
+        20.0
+      ],
+      "bbox_overlap_volume_mm3": 4800.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_upper_equipment_door_right",
+      "b": "A04_upper_equipment_release_right",
+      "bbox_overlap_lengths_mm": [
+        30.0,
+        2.0,
+        10.0
+      ],
+      "bbox_overlap_volume_mm3": 600.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_side_uwb_radome_right",
+      "b": "A04_upper_equipment_door_right",
+      "bbox_overlap_lengths_mm": [
+        120.0,
+        2.0,
+        20.0
+      ],
+      "bbox_overlap_volume_mm3": 4800.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_recovery_handle_grip_inlay",
+      "b": "A04_recovery_handle_grip_shell",
+      "bbox_overlap_lengths_mm": [
+        42.0,
+        360.0,
+        3.0
+      ],
+      "bbox_overlap_volume_mm3": 45360.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        8.000000200000045,
+        4.000000199999988,
+        4.000000099999994
+      ],
+      "bbox_overlap_volume_mm3": 128.00001280000055,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front_upper_bearing",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        2.9499999999999886
+      ],
+      "bbox_overlap_volume_mm3": 69.61999999999946,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front_upper_guarded_pin",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        10.0,
+        1.9000000000000057
+      ],
+      "bbox_overlap_volume_mm3": 72.19999999999935,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        8.000000200000045,
+        4.000000199999988,
+        4.000000099999994
+      ],
+      "bbox_overlap_volume_mm3": 128.00001280000055,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear_upper_bearing",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        2.9499999999999886
+      ],
+      "bbox_overlap_volume_mm3": 69.61999999999946,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear_upper_guarded_pin",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        10.0,
+        1.9000000000000057
+      ],
+      "bbox_overlap_volume_mm3": 72.19999999999935,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        8.000000200000045,
+        4.000000199999988,
+        4.000000099999994
+      ],
+      "bbox_overlap_volume_mm3": 128.00001280000055,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front_upper_bearing",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        2.9499999999999886
+      ],
+      "bbox_overlap_volume_mm3": 69.61999999999946,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front_upper_guarded_pin",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        10.0,
+        1.9000000000000057
+      ],
+      "bbox_overlap_volume_mm3": 72.19999999999935,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        8.000000200000045,
+        4.000000199999988,
+        4.000000099999994
+      ],
+      "bbox_overlap_volume_mm3": 128.00001280000055,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear_upper_bearing",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        2.9499999999999886
+      ],
+      "bbox_overlap_volume_mm3": 69.61999999999946,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear_upper_guarded_pin",
+      "b": "A08_footrest_perimeter_skin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        10.0,
+        1.9000000000000057
+      ],
+      "bbox_overlap_volume_mm3": 72.19999999999935,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_perimeter_skin",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        185.5051575718914,
+        476.0000002,
+        6.985336654335896
+      ],
+      "bbox_overlap_volume_mm3": 616808.4051946808,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_root_monocoque",
+      "b": "A08_manual_release_paddle_shell",
+      "bbox_overlap_lengths_mm": [
+        9.5,
+        80.00000020000002,
+        19.0
+      ],
+      "bbox_overlap_volume_mm3": 14440.000036100002,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_flush_service_door_skin",
+      "b": "A10_rear_service_surround",
+      "bbox_overlap_lengths_mm": [
+        3.0,
+        366.0,
+        206.0
+      ],
+      "bbox_overlap_volume_mm3": 226188.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_service_surround",
+      "b": "A10_rear_status_lens",
+      "bbox_overlap_lengths_mm": [
+        2.0,
+        140.0,
+        7.0
+      ],
+      "bbox_overlap_volume_mm3": 1960.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_service_surround",
+      "b": "A10_rear_tof_window",
+      "bbox_overlap_lengths_mm": [
+        2.0,
+        50.0,
+        22.0
+      ],
+      "bbox_overlap_volume_mm3": 2200.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_service_surround",
+      "b": "A10_rear_uwb_radome",
+      "bbox_overlap_lengths_mm": [
+        2.0,
+        80.0,
+        24.0
+      ],
+      "bbox_overlap_volume_mm3": 3840.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_horn_acoustic_mesh",
+      "b": "A10_rear_service_surround",
+      "bbox_overlap_lengths_mm": [
+        2.0,
+        64.0,
+        28.0
+      ],
+      "bbox_overlap_volume_mm3": 3584.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_service_external_release_guard",
+      "b": "A10_rear_service_surround",
+      "bbox_overlap_lengths_mm": [
+        3.0000001000000225,
+        36.0,
+        36.0
+      ],
+      "bbox_overlap_volume_mm3": 3888.000129600029,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_service_external_no_power_release",
+      "b": "A10_rear_service_surround",
+      "bbox_overlap_lengths_mm": [
+        2.0000001000000225,
+        22.0,
+        22.0
+      ],
+      "bbox_overlap_volume_mm3": 968.0000484000109,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_service_pull_cup",
+      "b": "A10_rear_service_surround",
+      "bbox_overlap_lengths_mm": [
+        6.0000001000000225,
+        70.0,
+        30.0
+      ],
+      "bbox_overlap_volume_mm3": 12600.000210000047,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_service_pull_grip_inlay",
+      "b": "A10_rear_service_surround",
+      "bbox_overlap_lengths_mm": [
+        2.0,
+        50.0,
+        10.0
+      ],
+      "bbox_overlap_volume_mm3": 1000.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_pressure_relief_vent_bezel",
+      "b": "A10_rear_service_surround",
+      "bbox_overlap_lengths_mm": [
+        2.5000001000000225,
+        76.0,
+        66.0
+      ],
+      "bbox_overlap_volume_mm3": 12540.000501600112,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_manual_release",
+      "b": "A10_rear_service_surround",
+      "bbox_overlap_lengths_mm": [
+        9.000000100269403,
+        34.0000002,
+        10.000000100000022
+      ],
+      "bbox_overlap_volume_mm3": 3060.0000826916053,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_flush_service_door_skin",
+      "b": "A10_rear_service_external_release_guard",
+      "bbox_overlap_lengths_mm": [
+        0.5,
+        36.0,
+        36.0
+      ],
+      "bbox_overlap_volume_mm3": 648.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_flush_service_door_skin",
+      "b": "A10_rear_service_pull_cup",
+      "bbox_overlap_lengths_mm": [
+        3.0,
+        70.0,
+        30.0
+      ],
+      "bbox_overlap_volume_mm3": 6300.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_flush_service_door_skin",
+      "b": "A10_rear_service_pull_grip_inlay",
+      "bbox_overlap_lengths_mm": [
+        1.0,
+        50.0,
+        10.0
+      ],
+      "bbox_overlap_volume_mm3": 500.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_service_external_no_power_release",
+      "b": "A10_rear_service_external_release_guard",
+      "bbox_overlap_lengths_mm": [
+        3.0,
+        22.0,
+        22.0
+      ],
+      "bbox_overlap_volume_mm3": 1452.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A10_rear_service_pull_cup",
+      "b": "A10_rear_service_pull_grip_inlay",
+      "bbox_overlap_lengths_mm": [
+        2.0,
+        50.0,
+        10.0
+      ],
+      "bbox_overlap_volume_mm3": 1000.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A05_table_root_structural_cassette_left",
+      "bbox_overlap_lengths_mm": [
+        3.0,
+        32.0,
+        185.0
+      ],
+      "bbox_overlap_volume_mm3": 17760.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A05_armrest_touch_lid_left",
+      "bbox_overlap_lengths_mm": [
+        620.0000001000001,
+        57.50000020000016,
+        8.606575859656232
+      ],
+      "bbox_overlap_volume_mm3": 306824.4305134487,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A05_armrest_top_lid_release_left",
+      "bbox_overlap_lengths_mm": [
+        36.0,
+        2.0000001000000793,
+        12.0
+      ],
+      "bbox_overlap_volume_mm3": 864.0000432000343,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A05_table_cassette_lowpoint_drain_left",
+      "bbox_overlap_lengths_mm": [
+        30.0,
+        1.0000001000000793,
+        14.0
+      ],
+      "bbox_overlap_volume_mm3": 420.0000420000333,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A05_left_hmi_precision_bezel",
+      "bbox_overlap_lengths_mm": [
+        138.28447707509972,
+        53.70268862104547,
+        3.193012126961662
+      ],
+      "bbox_overlap_volume_mm3": 23712.10060349514,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A05_left_status_display_window",
+      "bbox_overlap_lengths_mm": [
+        124.28002519201527,
+        47.66675068538882,
+        2.374306803342961
+      ],
+      "bbox_overlap_volume_mm3": 14065.4528036943,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A05_left_emergency_stop_guard",
+      "bbox_overlap_lengths_mm": [
+        44.0,
+        8.0,
+        44.0
+      ],
+      "bbox_overlap_volume_mm3": 15488.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A05_left_mechanical_emergency_stop",
+      "bbox_overlap_lengths_mm": [
+        30.0,
+        6.000000100000079,
+        30.0
+      ],
+      "bbox_overlap_volume_mm3": 5400.000090000071,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A05_follow_neutral_status_witness",
+      "bbox_overlap_lengths_mm": [
+        92.0,
+        0.5000001000000793,
+        12.0
+      ],
+      "bbox_overlap_volume_mm3": 552.0001104000876,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A06_backrest_hinge_shaft",
+      "bbox_overlap_lengths_mm": [
+        52.000000206061884,
+        32.00000010000008,
+        52.00000019999999
+      ],
+      "bbox_overlap_volume_mm3": 86528.00094608717,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A06_backrest_hinge_bearing_left",
+      "bbox_overlap_lengths_mm": [
+        46.000000099999994,
+        40.00000010000008,
+        103.50000009999997
+      ],
+      "bbox_overlap_volume_mm3": 190440.0010741003,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A06_backrest_positive_lock_left",
+      "bbox_overlap_lengths_mm": [
+        8.0,
+        8.0,
+        60.0
+      ],
+      "bbox_overlap_volume_mm3": 3840.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_left",
+      "b": "A06_backrest_lock_witness_left",
+      "bbox_overlap_lengths_mm": [
+        12.0,
+        4.0,
+        8.0
+      ],
+      "bbox_overlap_volume_mm3": 384.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_top_lid_hinge_reveal_left",
+      "b": "A05_armrest_touch_lid_left",
+      "bbox_overlap_lengths_mm": [
+        500.0,
+        1.0,
+        2.0
+      ],
+      "bbox_overlap_volume_mm3": 1000.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_touch_lid_left",
+      "b": "A05_left_hmi_precision_bezel",
+      "bbox_overlap_lengths_mm": [
+        138.28447707509972,
+        61.40537704209078,
+        23.386024053841993
+      ],
+      "bbox_overlap_volume_mm3": 198580.3291251289,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_touch_lid_left",
+      "b": "A05_left_status_display_window",
+      "bbox_overlap_lengths_mm": [
+        124.28002519201527,
+        49.33350117077748,
+        21.748613406604704
+      ],
+      "bbox_overlap_volume_mm3": 133344.41927272166,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_touch_lid_left",
+      "b": "A05_left_qi_phone_cradle",
+      "bbox_overlap_lengths_mm": [
+        176.0,
+        86.0,
+        1.0
+      ],
+      "bbox_overlap_volume_mm3": 15136.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_touch_lid_left",
+      "b": "A05_left_qi_target_ring",
+      "bbox_overlap_lengths_mm": [
+        56.0,
+        56.0,
+        0.25
+      ],
+      "bbox_overlap_volume_mm3": 784.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_touch_lid_left",
+      "b": "A05_left_qi_phone_stop_front",
+      "bbox_overlap_lengths_mm": [
+        4.0,
+        80.0,
+        3.0
+      ],
+      "bbox_overlap_volume_mm3": 960.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_touch_lid_left",
+      "b": "A05_left_qi_phone_stop_rear",
+      "bbox_overlap_lengths_mm": [
+        4.0,
+        80.0,
+        3.0
+      ],
+      "bbox_overlap_volume_mm3": 960.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_touch_lid_left",
+      "b": "A06_backrest_weather_shell",
+      "bbox_overlap_lengths_mm": [
+        503.4157556712379,
+        25.500000100000022,
+        29.213151519231587
+      ],
+      "bbox_overlap_volume_mm3": 375012.20053424104,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_A05_integrated_side_sail_left",
+      "b": "A05_table_cassette_lowpoint_drain_left",
+      "bbox_overlap_lengths_mm": [
+        30.0,
+        1.0000000000000568,
+        14.0
+      ],
+      "bbox_overlap_volume_mm3": 420.0000000000239,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_left_hmi_precision_bezel",
+      "b": "A05_left_status_display_window",
+      "bbox_overlap_lengths_mm": [
+        124.28002519201527,
+        49.33350117077748,
+        21.748613406604704
+      ],
+      "bbox_overlap_volume_mm3": 133344.41927272166,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_left_hmi_precision_bezel",
+      "b": "A06_backrest_weather_shell",
+      "bbox_overlap_lengths_mm": [
+        119.31624907069195,
+        0.7026886210454109,
+        23.386024053841993
+      ],
+      "bbox_overlap_volume_mm3": 1960.7350166893436,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_left_qi_phone_cradle",
+      "b": "A06_backrest_weather_shell",
+      "bbox_overlap_lengths_mm": [
+        176.0,
+        23.500000100000022,
+        1.0
+      ],
+      "bbox_overlap_volume_mm3": 4136.000017600004,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_left_qi_target_ring",
+      "b": "A06_backrest_weather_shell",
+      "bbox_overlap_lengths_mm": [
+        56.0,
+        8.500000100000022,
+        0.25
+      ],
+      "bbox_overlap_volume_mm3": 119.00000140000031,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_left_qi_phone_stop_front",
+      "b": "A06_backrest_weather_shell",
+      "bbox_overlap_lengths_mm": [
+        4.0,
+        20.500000100000022,
+        3.0
+      ],
+      "bbox_overlap_volume_mm3": 246.00000120000027,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_left_qi_phone_stop_rear",
+      "b": "A06_backrest_weather_shell",
+      "bbox_overlap_lengths_mm": [
+        4.0,
+        20.500000100000022,
+        3.0
+      ],
+      "bbox_overlap_volume_mm3": 246.00000120000027,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_left_emergency_stop_guard",
+      "b": "A05_left_mechanical_emergency_stop",
+      "bbox_overlap_lengths_mm": [
+        30.0,
+        4.0,
+        30.0
+      ],
+      "bbox_overlap_volume_mm3": 3600.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_right",
+      "b": "A05_table_root_structural_cassette_right",
+      "bbox_overlap_lengths_mm": [
+        3.0,
+        32.0,
+        185.0
+      ],
+      "bbox_overlap_volume_mm3": 17760.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_right",
+      "b": "A05_armrest_touch_lid_right",
+      "bbox_overlap_lengths_mm": [
+        620.0000001000001,
+        57.50000020000033,
+        2.0000709355372237e-07
+      ],
+      "bbox_overlap_volume_mm3": 0.007130252911141164,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_right",
+      "b": "A05_armrest_top_lid_release_right",
+      "bbox_overlap_lengths_mm": [
+        36.0,
+        2.00000010000025,
+        12.0
+      ],
+      "bbox_overlap_volume_mm3": 864.0000432001079,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_right",
+      "b": "A05_table_cassette_lowpoint_drain_right",
+      "bbox_overlap_lengths_mm": [
+        30.0,
+        1.0000001000000793,
+        14.0
+      ],
+      "bbox_overlap_volume_mm3": 420.0000420000333,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_right",
+      "b": "A06_backrest_hinge_shaft",
+      "bbox_overlap_lengths_mm": [
+        52.000000206061884,
+        32.00000010000025,
+        52.00000019999999
+      ],
+      "bbox_overlap_volume_mm3": 86528.00094608763,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_right",
+      "b": "A06_backrest_hinge_bearing_right",
+      "bbox_overlap_lengths_mm": [
+        46.000000099999994,
+        40.00000010000025,
+        103.50000009999997
+      ],
+      "bbox_overlap_volume_mm3": 190440.0010741011,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_right",
+      "b": "A06_backrest_positive_lock_right",
+      "bbox_overlap_lengths_mm": [
+        8.0,
+        8.0,
+        60.0
+      ],
+      "bbox_overlap_volume_mm3": 3840.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_table_bay_shell_right",
+      "b": "A06_backrest_lock_witness_right",
+      "bbox_overlap_lengths_mm": [
+        12.0,
+        4.0,
+        8.0
+      ],
+      "bbox_overlap_volume_mm3": 384.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_touch_lid_right",
+      "b": "A05_right_table_root_tongue_compression_gland",
+      "bbox_overlap_lengths_mm": [
+        15.0,
+        27.0,
+        1.0000007932831068e-07
+      ],
+      "bbox_overlap_volume_mm3": 4.0500032127965824e-05,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_armrest_top_lid_hinge_reveal_right",
+      "b": "A05_armrest_touch_lid_right",
+      "bbox_overlap_lengths_mm": [
+        500.0,
+        1.0,
+        2.0
+      ],
+      "bbox_overlap_volume_mm3": 1000.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_A05_integrated_side_sail_right",
+      "b": "A05_table_cassette_lowpoint_drain_right",
+      "bbox_overlap_lengths_mm": [
+        30.0,
+        1.0000000000000568,
+        14.0
+      ],
+      "bbox_overlap_volume_mm3": 420.0000000000239,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_right_joystick",
+      "b": "A05_right_removable_drive_pod",
+      "bbox_overlap_lengths_mm": [
+        32.000000200000045,
+        32.000000200000045,
+        2.0000000999999656
+      ],
+      "bbox_overlap_volume_mm3": 2048.000127999972,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_right_authorisation_key",
+      "b": "A05_right_removable_drive_pod",
+      "bbox_overlap_lengths_mm": [
+        29.0,
+        29.0,
+        1.0
+      ],
+      "bbox_overlap_volume_mm3": 841.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A05_follow_external_emergency_stop_guard",
+      "b": "A05_follow_external_mechanical_emergency_stop",
+      "bbox_overlap_lengths_mm": [
+        30.0,
+        7.0,
+        30.0
+      ],
+      "bbox_overlap_volume_mm3": 6300.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_A05_integrated_side_sail_left",
+      "b": "A05_follow_neutral_status_witness",
+      "bbox_overlap_lengths_mm": [
+        92.0,
+        1.5000000000000568,
+        12.0
+      ],
+      "bbox_overlap_volume_mm3": 1656.0000000000628,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_A05_integrated_side_sail_left",
+      "b": "A04_side_uwb_replaceable_bezel_left",
+      "bbox_overlap_lengths_mm": [
+        132.0,
+        0.5000000000000568,
+        32.0
+      ],
+      "bbox_overlap_volume_mm3": 2112.00000000024,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A04_A05_integrated_side_sail_right",
+      "b": "A04_side_uwb_replaceable_bezel_right",
+      "bbox_overlap_lengths_mm": [
+        132.0,
+        0.5000000000000568,
+        32.0
+      ],
+      "bbox_overlap_volume_mm3": 2112.00000000024,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_left",
+      "b": "A03_wheel_end_service_cap_front_left",
+      "bbox_overlap_lengths_mm": [
+        108.0,
+        1.100000100000102,
+        104.0
+      ],
+      "bbox_overlap_volume_mm3": 12355.201123201146,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_left",
+      "b": "A03_wheel_end_service_seam_backing_front_left",
+      "bbox_overlap_lengths_mm": [
+        109.60000000000002,
+        0.8000000000000682,
+        105.60000000000001
+      ],
+      "bbox_overlap_volume_mm3": 9259.008000000793,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_left",
+      "b": "A03_wheel_end_motion_gaiter_front_left",
+      "bbox_overlap_lengths_mm": [
+        139.40000020000002,
+        12.300000200000113,
+        232.80000010000003
+      ],
+      "bbox_overlap_volume_mm3": 399163.5432346178,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_left",
+      "b": "A03_wheel_end_service_cap_rear_left",
+      "bbox_overlap_lengths_mm": [
+        108.0,
+        1.100000100000102,
+        104.0
+      ],
+      "bbox_overlap_volume_mm3": 12355.201123201146,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_left",
+      "b": "A03_wheel_end_service_seam_backing_rear_left",
+      "bbox_overlap_lengths_mm": [
+        109.60000000000001,
+        0.8000000000000682,
+        105.60000000000001
+      ],
+      "bbox_overlap_volume_mm3": 9259.008000000791,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_left",
+      "b": "A03_wheel_end_motion_gaiter_rear_left",
+      "bbox_overlap_lengths_mm": [
+        139.40000020000002,
+        12.300000200000113,
+        232.80000010000003
+      ],
+      "bbox_overlap_volume_mm3": 399163.5432346178,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_left",
+      "b": "A03_rocker_pivot_service_cap_left",
+      "bbox_overlap_lengths_mm": [
+        56.0,
+        1.7000000000000455,
+        44.0
+      ],
+      "bbox_overlap_volume_mm3": 4188.800000000112,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_left",
+      "b": "A03_rocker_pivot_service_seam_backing_left",
+      "bbox_overlap_lengths_mm": [
+        60.0,
+        0.8000000000000682,
+        48.0
+      ],
+      "bbox_overlap_volume_mm3": 2304.0000000001965,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_wheel_end_service_cap_front_left",
+      "b": "A03_wheel_end_service_seam_backing_front_left",
+      "bbox_overlap_lengths_mm": [
+        108.0,
+        5.684341886080802e-14,
+        104.0
+      ],
+      "bbox_overlap_volume_mm3": 6.384652806445956e-10,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_wheel_end_motion_gaiter_front_left",
+      "b": "A03_wheel_end_service_seam_backing_front_left",
+      "bbox_overlap_lengths_mm": [
+        109.60000000000002,
+        1.0000013617172954e-07,
+        105.60000000000001
+      ],
+      "bbox_overlap_volume_mm3": 0.0011573775760189168,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_wheel_end_service_cap_rear_left",
+      "b": "A03_wheel_end_service_seam_backing_rear_left",
+      "bbox_overlap_lengths_mm": [
+        108.0,
+        5.684341886080802e-14,
+        104.0
+      ],
+      "bbox_overlap_volume_mm3": 6.384652806445956e-10,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_wheel_end_motion_gaiter_rear_left",
+      "b": "A03_wheel_end_service_seam_backing_rear_left",
+      "bbox_overlap_lengths_mm": [
+        109.60000000000001,
+        1.0000013617172954e-07,
+        105.60000000000001
+      ],
+      "bbox_overlap_volume_mm3": 0.0011573775760189166,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_right",
+      "b": "A03_wheel_end_service_cap_front_right",
+      "bbox_overlap_lengths_mm": [
+        108.0,
+        1.100000100000102,
+        104.0
+      ],
+      "bbox_overlap_volume_mm3": 12355.201123201146,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_right",
+      "b": "A03_wheel_end_service_seam_backing_front_right",
+      "bbox_overlap_lengths_mm": [
+        109.60000000000002,
+        0.8000000000000682,
+        105.60000000000001
+      ],
+      "bbox_overlap_volume_mm3": 9259.008000000793,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_right",
+      "b": "A03_wheel_end_motion_gaiter_front_right",
+      "bbox_overlap_lengths_mm": [
+        139.40000020000002,
+        12.300000200000113,
+        232.80000010000003
+      ],
+      "bbox_overlap_volume_mm3": 399163.5432346178,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_right",
+      "b": "A03_wheel_end_service_cap_rear_right",
+      "bbox_overlap_lengths_mm": [
+        108.0,
+        1.100000100000102,
+        104.0
+      ],
+      "bbox_overlap_volume_mm3": 12355.201123201146,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_right",
+      "b": "A03_wheel_end_service_seam_backing_rear_right",
+      "bbox_overlap_lengths_mm": [
+        109.60000000000001,
+        0.8000000000000682,
+        105.60000000000001
+      ],
+      "bbox_overlap_volume_mm3": 9259.008000000791,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_right",
+      "b": "A03_wheel_end_motion_gaiter_rear_right",
+      "bbox_overlap_lengths_mm": [
+        139.40000020000002,
+        12.300000200000113,
+        232.80000010000003
+      ],
+      "bbox_overlap_volume_mm3": 399163.5432346178,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_right",
+      "b": "A03_rocker_pivot_service_cap_right",
+      "bbox_overlap_lengths_mm": [
+        56.0,
+        1.7000000000000455,
+        44.0
+      ],
+      "bbox_overlap_volume_mm3": 4188.800000000112,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_continuous_wheel_belt_shell_right",
+      "b": "A03_rocker_pivot_service_seam_backing_right",
+      "bbox_overlap_lengths_mm": [
+        60.0,
+        0.8000000000000682,
+        48.0
+      ],
+      "bbox_overlap_volume_mm3": 2304.0000000001965,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_wheel_end_service_cap_front_right",
+      "b": "A03_wheel_end_service_seam_backing_front_right",
+      "bbox_overlap_lengths_mm": [
+        108.0,
+        5.684341886080802e-14,
+        104.0
+      ],
+      "bbox_overlap_volume_mm3": 6.384652806445956e-10,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_wheel_end_motion_gaiter_front_right",
+      "b": "A03_wheel_end_service_seam_backing_front_right",
+      "bbox_overlap_lengths_mm": [
+        109.60000000000002,
+        1.0000013617172954e-07,
+        105.60000000000001
+      ],
+      "bbox_overlap_volume_mm3": 0.0011573775760189168,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_wheel_end_service_cap_rear_right",
+      "b": "A03_wheel_end_service_seam_backing_rear_right",
+      "bbox_overlap_lengths_mm": [
+        108.0,
+        5.684341886080802e-14,
+        104.0
+      ],
+      "bbox_overlap_volume_mm3": 6.384652806445956e-10,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A03_wheel_end_motion_gaiter_rear_right",
+      "b": "A03_wheel_end_service_seam_backing_rear_right",
+      "bbox_overlap_lengths_mm": [
+        109.60000000000001,
+        1.0000013617172954e-07,
+        105.60000000000001
+      ],
+      "bbox_overlap_volume_mm3": 0.0011573775760189166,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_captured_inner_rail_left",
+      "b": "A08_footrest_drop_link_left_front_lower_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        14.000000099999994,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 202.16000144399808,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_captured_inner_rail_left",
+      "b": "A08_footrest_drop_link_left_rear_lower_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        14.000000099999994,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 202.16000144399808,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_captured_inner_rail_left",
+      "b": "A08_footrest_fixed_guide_housing_left",
+      "bbox_overlap_lengths_mm": [
+        200.0,
+        16.000000199999988,
+        12.000000099999994
+      ],
+      "bbox_overlap_volume_mm3": 38400.00079999996,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_captured_inner_rail_left",
+      "b": "A08_footrest_primary_cartridge_left",
+      "bbox_overlap_lengths_mm": [
+        198.0,
+        16.000000199999988,
+        12.000000099999994
+      ],
+      "bbox_overlap_volume_mm3": 38016.000791999955,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_captured_inner_rail_left",
+      "b": "A08_footrest_stowed_lock_pin_left",
+      "bbox_overlap_lengths_mm": [
+        5.0,
+        5.0,
+        12.000000099999994
+      ],
+      "bbox_overlap_volume_mm3": 300.0000024999998,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_captured_inner_rail_right",
+      "b": "A08_footrest_drop_link_right_front_lower_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        14.000000099999994,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 202.16000144399808,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_captured_inner_rail_right",
+      "b": "A08_footrest_drop_link_right_rear_lower_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        14.000000099999994,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 202.16000144399808,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_captured_inner_rail_right",
+      "b": "A08_footrest_fixed_guide_housing_right",
+      "bbox_overlap_lengths_mm": [
+        200.0,
+        16.000000199999988,
+        12.000000099999994
+      ],
+      "bbox_overlap_volume_mm3": 38400.00079999996,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_captured_inner_rail_right",
+      "b": "A08_footrest_primary_cartridge_right",
+      "bbox_overlap_lengths_mm": [
+        198.0,
+        16.000000199999988,
+        12.000000099999994
+      ],
+      "bbox_overlap_volume_mm3": 38016.000791999955,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_captured_inner_rail_right",
+      "b": "A08_footrest_stowed_lock_pin_right",
+      "bbox_overlap_lengths_mm": [
+        5.0,
+        5.0,
+        12.000000099999994
+      ],
+      "bbox_overlap_volume_mm3": 300.0000024999998,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front",
+      "b": "A08_footrest_drop_link_left_front_lower_bearing",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.900000000000006
+      ],
+      "bbox_overlap_volume_mm3": 139.2399999999996,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front",
+      "b": "A08_footrest_drop_link_left_front_lower_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.000000199999988,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.760002887999306,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front",
+      "b": "A08_footrest_drop_link_left_front_upper_bearing",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.899999999999977
+      ],
+      "bbox_overlap_volume_mm3": 139.23999999999893,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front",
+      "b": "A08_footrest_drop_link_left_front_upper_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.000000199999988,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.760002887999306,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        8.000000200000045,
+        4.000000199999988,
+        39.00000019999999
+      ],
+      "bbox_overlap_volume_mm3": 1248.000100000005,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front_lower_bearing",
+      "b": "A08_footrest_drop_link_left_front_lower_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.75999999999948,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front_lower_guarded_pin",
+      "b": "A08_footrest_fixed_guide_housing_left",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        24.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 346.5599999999969,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front_lower_guarded_pin",
+      "b": "A08_footrest_primary_cartridge_left",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        19.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 274.3599999999975,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front_upper_bearing",
+      "b": "A08_footrest_drop_link_left_front_upper_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.75999999999948,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front_upper_bearing",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.899999999999977
+      ],
+      "bbox_overlap_volume_mm3": 139.23999999999893,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_front_upper_guarded_pin",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        10.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 144.3999999999987,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear",
+      "b": "A08_footrest_drop_link_left_rear_lower_bearing",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.900000000000006
+      ],
+      "bbox_overlap_volume_mm3": 139.2399999999996,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear",
+      "b": "A08_footrest_drop_link_left_rear_lower_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.000000199999988,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.760002887999306,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear",
+      "b": "A08_footrest_drop_link_left_rear_upper_bearing",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.899999999999977
+      ],
+      "bbox_overlap_volume_mm3": 139.23999999999893,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear",
+      "b": "A08_footrest_drop_link_left_rear_upper_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.000000199999988,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.760002887999306,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        8.000000200000045,
+        4.000000199999988,
+        39.00000019999999
+      ],
+      "bbox_overlap_volume_mm3": 1248.000100000005,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear_lower_bearing",
+      "b": "A08_footrest_drop_link_left_rear_lower_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.75999999999948,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear_lower_guarded_pin",
+      "b": "A08_footrest_fixed_guide_housing_left",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        24.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 346.5599999999969,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear_lower_guarded_pin",
+      "b": "A08_footrest_primary_cartridge_left",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        19.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 274.3599999999975,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear_upper_bearing",
+      "b": "A08_footrest_drop_link_left_rear_upper_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.75999999999948,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear_upper_bearing",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.899999999999977
+      ],
+      "bbox_overlap_volume_mm3": 139.23999999999893,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_left_rear_upper_guarded_pin",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        10.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 144.3999999999987,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front",
+      "b": "A08_footrest_drop_link_right_front_lower_bearing",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.900000000000006
+      ],
+      "bbox_overlap_volume_mm3": 139.2399999999996,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front",
+      "b": "A08_footrest_drop_link_right_front_lower_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.000000199999988,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.760002887999306,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front",
+      "b": "A08_footrest_drop_link_right_front_upper_bearing",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.899999999999977
+      ],
+      "bbox_overlap_volume_mm3": 139.23999999999893,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front",
+      "b": "A08_footrest_drop_link_right_front_upper_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.000000199999988,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.760002887999306,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        8.000000200000045,
+        4.000000199999988,
+        39.00000019999999
+      ],
+      "bbox_overlap_volume_mm3": 1248.000100000005,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front_lower_bearing",
+      "b": "A08_footrest_drop_link_right_front_lower_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.75999999999948,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front_lower_guarded_pin",
+      "b": "A08_footrest_fixed_guide_housing_right",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        24.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 346.5599999999969,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front_lower_guarded_pin",
+      "b": "A08_footrest_primary_cartridge_right",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        19.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 274.3599999999975,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front_upper_bearing",
+      "b": "A08_footrest_drop_link_right_front_upper_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.75999999999948,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front_upper_bearing",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.899999999999977
+      ],
+      "bbox_overlap_volume_mm3": 139.23999999999893,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_front_upper_guarded_pin",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        10.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 144.3999999999987,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear",
+      "b": "A08_footrest_drop_link_right_rear_lower_bearing",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.900000000000006
+      ],
+      "bbox_overlap_volume_mm3": 139.2399999999996,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear",
+      "b": "A08_footrest_drop_link_right_rear_lower_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.000000199999988,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.760002887999306,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear",
+      "b": "A08_footrest_drop_link_right_rear_upper_bearing",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.899999999999977
+      ],
+      "bbox_overlap_volume_mm3": 139.23999999999893,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear",
+      "b": "A08_footrest_drop_link_right_rear_upper_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.000000199999988,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.760002887999306,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        8.000000200000045,
+        4.000000199999988,
+        39.00000019999999
+      ],
+      "bbox_overlap_volume_mm3": 1248.000100000005,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear_lower_bearing",
+      "b": "A08_footrest_drop_link_right_rear_lower_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.75999999999948,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear_lower_guarded_pin",
+      "b": "A08_footrest_fixed_guide_housing_right",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        24.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 346.5599999999969,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear_lower_guarded_pin",
+      "b": "A08_footrest_primary_cartridge_right",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        19.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 274.3599999999975,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear_upper_bearing",
+      "b": "A08_footrest_drop_link_right_rear_upper_guarded_pin",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        4.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 57.75999999999948,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear_upper_bearing",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        5.899999999999977,
+        4.0,
+        5.899999999999977
+      ],
+      "bbox_overlap_volume_mm3": 139.23999999999893,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_drop_link_right_rear_upper_guarded_pin",
+      "b": "A08_footrest_platform_undertray_monocoque",
+      "bbox_overlap_lengths_mm": [
+        3.7999999999999545,
+        10.0,
+        3.8000000000000114
+      ],
+      "bbox_overlap_volume_mm3": 144.3999999999987,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_fixed_guide_housing_left",
+      "b": "A08_footrest_primary_cartridge_left",
+      "bbox_overlap_lengths_mm": [
+        200.0,
+        26.0,
+        22.0
+      ],
+      "bbox_overlap_volume_mm3": 114400.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_fixed_guide_housing_left",
+      "b": "A08_footrest_root_monocoque",
+      "bbox_overlap_lengths_mm": [
+        5.0,
+        36.0,
+        32.0
+      ],
+      "bbox_overlap_volume_mm3": 5760.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_fixed_guide_housing_left",
+      "b": "A08_footrest_stowed_lock_pin_left",
+      "bbox_overlap_lengths_mm": [
+        5.0,
+        5.0,
+        28.0
+      ],
+      "bbox_overlap_volume_mm3": 700.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_fixed_guide_housing_right",
+      "b": "A08_footrest_primary_cartridge_right",
+      "bbox_overlap_lengths_mm": [
+        200.0,
+        26.0,
+        22.0
+      ],
+      "bbox_overlap_volume_mm3": 114400.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_fixed_guide_housing_right",
+      "b": "A08_footrest_root_monocoque",
+      "bbox_overlap_lengths_mm": [
+        5.0,
+        36.0,
+        32.0
+      ],
+      "bbox_overlap_volume_mm3": 5760.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_fixed_guide_housing_right",
+      "b": "A08_footrest_stowed_lock_pin_right",
+      "bbox_overlap_lengths_mm": [
+        5.0,
+        5.0,
+        28.0
+      ],
+      "bbox_overlap_volume_mm3": 700.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_primary_cartridge_left",
+      "b": "A08_footrest_stowed_lock_pin_left",
+      "bbox_overlap_lengths_mm": [
+        5.0,
+        5.0,
+        22.0
+      ],
+      "bbox_overlap_volume_mm3": 550.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A08_footrest_primary_cartridge_right",
+      "b": "A08_footrest_stowed_lock_pin_right",
+      "bbox_overlap_lengths_mm": [
+        5.0,
+        5.0,
+        22.0
+      ],
+      "bbox_overlap_volume_mm3": 550.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_contact_panel",
+      "b": "A06_backrest_weather_shell",
+      "bbox_overlap_lengths_mm": [
+        425.17960433158817,
+        504.3577013696523,
+        21.41514066803512
+      ],
+      "bbox_overlap_volume_mm3": 4592318.6136116255,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_hinge_shaft",
+      "b": "A06_backrest_weather_shell",
+      "bbox_overlap_lengths_mm": [
+        25.241745239913143,
+        606.0000002,
+        52.00000019999999
+      ],
+      "bbox_overlap_volume_mm3": 795417.8793219565,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_weather_shell",
+      "b": "A07_mast_fixed_outer_sleeve",
+      "bbox_overlap_lengths_mm": [
+        301.4599856561113,
+        162.0,
+        112.37988284454116
+      ],
+      "bbox_overlap_volume_mm3": 5488242.134996837,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_weather_shell",
+      "b": "A07_mast_moving_inner_sleeve",
+      "bbox_overlap_lengths_mm": [
+        503.4157556712379,
+        120.87480410777339,
+        98.9064569029531
+      ],
+      "bbox_overlap_volume_mm3": 6018485.680574206,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_weather_shell",
+      "b": "A07_sensor_beam_shell",
+      "bbox_overlap_lengths_mm": [
+        2.7656468296879666,
+        368.8948764422176,
+        92.89722690950396
+      ],
+      "bbox_overlap_volume_mm3": 94776.81144057443,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_weather_shell",
+      "b": "A07_microphone_acoustic_mesh",
+      "bbox_overlap_lengths_mm": [
+        1.1527614144209792,
+        76.0,
+        11.978617069085317
+      ],
+      "bbox_overlap_volume_mm3": 1049.4450542078216,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_weather_shell",
+      "b": "A07_mast_throat_weather_gasket",
+      "bbox_overlap_lengths_mm": [
+        9.084850556542563,
+        166.0,
+        95.65290153579576
+      ],
+      "bbox_overlap_volume_mm3": 144252.72441489593,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_weather_shell",
+      "b": "A07_mast_lock_pin_left",
+      "bbox_overlap_lengths_mm": [
+        10.235606896173124,
+        8.0,
+        26.598308092366665
+      ],
+      "bbox_overlap_volume_mm3": 2177.998605894125,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_weather_shell",
+      "b": "A07_mast_lock_pin_right",
+      "bbox_overlap_lengths_mm": [
+        10.235606896173124,
+        8.0,
+        26.598308092366665
+      ],
+      "bbox_overlap_volume_mm3": 2177.998605894125,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_weather_shell",
+      "b": "A07_mast_lock_pin_confirmation_lens_left",
+      "bbox_overlap_lengths_mm": [
+        8.629502692213634,
+        8.400000000000006,
+        3.7206923333556006
+      ],
+      "bbox_overlap_volume_mm3": 269.7048858637628,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_weather_shell",
+      "b": "A07_mast_lock_pin_confirmation_lens_right",
+      "bbox_overlap_lengths_mm": [
+        8.629502692213634,
+        8.400000000000006,
+        3.7206923333556006
+      ],
+      "bbox_overlap_volume_mm3": 269.7048858637628,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_hinge_bearing_left",
+      "b": "A06_backrest_hinge_shaft",
+      "bbox_overlap_lengths_mm": [
+        44.00000020424454,
+        36.50000010000002,
+        52.00000019999999
+      ],
+      "bbox_overlap_volume_mm3": 83512.00093765618,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_hinge_shaft",
+      "b": "A06_backrest_positive_lock_left",
+      "bbox_overlap_lengths_mm": [
+        8.0,
+        8.0,
+        29.000000099999966
+      ],
+      "bbox_overlap_volume_mm3": 1856.0000063999978,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_hinge_bearing_right",
+      "b": "A06_backrest_hinge_shaft",
+      "bbox_overlap_lengths_mm": [
+        44.00000020424454,
+        36.50000010000002,
+        52.00000019999999
+      ],
+      "bbox_overlap_volume_mm3": 83512.00093765618,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_hinge_shaft",
+      "b": "A06_backrest_positive_lock_right",
+      "bbox_overlap_lengths_mm": [
+        8.0,
+        8.0,
+        29.000000099999966
+      ],
+      "bbox_overlap_volume_mm3": 1856.0000063999978,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_hinge_bearing_left",
+      "b": "A06_backrest_positive_lock_left",
+      "bbox_overlap_lengths_mm": [
+        8.0,
+        8.0,
+        60.0
+      ],
+      "bbox_overlap_volume_mm3": 3840.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A06_backrest_hinge_bearing_right",
+      "b": "A06_backrest_positive_lock_right",
+      "bbox_overlap_lengths_mm": [
+        8.0,
+        8.0,
+        60.0
+      ],
+      "bbox_overlap_volume_mm3": 3840.0,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_fixed_outer_sleeve",
+      "b": "A07_mast_moving_inner_sleeve",
+      "bbox_overlap_lengths_mm": [
+        301.4599856561113,
+        120.87480410777339,
+        90.55075532927049
+      ],
+      "bbox_overlap_volume_mm3": 3299571.4316985775,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_fixed_outer_sleeve",
+      "b": "A07_sensor_beam_shell",
+      "bbox_overlap_lengths_mm": [
+        1.817174543858755,
+        162.0,
+        81.63286384314267
+      ],
+      "bbox_overlap_volume_mm3": 24031.268263123555,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_fixed_outer_sleeve",
+      "b": "A07_microphone_acoustic_mesh",
+      "bbox_overlap_lengths_mm": [
+        0.20428912859176762,
+        76.0,
+        11.978617069085317
+      ],
+      "bbox_overlap_volume_mm3": 185.9796944511214,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_fixed_outer_sleeve",
+      "b": "A07_mast_throat_weather_gasket",
+      "bbox_overlap_lengths_mm": [
+        8.136378270713351,
+        162.0,
+        93.58604007305746
+      ],
+      "bbox_overlap_volume_mm3": 123355.13050859043,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_fixed_outer_sleeve",
+      "b": "A07_mast_lock_pin_left",
+      "bbox_overlap_lengths_mm": [
+        10.235606896173124,
+        8.0,
+        26.598308092366665
+      ],
+      "bbox_overlap_volume_mm3": 2177.998605894125,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_fixed_outer_sleeve",
+      "b": "A07_mast_lock_pin_right",
+      "bbox_overlap_lengths_mm": [
+        10.235606896173124,
+        8.0,
+        26.598308092366665
+      ],
+      "bbox_overlap_volume_mm3": 2177.998605894125,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_fixed_outer_sleeve",
+      "b": "A07_mast_lock_pin_confirmation_lens_left",
+      "bbox_overlap_lengths_mm": [
+        8.629502692213634,
+        8.400000000000006,
+        3.7206923333556006
+      ],
+      "bbox_overlap_volume_mm3": 269.7048858637628,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_fixed_outer_sleeve",
+      "b": "A07_mast_lock_pin_confirmation_lens_right",
+      "bbox_overlap_lengths_mm": [
+        8.629502692213634,
+        8.400000000000006,
+        3.7206923333556006
+      ],
+      "bbox_overlap_volume_mm3": 269.7048858637628,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_moving_inner_sleeve",
+      "b": "A07_sensor_beam_shell",
+      "bbox_overlap_lengths_mm": [
+        20.296902406850904,
+        120.87480410777339,
+        59.803736327872
+      ],
+      "bbox_overlap_volume_mm3": 146721.5359722799,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_moving_inner_sleeve",
+      "b": "A07_microphone_acoustic_mesh",
+      "bbox_overlap_lengths_mm": [
+        2.8882275156445303,
+        76.0,
+        3.9285042595454343
+      ],
+      "bbox_overlap_volume_mm3": 862.3274714286857,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_moving_inner_sleeve",
+      "b": "A07_mast_throat_weather_gasket",
+      "bbox_overlap_lengths_mm": [
+        9.74872025577963,
+        120.87480410777339,
+        71.75691255778679
+      ],
+      "bbox_overlap_volume_mm3": 84556.5268078232,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_lock_pin_left",
+      "b": "A07_mast_moving_inner_sleeve",
+      "bbox_overlap_lengths_mm": [
+        10.235606896173124,
+        8.0,
+        15.439662720177807
+      ],
+      "bbox_overlap_volume_mm3": 1264.2745457059125,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_lock_pin_right",
+      "b": "A07_mast_moving_inner_sleeve",
+      "bbox_overlap_lengths_mm": [
+        10.235606896173124,
+        8.0,
+        15.439662720177807
+      ],
+      "bbox_overlap_volume_mm3": 1264.2745457059125,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_fill_light_visible_window_left",
+      "b": "A07_mast_moving_inner_sleeve",
+      "bbox_overlap_lengths_mm": [
+        2.8882275156445303,
+        12.437402053886693,
+        11.978617069085317
+      ],
+      "bbox_overlap_volume_mm3": 430.29644337624165,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_fill_light_visible_window_right",
+      "b": "A07_mast_moving_inner_sleeve",
+      "bbox_overlap_lengths_mm": [
+        2.8882275156445303,
+        12.437402053886693,
+        11.978617069085317
+      ],
+      "bbox_overlap_volume_mm3": 430.29644337624165,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_sensor_beam_shell",
+      "b": "A07_sensor_beam_smoked_window",
+      "bbox_overlap_lengths_mm": [
+        29.91012163473647,
+        276.0,
+        4.457030885102313
+      ],
+      "bbox_overlap_volume_mm3": 36793.6527092797,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_physical_privacy_shutter",
+      "b": "A07_sensor_beam_shell",
+      "bbox_overlap_lengths_mm": [
+        34.21924270611021,
+        126.0,
+        6.9480740457873935
+      ],
+      "bbox_overlap_volume_mm3": 29957.486846215816,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_privacy_shutter_carriage_bezel",
+      "b": "A07_sensor_beam_shell",
+      "bbox_overlap_lengths_mm": [
+        41.86445801183754,
+        134.0,
+        5.502899798074168
+      ],
+      "bbox_overlap_volume_mm3": 30870.372950336587,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_microphone_acoustic_mesh",
+      "b": "A07_sensor_beam_shell",
+      "bbox_overlap_lengths_mm": [
+        2.8882275156445303,
+        76.0,
+        11.978617069085317
+      ],
+      "bbox_overlap_volume_mm3": 2629.36982779091,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_environment_sensor_grille",
+      "b": "A07_sensor_beam_shell",
+      "bbox_overlap_lengths_mm": [
+        3.411161972130003,
+        56.0,
+        17.95578525763574
+      ],
+      "bbox_overlap_volume_mm3": 3430.0051436324557,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_throat_weather_gasket",
+      "b": "A07_sensor_beam_shell",
+      "bbox_overlap_lengths_mm": [
+        3.429516528925035,
+        166.0,
+        83.69972530588097
+      ],
+      "bbox_overlap_volume_mm3": 47650.232172898635,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_fill_light_visible_window_left",
+      "b": "A07_sensor_beam_shell",
+      "bbox_overlap_lengths_mm": [
+        2.8882275156445303,
+        16.0,
+        11.978617069085317
+      ],
+      "bbox_overlap_volume_mm3": 553.5515426928232,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_fill_light_visible_window_right",
+      "b": "A07_sensor_beam_shell",
+      "bbox_overlap_lengths_mm": [
+        2.8882275156445303,
+        16.0,
+        11.978617069085317
+      ],
+      "bbox_overlap_volume_mm3": 553.5515426928232,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_physical_privacy_shutter",
+      "b": "A07_sensor_beam_smoked_window",
+      "bbox_overlap_lengths_mm": [
+        28.38494847767322,
+        126.0,
+        1.8672480511331742
+      ],
+      "bbox_overlap_volume_mm3": 6678.2192055328105,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_physical_privacy_shutter",
+      "b": "A07_privacy_shutter_carriage_bezel",
+      "bbox_overlap_lengths_mm": [
+        34.21924270611021,
+        126.0,
+        2.7388054786096063
+      ],
+      "bbox_overlap_volume_mm3": 11808.701024068174,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    },
+    {
+      "a": "A07_mast_throat_weather_gasket",
+      "b": "A07_microphone_acoustic_mesh",
+      "bbox_overlap_lengths_mm": [
+        1.8166311136580475,
+        76.0,
+        11.978617069085317
+      ],
+      "bbox_overlap_volume_mm3": 1653.8153634384776,
+      "common_volume_mm3": 0.0,
+      "classification": "numerical_residue",
+      "allowlisted": false,
+      "allowlist_reason": null,
+      "status": "PASS",
+      "evidence_kind": "BRep_boolean"
+    }
+  ],
+  "hard_collisions": [],
+  "unused_allowlist": [],
+  "certification_scope": "static CAD B-Rep common-volume evidence only; not dynamic or physical collision certification"
+}

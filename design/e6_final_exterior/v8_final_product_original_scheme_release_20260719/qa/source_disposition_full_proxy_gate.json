@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "gate": "four-state controlled-source disposition and physical A01-A10 proxy/access/enclosure reference closure",
+  "schema": "workcore-e6-source-disposition-v1",
+  "status": "PASS",
+  "proxy_reference_validation": "performed",
+  "controlled_states": [
+    "follow",
+    "ride",
+    "cafe",
+    "focus"
+  ],
+  "state_reports": {
+    "follow": {
+      "source_glb": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_follow.glb",
+      "controlled_occurrences": 180,
+      "ledger_occurrences": 180,
+      "unknown": 0,
+      "duplicates": 0,
+      "extra": 0,
+      "counts": {
+        "retain_exposed": 4,
+        "replace_surface": 58,
+        "conceal_behind_access": 18,
+        "internal_enclosed": 97,
+        "trace_only_retired": 3
+      },
+      "retain_allowlist": [
+        "tyre_front_left",
+        "tyre_front_right",
+        "tyre_rear_left",
+        "tyre_rear_right"
+      ],
+      "referenced_proxy_count": 102,
+      "a07_mechanism_contract_entries": 13,
+      "a07_mechanism_enclosure_contract": [
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_moving_inner_sleeve",
+        "A06_backrest_weather_shell"
+      ],
+      "a07_geometry_proof_deferred_to_brep_validators": true
+    },
+    "ride": {
+      "source_glb": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_ride.glb",
+      "controlled_occurrences": 176,
+      "ledger_occurrences": 176,
+      "unknown": 0,
+      "duplicates": 0,
+      "extra": 0,
+      "counts": {
+        "retain_exposed": 4,
+        "replace_surface": 58,
+        "conceal_behind_access": 18,
+        "internal_enclosed": 93,
+        "trace_only_retired": 3
+      },
+      "retain_allowlist": [
+        "tyre_front_left",
+        "tyre_front_right",
+        "tyre_rear_left",
+        "tyre_rear_right"
+      ],
+      "referenced_proxy_count": 106,
+      "a07_mechanism_contract_entries": 13,
+      "a07_mechanism_enclosure_contract": [
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_moving_inner_sleeve"
+      ],
+      "a07_geometry_proof_deferred_to_brep_validators": true
+    },
+    "cafe": {
+      "source_glb": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_cafe.glb",
+      "controlled_occurrences": 189,
+      "ledger_occurrences": 189,
+      "unknown": 0,
+      "duplicates": 0,
+      "extra": 0,
+      "counts": {
+        "retain_exposed": 4,
+        "replace_surface": 62,
+        "conceal_behind_access": 17,
+        "internal_enclosed": 103,
+        "trace_only_retired": 3
+      },
+      "retain_allowlist": [
+        "tyre_front_left",
+        "tyre_front_right",
+        "tyre_rear_left",
+        "tyre_rear_right"
+      ],
+      "referenced_proxy_count": 116,
+      "a07_mechanism_contract_entries": 13,
+      "a07_mechanism_enclosure_contract": [
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_moving_inner_sleeve"
+      ],
+      "a07_geometry_proof_deferred_to_brep_validators": true
+    },
+    "focus": {
+      "source_glb": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_focus.glb",
+      "controlled_occurrences": 196,
+      "ledger_occurrences": 196,
+      "unknown": 0,
+      "duplicates": 0,
+      "extra": 0,
+      "counts": {
+        "retain_exposed": 4,
+        "replace_surface": 68,
+        "conceal_behind_access": 16,
+        "internal_enclosed": 105,
+        "trace_only_retired": 3
+      },
+      "retain_allowlist": [
+        "tyre_front_left",
+        "tyre_front_right",
+        "tyre_rear_left",
+        "tyre_rear_right"
+      ],
+      "referenced_proxy_count": 130,
+      "a07_mechanism_contract_entries": 13,
+      "a07_mechanism_enclosure_contract": [
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_moving_inner_sleeve"
+      ],
+      "a07_geometry_proof_deferred_to_brep_validators": true
+    }
+  },
+  "total_controlled_occurrences": 741,
+  "total_ledger_occurrences": 741,
+  "unknown": 0,
+  "duplicates": 0,
+  "extra": 0,
+  "errors": [],
+  "release_binding_failures": []
+}

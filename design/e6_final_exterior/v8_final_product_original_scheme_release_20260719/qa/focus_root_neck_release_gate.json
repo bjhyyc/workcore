@@ -1,0 +1,643 @@
+{
+  "schema_version": 1,
+  "gate": "Focus bilateral smooth root-neck direct BRep release contract",
+  "state": "focus",
+  "status": "PASS",
+  "failures": [],
+  "required_occurrences": [
+    "A09_focus_table_hidden_root_tongue_left",
+    "A09_focus_table_hidden_root_tongue_right"
+  ],
+  "actual_root_tongue_inventory": [
+    "A09_focus_table_hidden_root_tongue_left",
+    "A09_focus_table_hidden_root_tongue_right"
+  ],
+  "tolerances": {
+    "brep_volume_mm3": 0.0001,
+    "brep_area_mm2": 0.0001,
+    "brep_bound_mm": 1e-06,
+    "contact_distance_mm": 1e-06,
+    "clearance_numerical_mm": 0.0001,
+    "slice_dimension_mm": 0.001,
+    "slice_thickness_mm": 0.1
+  },
+  "sides": {
+    "left": {
+      "name": "A09_focus_table_hidden_root_tongue_left",
+      "side": "left",
+      "side_sign": -1,
+      "status": "PASS",
+      "failures": [],
+      "identity_and_visibility": {
+        "status": "PASS",
+        "configuration": "focus",
+        "expected_configuration": "focus",
+        "expected_physical_occurrence_id": "E6-A09-FOCUS-HIDDEN-ROOT-TONGUE-LEFT",
+        "actual_physical_occurrence_id": "E6-A09-FOCUS-HIDDEN-ROOT-TONGUE-LEFT",
+        "physical_occurrence_id_equal": true,
+        "exterior_visible": true,
+        "visibility_reason": "explicit_part_metadata",
+        "explicit_final_exterior_visible": true
+      },
+      "direct_canonical_brep": {
+        "status": "PASS",
+        "expected_minus_actual_volume_mm3": 0.0,
+        "actual_minus_expected_volume_mm3": 0.0,
+        "absolute_volume_delta_mm3": 0.0,
+        "absolute_area_delta_mm2": 0.0,
+        "maximum_bound_delta_mm": 0.0,
+        "expected_signature": {
+          "valid": true,
+          "volume_mm3": 33624.646313077,
+          "area_mm2": 16513.565596702,
+          "centre_mm": [
+            -343.000000039,
+            -273.644649899,
+            688.187114889
+          ],
+          "bounds_mm": [
+            -453.0,
+            -233.0,
+            -325.75,
+            -250.0,
+            652.0,
+            699.0
+          ],
+          "topology": {
+            "solids": 1,
+            "shells": 1,
+            "faces": 126,
+            "edges": 278,
+            "vertices": 156
+          }
+        },
+        "actual_signature": {
+          "valid": true,
+          "volume_mm3": 33624.646313077,
+          "area_mm2": 16513.565596702,
+          "centre_mm": [
+            -343.000000039,
+            -273.644649899,
+            688.187114889
+          ],
+          "bounds_mm": [
+            -453.0,
+            -233.0,
+            -325.75,
+            -250.0,
+            652.0,
+            699.0
+          ],
+          "topology": {
+            "solids": 1,
+            "shells": 1,
+            "faces": 126,
+            "edges": 278,
+            "vertices": 156
+          }
+        }
+      },
+      "smooth_gap_neck_containment": {
+        "status": "PASS",
+        "neck_volume_mm3": 3156.206928034,
+        "neck_outside_tongue_volume_mm3": 0.0,
+        "neck_tongue_common_volume_mm3": 3156.206928013,
+        "neck_common_volume_delta_mm3": 2.1e-08
+      },
+      "independent_thin_slice_probes": [
+        {
+          "status": "PASS",
+          "absolute_y_mm": 276.05,
+          "probe_center_y_mm": -276.05,
+          "slice_thickness_mm": 0.1,
+          "section_volume_mm3": 12.29675129,
+          "measured_x_mm": 16.0000002,
+          "measured_z_mm": 8.0000002,
+          "expected_x_mm": 16.0,
+          "expected_z_mm": 8.0000002,
+          "absolute_x_delta_mm": 2e-07,
+          "absolute_z_delta_mm": 0.0,
+          "section_bounds_mm": [
+            -351.0000001,
+            -334.9999999,
+            -276.1000001,
+            -275.9999999,
+            684.9999999,
+            693.0000001
+          ]
+        },
+        {
+          "status": "PASS",
+          "absolute_y_mm": 293.0,
+          "probe_center_y_mm": -293.0,
+          "slice_thickness_mm": 0.1,
+          "section_volume_mm3": 9.290114886,
+          "measured_x_mm": 16.0000002,
+          "measured_z_mm": 6.005882553,
+          "expected_x_mm": 16.0,
+          "expected_z_mm": 6.005882552941557,
+          "absolute_x_delta_mm": 2e-07,
+          "absolute_z_delta_mm": 0.0,
+          "section_bounds_mm": [
+            -351.0000001,
+            -334.9999999,
+            -293.0500001,
+            -292.9499999,
+            686.994117547,
+            693.0000001
+          ]
+        },
+        {
+          "status": "PASS",
+          "absolute_y_mm": 309.95,
+          "probe_center_y_mm": -309.95,
+          "slice_thickness_mm": 0.1,
+          "section_volume_mm3": 6.240810215,
+          "measured_x_mm": 16.0000002,
+          "measured_z_mm": 4.011764906,
+          "expected_x_mm": 16.0,
+          "expected_z_mm": 4.011764905882615,
+          "absolute_x_delta_mm": 2e-07,
+          "absolute_z_delta_mm": 0.0,
+          "section_bounds_mm": [
+            -351.0000001,
+            -334.9999999,
+            -310.0000001,
+            -309.8999999,
+            688.988235194,
+            693.0000001
+          ]
+        }
+      ],
+      "a05_zero_collision_clearances": {
+        "armrest_bay_shell": {
+          "status": "PASS",
+          "obstacle": "A05_armrest_table_bay_shell_left",
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 1.5,
+          "required_minimum_distance_mm": 1.5
+        },
+        "closed_touch_lid": {
+          "status": "PASS",
+          "obstacle": "A05_armrest_touch_lid_left",
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 3.322904375,
+          "required_minimum_distance_mm": 3.0
+        },
+        "lid_release": {
+          "status": "PASS",
+          "obstacle": "A05_armrest_top_lid_release_left",
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 4.0,
+          "required_minimum_distance_mm": 4.0
+        },
+        "hmi_precision_bezel": {
+          "status": "PASS",
+          "obstacle": "A05_left_hmi_precision_bezel",
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 3.814056907,
+          "required_minimum_distance_mm": 2.8
+        },
+        "hmi_display_window": {
+          "status": "PASS",
+          "obstacle": "A05_left_status_display_window",
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 3.112253236,
+          "required_minimum_distance_mm": 2.8
+        }
+      },
+      "load_path_zero_penetration_contacts": {
+        "guide_stage3_face_contact": {
+          "status": "PASS",
+          "first": "A09_focus_table_hidden_root_tongue_left",
+          "second": "A09_focus_internal_nested_guide_stage_3_left",
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 0.0,
+          "required_contact_distance_maximum_mm": 1e-06,
+          "rigid_half_role": null
+        },
+        "outer_table_underbelly_face_contact": {
+          "status": "PASS",
+          "first": "A09_focus_table_hidden_root_tongue_left",
+          "second": "A09_table_underbelly_shell_left",
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 0.0,
+          "required_contact_distance_maximum_mm": 1e-06,
+          "rigid_half_role": "outer"
+        }
+      }
+    },
+    "right": {
+      "name": "A09_focus_table_hidden_root_tongue_right",
+      "side": "right",
+      "side_sign": 1,
+      "status": "PASS",
+      "failures": [],
+      "identity_and_visibility": {
+        "status": "PASS",
+        "configuration": "focus",
+        "expected_configuration": "focus",
+        "expected_physical_occurrence_id": "E6-A09-FOCUS-HIDDEN-ROOT-TONGUE-RIGHT",
+        "actual_physical_occurrence_id": "E6-A09-FOCUS-HIDDEN-ROOT-TONGUE-RIGHT",
+        "physical_occurrence_id_equal": true,
+        "exterior_visible": true,
+        "visibility_reason": "explicit_part_metadata",
+        "explicit_final_exterior_visible": true
+      },
+      "direct_canonical_brep": {
+        "status": "PASS",
+        "expected_minus_actual_volume_mm3": 0.0,
+        "actual_minus_expected_volume_mm3": 0.0,
+        "absolute_volume_delta_mm3": 0.0,
+        "absolute_area_delta_mm2": 0.0,
+        "maximum_bound_delta_mm": 0.0,
+        "expected_signature": {
+          "valid": true,
+          "volume_mm3": 33624.646299752,
+          "area_mm2": 16513.565591352,
+          "centre_mm": [
+            -343.000000039,
+            273.644649899,
+            688.187114888
+          ],
+          "bounds_mm": [
+            -453.0,
+            -233.0,
+            250.0,
+            325.75,
+            652.0,
+            699.0
+          ],
+          "topology": {
+            "solids": 1,
+            "shells": 1,
+            "faces": 126,
+            "edges": 278,
+            "vertices": 156
+          }
+        },
+        "actual_signature": {
+          "valid": true,
+          "volume_mm3": 33624.646299752,
+          "area_mm2": 16513.565591352,
+          "centre_mm": [
+            -343.000000039,
+            273.644649899,
+            688.187114888
+          ],
+          "bounds_mm": [
+            -453.0,
+            -233.0,
+            250.0,
+            325.75,
+            652.0,
+            699.0
+          ],
+          "topology": {
+            "solids": 1,
+            "shells": 1,
+            "faces": 126,
+            "edges": 278,
+            "vertices": 156
+          }
+        }
+      },
+      "smooth_gap_neck_containment": {
+        "status": "PASS",
+        "neck_volume_mm3": 3156.206928034,
+        "neck_outside_tongue_volume_mm3": 0.0,
+        "neck_tongue_common_volume_mm3": 3156.206928013,
+        "neck_common_volume_delta_mm3": 2.1e-08
+      },
+      "independent_thin_slice_probes": [
+        {
+          "status": "PASS",
+          "absolute_y_mm": 276.05,
+          "probe_center_y_mm": 276.05,
+          "slice_thickness_mm": 0.1,
+          "section_volume_mm3": 12.29675129,
+          "measured_x_mm": 16.0000002,
+          "measured_z_mm": 8.0000002,
+          "expected_x_mm": 16.0,
+          "expected_z_mm": 8.0000002,
+          "absolute_x_delta_mm": 2e-07,
+          "absolute_z_delta_mm": 0.0,
+          "section_bounds_mm": [
+            -351.0000001,
+            -334.9999999,
+            275.9999999,
+            276.1000001,
+            684.9999999,
+            693.0000001
+          ]
+        },
+        {
+          "status": "PASS",
+          "absolute_y_mm": 293.0,
+          "probe_center_y_mm": 293.0,
+          "slice_thickness_mm": 0.1,
+          "section_volume_mm3": 9.290114886,
+          "measured_x_mm": 16.0000002,
+          "measured_z_mm": 6.005882553,
+          "expected_x_mm": 16.0,
+          "expected_z_mm": 6.005882552941557,
+          "absolute_x_delta_mm": 2e-07,
+          "absolute_z_delta_mm": 0.0,
+          "section_bounds_mm": [
+            -351.0000001,
+            -334.9999999,
+            292.9499999,
+            293.0500001,
+            686.994117547,
+            693.0000001
+          ]
+        },
+        {
+          "status": "PASS",
+          "absolute_y_mm": 309.95,
+          "probe_center_y_mm": 309.95,
+          "slice_thickness_mm": 0.1,
+          "section_volume_mm3": 6.240810215,
+          "measured_x_mm": 16.0000002,
+          "measured_z_mm": 4.011764906,
+          "expected_x_mm": 16.0,
+          "expected_z_mm": 4.011764905882615,
+          "absolute_x_delta_mm": 2e-07,
+          "absolute_z_delta_mm": 0.0,
+          "section_bounds_mm": [
+            -351.0000001,
+            -334.9999999,
+            309.8999999,
+            310.0000001,
+            688.988235194,
+            693.0000001
+          ]
+        }
+      ],
+      "a05_zero_collision_clearances": {
+        "armrest_bay_shell": {
+          "status": "PASS",
+          "obstacle": "A05_armrest_table_bay_shell_right",
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 1.5,
+          "required_minimum_distance_mm": 1.5
+        },
+        "closed_touch_lid": {
+          "status": "PASS",
+          "obstacle": "A05_armrest_touch_lid_right",
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 9.055196686,
+          "required_minimum_distance_mm": 3.0
+        },
+        "lid_release": {
+          "status": "PASS",
+          "obstacle": "A05_armrest_top_lid_release_right",
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 4.0,
+          "required_minimum_distance_mm": 4.0
+        }
+      },
+      "load_path_zero_penetration_contacts": {
+        "guide_stage3_face_contact": {
+          "status": "PASS",
+          "first": "A09_focus_table_hidden_root_tongue_right",
+          "second": "A09_focus_internal_nested_guide_stage_3_right",
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 0.0,
+          "required_contact_distance_maximum_mm": 1e-06,
+          "rigid_half_role": null
+        },
+        "outer_table_underbelly_face_contact": {
+          "status": "PASS",
+          "first": "A09_focus_table_hidden_root_tongue_right",
+          "second": "A09_table_underbelly_shell_right",
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 0.0,
+          "required_contact_distance_maximum_mm": 1e-06,
+          "rigid_half_role": "outer"
+        }
+      }
+    }
+  },
+  "bilateral_xz_mirror": {
+    "status": "PASS",
+    "expected_minus_actual_volume_mm3": 0.0,
+    "actual_minus_expected_volume_mm3": 0.0,
+    "absolute_volume_delta_mm3": 1.3325e-05,
+    "absolute_area_delta_mm2": 5.349e-06,
+    "maximum_bound_delta_mm": 0.0,
+    "expected_signature": {
+      "valid": true,
+      "volume_mm3": 33624.646313077,
+      "area_mm2": 16513.565596702,
+      "centre_mm": [
+        -343.000000039,
+        -273.644649899,
+        688.187114889
+      ],
+      "bounds_mm": [
+        -453.0,
+        -233.0,
+        -325.75,
+        -250.0,
+        652.0,
+        699.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 126,
+        "edges": 278,
+        "vertices": 156
+      }
+    },
+    "actual_signature": {
+      "valid": true,
+      "volume_mm3": 33624.646299752,
+      "area_mm2": 16513.565591352,
+      "centre_mm": [
+        -343.000000039,
+        -273.644649899,
+        688.187114888
+      ],
+      "bounds_mm": [
+        -453.0,
+        -233.0,
+        -325.75,
+        -250.0,
+        652.0,
+        699.0
+      ],
+      "topology": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 126,
+        "edges": 278,
+        "vertices": 156
+      }
+    },
+    "mirror_plane": "XZ",
+    "reference_side": "left",
+    "mirrored_side": "right"
+  },
+  "controlled_source_step": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_focus.step",
+  "controlled_source_step_sha256": "598ad5a8686989be548140c5629a1b996b85bc833f1672850c98da400626ed4c",
+  "generated_skin_shape_signature": {
+    "bounds_mm": {
+      "xmin": -620.0,
+      "xmax": 369.1750075267015,
+      "ymin": -375.5,
+      "ymax": 375.5,
+      "zmin": 8.599999899999995,
+      "zmax": 1492.0000001000008,
+      "xlen": 989.1750075267015,
+      "ylen": 751.0,
+      "zlen": 1483.4000002000007
+    },
+    "volume_mm3": 47249904.47803347,
+    "area_mm2": 13315147.752787512,
+    "centroid_mm": [
+      -44.06333777345068,
+      0.29719006986357804,
+      492.62226142489607
+    ],
+    "solid_count": 212,
+    "face_count": 7130,
+    "edge_count": 16536
+  },
+  "generated_skin_part_count": 212,
+  "exterior_step": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/workcore_e6_exterior_focus.step",
+  "exterior_step_sha256": "3e9de8c21916426045cab944b22e3fcfd101b987a0ca1e71f14dce5718db91a1",
+  "exterior_part_inventory": [
+    "A01_front_nose_shell",
+    "A01_perception_horizon_smoked_mask",
+    "A01_front_tactile_bumper_skin",
+    "A02_main_side_shell_left",
+    "A02_side_ultrasonic_face_front_left",
+    "A02_side_ultrasonic_face_rear_left",
+    "A02_acoustic_mesh_left_1",
+    "A02_acoustic_mesh_left_2",
+    "A02_main_side_shell_right",
+    "A02_side_ultrasonic_face_front_right",
+    "A02_side_ultrasonic_face_rear_right",
+    "A02_acoustic_mesh_right_1",
+    "A02_acoustic_mesh_right_2",
+    "A02_cliff_ir_window_front_left",
+    "A02_cliff_ir_bezel_front_left",
+    "A02_cliff_ir_window_front_right",
+    "A02_cliff_ir_bezel_front_right",
+    "A02_cliff_ir_window_rear_left",
+    "A02_cliff_ir_bezel_rear_left",
+    "A02_cliff_ir_window_rear_right",
+    "A02_cliff_ir_bezel_rear_right",
+    "A03_wheel_interspace_bridge_left",
+    "A03_wheel_interspace_bridge_right",
+    "A04_open_u_seat_pan_ring",
+    "A04_open_u_seat_pan_ring_service_segment_2",
+    "A04_open_u_seat_pan_ring_service_segment_3",
+    "A04_seat_cushion_contact_island",
+    "A04_underseat_belly_closeout",
+    "A04_recovery_handle_grip_shell",
+    "A04_recovery_handle_grip_inlay",
+    "A08_manual_release_paddle_shell",
+    "A10_rear_service_surround",
+    "A10_rear_flush_service_door_skin",
+    "A10_rear_status_lens",
+    "A10_rear_tof_window",
+    "A10_rear_uwb_radome",
+    "A10_rear_horn_acoustic_mesh",
+    "A10_rear_service_external_release_guard",
+    "A10_rear_service_external_no_power_release",
+    "A10_rear_service_pull_cup",
+    "A10_rear_service_pull_grip_inlay",
+    "A10_pressure_relief_vent_bezel",
+    "A05_armrest_table_bay_shell_left",
+    "A05_armrest_touch_lid_left",
+    "A05_armrest_top_lid_hinge_reveal_left",
+    "A05_armrest_top_lid_release_left",
+    "A05_table_cassette_lowpoint_drain_left",
+    "A05_left_hmi_precision_bezel",
+    "A05_left_status_display_window",
+    "A05_left_qi_phone_cradle",
+    "A05_left_qi_target_ring",
+    "A05_left_qi_phone_stop_front",
+    "A05_left_qi_phone_stop_rear",
+    "A05_left_emergency_stop_guard",
+    "A05_left_mechanical_emergency_stop",
+    "A05_armrest_table_bay_shell_right",
+    "A05_armrest_touch_lid_right",
+    "A05_armrest_top_lid_hinge_reveal_right",
+    "A05_armrest_top_lid_release_right",
+    "A05_table_cassette_lowpoint_drain_right",
+    "A05_right_removable_drive_pod",
+    "A05_right_joystick",
+    "A05_right_authorisation_key",
+    "A09_table_edge_band_left",
+    "A09_table_top_skin_left",
+    "A09_table_underbelly_shell_left",
+    "A09_table_edge_band_left_fold_half_inner",
+    "A09_table_top_skin_left_fold_half_inner",
+    "A09_table_underbelly_shell_left_fold_half_inner",
+    "A09_table_fold_flexure_left",
+    "A09_focus_lock_paddle_bezel_left_1",
+    "A09_focus_lock_paddle_bezel_left_2",
+    "A09_focus_centre_seam_seal_left",
+    "A09_focus_table_hidden_root_tongue_left",
+    "A09_focus_lock_release_paddle_left_1",
+    "A09_focus_lock_release_paddle_left_2",
+    "A09_table_edge_band_right",
+    "A09_table_top_skin_right",
+    "A09_table_underbelly_shell_right",
+    "A09_table_edge_band_right_fold_half_inner",
+    "A09_table_top_skin_right_fold_half_inner",
+    "A09_table_underbelly_shell_right_fold_half_inner",
+    "A09_table_fold_flexure_right",
+    "A09_focus_lock_paddle_bezel_right_1",
+    "A09_focus_lock_paddle_bezel_right_2",
+    "A09_focus_centre_seam_seal_right",
+    "A09_focus_table_hidden_root_tongue_right",
+    "A09_focus_lock_release_paddle_right_1",
+    "A09_focus_lock_release_paddle_right_2",
+    "A03_continuous_wheel_belt_shell_left",
+    "A03_body_colour_wheel_end_return_skin_front_left",
+    "A03_body_colour_wheel_end_return_skin_rear_left",
+    "A03_wheel_end_service_cap_front_left",
+    "A03_wheel_end_motion_gaiter_front_left",
+    "A03_wheel_end_service_cap_rear_left",
+    "A03_wheel_end_motion_gaiter_rear_left",
+    "A03_rocker_pivot_service_cap_left",
+    "A03_continuous_wheel_belt_shell_right",
+    "A03_body_colour_wheel_end_return_skin_front_right",
+    "A03_body_colour_wheel_end_return_skin_rear_right",
+    "A03_wheel_end_service_cap_front_right",
+    "A03_wheel_end_motion_gaiter_front_right",
+    "A03_wheel_end_service_cap_rear_right",
+    "A03_wheel_end_motion_gaiter_rear_right",
+    "A03_rocker_pivot_service_cap_right",
+    "A04_front_waist_fascia",
+    "A04_A05_integrated_side_sail_left",
+    "A04_A05_integrated_side_sail_right",
+    "A08_footrest_root_monocoque",
+    "A06_backrest_weather_shell",
+    "A06_backrest_contact_panel",
+    "A04_backrest_root_shoulder_left",
+    "A04_backrest_root_shoulder_right",
+    "A06_backrest_lock_witness_left",
+    "A06_backrest_lock_witness_right",
+    "A06_backrest_manual_release",
+    "A07_mast_fixed_outer_sleeve",
+    "A07_mast_moving_inner_sleeve",
+    "A07_sensor_beam_shell",
+    "A07_sensor_beam_smoked_window",
+    "A07_physical_privacy_shutter",
+    "A07_privacy_shutter_carriage_bezel",
+    "A07_microphone_acoustic_mesh",
+    "A07_environment_sensor_grille",
+    "A07_mast_throat_weather_gasket",
+    "A07_mast_lock_pin_confirmation_lens_left",
+    "A07_mast_lock_pin_confirmation_lens_right",
+    "A07_fill_light_visible_window_left",
+    "A07_fill_light_visible_window_right"
+  ],
+  "output_binding_status": "PASS"
+}

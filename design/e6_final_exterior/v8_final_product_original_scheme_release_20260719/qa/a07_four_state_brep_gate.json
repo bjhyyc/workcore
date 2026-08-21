@@ -1,0 +1,5231 @@
+{
+  "schema_version": 1,
+  "gate": "direct A06/A07 four-state physical BRep and shared-hinge closure",
+  "status": "PASS",
+  "failures": [],
+  "state_count": 4,
+  "required_state_count": 4,
+  "canonical_exterior_inventory": [
+    "A07_mast_fixed_outer_sleeve",
+    "A07_mast_moving_inner_sleeve",
+    "A07_sensor_beam_shell",
+    "A07_sensor_beam_smoked_window",
+    "A07_physical_privacy_shutter",
+    "A07_microphone_acoustic_mesh",
+    "A07_environment_sensor_grille",
+    "A07_fill_light_visible_window_left",
+    "A07_fill_light_visible_window_right",
+    "A07_privacy_shutter_carriage_bezel",
+    "A07_mast_throat_weather_gasket",
+    "A07_mast_lock_pin_confirmation_lens_left",
+    "A07_mast_lock_pin_confirmation_lens_right"
+  ],
+  "canonical_internal_inventory": [
+    "A07_mast_lock_pin_left",
+    "A07_mast_lock_pin_right"
+  ],
+  "physical_occurrence_ids_by_name": {
+    "A07_mast_fixed_outer_sleeve": "E6-A07-MAST-FIXED-SLEEVE",
+    "A07_mast_moving_inner_sleeve": "E6-A07-MAST-MOVING-SLEEVE",
+    "A07_sensor_beam_shell": "E6-A07-SENSOR-BEAM-SHELL",
+    "A07_sensor_beam_smoked_window": "WC-MAST-SMOKED-SENSOR-WINDOW",
+    "A07_physical_privacy_shutter": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+    "A07_microphone_acoustic_mesh": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+    "A07_environment_sensor_grille": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+    "A07_fill_light_visible_window_left": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+    "A07_fill_light_visible_window_right": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+    "A07_privacy_shutter_carriage_bezel": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+    "A07_mast_throat_weather_gasket": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+    "A07_mast_lock_pin_confirmation_lens_left": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+    "A07_mast_lock_pin_confirmation_lens_right": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+    "A07_mast_lock_pin_left": "WC-MAST-LOCK-PIN-LEFT",
+    "A07_mast_lock_pin_right": "WC-MAST-LOCK-PIN-RIGHT"
+  },
+  "focus_translation_inventory": {
+    "fixed_[0,0,0]": 6,
+    "moving_[0,0,420]": 7,
+    "privacy_[0,136,420]": 2
+  },
+  "state_report_sha256": {
+    "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/qa/a07_brep_state_follow.json": "a19c9fcc12955d26dba8f1654b342bfc4fd8b52e35f8e6f4d8044b640f39fc5a",
+    "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/qa/a07_brep_state_ride.json": "bf734001e2f0e640b0f820b17357120a8212990cf126532cc8d09687532cee4e",
+    "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/qa/a07_brep_state_cafe.json": "e5c52cac4cc7175ac34842bdfdecf06d1b476a8f609f146256cc3392ffc69780",
+    "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/qa/a07_brep_state_focus.json": "702607e78518a759cc64ed4bd4bb82f96a29a23256f3cff3dc4888df6666e4a7"
+  },
+  "states": {
+    "follow": {
+      "schema_version": 1,
+      "gate": "direct A06/A07 four-state physical BRep pose contract",
+      "state": "follow",
+      "status": "PASS",
+      "failures": [],
+      "canonical_exterior_inventory": [
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_moving_inner_sleeve",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window",
+        "A07_physical_privacy_shutter",
+        "A07_microphone_acoustic_mesh",
+        "A07_environment_sensor_grille",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_mast_throat_weather_gasket",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right"
+      ],
+      "canonical_internal_inventory": [
+        "A07_mast_lock_pin_left",
+        "A07_mast_lock_pin_right"
+      ],
+      "actual_a07_inventory": [
+        "A07_environment_sensor_grille",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right",
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right",
+        "A07_mast_lock_pin_left",
+        "A07_mast_lock_pin_right",
+        "A07_mast_moving_inner_sleeve",
+        "A07_mast_throat_weather_gasket",
+        "A07_microphone_acoustic_mesh",
+        "A07_physical_privacy_shutter",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window"
+      ],
+      "visible_exterior_inventory": [
+        "A07_environment_sensor_grille",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right",
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right",
+        "A07_mast_moving_inner_sleeve",
+        "A07_mast_throat_weather_gasket",
+        "A07_microphone_acoustic_mesh",
+        "A07_physical_privacy_shutter",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window"
+      ],
+      "physical_occurrence_ids_by_name": {
+        "A07_mast_fixed_outer_sleeve": "E6-A07-MAST-FIXED-SLEEVE",
+        "A07_mast_moving_inner_sleeve": "E6-A07-MAST-MOVING-SLEEVE",
+        "A07_sensor_beam_shell": "E6-A07-SENSOR-BEAM-SHELL",
+        "A07_sensor_beam_smoked_window": "WC-MAST-SMOKED-SENSOR-WINDOW",
+        "A07_physical_privacy_shutter": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+        "A07_microphone_acoustic_mesh": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+        "A07_environment_sensor_grille": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+        "A07_fill_light_visible_window_left": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+        "A07_fill_light_visible_window_right": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+        "A07_privacy_shutter_carriage_bezel": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+        "A07_mast_throat_weather_gasket": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+        "A07_mast_lock_pin_confirmation_lens_left": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+        "A07_mast_lock_pin_confirmation_lens_right": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+        "A07_mast_lock_pin_left": "WC-MAST-LOCK-PIN-LEFT",
+        "A07_mast_lock_pin_right": "WC-MAST-LOCK-PIN-RIGHT"
+      },
+      "occurrences": {
+        "A07_mast_fixed_outer_sleeve": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 957035.924322,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 957035.924322,
+            "area_mm2": 247864.297371,
+            "centre_mm": [
+              -196.059616,
+              -0.0,
+              634.408732
+            ],
+            "bounds_mm": [
+              -343.225538,
+              -41.765553,
+              -81.0,
+              81.0,
+              576.072246,
+              688.452129
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 46,
+              "edges": 120,
+              "vertices": 80
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 957035.924322,
+            "area_mm2": 247864.297371,
+            "centre_mm": [
+              -196.059616,
+              -0.0,
+              634.408732
+            ],
+            "bounds_mm": [
+              -343.225538,
+              -41.765553,
+              -81.0,
+              81.0,
+              576.072246,
+              688.452129
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 46,
+              "edges": 120,
+              "vertices": 80
+            },
+            "valid": true
+          },
+          "master_key": "fixed",
+          "expected_physical_occurrence_id": "E6-A07-MAST-FIXED-SLEEVE",
+          "actual_physical_occurrence_id": "E6-A07-MAST-FIXED-SLEEVE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_mast_moving_inner_sleeve": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 752197.960196,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 752197.960196,
+            "area_mm2": 366603.085044,
+            "centre_mm": [
+              -53.042793,
+              -0.0,
+              646.934146
+            ],
+            "bounds_mm": [
+              -361.705266,
+              230.53203,
+              -60.437402,
+              60.437402,
+              597.901374,
+              698.037454
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 64,
+              "edges": 168,
+              "vertices": 112
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 752197.960196,
+            "area_mm2": 366603.085044,
+            "centre_mm": [
+              -53.042793,
+              -0.0,
+              646.934146
+            ],
+            "bounds_mm": [
+              -361.705266,
+              230.53203,
+              -60.437402,
+              60.437402,
+              597.901374,
+              698.037454
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 64,
+              "edges": 168,
+              "vertices": 112
+            },
+            "valid": true
+          },
+          "master_key": "moving",
+          "expected_physical_occurrence_id": "E6-A07-MAST-MOVING-SLEEVE",
+          "actual_physical_occurrence_id": "E6-A07-MAST-MOVING-SLEEVE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_sensor_beam_shell": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 717469.321677,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 717469.321677,
+            "area_mm2": 158714.855583,
+            "centre_mm": [
+              -383.29602,
+              20.460956,
+              620.738488
+            ],
+            "bounds_mm": [
+              -411.440038,
+              -341.408364,
+              -160.84768,
+              208.047197,
+              564.807883,
+              657.70511
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 157,
+              "edges": 389,
+              "vertices": 231
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 717469.321677,
+            "area_mm2": 158714.855583,
+            "centre_mm": [
+              -383.29602,
+              20.460956,
+              620.738488
+            ],
+            "bounds_mm": [
+              -411.440038,
+              -341.408364,
+              -160.84768,
+              208.047197,
+              564.807883,
+              657.70511
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 157,
+              "edges": 389,
+              "vertices": 231
+            },
+            "valid": true
+          },
+          "master_key": "beam",
+          "expected_physical_occurrence_id": "E6-A07-SENSOR-BEAM-SHELL",
+          "actual_physical_occurrence_id": "E6-A07-SENSOR-BEAM-SHELL",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_sensor_beam_smoked_window": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 16346.820837,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 16346.820837,
+            "area_mm2": 17307.181447,
+            "centre_mm": [
+              -375.789725,
+              -0.0,
+              569.510277
+            ],
+            "bounds_mm": [
+              -390.744786,
+              -360.834664,
+              -138.0,
+              138.0,
+              567.281761,
+              571.738792
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 16346.820837,
+            "area_mm2": 17307.181447,
+            "centre_mm": [
+              -375.789725,
+              -0.0,
+              569.510277
+            ],
+            "bounds_mm": [
+              -390.744786,
+              -360.834664,
+              -138.0,
+              138.0,
+              567.281761,
+              571.738792
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "sensor_window",
+          "expected_physical_occurrence_id": "WC-MAST-SMOKED-SENSOR-WINDOW",
+          "actual_physical_occurrence_id": "WC-MAST-SMOKED-SENSOR-WINDOW",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_physical_privacy_shutter": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 17020.421116,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 17020.421116,
+            "area_mm2": 9725.04156,
+            "centre_mm": [
+              -372.109992,
+              -8.0,
+              573.345581
+            ],
+            "bounds_mm": [
+              -389.219613,
+              -355.00037,
+              -71.0,
+              55.0,
+              569.871544,
+              576.819618
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 10,
+              "edges": 24,
+              "vertices": 16
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 17020.421116,
+            "area_mm2": 9725.04156,
+            "centre_mm": [
+              -372.109992,
+              -8.0,
+              573.345581
+            ],
+            "bounds_mm": [
+              -389.219613,
+              -355.00037,
+              -71.0,
+              55.0,
+              569.871544,
+              576.819618
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 10,
+              "edges": 24,
+              "vertices": 16
+            },
+            "valid": true
+          },
+          "master_key": "privacy_shutter",
+          "expected_physical_occurrence_id": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+          "actual_physical_occurrence_id": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_microphone_acoustic_mesh": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1762.398406,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1762.398406,
+            "area_mm2": 2036.020489,
+            "centre_mm": [
+              -344.465363,
+              -0.0,
+              595.840569
+            ],
+            "bounds_mm": [
+              -345.909477,
+              -343.021249,
+              -38.0,
+              38.0,
+              589.851261,
+              601.829878
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1762.398406,
+            "area_mm2": 2036.020489,
+            "centre_mm": [
+              -344.465363,
+              -0.0,
+              595.840569
+            ],
+            "bounds_mm": [
+              -345.909477,
+              -343.021249,
+              -38.0,
+              38.0,
+              589.851261,
+              601.829878
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "microphone_mesh",
+          "expected_physical_occurrence_id": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+          "actual_physical_occurrence_id": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_environment_sensor_grille": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1964.132746,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1964.132746,
+            "area_mm2": 2193.652355,
+            "centre_mm": [
+              -407.704534,
+              -75.0,
+              635.981661
+            ],
+            "bounds_mm": [
+              -409.410115,
+              -405.998953,
+              -103.0,
+              -47.0,
+              627.003769,
+              644.959554
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1964.132746,
+            "area_mm2": 2193.652355,
+            "centre_mm": [
+              -407.704534,
+              -75.0,
+              635.981661
+            ],
+            "bounds_mm": [
+              -409.410115,
+              -405.998953,
+              -103.0,
+              -47.0,
+              627.003769,
+              644.959554
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "environment_grille",
+          "expected_physical_occurrence_id": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+          "actual_physical_occurrence_id": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_fill_light_visible_window_left": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 364.117003,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              -346.687834,
+              -56.0,
+              621.243534
+            ],
+            "bounds_mm": [
+              -348.131948,
+              -345.243721,
+              -64.0,
+              -48.0,
+              615.254226,
+              627.232843
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              -346.687834,
+              -56.0,
+              621.243534
+            ],
+            "bounds_mm": [
+              -348.131948,
+              -345.243721,
+              -64.0,
+              -48.0,
+              615.254226,
+              627.232843
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "fill_window_left",
+          "expected_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+          "actual_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_fill_light_visible_window_right": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 364.117003,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              -346.687834,
+              56.0,
+              621.243534
+            ],
+            "bounds_mm": [
+              -348.131948,
+              -345.243721,
+              48.0,
+              64.0,
+              615.254226,
+              627.232843
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              -346.687834,
+              56.0,
+              621.243534
+            ],
+            "bounds_mm": [
+              -348.131948,
+              -345.243721,
+              48.0,
+              64.0,
+              615.254226,
+              627.232843
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "fill_window_right",
+          "expected_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+          "actual_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_privacy_shutter_carriage_bezel": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1954.529765,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1954.529765,
+            "area_mm2": 3263.269374,
+            "centre_mm": [
+              -372.415037,
+              -8.0,
+              576.832262
+            ],
+            "bounds_mm": [
+              -393.347266,
+              -351.482808,
+              -75.0,
+              59.0,
+              574.080813,
+              579.583712
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1954.529765,
+            "area_mm2": 3263.269374,
+            "centre_mm": [
+              -372.415037,
+              -8.0,
+              576.832262
+            ],
+            "bounds_mm": [
+              -393.347266,
+              -351.482808,
+              -75.0,
+              59.0,
+              574.080813,
+              579.583712
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "master_key": "privacy_shutter_carriage_bezel",
+          "expected_physical_occurrence_id": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+          "actual_physical_occurrence_id": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_mast_throat_weather_gasket": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1469.297261,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1469.297261,
+            "area_mm2": 3429.599892,
+            "centre_mm": [
+              -339.96352,
+              0.0,
+              621.831835
+            ],
+            "bounds_mm": [
+              -344.83788,
+              -335.08916,
+              -83.0,
+              83.0,
+              574.005385,
+              669.658286
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1469.297261,
+            "area_mm2": 3429.599892,
+            "centre_mm": [
+              -339.96352,
+              0.0,
+              621.831835
+            ],
+            "bounds_mm": [
+              -344.83788,
+              -335.08916,
+              -83.0,
+              83.0,
+              574.005385,
+              669.658286
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "master_key": "throat_gasket",
+          "expected_physical_occurrence_id": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+          "actual_physical_occurrence_id": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_mast_lock_pin_confirmation_lens_left": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 166.253083,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              -221.25491,
+              -52.0,
+              593.068519
+            ],
+            "bounds_mm": [
+              -225.569661,
+              -216.940158,
+              -56.2,
+              -47.8,
+              591.208173,
+              594.928866
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              -221.25491,
+              -52.0,
+              593.068519
+            ],
+            "bounds_mm": [
+              -225.569661,
+              -216.940158,
+              -56.2,
+              -47.8,
+              591.208173,
+              594.928866
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "master_key": "lock_lens_left",
+          "expected_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+          "actual_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_mast_lock_pin_confirmation_lens_right": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 166.253083,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              -221.25491,
+              52.0,
+              593.068519
+            ],
+            "bounds_mm": [
+              -225.569661,
+              -216.940158,
+              47.8,
+              56.2,
+              591.208173,
+              594.928866
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              -221.25491,
+              52.0,
+              593.068519
+            ],
+            "bounds_mm": [
+              -225.569661,
+              -216.940158,
+              47.8,
+              56.2,
+              591.208173,
+              594.928866
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "master_key": "lock_lens_right",
+          "expected_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+          "actual_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_mast_lock_pin_left": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1306.902544,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              -221.865,
+              -34.0,
+              600.041882
+            ],
+            "bounds_mm": [
+              -226.982803,
+              -216.747197,
+              -38.0,
+              -30.0,
+              586.742728,
+              613.341036
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              -221.865,
+              -34.0,
+              600.041882
+            ],
+            "bounds_mm": [
+              -226.982803,
+              -216.747197,
+              -38.0,
+              -30.0,
+              586.742728,
+              613.341036
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "master_key": "lock_pin_engaged_left",
+          "expected_physical_occurrence_id": "WC-MAST-LOCK-PIN-LEFT",
+          "actual_physical_occurrence_id": "WC-MAST-LOCK-PIN-LEFT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        },
+        "A07_mast_lock_pin_right": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1306.902544,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              -221.865,
+              34.0,
+              600.041882
+            ],
+            "bounds_mm": [
+              -226.982803,
+              -216.747197,
+              30.0,
+              38.0,
+              586.742728,
+              613.341036
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              -221.865,
+              34.0,
+              600.041882
+            ],
+            "bounds_mm": [
+              -226.982803,
+              -216.747197,
+              30.0,
+              38.0,
+              586.742728,
+              613.341036
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "master_key": "lock_pin_engaged_right",
+          "expected_physical_occurrence_id": "WC-MAST-LOCK-PIN-RIGHT",
+          "actual_physical_occurrence_id": "WC-MAST-LOCK-PIN-RIGHT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": true
+        }
+      },
+      "a06_backrest_brep_evidence": {
+        "status": "PASS",
+        "symmetric_difference_volume_mm3": 0.0,
+        "common_volume_mm3": 2546765.254764,
+        "maximum_bound_delta_mm": 0.0,
+        "expected_signature": {
+          "volume_mm3": 2546765.254764,
+          "area_mm2": 1229083.345652,
+          "centre_mm": [
+            -79.509086,
+            -0.000976,
+            621.412777
+          ],
+          "bounds_mm": [
+            -344.174011,
+            159.241745,
+            -303.0,
+            303.0,
+            479.06521,
+            696.807831
+          ],
+          "topology": {
+            "solids": 1,
+            "shells": 1,
+            "faces": 106,
+            "edges": 295,
+            "vertices": 189
+          },
+          "valid": true
+        },
+        "actual_signature": {
+          "volume_mm3": 2546765.254764,
+          "area_mm2": 1229083.345652,
+          "centre_mm": [
+            -79.509086,
+            -0.000976,
+            621.412777
+          ],
+          "bounds_mm": [
+            -344.174011,
+            159.241745,
+            -303.0,
+            303.0,
+            479.06521,
+            696.807831
+          ],
+          "topology": {
+            "solids": 1,
+            "shells": 1,
+            "faces": 106,
+            "edges": 295,
+            "vertices": 189
+          },
+          "valid": true
+        }
+      },
+      "endpoint_contract": {
+        "ride_cafe_low_pose_equal": true,
+        "focus_moving_translation_mm": [
+          0.0,
+          0.0,
+          420.0
+        ],
+        "focus_privacy_translation_mm": [
+          0.0,
+          136.0,
+          420.0
+        ],
+        "fixed_inventory_translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "follow_a06_a07_shared_hinge_mm": [
+          160.0,
+          0.0,
+          515.0
+        ],
+        "follow_fold_deg": -95.0,
+        "follow_shared_hinge_axis_invariant": true
+      },
+      "controlled_source_step": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_follow.step",
+      "controlled_source_step_sha256": "f925527ce086f2b18b0c53312733aadd6fa69aebb541d158f260d9c33b1a88fc",
+      "generated_skin_shape_signature": {
+        "bounds_mm": {
+          "xmin": -528.0000001,
+          "xmax": 352.0000001000001,
+          "ymin": -378.8,
+          "ymax": 375.5,
+          "zmin": 8.599999899999995,
+          "zmax": 731.0,
+          "xlen": 880.0000002,
+          "ylen": 754.3,
+          "zlen": 722.4000001
+        },
+        "volume_mm3": 44348033.67690134,
+        "area_mm2": 11758149.077221345,
+        "centroid_mm": [
+          -83.42609108285731,
+          0.24668732958594716,
+          433.2233213348714
+        ],
+        "solid_count": 182,
+        "face_count": 6020,
+        "edge_count": 14095
+      },
+      "generated_skin_part_count": 182,
+      "exterior_step": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/follow/workcore_e6_exterior_follow.step",
+      "exterior_step_sha256": "4fb17bdac3abb7e207816e77b12977f2598525251b62292c58cf29807b097d6e",
+      "exterior_part_inventory": [
+        "A01_front_nose_shell",
+        "A01_perception_horizon_smoked_mask",
+        "A01_front_tactile_bumper_skin",
+        "A02_main_side_shell_left",
+        "A02_side_ultrasonic_face_front_left",
+        "A02_side_ultrasonic_face_rear_left",
+        "A02_acoustic_mesh_left_1",
+        "A02_acoustic_mesh_left_2",
+        "A02_main_side_shell_right",
+        "A02_side_ultrasonic_face_front_right",
+        "A02_side_ultrasonic_face_rear_right",
+        "A02_acoustic_mesh_right_1",
+        "A02_acoustic_mesh_right_2",
+        "A02_cliff_ir_window_front_left",
+        "A02_cliff_ir_bezel_front_left",
+        "A02_cliff_ir_window_front_right",
+        "A02_cliff_ir_bezel_front_right",
+        "A02_cliff_ir_window_rear_left",
+        "A02_cliff_ir_bezel_rear_left",
+        "A02_cliff_ir_window_rear_right",
+        "A02_cliff_ir_bezel_rear_right",
+        "A03_wheel_interspace_bridge_left",
+        "A03_wheel_interspace_bridge_right",
+        "A04_open_u_seat_pan_ring",
+        "A04_open_u_seat_pan_ring_service_segment_2",
+        "A04_open_u_seat_pan_ring_service_segment_3",
+        "A04_seat_cushion_contact_island",
+        "A04_underseat_belly_closeout",
+        "A04_recovery_handle_grip_shell",
+        "A04_recovery_handle_grip_inlay",
+        "A08_manual_release_paddle_shell",
+        "A10_rear_service_surround",
+        "A10_rear_flush_service_door_skin",
+        "A10_rear_status_lens",
+        "A10_rear_tof_window",
+        "A10_rear_uwb_radome",
+        "A10_rear_horn_acoustic_mesh",
+        "A10_rear_service_external_release_guard",
+        "A10_rear_service_external_no_power_release",
+        "A10_rear_service_pull_cup",
+        "A10_rear_service_pull_grip_inlay",
+        "A10_pressure_relief_vent_bezel",
+        "A05_armrest_table_bay_shell_left",
+        "A05_armrest_touch_lid_left",
+        "A05_armrest_top_lid_hinge_reveal_left",
+        "A05_armrest_top_lid_release_left",
+        "A05_table_cassette_lowpoint_drain_left",
+        "A05_left_hmi_precision_bezel",
+        "A05_left_status_display_window",
+        "A05_left_qi_phone_cradle",
+        "A05_left_qi_target_ring",
+        "A05_left_qi_phone_stop_front",
+        "A05_left_qi_phone_stop_rear",
+        "A05_left_emergency_stop_guard",
+        "A05_left_mechanical_emergency_stop",
+        "A05_armrest_table_bay_shell_right",
+        "A05_armrest_touch_lid_right",
+        "A05_right_table_root_tongue_compression_gland",
+        "A05_armrest_top_lid_hinge_reveal_right",
+        "A05_armrest_top_lid_release_right",
+        "A05_table_cassette_lowpoint_drain_right",
+        "A05_right_removable_drive_pod",
+        "A05_right_joystick",
+        "A05_right_authorisation_key",
+        "A05_follow_external_emergency_stop_guard",
+        "A05_follow_external_mechanical_emergency_stop",
+        "A05_follow_neutral_status_witness",
+        "A03_continuous_wheel_belt_shell_left",
+        "A03_body_colour_wheel_end_return_skin_front_left",
+        "A03_body_colour_wheel_end_return_skin_rear_left",
+        "A03_wheel_end_service_cap_front_left",
+        "A03_wheel_end_motion_gaiter_front_left",
+        "A03_wheel_end_service_cap_rear_left",
+        "A03_wheel_end_motion_gaiter_rear_left",
+        "A03_rocker_pivot_service_cap_left",
+        "A03_continuous_wheel_belt_shell_right",
+        "A03_body_colour_wheel_end_return_skin_front_right",
+        "A03_body_colour_wheel_end_return_skin_rear_right",
+        "A03_wheel_end_service_cap_front_right",
+        "A03_wheel_end_motion_gaiter_front_right",
+        "A03_wheel_end_service_cap_rear_right",
+        "A03_wheel_end_motion_gaiter_rear_right",
+        "A03_rocker_pivot_service_cap_right",
+        "A04_front_waist_fascia",
+        "A04_A05_integrated_side_sail_left",
+        "A04_A05_integrated_side_sail_right",
+        "A08_footrest_root_monocoque",
+        "A06_backrest_weather_shell",
+        "A06_backrest_contact_panel",
+        "A04_backrest_root_shoulder_left",
+        "A04_backrest_root_shoulder_right",
+        "A06_backrest_lock_witness_left",
+        "A06_backrest_lock_witness_right",
+        "A06_backrest_manual_release",
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_moving_inner_sleeve",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window",
+        "A07_physical_privacy_shutter",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_microphone_acoustic_mesh",
+        "A07_environment_sensor_grille",
+        "A07_mast_throat_weather_gasket",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right"
+      ],
+      "output_binding_status": "PASS"
+    },
+    "ride": {
+      "schema_version": 1,
+      "gate": "direct A06/A07 four-state physical BRep pose contract",
+      "state": "ride",
+      "status": "PASS",
+      "failures": [],
+      "canonical_exterior_inventory": [
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_moving_inner_sleeve",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window",
+        "A07_physical_privacy_shutter",
+        "A07_microphone_acoustic_mesh",
+        "A07_environment_sensor_grille",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_mast_throat_weather_gasket",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right"
+      ],
+      "canonical_internal_inventory": [
+        "A07_mast_lock_pin_left",
+        "A07_mast_lock_pin_right"
+      ],
+      "actual_a07_inventory": [
+        "A07_environment_sensor_grille",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right",
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right",
+        "A07_mast_lock_pin_left",
+        "A07_mast_lock_pin_right",
+        "A07_mast_moving_inner_sleeve",
+        "A07_mast_throat_weather_gasket",
+        "A07_microphone_acoustic_mesh",
+        "A07_physical_privacy_shutter",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window"
+      ],
+      "visible_exterior_inventory": [
+        "A07_environment_sensor_grille",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right",
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right",
+        "A07_mast_moving_inner_sleeve",
+        "A07_mast_throat_weather_gasket",
+        "A07_microphone_acoustic_mesh",
+        "A07_physical_privacy_shutter",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window"
+      ],
+      "physical_occurrence_ids_by_name": {
+        "A07_mast_fixed_outer_sleeve": "E6-A07-MAST-FIXED-SLEEVE",
+        "A07_mast_moving_inner_sleeve": "E6-A07-MAST-MOVING-SLEEVE",
+        "A07_sensor_beam_shell": "E6-A07-SENSOR-BEAM-SHELL",
+        "A07_sensor_beam_smoked_window": "WC-MAST-SMOKED-SENSOR-WINDOW",
+        "A07_physical_privacy_shutter": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+        "A07_microphone_acoustic_mesh": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+        "A07_environment_sensor_grille": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+        "A07_fill_light_visible_window_left": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+        "A07_fill_light_visible_window_right": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+        "A07_privacy_shutter_carriage_bezel": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+        "A07_mast_throat_weather_gasket": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+        "A07_mast_lock_pin_confirmation_lens_left": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+        "A07_mast_lock_pin_confirmation_lens_right": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+        "A07_mast_lock_pin_left": "WC-MAST-LOCK-PIN-LEFT",
+        "A07_mast_lock_pin_right": "WC-MAST-LOCK-PIN-RIGHT"
+      },
+      "occurrences": {
+        "A07_mast_fixed_outer_sleeve": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 957035.924322,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 957035.924322,
+            "area_mm2": 247864.297371,
+            "centre_mm": [
+              309.986986,
+              -0.0,
+              859.297545
+            ],
+            "bounds_mm": [
+              264.0,
+              356.0,
+              -81.0,
+              81.0,
+              708.0,
+              1003.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 46,
+              "edges": 120,
+              "vertices": 80
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 957035.924322,
+            "area_mm2": 247864.297371,
+            "centre_mm": [
+              309.986986,
+              -0.0,
+              859.297545
+            ],
+            "bounds_mm": [
+              264.0,
+              356.0,
+              -81.0,
+              81.0,
+              708.0,
+              1003.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 46,
+              "edges": 120,
+              "vertices": 80
+            },
+            "valid": true
+          },
+          "master_key": "fixed",
+          "expected_physical_occurrence_id": "E6-A07-MAST-FIXED-SLEEVE",
+          "actual_physical_occurrence_id": "E6-A07-MAST-FIXED-SLEEVE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_moving_inner_sleeve": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 752197.960196,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 752197.960196,
+            "area_mm2": 366603.085044,
+            "centre_mm": [
+              310.0,
+              -0.0,
+              715.733282
+            ],
+            "bounds_mm": [
+              282.835974,
+              337.164026,
+              -60.437402,
+              60.437402,
+              433.0,
+              1024.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 64,
+              "edges": 168,
+              "vertices": 112
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 752197.960196,
+            "area_mm2": 366603.085044,
+            "centre_mm": [
+              310.0,
+              -0.0,
+              715.733282
+            ],
+            "bounds_mm": [
+              282.835974,
+              337.164026,
+              -60.437402,
+              60.437402,
+              433.0,
+              1024.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 64,
+              "edges": 168,
+              "vertices": 112
+            },
+            "valid": true
+          },
+          "master_key": "moving",
+          "expected_physical_occurrence_id": "E6-A07-MAST-MOVING-SLEEVE",
+          "actual_physical_occurrence_id": "E6-A07-MAST-MOVING-SLEEVE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_sensor_beam_shell": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 717469.321677,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 717469.321677,
+            "area_mm2": 158714.855583,
+            "centre_mm": [
+              312.68749,
+              20.460956,
+              1047.012898
+            ],
+            "bounds_mm": [
+              256.744478,
+              350.068426,
+              -160.84768,
+              208.047197,
+              1008.0,
+              1072.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 157,
+              "edges": 389,
+              "vertices": 231
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 717469.321677,
+            "area_mm2": 158714.855583,
+            "centre_mm": [
+              312.68749,
+              20.460956,
+              1047.012898
+            ],
+            "bounds_mm": [
+              256.744478,
+              350.068426,
+              -160.84768,
+              208.047197,
+              1008.0,
+              1072.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 157,
+              "edges": 389,
+              "vertices": 231
+            },
+            "valid": true
+          },
+          "master_key": "beam",
+          "expected_physical_occurrence_id": "E6-A07-SENSOR-BEAM-SHELL",
+          "actual_physical_occurrence_id": "E6-A07-SENSOR-BEAM-SHELL",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_sensor_beam_smoked_window": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 16346.820837,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 16346.820837,
+            "area_mm2": 17307.181447,
+            "centre_mm": [
+              261.0,
+              0.0,
+              1044.0
+            ],
+            "bounds_mm": [
+              260.0,
+              262.0,
+              -138.0,
+              138.0,
+              1029.0,
+              1059.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 16346.820837,
+            "area_mm2": 17307.181447,
+            "centre_mm": [
+              261.0,
+              0.0,
+              1044.0
+            ],
+            "bounds_mm": [
+              260.0,
+              262.0,
+              -138.0,
+              138.0,
+              1029.0,
+              1059.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "sensor_window",
+          "expected_physical_occurrence_id": "WC-MAST-SMOKED-SENSOR-WINDOW",
+          "actual_physical_occurrence_id": "WC-MAST-SMOKED-SENSOR-WINDOW",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_physical_privacy_shutter": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 17020.421116,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 17020.421116,
+            "area_mm2": 9725.04156,
+            "centre_mm": [
+              264.5,
+              -8.0,
+              1040.0
+            ],
+            "bounds_mm": [
+              262.5,
+              266.5,
+              -71.0,
+              55.0,
+              1023.0,
+              1057.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 10,
+              "edges": 24,
+              "vertices": 16
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 17020.421116,
+            "area_mm2": 9725.04156,
+            "centre_mm": [
+              264.5,
+              -8.0,
+              1040.0
+            ],
+            "bounds_mm": [
+              262.5,
+              266.5,
+              -71.0,
+              55.0,
+              1023.0,
+              1057.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 10,
+              "edges": 24,
+              "vertices": 16
+            },
+            "valid": true
+          },
+          "master_key": "privacy_shutter",
+          "expected_physical_occurrence_id": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+          "actual_physical_occurrence_id": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_microphone_acoustic_mesh": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1762.398406,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1762.398406,
+            "area_mm2": 2036.020489,
+            "centre_mm": [
+              284.5,
+              -0.0,
+              1010.5
+            ],
+            "bounds_mm": [
+              278.5,
+              290.5,
+              -38.0,
+              38.0,
+              1009.5,
+              1011.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1762.398406,
+            "area_mm2": 2036.020489,
+            "centre_mm": [
+              284.5,
+              -0.0,
+              1010.5
+            ],
+            "bounds_mm": [
+              278.5,
+              290.5,
+              -38.0,
+              38.0,
+              1009.5,
+              1011.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "microphone_mesh",
+          "expected_physical_occurrence_id": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+          "actual_physical_occurrence_id": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_environment_sensor_grille": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1964.132746,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1964.132746,
+            "area_mm2": 2193.652355,
+            "centre_mm": [
+              330.0,
+              -75.0,
+              1070.0
+            ],
+            "bounds_mm": [
+              321.0,
+              339.0,
+              -103.0,
+              -47.0,
+              1069.0,
+              1071.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1964.132746,
+            "area_mm2": 2193.652355,
+            "centre_mm": [
+              330.0,
+              -75.0,
+              1070.0
+            ],
+            "bounds_mm": [
+              321.0,
+              339.0,
+              -103.0,
+              -47.0,
+              1069.0,
+              1071.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "environment_grille",
+          "expected_physical_occurrence_id": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+          "actual_physical_occurrence_id": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_fill_light_visible_window_left": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 364.117003,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              310.0,
+              -56.0,
+              1010.5
+            ],
+            "bounds_mm": [
+              304.0,
+              316.0,
+              -64.0,
+              -48.0,
+              1009.5,
+              1011.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              310.0,
+              -56.0,
+              1010.5
+            ],
+            "bounds_mm": [
+              304.0,
+              316.0,
+              -64.0,
+              -48.0,
+              1009.5,
+              1011.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "fill_window_left",
+          "expected_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+          "actual_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_fill_light_visible_window_right": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 364.117003,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              310.0,
+              56.0,
+              1010.5
+            ],
+            "bounds_mm": [
+              304.0,
+              316.0,
+              48.0,
+              64.0,
+              1009.5,
+              1011.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              310.0,
+              56.0,
+              1010.5
+            ],
+            "bounds_mm": [
+              304.0,
+              316.0,
+              48.0,
+              64.0,
+              1009.5,
+              1011.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "fill_window_right",
+          "expected_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+          "actual_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_privacy_shutter_carriage_bezel": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1954.529765,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1954.529765,
+            "area_mm2": 3263.269374,
+            "centre_mm": [
+              268.0,
+              -8.0,
+              1040.0
+            ],
+            "bounds_mm": [
+              267.0,
+              269.0,
+              -75.0,
+              59.0,
+              1019.0,
+              1061.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1954.529765,
+            "area_mm2": 3263.269374,
+            "centre_mm": [
+              268.0,
+              -8.0,
+              1040.0
+            ],
+            "bounds_mm": [
+              267.0,
+              269.0,
+              -75.0,
+              59.0,
+              1019.0,
+              1061.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "master_key": "privacy_shutter_carriage_bezel",
+          "expected_physical_occurrence_id": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+          "actual_physical_occurrence_id": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_throat_weather_gasket": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1469.297261,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1469.297261,
+            "area_mm2": 3429.599892,
+            "centre_mm": [
+              310.0,
+              0.0,
+              1003.75
+            ],
+            "bounds_mm": [
+              262.0,
+              358.0,
+              -83.0,
+              83.0,
+              1003.0,
+              1004.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1469.297261,
+            "area_mm2": 3429.599892,
+            "centre_mm": [
+              310.0,
+              0.0,
+              1003.75
+            ],
+            "bounds_mm": [
+              262.0,
+              358.0,
+              -83.0,
+              83.0,
+              1003.0,
+              1004.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "master_key": "throat_gasket",
+          "expected_physical_occurrence_id": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+          "actual_physical_occurrence_id": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_lock_pin_confirmation_lens_left": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 166.253083,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              271.0,
+              -52.0,
+              888.0
+            ],
+            "bounds_mm": [
+              269.5,
+              272.5,
+              -56.2,
+              -47.8,
+              883.8,
+              892.2
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              271.0,
+              -52.0,
+              888.0
+            ],
+            "bounds_mm": [
+              269.5,
+              272.5,
+              -56.2,
+              -47.8,
+              883.8,
+              892.2
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "master_key": "lock_lens_left",
+          "expected_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+          "actual_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_lock_pin_confirmation_lens_right": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 166.253083,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              271.0,
+              52.0,
+              888.0
+            ],
+            "bounds_mm": [
+              269.5,
+              272.5,
+              47.8,
+              56.2,
+              883.8,
+              892.2
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              271.0,
+              52.0,
+              888.0
+            ],
+            "bounds_mm": [
+              269.5,
+              272.5,
+              47.8,
+              56.2,
+              883.8,
+              892.2
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "master_key": "lock_lens_right",
+          "expected_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+          "actual_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_lock_pin_left": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1306.902544,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              278.0,
+              -34.0,
+              888.0
+            ],
+            "bounds_mm": [
+              265.0,
+              291.0,
+              -38.0,
+              -30.0,
+              884.0,
+              892.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              278.0,
+              -34.0,
+              888.0
+            ],
+            "bounds_mm": [
+              265.0,
+              291.0,
+              -38.0,
+              -30.0,
+              884.0,
+              892.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "master_key": "lock_pin_engaged_left",
+          "expected_physical_occurrence_id": "WC-MAST-LOCK-PIN-LEFT",
+          "actual_physical_occurrence_id": "WC-MAST-LOCK-PIN-LEFT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_lock_pin_right": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1306.902544,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              278.0,
+              34.0,
+              888.0
+            ],
+            "bounds_mm": [
+              265.0,
+              291.0,
+              30.0,
+              38.0,
+              884.0,
+              892.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              278.0,
+              34.0,
+              888.0
+            ],
+            "bounds_mm": [
+              265.0,
+              291.0,
+              30.0,
+              38.0,
+              884.0,
+              892.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "master_key": "lock_pin_engaged_right",
+          "expected_physical_occurrence_id": "WC-MAST-LOCK-PIN-RIGHT",
+          "actual_physical_occurrence_id": "WC-MAST-LOCK-PIN-RIGHT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        }
+      },
+      "a06_backrest_brep_evidence": {
+        "status": "PASS",
+        "symmetric_difference_volume_mm3": 0.0,
+        "common_volume_mm3": 2546765.254764,
+        "maximum_bound_delta_mm": 0.0,
+        "expected_signature": {
+          "volume_mm3": 2546765.254764,
+          "area_mm2": 1229083.345652,
+          "centre_mm": [
+            286.882436,
+            -0.000976,
+            744.323197
+          ],
+          "bounds_mm": [
+            157.655945,
+            369.175008,
+            -303.0,
+            303.0,
+            515.0,
+            1003.0
+          ],
+          "topology": {
+            "solids": 1,
+            "shells": 1,
+            "faces": 106,
+            "edges": 295,
+            "vertices": 189
+          },
+          "valid": true
+        },
+        "actual_signature": {
+          "volume_mm3": 2546765.254764,
+          "area_mm2": 1229083.345652,
+          "centre_mm": [
+            286.882436,
+            -0.000976,
+            744.323197
+          ],
+          "bounds_mm": [
+            157.655945,
+            369.175008,
+            -303.0,
+            303.0,
+            515.0,
+            1003.0
+          ],
+          "topology": {
+            "solids": 1,
+            "shells": 1,
+            "faces": 106,
+            "edges": 295,
+            "vertices": 189
+          },
+          "valid": true
+        }
+      },
+      "endpoint_contract": {
+        "ride_cafe_low_pose_equal": true,
+        "focus_moving_translation_mm": [
+          0.0,
+          0.0,
+          420.0
+        ],
+        "focus_privacy_translation_mm": [
+          0.0,
+          136.0,
+          420.0
+        ],
+        "fixed_inventory_translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "follow_a06_a07_shared_hinge_mm": [
+          160.0,
+          0.0,
+          515.0
+        ],
+        "follow_fold_deg": -95.0,
+        "follow_shared_hinge_axis_invariant": true
+      },
+      "controlled_source_step": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_ride.step",
+      "controlled_source_step_sha256": "3bf21b0811845c0d0fc10fbd116c96fc2188cc6e7a54956cd5e383c6a48fbb89",
+      "generated_skin_shape_signature": {
+        "bounds_mm": {
+          "xmin": -710.0,
+          "xmax": 369.1750075267015,
+          "ymin": -375.5,
+          "ymax": 375.5,
+          "zmin": 8.599999899999995,
+          "zmax": 1072.0000001000008,
+          "xlen": 1079.1750075267014,
+          "ylen": 751.0,
+          "zlen": 1063.4000002000007
+        },
+        "volume_mm3": 44350151.99600869,
+        "area_mm2": 11751205.574024037,
+        "centroid_mm": [
+          -27.932930843598445,
+          0.24288337020553072,
+          463.821766671453
+        ],
+        "solid_count": 179,
+        "face_count": 5956,
+        "edge_count": 13951
+      },
+      "generated_skin_part_count": 179,
+      "exterior_step": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/workcore_e6_exterior_ride.step",
+      "exterior_step_sha256": "5cbdd5b559eb557171c1ad37e78013987ee722bd7389f8c832c37abbac4d6fb1",
+      "exterior_part_inventory": [
+        "A01_front_nose_shell",
+        "A01_perception_horizon_smoked_mask",
+        "A01_front_tactile_bumper_skin",
+        "A02_main_side_shell_left",
+        "A02_side_ultrasonic_face_front_left",
+        "A02_side_ultrasonic_face_rear_left",
+        "A02_acoustic_mesh_left_1",
+        "A02_acoustic_mesh_left_2",
+        "A02_main_side_shell_right",
+        "A02_side_ultrasonic_face_front_right",
+        "A02_side_ultrasonic_face_rear_right",
+        "A02_acoustic_mesh_right_1",
+        "A02_acoustic_mesh_right_2",
+        "A02_cliff_ir_window_front_left",
+        "A02_cliff_ir_bezel_front_left",
+        "A02_cliff_ir_window_front_right",
+        "A02_cliff_ir_bezel_front_right",
+        "A02_cliff_ir_window_rear_left",
+        "A02_cliff_ir_bezel_rear_left",
+        "A02_cliff_ir_window_rear_right",
+        "A02_cliff_ir_bezel_rear_right",
+        "A03_wheel_interspace_bridge_left",
+        "A03_wheel_interspace_bridge_right",
+        "A04_open_u_seat_pan_ring",
+        "A04_open_u_seat_pan_ring_service_segment_2",
+        "A04_open_u_seat_pan_ring_service_segment_3",
+        "A04_seat_cushion_contact_island",
+        "A04_underseat_belly_closeout",
+        "A04_recovery_handle_grip_shell",
+        "A04_recovery_handle_grip_inlay",
+        "A08_footrest_top_skin",
+        "A08_footrest_inset_tread",
+        "A08_footrest_perimeter_skin",
+        "A08_manual_release_paddle_shell",
+        "A10_rear_service_surround",
+        "A10_rear_flush_service_door_skin",
+        "A10_rear_status_lens",
+        "A10_rear_tof_window",
+        "A10_rear_uwb_radome",
+        "A10_rear_horn_acoustic_mesh",
+        "A10_rear_service_external_release_guard",
+        "A10_rear_service_external_no_power_release",
+        "A10_rear_service_pull_cup",
+        "A10_rear_service_pull_grip_inlay",
+        "A10_pressure_relief_vent_bezel",
+        "A05_armrest_table_bay_shell_left",
+        "A05_armrest_touch_lid_left",
+        "A05_armrest_top_lid_hinge_reveal_left",
+        "A05_armrest_top_lid_release_left",
+        "A05_table_cassette_lowpoint_drain_left",
+        "A05_left_hmi_precision_bezel",
+        "A05_left_status_display_window",
+        "A05_left_qi_phone_cradle",
+        "A05_left_qi_target_ring",
+        "A05_left_qi_phone_stop_front",
+        "A05_left_qi_phone_stop_rear",
+        "A05_left_emergency_stop_guard",
+        "A05_left_mechanical_emergency_stop",
+        "A05_armrest_table_bay_shell_right",
+        "A05_armrest_touch_lid_right",
+        "A05_right_table_root_tongue_compression_gland",
+        "A05_armrest_top_lid_hinge_reveal_right",
+        "A05_armrest_top_lid_release_right",
+        "A05_table_cassette_lowpoint_drain_right",
+        "A05_right_removable_drive_pod",
+        "A05_right_joystick",
+        "A05_right_authorisation_key",
+        "A03_continuous_wheel_belt_shell_left",
+        "A03_body_colour_wheel_end_return_skin_front_left",
+        "A03_body_colour_wheel_end_return_skin_rear_left",
+        "A03_wheel_end_service_cap_front_left",
+        "A03_wheel_end_motion_gaiter_front_left",
+        "A03_wheel_end_service_cap_rear_left",
+        "A03_wheel_end_motion_gaiter_rear_left",
+        "A03_rocker_pivot_service_cap_left",
+        "A03_continuous_wheel_belt_shell_right",
+        "A03_body_colour_wheel_end_return_skin_front_right",
+        "A03_body_colour_wheel_end_return_skin_rear_right",
+        "A03_wheel_end_service_cap_front_right",
+        "A03_wheel_end_motion_gaiter_front_right",
+        "A03_wheel_end_service_cap_rear_right",
+        "A03_wheel_end_motion_gaiter_rear_right",
+        "A03_rocker_pivot_service_cap_right",
+        "A04_front_waist_fascia",
+        "A04_A05_integrated_side_sail_left",
+        "A04_A05_integrated_side_sail_right",
+        "A08_footrest_platform_undertray_monocoque",
+        "A08_footrest_root_monocoque",
+        "A08_footrest_support_monocoque_left",
+        "A08_footrest_support_monocoque_right",
+        "A06_backrest_weather_shell",
+        "A06_backrest_contact_panel",
+        "A04_backrest_root_shoulder_left",
+        "A04_backrest_root_shoulder_right",
+        "A06_backrest_lock_witness_left",
+        "A06_backrest_lock_witness_right",
+        "A06_backrest_manual_release",
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_moving_inner_sleeve",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window",
+        "A07_physical_privacy_shutter",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_microphone_acoustic_mesh",
+        "A07_environment_sensor_grille",
+        "A07_mast_throat_weather_gasket",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right"
+      ],
+      "output_binding_status": "PASS"
+    },
+    "cafe": {
+      "schema_version": 1,
+      "gate": "direct A06/A07 four-state physical BRep pose contract",
+      "state": "cafe",
+      "status": "PASS",
+      "failures": [],
+      "canonical_exterior_inventory": [
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_moving_inner_sleeve",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window",
+        "A07_physical_privacy_shutter",
+        "A07_microphone_acoustic_mesh",
+        "A07_environment_sensor_grille",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_mast_throat_weather_gasket",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right"
+      ],
+      "canonical_internal_inventory": [
+        "A07_mast_lock_pin_left",
+        "A07_mast_lock_pin_right"
+      ],
+      "actual_a07_inventory": [
+        "A07_environment_sensor_grille",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right",
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right",
+        "A07_mast_lock_pin_left",
+        "A07_mast_lock_pin_right",
+        "A07_mast_moving_inner_sleeve",
+        "A07_mast_throat_weather_gasket",
+        "A07_microphone_acoustic_mesh",
+        "A07_physical_privacy_shutter",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window"
+      ],
+      "visible_exterior_inventory": [
+        "A07_environment_sensor_grille",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right",
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right",
+        "A07_mast_moving_inner_sleeve",
+        "A07_mast_throat_weather_gasket",
+        "A07_microphone_acoustic_mesh",
+        "A07_physical_privacy_shutter",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window"
+      ],
+      "physical_occurrence_ids_by_name": {
+        "A07_mast_fixed_outer_sleeve": "E6-A07-MAST-FIXED-SLEEVE",
+        "A07_mast_moving_inner_sleeve": "E6-A07-MAST-MOVING-SLEEVE",
+        "A07_sensor_beam_shell": "E6-A07-SENSOR-BEAM-SHELL",
+        "A07_sensor_beam_smoked_window": "WC-MAST-SMOKED-SENSOR-WINDOW",
+        "A07_physical_privacy_shutter": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+        "A07_microphone_acoustic_mesh": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+        "A07_environment_sensor_grille": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+        "A07_fill_light_visible_window_left": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+        "A07_fill_light_visible_window_right": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+        "A07_privacy_shutter_carriage_bezel": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+        "A07_mast_throat_weather_gasket": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+        "A07_mast_lock_pin_confirmation_lens_left": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+        "A07_mast_lock_pin_confirmation_lens_right": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+        "A07_mast_lock_pin_left": "WC-MAST-LOCK-PIN-LEFT",
+        "A07_mast_lock_pin_right": "WC-MAST-LOCK-PIN-RIGHT"
+      },
+      "occurrences": {
+        "A07_mast_fixed_outer_sleeve": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 957035.924322,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 957035.924322,
+            "area_mm2": 247864.297371,
+            "centre_mm": [
+              309.986986,
+              -0.0,
+              859.297545
+            ],
+            "bounds_mm": [
+              264.0,
+              356.0,
+              -81.0,
+              81.0,
+              708.0,
+              1003.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 46,
+              "edges": 120,
+              "vertices": 80
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 957035.924322,
+            "area_mm2": 247864.297371,
+            "centre_mm": [
+              309.986986,
+              -0.0,
+              859.297545
+            ],
+            "bounds_mm": [
+              264.0,
+              356.0,
+              -81.0,
+              81.0,
+              708.0,
+              1003.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 46,
+              "edges": 120,
+              "vertices": 80
+            },
+            "valid": true
+          },
+          "master_key": "fixed",
+          "expected_physical_occurrence_id": "E6-A07-MAST-FIXED-SLEEVE",
+          "actual_physical_occurrence_id": "E6-A07-MAST-FIXED-SLEEVE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_moving_inner_sleeve": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 752197.960196,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 752197.960196,
+            "area_mm2": 366603.085044,
+            "centre_mm": [
+              310.0,
+              -0.0,
+              715.733282
+            ],
+            "bounds_mm": [
+              282.835974,
+              337.164026,
+              -60.437402,
+              60.437402,
+              433.0,
+              1024.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 64,
+              "edges": 168,
+              "vertices": 112
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 752197.960196,
+            "area_mm2": 366603.085044,
+            "centre_mm": [
+              310.0,
+              -0.0,
+              715.733282
+            ],
+            "bounds_mm": [
+              282.835974,
+              337.164026,
+              -60.437402,
+              60.437402,
+              433.0,
+              1024.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 64,
+              "edges": 168,
+              "vertices": 112
+            },
+            "valid": true
+          },
+          "master_key": "moving",
+          "expected_physical_occurrence_id": "E6-A07-MAST-MOVING-SLEEVE",
+          "actual_physical_occurrence_id": "E6-A07-MAST-MOVING-SLEEVE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_sensor_beam_shell": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 717469.321677,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 717469.321677,
+            "area_mm2": 158714.855583,
+            "centre_mm": [
+              312.68749,
+              20.460956,
+              1047.012898
+            ],
+            "bounds_mm": [
+              256.744478,
+              350.068426,
+              -160.84768,
+              208.047197,
+              1008.0,
+              1072.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 157,
+              "edges": 389,
+              "vertices": 231
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 717469.321677,
+            "area_mm2": 158714.855583,
+            "centre_mm": [
+              312.68749,
+              20.460956,
+              1047.012898
+            ],
+            "bounds_mm": [
+              256.744478,
+              350.068426,
+              -160.84768,
+              208.047197,
+              1008.0,
+              1072.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 157,
+              "edges": 389,
+              "vertices": 231
+            },
+            "valid": true
+          },
+          "master_key": "beam",
+          "expected_physical_occurrence_id": "E6-A07-SENSOR-BEAM-SHELL",
+          "actual_physical_occurrence_id": "E6-A07-SENSOR-BEAM-SHELL",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_sensor_beam_smoked_window": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 16346.820837,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 16346.820837,
+            "area_mm2": 17307.181447,
+            "centre_mm": [
+              261.0,
+              0.0,
+              1044.0
+            ],
+            "bounds_mm": [
+              260.0,
+              262.0,
+              -138.0,
+              138.0,
+              1029.0,
+              1059.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 16346.820837,
+            "area_mm2": 17307.181447,
+            "centre_mm": [
+              261.0,
+              0.0,
+              1044.0
+            ],
+            "bounds_mm": [
+              260.0,
+              262.0,
+              -138.0,
+              138.0,
+              1029.0,
+              1059.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "sensor_window",
+          "expected_physical_occurrence_id": "WC-MAST-SMOKED-SENSOR-WINDOW",
+          "actual_physical_occurrence_id": "WC-MAST-SMOKED-SENSOR-WINDOW",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_physical_privacy_shutter": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 17020.421116,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 17020.421116,
+            "area_mm2": 9725.04156,
+            "centre_mm": [
+              264.5,
+              -8.0,
+              1040.0
+            ],
+            "bounds_mm": [
+              262.5,
+              266.5,
+              -71.0,
+              55.0,
+              1023.0,
+              1057.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 10,
+              "edges": 24,
+              "vertices": 16
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 17020.421116,
+            "area_mm2": 9725.04156,
+            "centre_mm": [
+              264.5,
+              -8.0,
+              1040.0
+            ],
+            "bounds_mm": [
+              262.5,
+              266.5,
+              -71.0,
+              55.0,
+              1023.0,
+              1057.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 10,
+              "edges": 24,
+              "vertices": 16
+            },
+            "valid": true
+          },
+          "master_key": "privacy_shutter",
+          "expected_physical_occurrence_id": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+          "actual_physical_occurrence_id": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_microphone_acoustic_mesh": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1762.398406,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1762.398406,
+            "area_mm2": 2036.020489,
+            "centre_mm": [
+              284.5,
+              -0.0,
+              1010.5
+            ],
+            "bounds_mm": [
+              278.5,
+              290.5,
+              -38.0,
+              38.0,
+              1009.5,
+              1011.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1762.398406,
+            "area_mm2": 2036.020489,
+            "centre_mm": [
+              284.5,
+              -0.0,
+              1010.5
+            ],
+            "bounds_mm": [
+              278.5,
+              290.5,
+              -38.0,
+              38.0,
+              1009.5,
+              1011.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "microphone_mesh",
+          "expected_physical_occurrence_id": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+          "actual_physical_occurrence_id": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_environment_sensor_grille": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1964.132746,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1964.132746,
+            "area_mm2": 2193.652355,
+            "centre_mm": [
+              330.0,
+              -75.0,
+              1070.0
+            ],
+            "bounds_mm": [
+              321.0,
+              339.0,
+              -103.0,
+              -47.0,
+              1069.0,
+              1071.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1964.132746,
+            "area_mm2": 2193.652355,
+            "centre_mm": [
+              330.0,
+              -75.0,
+              1070.0
+            ],
+            "bounds_mm": [
+              321.0,
+              339.0,
+              -103.0,
+              -47.0,
+              1069.0,
+              1071.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "environment_grille",
+          "expected_physical_occurrence_id": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+          "actual_physical_occurrence_id": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_fill_light_visible_window_left": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 364.117003,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              310.0,
+              -56.0,
+              1010.5
+            ],
+            "bounds_mm": [
+              304.0,
+              316.0,
+              -64.0,
+              -48.0,
+              1009.5,
+              1011.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              310.0,
+              -56.0,
+              1010.5
+            ],
+            "bounds_mm": [
+              304.0,
+              316.0,
+              -64.0,
+              -48.0,
+              1009.5,
+              1011.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "fill_window_left",
+          "expected_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+          "actual_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_fill_light_visible_window_right": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 364.117003,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              310.0,
+              56.0,
+              1010.5
+            ],
+            "bounds_mm": [
+              304.0,
+              316.0,
+              48.0,
+              64.0,
+              1009.5,
+              1011.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              310.0,
+              56.0,
+              1010.5
+            ],
+            "bounds_mm": [
+              304.0,
+              316.0,
+              48.0,
+              64.0,
+              1009.5,
+              1011.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "fill_window_right",
+          "expected_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+          "actual_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_privacy_shutter_carriage_bezel": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1954.529765,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1954.529765,
+            "area_mm2": 3263.269374,
+            "centre_mm": [
+              268.0,
+              -8.0,
+              1040.0
+            ],
+            "bounds_mm": [
+              267.0,
+              269.0,
+              -75.0,
+              59.0,
+              1019.0,
+              1061.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1954.529765,
+            "area_mm2": 3263.269374,
+            "centre_mm": [
+              268.0,
+              -8.0,
+              1040.0
+            ],
+            "bounds_mm": [
+              267.0,
+              269.0,
+              -75.0,
+              59.0,
+              1019.0,
+              1061.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "master_key": "privacy_shutter_carriage_bezel",
+          "expected_physical_occurrence_id": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+          "actual_physical_occurrence_id": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_throat_weather_gasket": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1469.297261,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1469.297261,
+            "area_mm2": 3429.599892,
+            "centre_mm": [
+              310.0,
+              0.0,
+              1003.75
+            ],
+            "bounds_mm": [
+              262.0,
+              358.0,
+              -83.0,
+              83.0,
+              1003.0,
+              1004.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1469.297261,
+            "area_mm2": 3429.599892,
+            "centre_mm": [
+              310.0,
+              0.0,
+              1003.75
+            ],
+            "bounds_mm": [
+              262.0,
+              358.0,
+              -83.0,
+              83.0,
+              1003.0,
+              1004.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "master_key": "throat_gasket",
+          "expected_physical_occurrence_id": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+          "actual_physical_occurrence_id": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_lock_pin_confirmation_lens_left": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 166.253083,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              271.0,
+              -52.0,
+              888.0
+            ],
+            "bounds_mm": [
+              269.5,
+              272.5,
+              -56.2,
+              -47.8,
+              883.8,
+              892.2
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              271.0,
+              -52.0,
+              888.0
+            ],
+            "bounds_mm": [
+              269.5,
+              272.5,
+              -56.2,
+              -47.8,
+              883.8,
+              892.2
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "master_key": "lock_lens_left",
+          "expected_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+          "actual_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_lock_pin_confirmation_lens_right": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 166.253083,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              271.0,
+              52.0,
+              888.0
+            ],
+            "bounds_mm": [
+              269.5,
+              272.5,
+              47.8,
+              56.2,
+              883.8,
+              892.2
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              271.0,
+              52.0,
+              888.0
+            ],
+            "bounds_mm": [
+              269.5,
+              272.5,
+              47.8,
+              56.2,
+              883.8,
+              892.2
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "master_key": "lock_lens_right",
+          "expected_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+          "actual_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_lock_pin_left": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1306.902544,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              278.0,
+              -34.0,
+              888.0
+            ],
+            "bounds_mm": [
+              265.0,
+              291.0,
+              -38.0,
+              -30.0,
+              884.0,
+              892.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              278.0,
+              -34.0,
+              888.0
+            ],
+            "bounds_mm": [
+              265.0,
+              291.0,
+              -38.0,
+              -30.0,
+              884.0,
+              892.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "master_key": "lock_pin_engaged_left",
+          "expected_physical_occurrence_id": "WC-MAST-LOCK-PIN-LEFT",
+          "actual_physical_occurrence_id": "WC-MAST-LOCK-PIN-LEFT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_lock_pin_right": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1306.902544,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              278.0,
+              34.0,
+              888.0
+            ],
+            "bounds_mm": [
+              265.0,
+              291.0,
+              30.0,
+              38.0,
+              884.0,
+              892.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              278.0,
+              34.0,
+              888.0
+            ],
+            "bounds_mm": [
+              265.0,
+              291.0,
+              30.0,
+              38.0,
+              884.0,
+              892.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "master_key": "lock_pin_engaged_right",
+          "expected_physical_occurrence_id": "WC-MAST-LOCK-PIN-RIGHT",
+          "actual_physical_occurrence_id": "WC-MAST-LOCK-PIN-RIGHT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        }
+      },
+      "a06_backrest_brep_evidence": {
+        "status": "PASS",
+        "symmetric_difference_volume_mm3": 0.0,
+        "common_volume_mm3": 2546765.254764,
+        "maximum_bound_delta_mm": 0.0,
+        "expected_signature": {
+          "volume_mm3": 2546765.254764,
+          "area_mm2": 1229083.345652,
+          "centre_mm": [
+            286.882436,
+            -0.000976,
+            744.323197
+          ],
+          "bounds_mm": [
+            157.655945,
+            369.175008,
+            -303.0,
+            303.0,
+            515.0,
+            1003.0
+          ],
+          "topology": {
+            "solids": 1,
+            "shells": 1,
+            "faces": 106,
+            "edges": 295,
+            "vertices": 189
+          },
+          "valid": true
+        },
+        "actual_signature": {
+          "volume_mm3": 2546765.254764,
+          "area_mm2": 1229083.345652,
+          "centre_mm": [
+            286.882436,
+            -0.000976,
+            744.323197
+          ],
+          "bounds_mm": [
+            157.655945,
+            369.175008,
+            -303.0,
+            303.0,
+            515.0,
+            1003.0
+          ],
+          "topology": {
+            "solids": 1,
+            "shells": 1,
+            "faces": 106,
+            "edges": 295,
+            "vertices": 189
+          },
+          "valid": true
+        }
+      },
+      "endpoint_contract": {
+        "ride_cafe_low_pose_equal": true,
+        "focus_moving_translation_mm": [
+          0.0,
+          0.0,
+          420.0
+        ],
+        "focus_privacy_translation_mm": [
+          0.0,
+          136.0,
+          420.0
+        ],
+        "fixed_inventory_translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "follow_a06_a07_shared_hinge_mm": [
+          160.0,
+          0.0,
+          515.0
+        ],
+        "follow_fold_deg": -95.0,
+        "follow_shared_hinge_axis_invariant": true
+      },
+      "controlled_source_step": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_cafe.step",
+      "controlled_source_step_sha256": "8118b34c83bde30f316717e028279de656db4640d1c1f74e2c7fb6c96ecddd88",
+      "generated_skin_shape_signature": {
+        "bounds_mm": {
+          "xmin": -528.0000001,
+          "xmax": 369.1750075267015,
+          "ymin": -375.5,
+          "ymax": 375.5,
+          "zmin": 8.599999899999995,
+          "zmax": 1072.0000001000008,
+          "xlen": 897.1750076267015,
+          "ylen": 751.0,
+          "zlen": 1063.4000002000007
+        },
+        "volume_mm3": 45874073.42549107,
+        "area_mm2": 12527321.621865073,
+        "centroid_mm": [
+          -31.449437154091875,
+          3.083277140527281,
+          472.61442377524725
+        ],
+        "solid_count": 194,
+        "face_count": 6430,
+        "edge_count": 15005
+      },
+      "generated_skin_part_count": 194,
+      "exterior_step": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/workcore_e6_exterior_cafe.step",
+      "exterior_step_sha256": "6a86bc48767a64cc087d38f14c7e966400a9ef45d434125b7d74a9ca9b6dc3d7",
+      "exterior_part_inventory": [
+        "A01_front_nose_shell",
+        "A01_perception_horizon_smoked_mask",
+        "A01_front_tactile_bumper_skin",
+        "A02_main_side_shell_left",
+        "A02_side_ultrasonic_face_front_left",
+        "A02_side_ultrasonic_face_rear_left",
+        "A02_acoustic_mesh_left_1",
+        "A02_acoustic_mesh_left_2",
+        "A02_main_side_shell_right",
+        "A02_side_ultrasonic_face_front_right",
+        "A02_side_ultrasonic_face_rear_right",
+        "A02_acoustic_mesh_right_1",
+        "A02_acoustic_mesh_right_2",
+        "A02_cliff_ir_window_front_left",
+        "A02_cliff_ir_bezel_front_left",
+        "A02_cliff_ir_window_front_right",
+        "A02_cliff_ir_bezel_front_right",
+        "A02_cliff_ir_window_rear_left",
+        "A02_cliff_ir_bezel_rear_left",
+        "A02_cliff_ir_window_rear_right",
+        "A02_cliff_ir_bezel_rear_right",
+        "A03_wheel_interspace_bridge_left",
+        "A03_wheel_interspace_bridge_right",
+        "A04_open_u_seat_pan_ring",
+        "A04_open_u_seat_pan_ring_service_segment_2",
+        "A04_open_u_seat_pan_ring_service_segment_3",
+        "A04_seat_cushion_contact_island",
+        "A04_underseat_belly_closeout",
+        "A04_recovery_handle_grip_shell",
+        "A04_recovery_handle_grip_inlay",
+        "A08_manual_release_paddle_shell",
+        "A10_rear_service_surround",
+        "A10_rear_flush_service_door_skin",
+        "A10_rear_status_lens",
+        "A10_rear_tof_window",
+        "A10_rear_uwb_radome",
+        "A10_rear_horn_acoustic_mesh",
+        "A10_rear_service_external_release_guard",
+        "A10_rear_service_external_no_power_release",
+        "A10_rear_service_pull_cup",
+        "A10_rear_service_pull_grip_inlay",
+        "A10_pressure_relief_vent_bezel",
+        "A05_armrest_table_bay_shell_left",
+        "A05_armrest_touch_lid_left",
+        "A05_armrest_top_lid_hinge_reveal_left",
+        "A05_armrest_top_lid_release_left",
+        "A05_table_cassette_lowpoint_drain_left",
+        "A05_left_hmi_precision_bezel",
+        "A05_left_status_display_window",
+        "A05_left_qi_phone_cradle",
+        "A05_left_qi_target_ring",
+        "A05_left_qi_phone_stop_front",
+        "A05_left_qi_phone_stop_rear",
+        "A05_left_emergency_stop_guard",
+        "A05_left_mechanical_emergency_stop",
+        "A05_armrest_table_bay_shell_right",
+        "A05_armrest_touch_lid_right",
+        "A05_right_table_root_tongue_compression_gland",
+        "A05_armrest_top_lid_hinge_reveal_right",
+        "A05_armrest_top_lid_release_right",
+        "A05_table_cassette_lowpoint_drain_right",
+        "A05_right_removable_drive_pod",
+        "A05_right_joystick",
+        "A05_right_authorisation_key",
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_cafe_underleaf_motion_belly_right",
+        "A03_continuous_wheel_belt_shell_left",
+        "A03_body_colour_wheel_end_return_skin_front_left",
+        "A03_body_colour_wheel_end_return_skin_rear_left",
+        "A03_wheel_end_service_cap_front_left",
+        "A03_wheel_end_motion_gaiter_front_left",
+        "A03_wheel_end_service_cap_rear_left",
+        "A03_wheel_end_motion_gaiter_rear_left",
+        "A03_rocker_pivot_service_cap_left",
+        "A03_continuous_wheel_belt_shell_right",
+        "A03_body_colour_wheel_end_return_skin_front_right",
+        "A03_body_colour_wheel_end_return_skin_rear_right",
+        "A03_wheel_end_service_cap_front_right",
+        "A03_wheel_end_motion_gaiter_front_right",
+        "A03_wheel_end_service_cap_rear_right",
+        "A03_wheel_end_motion_gaiter_rear_right",
+        "A03_rocker_pivot_service_cap_right",
+        "A04_front_waist_fascia",
+        "A04_A05_integrated_side_sail_left",
+        "A04_A05_integrated_side_sail_right",
+        "A08_footrest_root_monocoque",
+        "A06_backrest_weather_shell",
+        "A06_backrest_contact_panel",
+        "A04_backrest_root_shoulder_left",
+        "A04_backrest_root_shoulder_right",
+        "A06_backrest_lock_witness_left",
+        "A06_backrest_lock_witness_right",
+        "A06_backrest_manual_release",
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_moving_inner_sleeve",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window",
+        "A07_physical_privacy_shutter",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_microphone_acoustic_mesh",
+        "A07_environment_sensor_grille",
+        "A07_mast_throat_weather_gasket",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right"
+      ],
+      "output_binding_status": "PASS"
+    },
+    "focus": {
+      "schema_version": 1,
+      "gate": "direct A06/A07 four-state physical BRep pose contract",
+      "state": "focus",
+      "status": "PASS",
+      "failures": [],
+      "canonical_exterior_inventory": [
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_moving_inner_sleeve",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window",
+        "A07_physical_privacy_shutter",
+        "A07_microphone_acoustic_mesh",
+        "A07_environment_sensor_grille",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_mast_throat_weather_gasket",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right"
+      ],
+      "canonical_internal_inventory": [
+        "A07_mast_lock_pin_left",
+        "A07_mast_lock_pin_right"
+      ],
+      "actual_a07_inventory": [
+        "A07_environment_sensor_grille",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right",
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right",
+        "A07_mast_lock_pin_left",
+        "A07_mast_lock_pin_right",
+        "A07_mast_moving_inner_sleeve",
+        "A07_mast_throat_weather_gasket",
+        "A07_microphone_acoustic_mesh",
+        "A07_physical_privacy_shutter",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window"
+      ],
+      "visible_exterior_inventory": [
+        "A07_environment_sensor_grille",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right",
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right",
+        "A07_mast_moving_inner_sleeve",
+        "A07_mast_throat_weather_gasket",
+        "A07_microphone_acoustic_mesh",
+        "A07_physical_privacy_shutter",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window"
+      ],
+      "physical_occurrence_ids_by_name": {
+        "A07_mast_fixed_outer_sleeve": "E6-A07-MAST-FIXED-SLEEVE",
+        "A07_mast_moving_inner_sleeve": "E6-A07-MAST-MOVING-SLEEVE",
+        "A07_sensor_beam_shell": "E6-A07-SENSOR-BEAM-SHELL",
+        "A07_sensor_beam_smoked_window": "WC-MAST-SMOKED-SENSOR-WINDOW",
+        "A07_physical_privacy_shutter": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+        "A07_microphone_acoustic_mesh": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+        "A07_environment_sensor_grille": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+        "A07_fill_light_visible_window_left": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+        "A07_fill_light_visible_window_right": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+        "A07_privacy_shutter_carriage_bezel": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+        "A07_mast_throat_weather_gasket": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+        "A07_mast_lock_pin_confirmation_lens_left": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+        "A07_mast_lock_pin_confirmation_lens_right": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+        "A07_mast_lock_pin_left": "WC-MAST-LOCK-PIN-LEFT",
+        "A07_mast_lock_pin_right": "WC-MAST-LOCK-PIN-RIGHT"
+      },
+      "occurrences": {
+        "A07_mast_fixed_outer_sleeve": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 957035.924322,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 957035.924322,
+            "area_mm2": 247864.297371,
+            "centre_mm": [
+              309.986986,
+              -0.0,
+              859.297545
+            ],
+            "bounds_mm": [
+              264.0,
+              356.0,
+              -81.0,
+              81.0,
+              708.0,
+              1003.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 46,
+              "edges": 120,
+              "vertices": 80
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 957035.924322,
+            "area_mm2": 247864.297371,
+            "centre_mm": [
+              309.986986,
+              -0.0,
+              859.297545
+            ],
+            "bounds_mm": [
+              264.0,
+              356.0,
+              -81.0,
+              81.0,
+              708.0,
+              1003.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 46,
+              "edges": 120,
+              "vertices": 80
+            },
+            "valid": true
+          },
+          "master_key": "fixed",
+          "expected_physical_occurrence_id": "E6-A07-MAST-FIXED-SLEEVE",
+          "actual_physical_occurrence_id": "E6-A07-MAST-FIXED-SLEEVE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_moving_inner_sleeve": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 752197.960196,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 752197.960196,
+            "area_mm2": 366603.085044,
+            "centre_mm": [
+              310.0,
+              -0.0,
+              1135.733282
+            ],
+            "bounds_mm": [
+              282.835974,
+              337.164026,
+              -60.437402,
+              60.437402,
+              853.0,
+              1444.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 64,
+              "edges": 168,
+              "vertices": 112
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 752197.960196,
+            "area_mm2": 366603.085044,
+            "centre_mm": [
+              310.0,
+              -0.0,
+              1135.733282
+            ],
+            "bounds_mm": [
+              282.835974,
+              337.164026,
+              -60.437402,
+              60.437402,
+              853.0,
+              1444.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 64,
+              "edges": 168,
+              "vertices": 112
+            },
+            "valid": true
+          },
+          "master_key": "moving",
+          "expected_physical_occurrence_id": "E6-A07-MAST-MOVING-SLEEVE",
+          "actual_physical_occurrence_id": "E6-A07-MAST-MOVING-SLEEVE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            420.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_sensor_beam_shell": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 717469.321677,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 717469.321677,
+            "area_mm2": 158714.855583,
+            "centre_mm": [
+              312.68749,
+              20.460956,
+              1467.012898
+            ],
+            "bounds_mm": [
+              256.744478,
+              350.068426,
+              -160.84768,
+              208.047197,
+              1428.0,
+              1492.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 157,
+              "edges": 389,
+              "vertices": 231
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 717469.321677,
+            "area_mm2": 158714.855583,
+            "centre_mm": [
+              312.68749,
+              20.460956,
+              1467.012898
+            ],
+            "bounds_mm": [
+              256.744478,
+              350.068426,
+              -160.84768,
+              208.047197,
+              1428.0,
+              1492.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 157,
+              "edges": 389,
+              "vertices": 231
+            },
+            "valid": true
+          },
+          "master_key": "beam",
+          "expected_physical_occurrence_id": "E6-A07-SENSOR-BEAM-SHELL",
+          "actual_physical_occurrence_id": "E6-A07-SENSOR-BEAM-SHELL",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            420.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_sensor_beam_smoked_window": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 16346.820837,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 16346.820837,
+            "area_mm2": 17307.181447,
+            "centre_mm": [
+              261.0,
+              0.0,
+              1464.0
+            ],
+            "bounds_mm": [
+              260.0,
+              262.0,
+              -138.0,
+              138.0,
+              1449.0,
+              1479.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 16346.820837,
+            "area_mm2": 17307.181447,
+            "centre_mm": [
+              261.0,
+              0.0,
+              1464.0
+            ],
+            "bounds_mm": [
+              260.0,
+              262.0,
+              -138.0,
+              138.0,
+              1449.0,
+              1479.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "sensor_window",
+          "expected_physical_occurrence_id": "WC-MAST-SMOKED-SENSOR-WINDOW",
+          "actual_physical_occurrence_id": "WC-MAST-SMOKED-SENSOR-WINDOW",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            420.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_physical_privacy_shutter": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 17020.421116,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 17020.421116,
+            "area_mm2": 9725.04156,
+            "centre_mm": [
+              264.5,
+              128.0,
+              1460.0
+            ],
+            "bounds_mm": [
+              262.5,
+              266.5,
+              65.0,
+              191.0,
+              1443.0,
+              1477.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 10,
+              "edges": 24,
+              "vertices": 16
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 17020.421116,
+            "area_mm2": 9725.04156,
+            "centre_mm": [
+              264.5,
+              128.0,
+              1460.0
+            ],
+            "bounds_mm": [
+              262.5,
+              266.5,
+              65.0,
+              191.0,
+              1443.0,
+              1477.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 10,
+              "edges": 24,
+              "vertices": 16
+            },
+            "valid": true
+          },
+          "master_key": "privacy_shutter",
+          "expected_physical_occurrence_id": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+          "actual_physical_occurrence_id": "WC-MAST-PHYSICAL-PRIVACY-SHUTTER",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            136.0,
+            420.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_microphone_acoustic_mesh": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1762.398406,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1762.398406,
+            "area_mm2": 2036.020489,
+            "centre_mm": [
+              284.5,
+              -0.0,
+              1430.5
+            ],
+            "bounds_mm": [
+              278.5,
+              290.5,
+              -38.0,
+              38.0,
+              1429.5,
+              1431.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1762.398406,
+            "area_mm2": 2036.020489,
+            "centre_mm": [
+              284.5,
+              -0.0,
+              1430.5
+            ],
+            "bounds_mm": [
+              278.5,
+              290.5,
+              -38.0,
+              38.0,
+              1429.5,
+              1431.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "microphone_mesh",
+          "expected_physical_occurrence_id": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+          "actual_physical_occurrence_id": "WC-MAST-MICROPHONE-ARRAY-INTERFACE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            420.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_environment_sensor_grille": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1964.132746,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1964.132746,
+            "area_mm2": 2193.652355,
+            "centre_mm": [
+              330.0,
+              -75.0,
+              1490.0
+            ],
+            "bounds_mm": [
+              321.0,
+              339.0,
+              -103.0,
+              -47.0,
+              1489.0,
+              1491.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1964.132746,
+            "area_mm2": 2193.652355,
+            "centre_mm": [
+              330.0,
+              -75.0,
+              1490.0
+            ],
+            "bounds_mm": [
+              321.0,
+              339.0,
+              -103.0,
+              -47.0,
+              1489.0,
+              1491.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "environment_grille",
+          "expected_physical_occurrence_id": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+          "actual_physical_occurrence_id": "WC-MAST-ENVIRONMENT-SENSOR-INTERFACE",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            420.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_fill_light_visible_window_left": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 364.117003,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              310.0,
+              -56.0,
+              1430.5
+            ],
+            "bounds_mm": [
+              304.0,
+              316.0,
+              -64.0,
+              -48.0,
+              1429.5,
+              1431.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              310.0,
+              -56.0,
+              1430.5
+            ],
+            "bounds_mm": [
+              304.0,
+              316.0,
+              -64.0,
+              -48.0,
+              1429.5,
+              1431.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "fill_window_left",
+          "expected_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+          "actual_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-LEFT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            420.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_fill_light_visible_window_right": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 364.117003,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              310.0,
+              56.0,
+              1430.5
+            ],
+            "bounds_mm": [
+              304.0,
+              316.0,
+              48.0,
+              64.0,
+              1429.5,
+              1431.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 364.117003,
+            "area_mm2": 448.728483,
+            "centre_mm": [
+              310.0,
+              56.0,
+              1430.5
+            ],
+            "bounds_mm": [
+              304.0,
+              316.0,
+              48.0,
+              64.0,
+              1429.5,
+              1431.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 26,
+              "edges": 48,
+              "vertices": 24
+            },
+            "valid": true
+          },
+          "master_key": "fill_window_right",
+          "expected_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+          "actual_physical_occurrence_id": "WC-MAST-FILL-LIGHT-VISIBLE-WINDOW-RIGHT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            420.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_privacy_shutter_carriage_bezel": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1954.529765,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1954.529765,
+            "area_mm2": 3263.269374,
+            "centre_mm": [
+              268.0,
+              128.0,
+              1460.0
+            ],
+            "bounds_mm": [
+              267.0,
+              269.0,
+              61.0,
+              195.0,
+              1439.0,
+              1481.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1954.529765,
+            "area_mm2": 3263.269374,
+            "centre_mm": [
+              268.0,
+              128.0,
+              1460.0
+            ],
+            "bounds_mm": [
+              267.0,
+              269.0,
+              61.0,
+              195.0,
+              1439.0,
+              1481.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "master_key": "privacy_shutter_carriage_bezel",
+          "expected_physical_occurrence_id": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+          "actual_physical_occurrence_id": "E6-A07-PRIVACY-SHUTTER-CARRIAGE-BEZEL",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            136.0,
+            420.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_throat_weather_gasket": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1469.297261,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1469.297261,
+            "area_mm2": 3429.599892,
+            "centre_mm": [
+              310.0,
+              0.0,
+              1003.75
+            ],
+            "bounds_mm": [
+              262.0,
+              358.0,
+              -83.0,
+              83.0,
+              1003.0,
+              1004.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1469.297261,
+            "area_mm2": 3429.599892,
+            "centre_mm": [
+              310.0,
+              0.0,
+              1003.75
+            ],
+            "bounds_mm": [
+              262.0,
+              358.0,
+              -83.0,
+              83.0,
+              1003.0,
+              1004.5
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 50,
+              "edges": 104,
+              "vertices": 56
+            },
+            "valid": true
+          },
+          "master_key": "throat_gasket",
+          "expected_physical_occurrence_id": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+          "actual_physical_occurrence_id": "E6-A07-MAST-THROAT-WEATHER-GASKET",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_lock_pin_confirmation_lens_left": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 166.253083,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              271.0,
+              -52.0,
+              888.0
+            ],
+            "bounds_mm": [
+              269.5,
+              272.5,
+              -56.2,
+              -47.8,
+              883.8,
+              892.2
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              271.0,
+              -52.0,
+              888.0
+            ],
+            "bounds_mm": [
+              269.5,
+              272.5,
+              -56.2,
+              -47.8,
+              883.8,
+              892.2
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "master_key": "lock_lens_left",
+          "expected_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+          "actual_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-LEFT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_lock_pin_confirmation_lens_right": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 166.253083,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              271.0,
+              52.0,
+              888.0
+            ],
+            "bounds_mm": [
+              269.5,
+              272.5,
+              47.8,
+              56.2,
+              883.8,
+              892.2
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 166.253083,
+            "area_mm2": 190.003524,
+            "centre_mm": [
+              271.0,
+              52.0,
+              888.0
+            ],
+            "bounds_mm": [
+              269.5,
+              272.5,
+              47.8,
+              56.2,
+              883.8,
+              892.2
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 4,
+              "edges": 5,
+              "vertices": 3
+            },
+            "valid": true
+          },
+          "master_key": "lock_lens_right",
+          "expected_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+          "actual_physical_occurrence_id": "E6-A07-MAST-LOCK-CONFIRMATION-RIGHT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_lock_pin_left": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1306.902544,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              278.0,
+              -34.0,
+              888.0
+            ],
+            "bounds_mm": [
+              265.0,
+              291.0,
+              -38.0,
+              -30.0,
+              884.0,
+              892.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              278.0,
+              -34.0,
+              888.0
+            ],
+            "bounds_mm": [
+              265.0,
+              291.0,
+              -38.0,
+              -30.0,
+              884.0,
+              892.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "master_key": "lock_pin_engaged_left",
+          "expected_physical_occurrence_id": "WC-MAST-LOCK-PIN-LEFT",
+          "actual_physical_occurrence_id": "WC-MAST-LOCK-PIN-LEFT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        },
+        "A07_mast_lock_pin_right": {
+          "status": "PASS",
+          "symmetric_difference_volume_mm3": 0.0,
+          "common_volume_mm3": 1306.902544,
+          "maximum_bound_delta_mm": 0.0,
+          "expected_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              278.0,
+              34.0,
+              888.0
+            ],
+            "bounds_mm": [
+              265.0,
+              291.0,
+              30.0,
+              38.0,
+              884.0,
+              892.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "actual_signature": {
+            "volume_mm3": 1306.902544,
+            "area_mm2": 753.982237,
+            "centre_mm": [
+              278.0,
+              34.0,
+              888.0
+            ],
+            "bounds_mm": [
+              265.0,
+              291.0,
+              30.0,
+              38.0,
+              884.0,
+              892.0
+            ],
+            "topology": {
+              "solids": 1,
+              "shells": 1,
+              "faces": 3,
+              "edges": 3,
+              "vertices": 2
+            },
+            "valid": true
+          },
+          "master_key": "lock_pin_engaged_right",
+          "expected_physical_occurrence_id": "WC-MAST-LOCK-PIN-RIGHT",
+          "actual_physical_occurrence_id": "WC-MAST-LOCK-PIN-RIGHT",
+          "physical_occurrence_id_equal": true,
+          "focus_translation_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "follow_hinge_pose": false
+        }
+      },
+      "a06_backrest_brep_evidence": {
+        "status": "PASS",
+        "symmetric_difference_volume_mm3": 0.0,
+        "common_volume_mm3": 2546765.254764,
+        "maximum_bound_delta_mm": 0.0,
+        "expected_signature": {
+          "volume_mm3": 2546765.254764,
+          "area_mm2": 1229083.345652,
+          "centre_mm": [
+            286.882436,
+            -0.000976,
+            744.323197
+          ],
+          "bounds_mm": [
+            157.655945,
+            369.175008,
+            -303.0,
+            303.0,
+            515.0,
+            1003.0
+          ],
+          "topology": {
+            "solids": 1,
+            "shells": 1,
+            "faces": 106,
+            "edges": 295,
+            "vertices": 189
+          },
+          "valid": true
+        },
+        "actual_signature": {
+          "volume_mm3": 2546765.254764,
+          "area_mm2": 1229083.345652,
+          "centre_mm": [
+            286.882436,
+            -0.000976,
+            744.323197
+          ],
+          "bounds_mm": [
+            157.655945,
+            369.175008,
+            -303.0,
+            303.0,
+            515.0,
+            1003.0
+          ],
+          "topology": {
+            "solids": 1,
+            "shells": 1,
+            "faces": 106,
+            "edges": 295,
+            "vertices": 189
+          },
+          "valid": true
+        }
+      },
+      "endpoint_contract": {
+        "ride_cafe_low_pose_equal": true,
+        "focus_moving_translation_mm": [
+          0.0,
+          0.0,
+          420.0
+        ],
+        "focus_privacy_translation_mm": [
+          0.0,
+          136.0,
+          420.0
+        ],
+        "fixed_inventory_translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "follow_a06_a07_shared_hinge_mm": [
+          160.0,
+          0.0,
+          515.0
+        ],
+        "follow_fold_deg": -95.0,
+        "follow_shared_hinge_axis_invariant": true
+      },
+      "controlled_source_step": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr5/workcore_e6_dfr5_focus.step",
+      "controlled_source_step_sha256": "598ad5a8686989be548140c5629a1b996b85bc833f1672850c98da400626ed4c",
+      "generated_skin_shape_signature": {
+        "bounds_mm": {
+          "xmin": -620.0,
+          "xmax": 369.1750075267015,
+          "ymin": -375.5,
+          "ymax": 375.5,
+          "zmin": 8.599999899999995,
+          "zmax": 1492.0000001000008,
+          "xlen": 989.1750075267015,
+          "ylen": 751.0,
+          "zlen": 1483.4000002000007
+        },
+        "volume_mm3": 47249904.47803347,
+        "area_mm2": 13315147.752787512,
+        "centroid_mm": [
+          -44.06333777345068,
+          0.29719006986357804,
+          492.62226142489607
+        ],
+        "solid_count": 212,
+        "face_count": 7130,
+        "edge_count": 16536
+      },
+      "generated_skin_part_count": 212,
+      "exterior_step": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/workcore_e6_exterior_focus.step",
+      "exterior_step_sha256": "3e9de8c21916426045cab944b22e3fcfd101b987a0ca1e71f14dce5718db91a1",
+      "exterior_part_inventory": [
+        "A01_front_nose_shell",
+        "A01_perception_horizon_smoked_mask",
+        "A01_front_tactile_bumper_skin",
+        "A02_main_side_shell_left",
+        "A02_side_ultrasonic_face_front_left",
+        "A02_side_ultrasonic_face_rear_left",
+        "A02_acoustic_mesh_left_1",
+        "A02_acoustic_mesh_left_2",
+        "A02_main_side_shell_right",
+        "A02_side_ultrasonic_face_front_right",
+        "A02_side_ultrasonic_face_rear_right",
+        "A02_acoustic_mesh_right_1",
+        "A02_acoustic_mesh_right_2",
+        "A02_cliff_ir_window_front_left",
+        "A02_cliff_ir_bezel_front_left",
+        "A02_cliff_ir_window_front_right",
+        "A02_cliff_ir_bezel_front_right",
+        "A02_cliff_ir_window_rear_left",
+        "A02_cliff_ir_bezel_rear_left",
+        "A02_cliff_ir_window_rear_right",
+        "A02_cliff_ir_bezel_rear_right",
+        "A03_wheel_interspace_bridge_left",
+        "A03_wheel_interspace_bridge_right",
+        "A04_open_u_seat_pan_ring",
+        "A04_open_u_seat_pan_ring_service_segment_2",
+        "A04_open_u_seat_pan_ring_service_segment_3",
+        "A04_seat_cushion_contact_island",
+        "A04_underseat_belly_closeout",
+        "A04_recovery_handle_grip_shell",
+        "A04_recovery_handle_grip_inlay",
+        "A08_manual_release_paddle_shell",
+        "A10_rear_service_surround",
+        "A10_rear_flush_service_door_skin",
+        "A10_rear_status_lens",
+        "A10_rear_tof_window",
+        "A10_rear_uwb_radome",
+        "A10_rear_horn_acoustic_mesh",
+        "A10_rear_service_external_release_guard",
+        "A10_rear_service_external_no_power_release",
+        "A10_rear_service_pull_cup",
+        "A10_rear_service_pull_grip_inlay",
+        "A10_pressure_relief_vent_bezel",
+        "A05_armrest_table_bay_shell_left",
+        "A05_armrest_touch_lid_left",
+        "A05_armrest_top_lid_hinge_reveal_left",
+        "A05_armrest_top_lid_release_left",
+        "A05_table_cassette_lowpoint_drain_left",
+        "A05_left_hmi_precision_bezel",
+        "A05_left_status_display_window",
+        "A05_left_qi_phone_cradle",
+        "A05_left_qi_target_ring",
+        "A05_left_qi_phone_stop_front",
+        "A05_left_qi_phone_stop_rear",
+        "A05_left_emergency_stop_guard",
+        "A05_left_mechanical_emergency_stop",
+        "A05_armrest_table_bay_shell_right",
+        "A05_armrest_touch_lid_right",
+        "A05_armrest_top_lid_hinge_reveal_right",
+        "A05_armrest_top_lid_release_right",
+        "A05_table_cassette_lowpoint_drain_right",
+        "A05_right_removable_drive_pod",
+        "A05_right_joystick",
+        "A05_right_authorisation_key",
+        "A09_table_edge_band_left",
+        "A09_table_top_skin_left",
+        "A09_table_underbelly_shell_left",
+        "A09_table_edge_band_left_fold_half_inner",
+        "A09_table_top_skin_left_fold_half_inner",
+        "A09_table_underbelly_shell_left_fold_half_inner",
+        "A09_table_fold_flexure_left",
+        "A09_focus_lock_paddle_bezel_left_1",
+        "A09_focus_lock_paddle_bezel_left_2",
+        "A09_focus_centre_seam_seal_left",
+        "A09_focus_table_hidden_root_tongue_left",
+        "A09_focus_lock_release_paddle_left_1",
+        "A09_focus_lock_release_paddle_left_2",
+        "A09_table_edge_band_right",
+        "A09_table_top_skin_right",
+        "A09_table_underbelly_shell_right",
+        "A09_table_edge_band_right_fold_half_inner",
+        "A09_table_top_skin_right_fold_half_inner",
+        "A09_table_underbelly_shell_right_fold_half_inner",
+        "A09_table_fold_flexure_right",
+        "A09_focus_lock_paddle_bezel_right_1",
+        "A09_focus_lock_paddle_bezel_right_2",
+        "A09_focus_centre_seam_seal_right",
+        "A09_focus_table_hidden_root_tongue_right",
+        "A09_focus_lock_release_paddle_right_1",
+        "A09_focus_lock_release_paddle_right_2",
+        "A03_continuous_wheel_belt_shell_left",
+        "A03_body_colour_wheel_end_return_skin_front_left",
+        "A03_body_colour_wheel_end_return_skin_rear_left",
+        "A03_wheel_end_service_cap_front_left",
+        "A03_wheel_end_motion_gaiter_front_left",
+        "A03_wheel_end_service_cap_rear_left",
+        "A03_wheel_end_motion_gaiter_rear_left",
+        "A03_rocker_pivot_service_cap_left",
+        "A03_continuous_wheel_belt_shell_right",
+        "A03_body_colour_wheel_end_return_skin_front_right",
+        "A03_body_colour_wheel_end_return_skin_rear_right",
+        "A03_wheel_end_service_cap_front_right",
+        "A03_wheel_end_motion_gaiter_front_right",
+        "A03_wheel_end_service_cap_rear_right",
+        "A03_wheel_end_motion_gaiter_rear_right",
+        "A03_rocker_pivot_service_cap_right",
+        "A04_front_waist_fascia",
+        "A04_A05_integrated_side_sail_left",
+        "A04_A05_integrated_side_sail_right",
+        "A08_footrest_root_monocoque",
+        "A06_backrest_weather_shell",
+        "A06_backrest_contact_panel",
+        "A04_backrest_root_shoulder_left",
+        "A04_backrest_root_shoulder_right",
+        "A06_backrest_lock_witness_left",
+        "A06_backrest_lock_witness_right",
+        "A06_backrest_manual_release",
+        "A07_mast_fixed_outer_sleeve",
+        "A07_mast_moving_inner_sleeve",
+        "A07_sensor_beam_shell",
+        "A07_sensor_beam_smoked_window",
+        "A07_physical_privacy_shutter",
+        "A07_privacy_shutter_carriage_bezel",
+        "A07_microphone_acoustic_mesh",
+        "A07_environment_sensor_grille",
+        "A07_mast_throat_weather_gasket",
+        "A07_mast_lock_pin_confirmation_lens_left",
+        "A07_mast_lock_pin_confirmation_lens_right",
+        "A07_fill_light_visible_window_left",
+        "A07_fill_light_visible_window_right"
+      ],
+      "output_binding_status": "PASS"
+    }
+  }
+}
