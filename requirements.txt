@@ -1,0 +1,6 @@
+# Supported and revalidated with CPython 3.12.x. Direct imports are pinned here;
+# use requirements-lock.txt for the fully resolved Windows build environment.
+cadquery==2.8.0
+numpy==2.4.6
+trimesh==4.7.1
+vtk==9.6.2

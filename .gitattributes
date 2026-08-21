@@ -1,0 +1,6 @@
+design/e6_final_exterior/v11_v8_blender_exterior_restart_20260721/blender/e6_v11_v8_locked_reference_master.blend filter=lfs diff=lfs merge=lfs -text
+design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/workcore_e6_class_a_focus_qa_overlay.glb filter=lfs diff=lfs merge=lfs -text
+design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/workcore_e6_class_a_cafe_qa_overlay.glb filter=lfs diff=lfs merge=lfs -text
+design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/follow/workcore_e6_class_a_follow_qa_overlay.glb filter=lfs diff=lfs merge=lfs -text
+design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/workcore_e6_class_a_ride_qa_overlay.glb filter=lfs diff=lfs merge=lfs -text
+design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/workcore_e6_class_a_focus.glb filter=lfs diff=lfs merge=lfs -text

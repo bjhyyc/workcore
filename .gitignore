@@ -1,0 +1,6 @@
+.venv/
+build/
+.build-staging/
+.build-publish.lock
+__pycache__/
+*.pyc

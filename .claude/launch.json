@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "review-page",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8123", "-d", "build"],
+      "port": 8123
+    },
+    {
+      "name": "r14-review",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "design/e6_final_exterior/v11_v8_blender_exterior_restart_20260721/interactive/r14_threejs_review/scripts/start-production.mjs",
+        "--port",
+        "4173"
+      ],
+      "port": 4173
+    }
+  ]
+}
