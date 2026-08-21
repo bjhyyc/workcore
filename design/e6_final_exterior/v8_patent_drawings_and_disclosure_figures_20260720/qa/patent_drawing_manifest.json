@@ -1,0 +1,299 @@
+{
+  "status": "DRAFT_PATENT_DISCLOSURE_DRAWINGS_GEOMETRY_ANCHORED_PENDING_VISUAL_FREEZE_AND_PATENT_COUNSEL",
+  "filing_ready": false,
+  "production_certification_claimed": false,
+  "source_release_status": "RENDER_SERIES_COMPLETE_PENDING_VISUAL_REVIEW",
+  "known_blockers": [
+    "source release remains PENDING_VISUAL_REVIEW",
+    "source exterior width is approximately 779.4 mm while the V8 freeze limit is 752 mm",
+    "application grouping and claim scope require applicant/patent-counsel decision"
+  ],
+  "appearance_policy": "exterior STEP only; visible sharp edges and outlines; no hidden lines, shading, material texture, dimensions, axes, callouts or background",
+  "technical_policy": "named full-layout STEP occurrences and gate motion B-Reps; black/white line art with stable reference numerals",
+  "source_sha256": {
+    "design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\layout_appearance_manifest.json": "7864b6ba90838364129354865c57d08b9abd867ddc5c3d13536cc010d8c505b7",
+    "design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\follow\\workcore_e6_exterior_follow.step": "4fb17bdac3abb7e207816e77b12977f2598525251b62292c58cf29807b097d6e",
+    "design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\ride\\workcore_e6_exterior_ride.step": "5cbdd5b559eb557171c1ad37e78013987ee722bd7389f8c832c37abbac4d6fb1",
+    "design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\cafe\\workcore_e6_exterior_cafe.step": "6a86bc48767a64cc087d38f14c7e966400a9ef45d434125b7d74a9ca9b6dc3d7",
+    "design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\focus\\workcore_e6_exterior_focus.step": "3e9de8c21916426045cab944b22e3fcfd101b987a0ca1e71f14dce5718db91a1",
+    "design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\follow\\workcore_e6_layout_full_follow.step": "8a1a0adae6dc1d41d4bcf608feddb9334e564e02faa9c2b15dfb93b79ea70773",
+    "design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\ride\\workcore_e6_layout_full_ride.step": "5d773e7c08319ce91f9af44b67b955b35b9eedf9b54d105a6c662ab553c9eae0",
+    "design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\cafe\\workcore_e6_layout_full_cafe.step": "772236f5491e814694466b2e66a440bfc88c7edd19d1de8c3c8554b9694c3277",
+    "design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\focus\\workcore_e6_layout_full_focus.step": "b87a2fa3c9e33953c5a240cc526fd6386bf8bb74824661b9b58332d118b9a30f"
+  },
+  "artifact_count": 66,
+  "appearance_png_count": 32,
+  "technical_png_count": 1,
+  "artifact_sha256": {
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D01_front_cafe.png": "adc2e4cd0e3059f2a613ce1379f486e0f8b95d70c11ff2c7a40dd5628b584203",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D01_front_cafe.svg": "c263e0cfe79eeaa46a7e02c0c58ac08b2a0d981c453076dd2d75785d59aad311",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D02_rear_cafe.png": "3fabc52dc2869f9dda1a9f11d9aa85501295dcada6359bd5ed392940cddd7dd9",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D02_rear_cafe.svg": "f1968c6ea34c8ef81f25f93340c7b1fcf82f492d143051b6222f3509e2a2129c",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D03_left_cafe.png": "ccae00684133ef8e357771c30bfd3d9c3c243171cc84d840112029d4414c56d2",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D03_left_cafe.svg": "7cb21bcd2c619426a3bae6619cc08142ce3577f70165aed58b22122ff9af5097",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D04_right_cafe.png": "810a90866053f71b5138e38f74120164051f02f6a8ecb37228f7de7fe32c432a",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D04_right_cafe.svg": "72f3b7b553c2528fce2752a4418eb349a93ce8a48f5a3b418bed063b1f301e11",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D05_top_cafe.png": "92d30133c05f51b7133f91f9b9a0d604e3e6af669679fae24af3cafe1fbd37bf",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D05_top_cafe.svg": "7b1a89a475099c9c63c6d38012aa7ec1909d3274f15bfcee645af8e05d350d3e",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D06_bottom_cafe.png": "189fe2587ee2217057a680cf4bb5050082d2aeb17491bbd413b8b99a23c92b0c",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D06_bottom_cafe.svg": "666ae6d5d8cd3b41e06f7ca3c4a89e21acf300ffca65b6b4f5eb7472f929896f",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D07_perspective_front_right_cafe.png": "29b0bba4e57e9acb268db93247946fa61a53653a4f26072118f2daf8aff0dd5f",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D07_perspective_front_right_cafe.svg": "efad1d350edf5c9f0f8d4f62348f7ef2ef3dd84cc15356bce1a1e7beda753600",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D08_perspective_rear_left_cafe.png": "bcc947660d7c03753c44648693e328a676b1dd340f6f3b90803e77a38222088f",
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D08_perspective_rear_left_cafe.svg": "a3fd37bf8c2a933163537cc0799bb5770d75f04920398a9cd5a8b39d1a0d97d7",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D01_front_focus.png": "20347250bf4053e1cf2966319c119124d7379b94d7448089b63181e5764d3c6e",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D01_front_focus.svg": "7dae2bca7f2bd2a61883a53716ae8f28c3ae601aee3ef1381dc1aa4938ab1b17",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D02_rear_focus.png": "7d5729d4a0405f29aa54f2a4d7163844335fbb596d21b4114eb369e37a23dbce",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D02_rear_focus.svg": "786d05a32a43a52b7b5e360e72ca4b394c9f5a12d387deb4dbd3741ebf29f40f",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D03_left_focus.png": "056f4f81037d4264640a3b084955be8c4fab1cb9c3a1ee3d74941b644471d9bf",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D03_left_focus.svg": "86a9169099d16b35bba49c1779670a06d4392d785b2b78dbefe412f6cf31b69d",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D04_right_focus.png": "4efaad0825aa4e8b93e86d9229d30546adc6ff9ce1406e2c10d6d01bf0c2a6ee",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D04_right_focus.svg": "ec8468ba413b83c3972a0fffc504e0dd58aeb81337683ddabfd949d19d926961",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D05_top_focus.png": "4c182caf21703e09e6d988b1281a931ceafb05ce0b93428e95eaa618ef8acb51",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D05_top_focus.svg": "f2db78a651af94370e0321a4b1947c2209b00e7059653847b29ac4a98c72827e",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D06_bottom_focus.png": "ea65d9859b736de4789f6712fb724b21445c79082cfdbf915bb69e60e4297827",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D06_bottom_focus.svg": "21f3f1fd5b37efa79aac810095133c9cbda31a5c2c8ff1a8d2690da77c1957cc",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D07_perspective_front_right_focus.png": "817ecdd5a9b7b4fda927b850a3666bf55b526a5cd7fb55b23df60439bb8d444e",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D07_perspective_front_right_focus.svg": "1c81b231d88e2e51e5d064adc4a81d38ca19201e725a80287cb727fe0cf133e1",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D08_perspective_rear_left_focus.png": "ce56eb731f3bc29543c3dcf5f4343c25a638c2020e83576dc25d94e979a00016",
+    "01_appearance_patent_drawings\\application_candidate_focus\\D08_perspective_rear_left_focus.svg": "9e15007600de00c8ec8c51856a7b25f11cc6f618937c2076a770fbc9c1623b38",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D01_front_follow.png": "fb7247cb6cf023e7f2859182af3ef337078d251e03368e31f5d57ad84d8a2821",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D01_front_follow.svg": "246f0229be21f9b16304a6072dbf69b6e907cc5d8a82388d804a47a646ab4be9",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D02_rear_follow.png": "a110bc558b609eeaec5dbe5d56bff14fed129111636f7d06d20387f3c4a0024f",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D02_rear_follow.svg": "5c692df030c38314fdf5dc438df90055fee97a8eb393ca2899e1c65cd6720e4d",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D03_left_follow.png": "07837bdc55dd80b87d780bdb846bbf312ec3fb1981d9369e6a710780aed63bcc",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D03_left_follow.svg": "0cbfc37e30130a6cea839c39082ba67de803bf3d9d67c434e6c73c8973b39523",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D04_right_follow.png": "e47af8a60e8f18ab9a16c77b4c69f28469e6dad70efaf8e316d843ab49e372cb",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D04_right_follow.svg": "5a6e2bbd78436b955a8e76cee7d34bbbdabe51ce5b30dce993c63960cfafdb45",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D05_top_follow.png": "e7f698d63d9a318c77935ff8b72eefa95a84077e782a7e0647902907cec6fe0a",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D05_top_follow.svg": "68cd61ee47ead97d631af658a65ef899df05e50da5c0a9b07b1f105fc7500c25",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D06_bottom_follow.png": "78ff6f8dbf763c52d6316f419671a228dc6e3b37b72c55dad803057e78270796",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D06_bottom_follow.svg": "71f58d997d7dff11a5509998c4165da8785905b736a7d7a3602f384582e4ff82",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D07_perspective_front_right_follow.png": "ea61467988aaf070e7129562e98969e2749020eae811a771a8977e82330de402",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D07_perspective_front_right_follow.svg": "330a733cb04e649d9b282a98c3c54301fd0645ee351fe15982d14e32e47c4d2f",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D08_perspective_rear_left_follow.png": "3b3b4b59737bc196ecb9f1643ba70282cf86bf4f6e5af57f2af7b33d4965aec0",
+    "01_appearance_patent_drawings\\application_candidate_follow\\D08_perspective_rear_left_follow.svg": "90202a9daea66c74f7d692f1480da7462c3b2af47ada69adeba4ad631574b9bc",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D01_front_ride.png": "b604bd11ff2bbc782da0421606bc80ebd422c311de43031cee272f6687c76b14",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D01_front_ride.svg": "313f3484cf918cd9314fe8162504ac19b9190e95b2a8299784514f71e9bf4101",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D02_rear_ride.png": "b4223123951687d4c12f94365666cd50a18c07f57a85e426dac952be084434d0",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D02_rear_ride.svg": "fc1a5a763590f0f2d514f6d614c9e91e9dbb078388d6b4353f5e772d6cdf95a0",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D03_left_ride.png": "9502400dfe59e7a20449d06131729fe1da3d690797bb74cd4e96c6f1c81c4d28",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D03_left_ride.svg": "0706e1037b8e9e283fa6be2b1c656878ce7aa7594434a9f860f9ef033a4a669e",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D04_right_ride.png": "ff65b279c69272502c5e39373d4e4dcbdc2f1606c71e10765cd03388c18c2634",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D04_right_ride.svg": "a9962a64102607b448a91ecbfaa20316898d892f830ec764a87fa4430f8f151c",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D05_top_ride.png": "49c990a4abe0639f6dc59e2bdc17f30e3442943104a4eacaaf15d94d0f1aa8a8",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D05_top_ride.svg": "02cff8deebb2704ae8b0aaf04ce579319ef6a7ffc9940aee8ffdd49bc841da30",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D06_bottom_ride.png": "8f6d69e7b7db585cb8d6c61d46d6ba7e2431483b130d14276570af2527a276f3",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D06_bottom_ride.svg": "ecf9796e16e9f7b450f54fc0c9d6f1102645173804ba425d9c3ffc937d45e68b",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D07_perspective_front_right_ride.png": "8cae62ee28b987bcf3a0b0a5e2ba38ad6f31f7ddc8849d156af5813b06edd019",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D07_perspective_front_right_ride.svg": "f1ac8a4679bc2f63096fbc6be90990ba5b7b936c3f96d6d953ef60a53b316d1e",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D08_perspective_rear_left_ride.png": "f943b9de2b2005b85f4169ffea31ff95a618164684aec50fc9480a4fa73e22ee",
+    "01_appearance_patent_drawings\\application_candidate_ride\\D08_perspective_rear_left_ride.svg": "c6e1bd3c0ee256ae81e988b6079049971832aec9659b196fb5357ba30db6236d",
+    "02_technical_disclosure_figures\\fig01_ride_overall_structure.png": "707806125a0cd6465c34a94161d6d5b7335d2356798ee00feca3ca685bc42143",
+    "02_technical_disclosure_figures\\fig01_ride_overall_structure.svg": "0207f0c7a654ab6bcd4526df929f1d23a601f377def5ab7fa180a5fa6bf4c16d"
+  },
+  "png_qa": {
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D01_front_cafe.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.0285640625,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D02_rear_cafe.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.019566666666666666,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D03_left_cafe.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.0025,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D04_right_cafe.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.0025,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D05_top_cafe.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.026165104166666668,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D06_bottom_cafe.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.032564583333333334,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D07_perspective_front_right_cafe.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.029386458333333334,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_cafe\\D08_perspective_rear_left_cafe.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.028196354166666666,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_focus\\D01_front_focus.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.020279166666666668,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_focus\\D02_rear_focus.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.014491145833333333,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_focus\\D03_left_focus.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.011010416666666667,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_focus\\D04_right_focus.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.0109796875,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_focus\\D05_top_focus.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.017772916666666666,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_focus\\D06_bottom_focus.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.022352604166666668,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_focus\\D07_perspective_front_right_focus.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.023488020833333335,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_focus\\D08_perspective_rear_left_focus.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.0227640625,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_follow\\D01_front_follow.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.025240625,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_follow\\D02_rear_follow.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.026665104166666665,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_follow\\D03_left_follow.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.01811875,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_follow\\D04_right_follow.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.017193229166666667,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_follow\\D05_top_follow.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.03480572916666667,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_follow\\D06_bottom_follow.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.0369703125,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_follow\\D07_perspective_front_right_follow.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.0304328125,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_follow\\D08_perspective_rear_left_follow.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.0313140625,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_ride\\D01_front_ride.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.0287640625,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_ride\\D02_rear_ride.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.0204734375,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_ride\\D03_left_ride.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.0025,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_ride\\D04_right_ride.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.0025,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_ride\\D05_top_ride.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.028959895833333332,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_ride\\D06_bottom_ride.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.03603697916666666,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_ride\\D07_perspective_front_right_ride.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.030605208333333335,
+      "nongray_fraction": 0.0
+    },
+    "01_appearance_patent_drawings\\application_candidate_ride\\D08_perspective_rear_left_ride.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.025164583333333334,
+      "nongray_fraction": 0.0
+    },
+    "02_technical_disclosure_figures\\fig01_ride_overall_structure.png": {
+      "width": 1600,
+      "height": 1200,
+      "nonwhite_fraction": 0.036675,
+      "nongray_fraction": 0.00163125
+    }
+  },
+  "qa_status": "FAIL",
+  "qa_failures": [
+    "02_technical_disclosure_figures\\fig01_ride_overall_structure.png: drawing contains non-grayscale pixels"
+  ]
+}
