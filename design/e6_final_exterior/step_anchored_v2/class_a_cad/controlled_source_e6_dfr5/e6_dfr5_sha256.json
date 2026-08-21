@@ -1,0 +1,59 @@
+{
+  "schema": "workcore-e6-sha256-index-v1",
+  "revision": "E6-DFR5-A07-SHARED-HINGE",
+  "generated_at_utc": "2026-07-17T21:44:57.386311+00:00",
+  "files": {
+    "e6_dfr5_a07_hinge_manifest.json": {
+      "bytes": 253631,
+      "sha256": "dc27774b66320f8580c7bcd7d23a5c0f97e8e2187a808809f8116e811bc601a4"
+    },
+    "workcore_e6_dfr5_cafe.glb": {
+      "bytes": 1138000,
+      "sha256": "82d738ca716921983252c8ffc5499faa389b6d05920b1090f8edc58e60891f1f"
+    },
+    "workcore_e6_dfr5_cafe.step": {
+      "bytes": 6117206,
+      "sha256": "8118b34c83bde30f316717e028279de656db4640d1c1f74e2c7fb6c96ecddd88"
+    },
+    "workcore_e6_dfr5_cafe_footrest_open.glb": {
+      "bytes": 1138068,
+      "sha256": "4399fe24a63c34c70a67dbfabc7d5b053746386eb497d222264bbdf85e1658b5"
+    },
+    "workcore_e6_dfr5_cafe_footrest_open.step": {
+      "bytes": 6114822,
+      "sha256": "9ae030b518ef20304b3e5ca72816983a37c06771fd22a60192650435c71ba1ea"
+    },
+    "workcore_e6_dfr5_focus.glb": {
+      "bytes": 1142980,
+      "sha256": "ffea83de6d37021cb7a62b8be6013cf2f94410c366ebc10592ebdce3f215d1cb"
+    },
+    "workcore_e6_dfr5_focus.step": {
+      "bytes": 6267448,
+      "sha256": "598ad5a8686989be548140c5629a1b996b85bc833f1672850c98da400626ed4c"
+    },
+    "workcore_e6_dfr5_focus_footrest_open.glb": {
+      "bytes": 1143048,
+      "sha256": "3a9c10f4a5220d0f583beaa573a234632c0e519567dd47f8cc3c1bf0c54ff529"
+    },
+    "workcore_e6_dfr5_focus_footrest_open.step": {
+      "bytes": 6265191,
+      "sha256": "5914a9eb0c746950a02149d0673cb4583010840339f26eb84478f94acc05cd9f"
+    },
+    "workcore_e6_dfr5_follow.glb": {
+      "bytes": 1079624,
+      "sha256": "337e21e6335966bc0695e2f18af9e3a671db24072dfaf1dbbb258f3718f4e4ce"
+    },
+    "workcore_e6_dfr5_follow.step": {
+      "bytes": 6129275,
+      "sha256": "f925527ce086f2b18b0c53312733aadd6fa69aebb541d158f260d9c33b1a88fc"
+    },
+    "workcore_e6_dfr5_ride.glb": {
+      "bytes": 1040408,
+      "sha256": "b62bbdae5e02e021d79ef2f2ba0be6a9d4b91ef05e312a45ab319f887a1568ec"
+    },
+    "workcore_e6_dfr5_ride.step": {
+      "bytes": 5810509,
+      "sha256": "3bf21b0811845c0d0fc10fbd116c96fc2188cc6e7a54956cd5e383c6a48fbb89"
+    }
+  }
+}
