@@ -1,0 +1,29 @@
+{
+  "purpose": "concept design communication only; not dimensional CAD evidence",
+  "assets": [
+    {
+      "file": "renders/01_hero_ride.png",
+      "role": "Ride-state hero exterior",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1808151,
+      "sha256": "E2FA133A20635950A1BD721C0EB521A4090EF27F9FEA2F19DE69D00F80ED5801"
+    },
+    {
+      "file": "renders/02_four_state_board.png",
+      "role": "Follow, Ride, Cafe and Focus state identity board",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1901720,
+      "sha256": "5F826D1A04551429054DF23147B3B1F82A1D01B0247DCC4043CE66B57ACFBE37"
+    },
+    {
+      "file": "renders/03_cmf_detail_board.png",
+      "role": "CMF, sensing, privacy, control, emergency stop and service details",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1987036,
+      "sha256": "2CAE986633010D19401184820553917448E34133B19065CDDB1EAEDCABA071E1"
+    }
+  ]
+}

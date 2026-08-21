@@ -1,0 +1,1269 @@
+{
+  "schema": "workcore-e6-controlled-source-revision-v1",
+  "revision": "E6-DFR4-A08",
+  "status": "PASS",
+  "generated_at_utc": "2026-07-17T15:05:04.478002+00:00",
+  "scope": "A08 footrest state/identity principle correction for the V8 Class-A release candidate; not a complete product certification",
+  "footrest_contract_version": "E6-A08-POSE-1",
+  "primary_defaults": {
+    "follow": "stowed",
+    "ride": "deployed_locked",
+    "cafe": "stowed",
+    "focus": "stowed"
+  },
+  "optional_validation_states": [
+    "cafe_footrest_open",
+    "focus_footrest_open"
+  ],
+  "preserved_e6_dfr3_inputs": {
+    "workcore_follow_closed.step": {
+      "bytes": 5971686,
+      "sha256": "8d3753bd717caa5cba229146cf1809e998d303e5eaf667cc36fb84b46c833be6"
+    },
+    "workcore_follow_closed.glb": {
+      "bytes": 1069132,
+      "sha256": "188930860b7370a9ae01622f5d7f30148adb3327ced6a2a308a6b6d01e68566a"
+    },
+    "workcore_seat_ready.step": {
+      "bytes": 5810273,
+      "sha256": "eacff9946eeae450267e9430b3cf378ee5a8f4775d9aa3e702e8c2c439e20950"
+    },
+    "workcore_seat_ready.glb": {
+      "bytes": 1027764,
+      "sha256": "7827cc013ec343ed420ad10593b8e6c0f469d69b3de6c718cb19710dde4411d3"
+    },
+    "workcore_cafe.step": {
+      "bytes": 6114555,
+      "sha256": "d88d6e35fa497ce6e6d8bf71f616fba6d50a79a6d3d956eb772ac9293acc69ba"
+    },
+    "workcore_cafe.glb": {
+      "bytes": 1124584,
+      "sha256": "ded76527336b65083f9361335d910033e16460ce5c4e91300d99224e7ac2e347"
+    },
+    "workcore_desk.step": {
+      "bytes": 6264991,
+      "sha256": "b603488d28537d1af2b79bdf5c91470712bce473026a5995a2b9ff1095f0bf25"
+    },
+    "workcore_desk.glb": {
+      "bytes": 1129076,
+      "sha256": "b22e414a30ce92aad262085ae70d5eef295da4aaf973d58d7efeb12aff7da8c7"
+    }
+  },
+  "generator_sha256": {
+    "cad/parameters.py": "5b72be449c82295bfa90a91fc4523808368e9134c7cb3c26fc38b40ddff53dd7",
+    "cad/footrest_state.py": "a2b034e3f9e2aab3088941f0df0e578267c6d23345d25a60137b319b97aaaab4",
+    "cad/build.py": "99b22396eb70b202e1867164cc3b0653a67536e1894cdadc723dfb51a36c18e9",
+    "cad/export_dfr4_footrest_revision.py": "9d0c0718267f87157edf268ebb313601d5bc00ff83055682db854dd8f6bfc355"
+  },
+  "validation": {
+    "status": "PASS",
+    "check_count": 17,
+    "failed_count": 0,
+    "checks": [
+      {
+        "configuration": "follow",
+        "check": "a08_primary_pose_and_occurrence_inventory",
+        "expected_pose": "stowed",
+        "detected_poses": [
+          "stowed"
+        ],
+        "physical_occurrence_ids": [
+          "WC-A08-MANUAL-LATCH",
+          "WC-A08-PLATFORM",
+          "WC-A08-SUPPORT-BOOT-LEFT",
+          "WC-A08-SUPPORT-BOOT-RIGHT",
+          "WC-A08-SUPPORT-LEFT",
+          "WC-A08-SUPPORT-RIGHT"
+        ],
+        "contract_versions": [
+          "E6-A08-POSE-1"
+        ],
+        "pass": true
+      },
+      {
+        "configuration": "seat",
+        "check": "a08_primary_pose_and_occurrence_inventory",
+        "expected_pose": "deployed_locked",
+        "detected_poses": [
+          "deployed_locked"
+        ],
+        "physical_occurrence_ids": [
+          "WC-A08-MANUAL-LATCH",
+          "WC-A08-PLATFORM",
+          "WC-A08-SUPPORT-BOOT-LEFT",
+          "WC-A08-SUPPORT-BOOT-RIGHT",
+          "WC-A08-SUPPORT-LEFT",
+          "WC-A08-SUPPORT-RIGHT"
+        ],
+        "contract_versions": [
+          "E6-A08-POSE-1"
+        ],
+        "pass": true
+      },
+      {
+        "configuration": "cafe",
+        "check": "a08_primary_pose_and_occurrence_inventory",
+        "expected_pose": "stowed",
+        "detected_poses": [
+          "stowed"
+        ],
+        "physical_occurrence_ids": [
+          "WC-A08-MANUAL-LATCH",
+          "WC-A08-PLATFORM",
+          "WC-A08-SUPPORT-BOOT-LEFT",
+          "WC-A08-SUPPORT-BOOT-RIGHT",
+          "WC-A08-SUPPORT-LEFT",
+          "WC-A08-SUPPORT-RIGHT"
+        ],
+        "contract_versions": [
+          "E6-A08-POSE-1"
+        ],
+        "pass": true
+      },
+      {
+        "configuration": "desk",
+        "check": "a08_primary_pose_and_occurrence_inventory",
+        "expected_pose": "stowed",
+        "detected_poses": [
+          "stowed"
+        ],
+        "physical_occurrence_ids": [
+          "WC-A08-MANUAL-LATCH",
+          "WC-A08-PLATFORM",
+          "WC-A08-SUPPORT-BOOT-LEFT",
+          "WC-A08-SUPPORT-BOOT-RIGHT",
+          "WC-A08-SUPPORT-LEFT",
+          "WC-A08-SUPPORT-RIGHT"
+        ],
+        "contract_versions": [
+          "E6-A08-POSE-1"
+        ],
+        "pass": true
+      },
+      {
+        "configuration": "follow/seat/cafe/desk",
+        "check": "a08_cross_pose_definition_material_mass_conservation",
+        "definition_revision": "E6R4-A",
+        "total_mass_kg_by_state": {
+          "follow": 1.890986991,
+          "seat": 1.890986991,
+          "cafe": 1.890986991,
+          "desk": 1.890986991
+        },
+        "identity_errors": [],
+        "pass": true
+      },
+      {
+        "configuration": "cafe_footrest_open",
+        "check": "a08_optional_open_endpoint_external_clearance",
+        "exact_interferences": [],
+        "pass": true
+      },
+      {
+        "configuration": "cafe_footrest_open",
+        "check": "a08_stow_to_open_21_point_swept_clearance",
+        "sample_progress": [
+          0.0,
+          0.05,
+          0.1,
+          0.15,
+          0.2,
+          0.25,
+          0.3,
+          0.35,
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6,
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.85,
+          0.9,
+          0.95,
+          1.0
+        ],
+        "failures": [],
+        "pass": true
+      },
+      {
+        "configuration": "cafe",
+        "check": "occupied_feet_to_floor_route_with_a08_stowed",
+        "exact_interferences": [],
+        "foot_ground_zmin_mm": [
+          0.0,
+          0.0
+        ],
+        "pass": true
+      },
+      {
+        "configuration": "desk_footrest_open",
+        "check": "a08_optional_open_endpoint_external_clearance",
+        "exact_interferences": [],
+        "pass": true
+      },
+      {
+        "configuration": "desk_footrest_open",
+        "check": "a08_stow_to_open_21_point_swept_clearance",
+        "sample_progress": [
+          0.0,
+          0.05,
+          0.1,
+          0.15,
+          0.2,
+          0.25,
+          0.3,
+          0.35,
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6,
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.85,
+          0.9,
+          0.95,
+          1.0
+        ],
+        "failures": [],
+        "pass": true
+      },
+      {
+        "configuration": "desk",
+        "check": "occupied_feet_to_floor_route_with_a08_stowed",
+        "exact_interferences": [],
+        "foot_ground_zmin_mm": [
+          0.0,
+          0.0
+        ],
+        "pass": true
+      },
+      {
+        "configuration": "follow",
+        "check": "all_source_solids_valid",
+        "invalid_parts": [],
+        "part_count": 180,
+        "pass": true
+      },
+      {
+        "configuration": "ride",
+        "check": "all_source_solids_valid",
+        "invalid_parts": [],
+        "part_count": 176,
+        "pass": true
+      },
+      {
+        "configuration": "cafe",
+        "check": "all_source_solids_valid",
+        "invalid_parts": [],
+        "part_count": 189,
+        "pass": true
+      },
+      {
+        "configuration": "focus",
+        "check": "all_source_solids_valid",
+        "invalid_parts": [],
+        "part_count": 196,
+        "pass": true
+      },
+      {
+        "configuration": "cafe_footrest_open",
+        "check": "all_source_solids_valid",
+        "invalid_parts": [],
+        "part_count": 189,
+        "pass": true
+      },
+      {
+        "configuration": "focus_footrest_open",
+        "check": "all_source_solids_valid",
+        "invalid_parts": [],
+        "part_count": 196,
+        "pass": true
+      }
+    ]
+  },
+  "states": {
+    "follow": {
+      "source_configuration": "follow",
+      "primary_render_state": true,
+      "footrest_pose": "stowed",
+      "optional_footrest_open_available": false,
+      "step": "workcore_e6_dfr4_follow.step",
+      "glb": "workcore_e6_dfr4_follow.glb",
+      "glb_units": "meters",
+      "part_count": 180,
+      "a08_occurrence_count": 6,
+      "a08_total_mass_kg": 1.890986991,
+      "a08_occurrences": [
+        {
+          "name": "footrest_platform_stowed",
+          "physical_occurrence_id": "WC-A08-PLATFORM",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "Aluminium honeycomb sandwich",
+          "process": "Bond / edge-close / veneer",
+          "volume_mm3": 1049862.654825,
+          "mass_kg": 0.787396991,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -465.007298,
+            "xmax": -254.992702,
+            "ymin": -250.007298,
+            "ymax": 250.007298,
+            "zmin": 141.992702,
+            "zmax": 152.007298
+          }
+        },
+        {
+          "name": "footrest_support_left_stowed",
+          "physical_occurrence_id": "WC-A08-SUPPORT-LEFT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "6061-T6 aluminium",
+          "process": "Extrusion / CNC / weld",
+          "volume_mm3": 43740.0,
+          "mass_kg": 0.118098,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -415.0,
+            "xmax": -385.0,
+            "ymin": -225.0,
+            "ymax": -195.0,
+            "zmin": 152.5,
+            "zmax": 287.5
+          }
+        },
+        {
+          "name": "footrest_support_boot_left_stowed",
+          "physical_occurrence_id": "WC-A08-SUPPORT-BOOT-LEFT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "TPE protective bellows",
+          "process": "Mould / clip-fit",
+          "volume_mm3": 59940.0,
+          "mass_kg": 0.062937,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -420.0,
+            "xmax": -380.0,
+            "ymin": -230.0,
+            "ymax": -190.0,
+            "zmin": 152.5,
+            "zmax": 287.5
+          }
+        },
+        {
+          "name": "footrest_support_right_stowed",
+          "physical_occurrence_id": "WC-A08-SUPPORT-RIGHT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "6061-T6 aluminium",
+          "process": "Extrusion / CNC / weld",
+          "volume_mm3": 43740.0,
+          "mass_kg": 0.118098,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -415.0,
+            "xmax": -385.0,
+            "ymin": 195.0,
+            "ymax": 225.0,
+            "zmin": 152.5,
+            "zmax": 287.5
+          }
+        },
+        {
+          "name": "footrest_support_boot_right_stowed",
+          "physical_occurrence_id": "WC-A08-SUPPORT-BOOT-RIGHT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "TPE protective bellows",
+          "process": "Mould / clip-fit",
+          "volume_mm3": 59940.0,
+          "mass_kg": 0.062937,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -420.0,
+            "xmax": -380.0,
+            "ymin": 190.0,
+            "ymax": 230.0,
+            "zmin": 152.5,
+            "zmax": 287.5
+          }
+        },
+        {
+          "name": "footrest_manual_latch_stowed",
+          "physical_occurrence_id": "WC-A08-MANUAL-LATCH",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "17-4PH stainless steel",
+          "process": "Turn / grind",
+          "volume_mm3": 95680.0,
+          "mass_kg": 0.74152,
+          "solid_count": 1,
+          "face_count": 6,
+          "edge_count": 12,
+          "bounds_mm": {
+            "xmin": -483.0,
+            "xmax": -437.0,
+            "ymin": -40.0,
+            "ymax": 40.0,
+            "zmin": 95.0,
+            "zmax": 121.0
+          }
+        }
+      ]
+    },
+    "ride": {
+      "source_configuration": "seat",
+      "primary_render_state": true,
+      "footrest_pose": "deployed_locked",
+      "optional_footrest_open_available": false,
+      "step": "workcore_e6_dfr4_ride.step",
+      "glb": "workcore_e6_dfr4_ride.glb",
+      "glb_units": "meters",
+      "part_count": 176,
+      "a08_occurrence_count": 6,
+      "a08_total_mass_kg": 1.890986991,
+      "a08_occurrences": [
+        {
+          "name": "footrest_platform_deployed_locked",
+          "physical_occurrence_id": "WC-A08-PLATFORM",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "Aluminium honeycomb sandwich",
+          "process": "Bond / edge-close / veneer",
+          "volume_mm3": 1049862.654825,
+          "mass_kg": 0.787396991,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -710.007298,
+            "xmax": -499.992702,
+            "ymin": -250.007298,
+            "ymax": 250.007298,
+            "zmin": 89.992702,
+            "zmax": 100.007298
+          }
+        },
+        {
+          "name": "footrest_support_left_deployed_locked",
+          "physical_occurrence_id": "WC-A08-SUPPORT-LEFT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "6061-T6 aluminium",
+          "process": "Extrusion / CNC / weld",
+          "volume_mm3": 43740.0,
+          "mass_kg": 0.118098,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -605.0,
+            "xmax": -470.0,
+            "ymin": -235.0,
+            "ymax": -205.0,
+            "zmin": 95.0,
+            "zmax": 125.0
+          }
+        },
+        {
+          "name": "footrest_support_boot_left_deployed_locked",
+          "physical_occurrence_id": "WC-A08-SUPPORT-BOOT-LEFT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "TPE protective bellows",
+          "process": "Mould / clip-fit",
+          "volume_mm3": 59940.0,
+          "mass_kg": 0.062937,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -605.0,
+            "xmax": -470.0,
+            "ymin": -240.0,
+            "ymax": -200.0,
+            "zmin": 90.0,
+            "zmax": 130.0
+          }
+        },
+        {
+          "name": "footrest_support_right_deployed_locked",
+          "physical_occurrence_id": "WC-A08-SUPPORT-RIGHT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "6061-T6 aluminium",
+          "process": "Extrusion / CNC / weld",
+          "volume_mm3": 43740.0,
+          "mass_kg": 0.118098,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -605.0,
+            "xmax": -470.0,
+            "ymin": 205.0,
+            "ymax": 235.0,
+            "zmin": 95.0,
+            "zmax": 125.0
+          }
+        },
+        {
+          "name": "footrest_support_boot_right_deployed_locked",
+          "physical_occurrence_id": "WC-A08-SUPPORT-BOOT-RIGHT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "TPE protective bellows",
+          "process": "Mould / clip-fit",
+          "volume_mm3": 59940.0,
+          "mass_kg": 0.062937,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -605.0,
+            "xmax": -470.0,
+            "ymin": 200.0,
+            "ymax": 240.0,
+            "zmin": 90.0,
+            "zmax": 130.0
+          }
+        },
+        {
+          "name": "footrest_manual_latch_deployed_locked",
+          "physical_occurrence_id": "WC-A08-MANUAL-LATCH",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "17-4PH stainless steel",
+          "process": "Turn / grind",
+          "volume_mm3": 95680.0,
+          "mass_kg": 0.74152,
+          "solid_count": 1,
+          "face_count": 6,
+          "edge_count": 12,
+          "bounds_mm": {
+            "xmin": -483.0,
+            "xmax": -437.0,
+            "ymin": -40.0,
+            "ymax": 40.0,
+            "zmin": 95.0,
+            "zmax": 121.0
+          }
+        }
+      ]
+    },
+    "cafe": {
+      "source_configuration": "cafe",
+      "primary_render_state": true,
+      "footrest_pose": "stowed",
+      "optional_footrest_open_available": true,
+      "step": "workcore_e6_dfr4_cafe.step",
+      "glb": "workcore_e6_dfr4_cafe.glb",
+      "glb_units": "meters",
+      "part_count": 189,
+      "a08_occurrence_count": 6,
+      "a08_total_mass_kg": 1.890986991,
+      "a08_occurrences": [
+        {
+          "name": "footrest_platform_stowed",
+          "physical_occurrence_id": "WC-A08-PLATFORM",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "Aluminium honeycomb sandwich",
+          "process": "Bond / edge-close / veneer",
+          "volume_mm3": 1049862.654825,
+          "mass_kg": 0.787396991,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -465.007298,
+            "xmax": -254.992702,
+            "ymin": -250.007298,
+            "ymax": 250.007298,
+            "zmin": 141.992702,
+            "zmax": 152.007298
+          }
+        },
+        {
+          "name": "footrest_support_left_stowed",
+          "physical_occurrence_id": "WC-A08-SUPPORT-LEFT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "6061-T6 aluminium",
+          "process": "Extrusion / CNC / weld",
+          "volume_mm3": 43740.0,
+          "mass_kg": 0.118098,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -415.0,
+            "xmax": -385.0,
+            "ymin": -225.0,
+            "ymax": -195.0,
+            "zmin": 152.5,
+            "zmax": 287.5
+          }
+        },
+        {
+          "name": "footrest_support_boot_left_stowed",
+          "physical_occurrence_id": "WC-A08-SUPPORT-BOOT-LEFT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "TPE protective bellows",
+          "process": "Mould / clip-fit",
+          "volume_mm3": 59940.0,
+          "mass_kg": 0.062937,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -420.0,
+            "xmax": -380.0,
+            "ymin": -230.0,
+            "ymax": -190.0,
+            "zmin": 152.5,
+            "zmax": 287.5
+          }
+        },
+        {
+          "name": "footrest_support_right_stowed",
+          "physical_occurrence_id": "WC-A08-SUPPORT-RIGHT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "6061-T6 aluminium",
+          "process": "Extrusion / CNC / weld",
+          "volume_mm3": 43740.0,
+          "mass_kg": 0.118098,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -415.0,
+            "xmax": -385.0,
+            "ymin": 195.0,
+            "ymax": 225.0,
+            "zmin": 152.5,
+            "zmax": 287.5
+          }
+        },
+        {
+          "name": "footrest_support_boot_right_stowed",
+          "physical_occurrence_id": "WC-A08-SUPPORT-BOOT-RIGHT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "TPE protective bellows",
+          "process": "Mould / clip-fit",
+          "volume_mm3": 59940.0,
+          "mass_kg": 0.062937,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -420.0,
+            "xmax": -380.0,
+            "ymin": 190.0,
+            "ymax": 230.0,
+            "zmin": 152.5,
+            "zmax": 287.5
+          }
+        },
+        {
+          "name": "footrest_manual_latch_stowed",
+          "physical_occurrence_id": "WC-A08-MANUAL-LATCH",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "17-4PH stainless steel",
+          "process": "Turn / grind",
+          "volume_mm3": 95680.0,
+          "mass_kg": 0.74152,
+          "solid_count": 1,
+          "face_count": 6,
+          "edge_count": 12,
+          "bounds_mm": {
+            "xmin": -483.0,
+            "xmax": -437.0,
+            "ymin": -40.0,
+            "ymax": 40.0,
+            "zmin": 95.0,
+            "zmax": 121.0
+          }
+        }
+      ]
+    },
+    "focus": {
+      "source_configuration": "desk",
+      "primary_render_state": true,
+      "footrest_pose": "stowed",
+      "optional_footrest_open_available": true,
+      "step": "workcore_e6_dfr4_focus.step",
+      "glb": "workcore_e6_dfr4_focus.glb",
+      "glb_units": "meters",
+      "part_count": 196,
+      "a08_occurrence_count": 6,
+      "a08_total_mass_kg": 1.890986991,
+      "a08_occurrences": [
+        {
+          "name": "footrest_platform_stowed",
+          "physical_occurrence_id": "WC-A08-PLATFORM",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "Aluminium honeycomb sandwich",
+          "process": "Bond / edge-close / veneer",
+          "volume_mm3": 1049862.654825,
+          "mass_kg": 0.787396991,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -465.007298,
+            "xmax": -254.992702,
+            "ymin": -250.007298,
+            "ymax": 250.007298,
+            "zmin": 141.992702,
+            "zmax": 152.007298
+          }
+        },
+        {
+          "name": "footrest_support_left_stowed",
+          "physical_occurrence_id": "WC-A08-SUPPORT-LEFT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "6061-T6 aluminium",
+          "process": "Extrusion / CNC / weld",
+          "volume_mm3": 43740.0,
+          "mass_kg": 0.118098,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -415.0,
+            "xmax": -385.0,
+            "ymin": -225.0,
+            "ymax": -195.0,
+            "zmin": 152.5,
+            "zmax": 287.5
+          }
+        },
+        {
+          "name": "footrest_support_boot_left_stowed",
+          "physical_occurrence_id": "WC-A08-SUPPORT-BOOT-LEFT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "TPE protective bellows",
+          "process": "Mould / clip-fit",
+          "volume_mm3": 59940.0,
+          "mass_kg": 0.062937,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -420.0,
+            "xmax": -380.0,
+            "ymin": -230.0,
+            "ymax": -190.0,
+            "zmin": 152.5,
+            "zmax": 287.5
+          }
+        },
+        {
+          "name": "footrest_support_right_stowed",
+          "physical_occurrence_id": "WC-A08-SUPPORT-RIGHT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "6061-T6 aluminium",
+          "process": "Extrusion / CNC / weld",
+          "volume_mm3": 43740.0,
+          "mass_kg": 0.118098,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -415.0,
+            "xmax": -385.0,
+            "ymin": 195.0,
+            "ymax": 225.0,
+            "zmin": 152.5,
+            "zmax": 287.5
+          }
+        },
+        {
+          "name": "footrest_support_boot_right_stowed",
+          "physical_occurrence_id": "WC-A08-SUPPORT-BOOT-RIGHT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "TPE protective bellows",
+          "process": "Mould / clip-fit",
+          "volume_mm3": 59940.0,
+          "mass_kg": 0.062937,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -420.0,
+            "xmax": -380.0,
+            "ymin": 190.0,
+            "ymax": 230.0,
+            "zmin": 152.5,
+            "zmax": 287.5
+          }
+        },
+        {
+          "name": "footrest_manual_latch_stowed",
+          "physical_occurrence_id": "WC-A08-MANUAL-LATCH",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "stowed",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "17-4PH stainless steel",
+          "process": "Turn / grind",
+          "volume_mm3": 95680.0,
+          "mass_kg": 0.74152,
+          "solid_count": 1,
+          "face_count": 6,
+          "edge_count": 12,
+          "bounds_mm": {
+            "xmin": -483.0,
+            "xmax": -437.0,
+            "ymin": -40.0,
+            "ymax": 40.0,
+            "zmin": 95.0,
+            "zmax": 121.0
+          }
+        }
+      ]
+    },
+    "cafe_footrest_open": {
+      "source_configuration": "cafe",
+      "primary_render_state": false,
+      "footrest_pose": "deployed_locked",
+      "optional_footrest_open_available": true,
+      "step": "workcore_e6_dfr4_cafe_footrest_open.step",
+      "glb": "workcore_e6_dfr4_cafe_footrest_open.glb",
+      "glb_units": "meters",
+      "part_count": 189,
+      "a08_occurrence_count": 6,
+      "a08_total_mass_kg": 1.890986991,
+      "a08_occurrences": [
+        {
+          "name": "footrest_platform_deployed_locked",
+          "physical_occurrence_id": "WC-A08-PLATFORM",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "Aluminium honeycomb sandwich",
+          "process": "Bond / edge-close / veneer",
+          "volume_mm3": 1049862.654825,
+          "mass_kg": 0.787396991,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -710.007298,
+            "xmax": -499.992702,
+            "ymin": -250.007298,
+            "ymax": 250.007298,
+            "zmin": 89.992702,
+            "zmax": 100.007298
+          }
+        },
+        {
+          "name": "footrest_support_left_deployed_locked",
+          "physical_occurrence_id": "WC-A08-SUPPORT-LEFT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "6061-T6 aluminium",
+          "process": "Extrusion / CNC / weld",
+          "volume_mm3": 43740.0,
+          "mass_kg": 0.118098,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -605.0,
+            "xmax": -470.0,
+            "ymin": -235.0,
+            "ymax": -205.0,
+            "zmin": 95.0,
+            "zmax": 125.0
+          }
+        },
+        {
+          "name": "footrest_support_boot_left_deployed_locked",
+          "physical_occurrence_id": "WC-A08-SUPPORT-BOOT-LEFT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "TPE protective bellows",
+          "process": "Mould / clip-fit",
+          "volume_mm3": 59940.0,
+          "mass_kg": 0.062937,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -605.0,
+            "xmax": -470.0,
+            "ymin": -240.0,
+            "ymax": -200.0,
+            "zmin": 90.0,
+            "zmax": 130.0
+          }
+        },
+        {
+          "name": "footrest_support_right_deployed_locked",
+          "physical_occurrence_id": "WC-A08-SUPPORT-RIGHT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "6061-T6 aluminium",
+          "process": "Extrusion / CNC / weld",
+          "volume_mm3": 43740.0,
+          "mass_kg": 0.118098,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -605.0,
+            "xmax": -470.0,
+            "ymin": 205.0,
+            "ymax": 235.0,
+            "zmin": 95.0,
+            "zmax": 125.0
+          }
+        },
+        {
+          "name": "footrest_support_boot_right_deployed_locked",
+          "physical_occurrence_id": "WC-A08-SUPPORT-BOOT-RIGHT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "TPE protective bellows",
+          "process": "Mould / clip-fit",
+          "volume_mm3": 59940.0,
+          "mass_kg": 0.062937,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -605.0,
+            "xmax": -470.0,
+            "ymin": 200.0,
+            "ymax": 240.0,
+            "zmin": 90.0,
+            "zmax": 130.0
+          }
+        },
+        {
+          "name": "footrest_manual_latch_deployed_locked",
+          "physical_occurrence_id": "WC-A08-MANUAL-LATCH",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "17-4PH stainless steel",
+          "process": "Turn / grind",
+          "volume_mm3": 95680.0,
+          "mass_kg": 0.74152,
+          "solid_count": 1,
+          "face_count": 6,
+          "edge_count": 12,
+          "bounds_mm": {
+            "xmin": -483.0,
+            "xmax": -437.0,
+            "ymin": -40.0,
+            "ymax": 40.0,
+            "zmin": 95.0,
+            "zmax": 121.0
+          }
+        }
+      ]
+    },
+    "focus_footrest_open": {
+      "source_configuration": "desk",
+      "primary_render_state": false,
+      "footrest_pose": "deployed_locked",
+      "optional_footrest_open_available": true,
+      "step": "workcore_e6_dfr4_focus_footrest_open.step",
+      "glb": "workcore_e6_dfr4_focus_footrest_open.glb",
+      "glb_units": "meters",
+      "part_count": 196,
+      "a08_occurrence_count": 6,
+      "a08_total_mass_kg": 1.890986991,
+      "a08_occurrences": [
+        {
+          "name": "footrest_platform_deployed_locked",
+          "physical_occurrence_id": "WC-A08-PLATFORM",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "Aluminium honeycomb sandwich",
+          "process": "Bond / edge-close / veneer",
+          "volume_mm3": 1049862.654825,
+          "mass_kg": 0.787396991,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -710.007298,
+            "xmax": -499.992702,
+            "ymin": -250.007298,
+            "ymax": 250.007298,
+            "zmin": 89.992702,
+            "zmax": 100.007298
+          }
+        },
+        {
+          "name": "footrest_support_left_deployed_locked",
+          "physical_occurrence_id": "WC-A08-SUPPORT-LEFT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "6061-T6 aluminium",
+          "process": "Extrusion / CNC / weld",
+          "volume_mm3": 43740.0,
+          "mass_kg": 0.118098,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -605.0,
+            "xmax": -470.0,
+            "ymin": -235.0,
+            "ymax": -205.0,
+            "zmin": 95.0,
+            "zmax": 125.0
+          }
+        },
+        {
+          "name": "footrest_support_boot_left_deployed_locked",
+          "physical_occurrence_id": "WC-A08-SUPPORT-BOOT-LEFT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "TPE protective bellows",
+          "process": "Mould / clip-fit",
+          "volume_mm3": 59940.0,
+          "mass_kg": 0.062937,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -605.0,
+            "xmax": -470.0,
+            "ymin": -240.0,
+            "ymax": -200.0,
+            "zmin": 90.0,
+            "zmax": 130.0
+          }
+        },
+        {
+          "name": "footrest_support_right_deployed_locked",
+          "physical_occurrence_id": "WC-A08-SUPPORT-RIGHT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "6061-T6 aluminium",
+          "process": "Extrusion / CNC / weld",
+          "volume_mm3": 43740.0,
+          "mass_kg": 0.118098,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -605.0,
+            "xmax": -470.0,
+            "ymin": 205.0,
+            "ymax": 235.0,
+            "zmin": 95.0,
+            "zmax": 125.0
+          }
+        },
+        {
+          "name": "footrest_support_boot_right_deployed_locked",
+          "physical_occurrence_id": "WC-A08-SUPPORT-BOOT-RIGHT",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "TPE protective bellows",
+          "process": "Mould / clip-fit",
+          "volume_mm3": 59940.0,
+          "mass_kg": 0.062937,
+          "solid_count": 1,
+          "face_count": 10,
+          "edge_count": 24,
+          "bounds_mm": {
+            "xmin": -605.0,
+            "xmax": -470.0,
+            "ymin": 200.0,
+            "ymax": 240.0,
+            "zmin": 90.0,
+            "zmax": 130.0
+          }
+        },
+        {
+          "name": "footrest_manual_latch_deployed_locked",
+          "physical_occurrence_id": "WC-A08-MANUAL-LATCH",
+          "identity_basis": "CONTROLLED_ID",
+          "definition_revision": "E6R4-A",
+          "mechanism_pose": "deployed_locked",
+          "mechanism_contract": "E6-A08-POSE-1",
+          "material": "17-4PH stainless steel",
+          "process": "Turn / grind",
+          "volume_mm3": 95680.0,
+          "mass_kg": 0.74152,
+          "solid_count": 1,
+          "face_count": 6,
+          "edge_count": 12,
+          "bounds_mm": {
+            "xmin": -483.0,
+            "xmax": -437.0,
+            "ymin": -40.0,
+            "ymax": 40.0,
+            "zmin": 95.0,
+            "zmax": 121.0
+          }
+        }
+      ]
+    }
+  },
+  "artifacts": {
+    "files": [
+      {
+        "path": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr4/workcore_e6_dfr4_cafe.glb",
+        "bytes": 1138000,
+        "sha256": "82d738ca716921983252c8ffc5499faa389b6d05920b1090f8edc58e60891f1f"
+      },
+      {
+        "path": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr4/workcore_e6_dfr4_cafe.step",
+        "bytes": 6117206,
+        "sha256": "8118b34c83bde30f316717e028279de656db4640d1c1f74e2c7fb6c96ecddd88"
+      },
+      {
+        "path": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr4/workcore_e6_dfr4_cafe_footrest_open.glb",
+        "bytes": 1138068,
+        "sha256": "4399fe24a63c34c70a67dbfabc7d5b053746386eb497d222264bbdf85e1658b5"
+      },
+      {
+        "path": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr4/workcore_e6_dfr4_cafe_footrest_open.step",
+        "bytes": 6114822,
+        "sha256": "9ae030b518ef20304b3e5ca72816983a37c06771fd22a60192650435c71ba1ea"
+      },
+      {
+        "path": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr4/workcore_e6_dfr4_focus.glb",
+        "bytes": 1142980,
+        "sha256": "ffea83de6d37021cb7a62b8be6013cf2f94410c366ebc10592ebdce3f215d1cb"
+      },
+      {
+        "path": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr4/workcore_e6_dfr4_focus.step",
+        "bytes": 6267448,
+        "sha256": "598ad5a8686989be548140c5629a1b996b85bc833f1672850c98da400626ed4c"
+      },
+      {
+        "path": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr4/workcore_e6_dfr4_focus_footrest_open.glb",
+        "bytes": 1143048,
+        "sha256": "3a9c10f4a5220d0f583beaa573a234632c0e519567dd47f8cc3c1bf0c54ff529"
+      },
+      {
+        "path": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr4/workcore_e6_dfr4_focus_footrest_open.step",
+        "bytes": 6265191,
+        "sha256": "5914a9eb0c746950a02149d0673cb4583010840339f26eb84478f94acc05cd9f"
+      },
+      {
+        "path": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr4/workcore_e6_dfr4_follow.glb",
+        "bytes": 1086820,
+        "sha256": "d4ea782fb63f9a8610169271d96c584b7c487fbe4ec951965d6dd150ccbe11e2"
+      },
+      {
+        "path": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr4/workcore_e6_dfr4_follow.step",
+        "bytes": 6129283,
+        "sha256": "a515e49a693099bff65ff129b87f4e88f99ae56d91efb879e4dbfba877b9f5f2"
+      },
+      {
+        "path": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr4/workcore_e6_dfr4_ride.glb",
+        "bytes": 1040408,
+        "sha256": "b62bbdae5e02e021d79ef2f2ba0be6a9d4b91ef05e312a45ab319f887a1568ec"
+      },
+      {
+        "path": "design/e6_final_exterior/step_anchored_v2/class_a_cad/controlled_source_e6_dfr4/workcore_e6_dfr4_ride.step",
+        "bytes": 5810509,
+        "sha256": "3bf21b0811845c0d0fc10fbd116c96fc2188cc6e7a54956cd5e383c6a48fbb89"
+      }
+    ]
+  },
+  "manifest_sha256_before_self_entry": "3f3d255e3698143d1ff3a350cc23ba6c1f8baa7228e8a1e8efcd6e222f6395d3"
+}
