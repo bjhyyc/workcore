@@ -1,0 +1,37 @@
+{
+  "review": "WorkCore E6 R14 interactive visual review",
+  "scope": "Blender visual-state composite; no STEP, motion, structure, sealing, packaging-completeness or production-release claim",
+  "assets": [
+    {
+      "file": "workcore_r14_follow.glb",
+      "source": "blender/states/r14/workcore_e6_v11_follow_r14.blend",
+      "bytes": 1450008,
+      "sha256": "2AEF75CEA3805C6828842205EAC6F251D5D1C2B159A173984BA1B15EF5AC1893"
+    },
+    {
+      "file": "workcore_r14_ride.glb",
+      "source": "blender/states/r14/workcore_e6_v11_ride_r14.blend",
+      "bytes": 1443844,
+      "sha256": "E0C4B02E1390182CDB85835D2C611BD1DDF87445B71987C0B02C7FE8E40CAB13"
+    },
+    {
+      "file": "workcore_r14_cafe.glb",
+      "source": "blender/states/r14/workcore_e6_v11_cafe_r14.blend",
+      "bytes": 1477380,
+      "sha256": "C70EEF34781C5EE12F8F0593FDBDB6571074DD7A0D3E8EEB6C9F879F3D0EEA6D"
+    },
+    {
+      "file": "workcore_r14_focus.glb",
+      "source": "blender/states/r14/workcore_e6_v11_focus_r14.blend",
+      "bytes": 1505116,
+      "sha256": "8C5AAA2ADD514F9BA95493CD416A6A4B9459CC7152157EE07DB59E63037DE673"
+    },
+    {
+      "file": "workcore_internal_layout.glb",
+      "source": "build/workcore_internal_layout.glb",
+      "revision": "E6-DFR3 historical packaging subset",
+      "bytes": 598004,
+      "sha256": "2585CC253B20C663BFDE42307AE35300966188167919B8DB9B392465CF31A065"
+    }
+  ]
+}

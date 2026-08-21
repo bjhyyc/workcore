@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "status": "LOCKED_V8_REFERENCE_ONLY",
+  "source_release": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719",
+  "blender_executable": "D:/blender/blender.exe",
+  "blender_version": "5.1.2",
+  "axis_correction": "Rx(-90deg) exactly once; no scale correction",
+  "states": {
+    "follow": {
+      "clean_glb": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/follow/workcore_e6_class_a_follow.glb",
+      "bytes": 45877480,
+      "sha256": "fbe5bd11e7b84022adc1e46f2fbff6ae4a90a0bfa34ca73b0510a273988158b2",
+      "expected_mesh_count": 111,
+      "expected_bounds_m": [[-0.528, -0.3788, 0.000059], [0.352, 0.3755, 0.731]]
+    },
+    "ride": {
+      "clean_glb": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/ride/workcore_e6_class_a_ride.glb",
+      "bytes": 47510364,
+      "sha256": "d3a09387d6b20cc3142dbe1981a01f89c7b12b4a80cbb3c979a3cbf8694760f1",
+      "expected_mesh_count": 114,
+      "expected_bounds_m": [[-0.710, -0.3755, 0.000059], [0.369165, 0.3755, 1.072]]
+    },
+    "cafe": {
+      "clean_glb": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/cafe/workcore_e6_class_a_cafe.glb",
+      "bytes": 48304460,
+      "sha256": "918cddc59817004cf3061724e063b727b4c7ca171bbadff9c3d0489f8c05578c",
+      "expected_mesh_count": 116,
+      "expected_bounds_m": [[-0.528, -0.3755, 0.000059], [0.369165, 0.3755, 1.072]]
+    },
+    "focus": {
+      "clean_glb": "design/e6_final_exterior/v8_final_product_original_scheme_release_20260719/focus/workcore_e6_class_a_focus.glb",
+      "bytes": 56422816,
+      "sha256": "da2285ebb8b5a5b68ac969c58670e0c4f5119530b683feea25f1d27eedbd742c",
+      "expected_mesh_count": 133,
+      "expected_bounds_m": [[-0.620, -0.3755, 0.000059], [0.369165, 0.3755, 1.492]]
+    }
+  },
+  "mutation_policy": "V11 may read V8 but writes only below v11_v8_blender_exterior_restart_20260721. V9/V10 geometry is forbidden as a modelling source."
+}
+
