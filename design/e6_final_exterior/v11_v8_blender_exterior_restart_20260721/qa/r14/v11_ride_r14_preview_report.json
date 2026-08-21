@@ -1,0 +1,26 @@
+{
+  "blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\states\\r14\\workcore_e6_v11_ride_r14.blend",
+  "engine": "BLENDER_EEVEE",
+  "renders": [
+    {
+      "bytes": 648824,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\preview\\r14\\ride\\ride_hero.png",
+      "sha256": "ca7ffdf83307f7f5bbcd4ea3ed470525ae84a5d6aa527a207c9df107898b6147",
+      "view": "hero"
+    },
+    {
+      "bytes": 622849,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\preview\\r14\\ride\\ride_top.png",
+      "sha256": "8413aaba911091beaea4957d70570b6b2e624c65eee5fdc50a3d85daa57fdccb",
+      "view": "top"
+    }
+  ],
+  "resolution": [
+    720,
+    720
+  ],
+  "revision": "r14",
+  "schema_version": 1,
+  "state": "ride",
+  "status": "PASS"
+}

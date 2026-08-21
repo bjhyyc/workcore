@@ -1,0 +1,31 @@
+{
+  "blender_version": "5.1.2",
+  "corrected_bounds_m": {
+    "maximum": [
+      0.369165,
+      0.3755,
+      1.072
+    ],
+    "minimum": [
+      -0.71,
+      -0.3755,
+      5.9e-05
+    ]
+  },
+  "mesh_count": 114,
+  "occurrence_ids_unique": true,
+  "output_library": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\libraries\\v8_clean_references\\workcore_e6_v11_v8_ride_reference.blend",
+  "output_library_sha256": "5a8243daee7ebcb600317657d1eaa1bf53bff17985c5b0dd2945b3811692b44d",
+  "pipeline_id": "WORKCORE_E6_V11_V8_RESTART",
+  "role_counts": {
+    "FUNCTIONAL_REFERENCE": 46,
+    "LOCKED_HARDPOINT": 8,
+    "REPLACEABLE_V8_SKIN_REFERENCE": 60
+  },
+  "root_collection": "V11REF__RIDE__V8_CLEAN",
+  "schema_version": 1,
+  "source_glb": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\ride\\workcore_e6_class_a_ride.glb",
+  "source_glb_sha256": "d3a09387d6b20cc3142dbe1981a01f89c7b12b4a80cbb3c979a3cbf8694760f1",
+  "state": "ride",
+  "status": "PASS"
+}

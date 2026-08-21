@@ -1,0 +1,31 @@
+{
+  "blender_version": "5.1.2",
+  "corrected_bounds_m": {
+    "maximum": [
+      0.369165,
+      0.3755,
+      1.072
+    ],
+    "minimum": [
+      -0.528,
+      -0.3755,
+      5.9e-05
+    ]
+  },
+  "mesh_count": 116,
+  "occurrence_ids_unique": true,
+  "output_library": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\libraries\\v8_clean_references\\workcore_e6_v11_v8_cafe_reference.blend",
+  "output_library_sha256": "62c0f16e27d200898c17ced0e1fa84bff68e80f612f84c054df6ae623eb353a1",
+  "pipeline_id": "WORKCORE_E6_V11_V8_RESTART",
+  "role_counts": {
+    "FUNCTIONAL_REFERENCE": 48,
+    "LOCKED_HARDPOINT": 8,
+    "REPLACEABLE_V8_SKIN_REFERENCE": 60
+  },
+  "root_collection": "V11REF__CAFE__V8_CLEAN",
+  "schema_version": 1,
+  "source_glb": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\cafe\\workcore_e6_class_a_cafe.glb",
+  "source_glb_sha256": "918cddc59817004cf3061724e063b727b4c7ca171bbadff9c3d0489f8c05578c",
+  "state": "cafe",
+  "status": "PASS"
+}

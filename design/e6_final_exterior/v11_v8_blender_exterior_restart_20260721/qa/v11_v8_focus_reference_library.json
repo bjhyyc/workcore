@@ -1,0 +1,31 @@
+{
+  "blender_version": "5.1.2",
+  "corrected_bounds_m": {
+    "maximum": [
+      0.369165,
+      0.3755,
+      1.492
+    ],
+    "minimum": [
+      -0.62,
+      -0.3755,
+      5.9e-05
+    ]
+  },
+  "mesh_count": 133,
+  "occurrence_ids_unique": true,
+  "output_library": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\libraries\\v8_clean_references\\workcore_e6_v11_v8_focus_reference.blend",
+  "output_library_sha256": "68eb05eef03516a71c06470c84268a453c8a3de899e19bfeedb753e161286185",
+  "pipeline_id": "WORKCORE_E6_V11_V8_RESTART",
+  "role_counts": {
+    "FUNCTIONAL_REFERENCE": 66,
+    "LOCKED_HARDPOINT": 8,
+    "REPLACEABLE_V8_SKIN_REFERENCE": 59
+  },
+  "root_collection": "V11REF__FOCUS__V8_CLEAN",
+  "schema_version": 1,
+  "source_glb": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\focus\\workcore_e6_class_a_focus.glb",
+  "source_glb_sha256": "da2285ebb8b5a5b68ac969c58670e0c4f5119530b683feea25f1d27eedbd742c",
+  "state": "focus",
+  "status": "PASS"
+}

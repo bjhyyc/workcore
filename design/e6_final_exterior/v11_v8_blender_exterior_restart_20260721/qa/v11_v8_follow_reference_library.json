@@ -1,0 +1,31 @@
+{
+  "blender_version": "5.1.2",
+  "corrected_bounds_m": {
+    "maximum": [
+      0.352,
+      0.3755,
+      0.731
+    ],
+    "minimum": [
+      -0.528,
+      -0.3788,
+      5.9e-05
+    ]
+  },
+  "mesh_count": 111,
+  "occurrence_ids_unique": true,
+  "output_library": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\libraries\\v8_clean_references\\workcore_e6_v11_v8_follow_reference.blend",
+  "output_library_sha256": "3a7e5956829f512624a337ab29b2ddcb9d0902901a04fea0cbb29599fa9efb71",
+  "pipeline_id": "WORKCORE_E6_V11_V8_RESTART",
+  "role_counts": {
+    "FUNCTIONAL_REFERENCE": 41,
+    "LOCKED_HARDPOINT": 10,
+    "REPLACEABLE_V8_SKIN_REFERENCE": 60
+  },
+  "root_collection": "V11REF__FOLLOW__V8_CLEAN",
+  "schema_version": 1,
+  "source_glb": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\follow\\workcore_e6_class_a_follow.glb",
+  "source_glb_sha256": "fbe5bd11e7b84022adc1e46f2fbff6ae4a90a0bfa34ca73b0510a273988158b2",
+  "state": "follow",
+  "status": "PASS"
+}

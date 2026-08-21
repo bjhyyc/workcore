@@ -1,0 +1,83 @@
+{
+  "blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\states\\r14\\workcore_e6_v11_ride_r14.blend",
+  "blend_bytes": 805482,
+  "blend_sha256": "0fceadea0072c7c26c69e6e4ff8eb71a946143460931a5b3b9ba329f7a0db402",
+  "engine": "BLENDER_EEVEE",
+  "rendered_at_utc": "2026-07-22T01:30:52.718264+00:00",
+  "renders": [
+    {
+      "bytes": 1956664,
+      "index": 1,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\ride\\01_ride_hero.png",
+      "sha256": "a89584ba25dedba2524a4f4e796a8f964c6cf214d27d8fcfd59dd2855165c5d8",
+      "view": "hero"
+    },
+    {
+      "bytes": 1930001,
+      "index": 2,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\ride\\02_ride_front_high.png",
+      "sha256": "d201a3ef35aa8f915d113f6d2fd1f306bec3d4bd2718412dcc70f831acc330b2",
+      "view": "front_high"
+    },
+    {
+      "bytes": 1814914,
+      "index": 3,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\ride\\03_ride_rear_oblique.png",
+      "sha256": "3fc1041d337bca321315dcb4e2339665cb2b1fa922fe8bd9f488c45a17f465f5",
+      "view": "rear_oblique"
+    },
+    {
+      "bytes": 1732694,
+      "index": 4,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\ride\\04_ride_front.png",
+      "sha256": "d8ec263acf32eb1318dbdb3085a4e8e413dbde26ce845aeb95e0fb0a8eebef3e",
+      "view": "front"
+    },
+    {
+      "bytes": 1750238,
+      "index": 5,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\ride\\05_ride_rear.png",
+      "sha256": "1343832dc808726a45ac4ece9bf9a293b0ae1aa3b8dac0b7744c6202852c4a16",
+      "view": "rear"
+    },
+    {
+      "bytes": 1665927,
+      "index": 6,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\ride\\06_ride_left.png",
+      "sha256": "85746d338a13377f7cfaf896cb3cf0542f8dce4d5a183a704fd40e393a3d17fc",
+      "view": "left"
+    },
+    {
+      "bytes": 1668168,
+      "index": 7,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\ride\\07_ride_right.png",
+      "sha256": "e8dcca24382e317b41c3693258397718f1302cb2e65965984829bd28c2f8d776",
+      "view": "right"
+    },
+    {
+      "bytes": 1919554,
+      "index": 8,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\ride\\08_ride_top.png",
+      "sha256": "f57f87f5019c65f6329f1b6bf7ae3fdab7d60bae48504bd04eaa3c114e9aefae",
+      "view": "top"
+    }
+  ],
+  "required_views": [
+    "hero",
+    "front_high",
+    "rear_oblique",
+    "front",
+    "rear",
+    "left",
+    "right",
+    "top"
+  ],
+  "resolution": [
+    1280,
+    1280
+  ],
+  "revision": "r14",
+  "schema_version": 1,
+  "state": "ride",
+  "status": "RENDERED_UNREVIEWED"
+}

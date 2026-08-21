@@ -1,0 +1,83 @@
+{
+  "blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\states\\r14\\workcore_e6_v11_cafe_r14.blend",
+  "blend_bytes": 812423,
+  "blend_sha256": "0a8f9bde56c79913106bfd736a9ab8a6a3ca5c0876a84e0712f9e4fbf14fb354",
+  "engine": "BLENDER_EEVEE",
+  "rendered_at_utc": "2026-07-22T01:32:35.328925+00:00",
+  "renders": [
+    {
+      "bytes": 1954644,
+      "index": 1,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\cafe\\01_cafe_hero.png",
+      "sha256": "bef2e50dd34856ecb5347c453fc493d01781d8a907242cb96c3ecc3999cb3825",
+      "view": "hero"
+    },
+    {
+      "bytes": 1929085,
+      "index": 2,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\cafe\\02_cafe_front_high.png",
+      "sha256": "efe28e048e78782e85844328bbc9a7b4001944e8ae3e74149da26e1a93c6bd4f",
+      "view": "front_high"
+    },
+    {
+      "bytes": 1828550,
+      "index": 3,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\cafe\\03_cafe_rear_oblique.png",
+      "sha256": "a39a3a1b56b2c1669162a8ddbf57200414b4cf72b2e642a8abcea3c76c45c01b",
+      "view": "rear_oblique"
+    },
+    {
+      "bytes": 1745994,
+      "index": 4,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\cafe\\04_cafe_front.png",
+      "sha256": "633ce34643faf019f16bb75c5a68ad8a2541861c8b7b46717ee9a4512191a9f2",
+      "view": "front"
+    },
+    {
+      "bytes": 1751213,
+      "index": 5,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\cafe\\05_cafe_rear.png",
+      "sha256": "92b5788fdfbfcdb760652f1d29831f47f820ef063e7046ccaf2fbb629ccf28da",
+      "view": "rear"
+    },
+    {
+      "bytes": 1669425,
+      "index": 6,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\cafe\\06_cafe_left.png",
+      "sha256": "16cd9d6640a154e2152b3c05f4013da9576100ad08c0757ae589f5ebac7e476d",
+      "view": "left"
+    },
+    {
+      "bytes": 1668344,
+      "index": 7,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\cafe\\07_cafe_right.png",
+      "sha256": "ad9c099121566d77fc19141eeeca27c51ebdcd609c26bff1c1559e0b24c7859d",
+      "view": "right"
+    },
+    {
+      "bytes": 1943475,
+      "index": 8,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\cafe\\08_cafe_top.png",
+      "sha256": "938c51a9cc3f8eaf431e4f67527af8bea7376bc577f15afed8f7b991e87c9bcd",
+      "view": "top"
+    }
+  ],
+  "required_views": [
+    "hero",
+    "front_high",
+    "rear_oblique",
+    "front",
+    "rear",
+    "left",
+    "right",
+    "top"
+  ],
+  "resolution": [
+    1280,
+    1280
+  ],
+  "revision": "r14",
+  "schema_version": 1,
+  "state": "cafe",
+  "status": "RENDERED_UNREVIEWED"
+}

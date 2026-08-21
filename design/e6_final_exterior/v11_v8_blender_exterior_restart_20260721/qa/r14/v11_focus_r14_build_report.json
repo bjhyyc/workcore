@@ -1,0 +1,120 @@
+{
+  "blend_sha256": "baec5e27699624de9f2cdacccae78272abf8e20af80c3498498e230302a5073b",
+  "blender_version": "5.1.2",
+  "contracts": {
+    "a06_contact_width_bottom_top_mm": [
+      470.0,
+      346.0
+    ],
+    "a06_front_width_bottom_top_mm": [
+      516.0,
+      400.0
+    ],
+    "a07_crown_visual_envelope_mm": [
+      60.0,
+      300.0,
+      52.0
+    ],
+    "display": "single 124 x 86 x 2.5 mm glass; cross-arm width matches Qi 86 mm; world-Y +8 deg; front high/rear low",
+    "focus_a07_motion_mm": 420.0,
+    "follow_fold_deg": 0.0,
+    "footrest": "+220 mm X telescopic stow; open only in Ride default",
+    "front_thigh_relief_extension_mm": 68.0,
+    "measured_finished_width_m": 0.751958406472113,
+    "overall_finished_width_limit_m": 0.752,
+    "qi_usable_field_mm": "176 x 86; single flush field owned by left lid",
+    "right_control_mother_surface_top_mm": 674.0,
+    "right_controls_visual_shift_z_mm": -23.0,
+    "wheel_wrap": "single mother surface only; no separately readable fender or side panel"
+  },
+  "known_limits": [
+    "A07 crown is a credible visual packaging envelope; exact camera, fill-light and thermal hardware remain TBD",
+    "R14 deliberately does not change or validate STEP/BRep, motion paths, structural joints or production tooling",
+    "Saved-file and render QA remain required before visual approval"
+  ],
+  "linked_reference_collection": "V11REF__FOCUS__V8_CLEAN",
+  "linked_reference_library": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\libraries\\v8_clean_references\\workcore_e6_v11_v8_focus_reference.blend",
+  "local_v8_functional_clone_count": 8,
+  "local_v8_occurrence_ids": [
+    "A05_left_emergency_stop_guard",
+    "A05_left_mechanical_emergency_stop",
+    "A05_right_authorisation_key",
+    "A05_right_joystick",
+    "source_tyre_front_left",
+    "source_tyre_front_right",
+    "source_tyre_rear_left",
+    "source_tyre_rear_right"
+  ],
+  "measured_product_bounds_after_save": {
+    "finished_width_m": 0.751958406472113,
+    "maximum_m": [
+      0.3457001462811604,
+      0.37575838615885004,
+      1.5189999341964722
+    ],
+    "minimum_m": [
+      -0.550000011920929,
+      -0.37620002031326294,
+      5.925801087869331e-05
+    ],
+    "size_m": [
+      0.8957001582020894,
+      0.751958406472113,
+      1.5189406761855935
+    ]
+  },
+  "new_design_bounds": {
+    "maximum_m": [
+      0.345,
+      0.375,
+      1.519
+    ],
+    "minimum_m": [
+      -0.55,
+      -0.375,
+      0.05
+    ],
+    "size_m": [
+      0.895,
+      0.75,
+      1.469
+    ]
+  },
+  "new_design_object_count": 30,
+  "output_blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\states\\r14\\workcore_e6_v11_focus_r14.blend",
+  "output_blend_sha256": "baec5e27699624de9f2cdacccae78272abf8e20af80c3498498e230302a5073b",
+  "pipeline_id": "WORKCORE_E6_V11_V8_RESTART",
+  "r11_form_changes": [
+    "discarded the R10 unioned side ribbons because they read as applied panels",
+    "same monocoque now supplies wheel coverage through a continuous signed-power cross-section",
+    "R10 long flat arm top and truly flush 2 mm access lids retained"
+  ],
+  "r12_form_changes": [
+    "same monocoque signed-power cross-section tightened from 0.18 to 0.08",
+    "upper tyre coverage now comes from continuous curvature with no fender, panel, lobe or new seam",
+    "R11 Follow closure, HMI ownership, table cavities and telescopic footrest are unchanged"
+  ],
+  "r13_form_changes": [
+    "single 124 x 49 x 2.5 mm display now lands on a slope sculpted into the left arm mother surface",
+    "fixed joystick lands on the right arm mother surface; the separate HMI plinth is removed",
+    "lower half-egg monocoque extends to 50-85 mm nominal ground clearance for real wheel wrapping",
+    "physical 506 x 34 mm A08 cassette void replaces the drawn-only stow seam",
+    "same A08 platform, tread and leading edge remain modelled inside Follow/Cafe/Focus",
+    "V8 joystick render clone is locally topology-cleaned without changing its exterior form",
+    "generated surfaces now cite real V8 occurrence IDs"
+  ],
+  "r14_form_changes": [
+    "A06 and seat upholstery move from coral red to a restrained roasted-chestnut/espresso Maillard family",
+    "A06 shell is now 516/400 mm bottom/top and its leather contact is 470/346 mm for an immediate trapezoid read",
+    "single-layer display grows from 124 x 49 to 124 x 86 mm and remains directly supported at +8 degrees",
+    "A07 receives one 60 x 300 x 52 mm satin-black optical crown with a single concealed smoked window",
+    "right joystick mother surface drops from 697 to 674 mm and the joystick/key move with it by 23 mm",
+    "central seat-well depression extends 68 mm toward the front to soften the hard thigh cross-lip",
+    "large seat and A06 planes use flat normals while their precision radii remain smooth"
+  ],
+  "revision": "r14",
+  "schema_version": 1,
+  "scope_r14": "Blender exterior proportion/CMF only; no STEP, kinematic or internal equipment revalidation claimed",
+  "state": "focus",
+  "status": "BUILT_UNVALIDATED"
+}

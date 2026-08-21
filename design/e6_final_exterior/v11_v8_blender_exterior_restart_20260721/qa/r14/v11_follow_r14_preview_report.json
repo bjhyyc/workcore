@@ -1,0 +1,20 @@
+{
+  "blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\states\\r14\\workcore_e6_v11_follow_r14.blend",
+  "engine": "BLENDER_EEVEE",
+  "renders": [
+    {
+      "bytes": 620606,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\preview\\r14\\follow\\follow_hero.png",
+      "sha256": "1b67bdd5c3ebd3160cca0fd1886244d24167d88d587deaf18ee6f2250348367d",
+      "view": "hero"
+    }
+  ],
+  "resolution": [
+    720,
+    720
+  ],
+  "revision": "r14",
+  "schema_version": 1,
+  "state": "follow",
+  "status": "PASS"
+}

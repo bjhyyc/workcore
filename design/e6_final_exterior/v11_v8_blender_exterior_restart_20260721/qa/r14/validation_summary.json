@@ -1,0 +1,530 @@
+{
+  "four_state_consistency": {
+    "a06_contact_geometry": {
+      "pass": true,
+      "values": {
+        "cafe": "4c5c2b7288ac3bd9d3d829773c8c45be3a572a07348a759e6a5596143de1c2c0",
+        "focus": "4c5c2b7288ac3bd9d3d829773c8c45be3a572a07348a759e6a5596143de1c2c0",
+        "follow": "4c5c2b7288ac3bd9d3d829773c8c45be3a572a07348a759e6a5596143de1c2c0",
+        "ride": "4c5c2b7288ac3bd9d3d829773c8c45be3a572a07348a759e6a5596143de1c2c0"
+      }
+    },
+    "a06_shell_geometry": {
+      "pass": true,
+      "values": {
+        "cafe": "ea683e4b7467f0f670d3675ad79bec1027d089f5ca70cd8b8441b8cf35b34699",
+        "focus": "ea683e4b7467f0f670d3675ad79bec1027d089f5ca70cd8b8441b8cf35b34699",
+        "follow": "ea683e4b7467f0f670d3675ad79bec1027d089f5ca70cd8b8441b8cf35b34699",
+        "ride": "ea683e4b7467f0f670d3675ad79bec1027d089f5ca70cd8b8441b8cf35b34699"
+      }
+    },
+    "a07_crown_geometry": {
+      "pass": true,
+      "values": {
+        "cafe": "960f54009156e8b0d3b979ea07d6fa6506acd539395b8c102c0b86e82da681ed",
+        "focus": "960f54009156e8b0d3b979ea07d6fa6506acd539395b8c102c0b86e82da681ed",
+        "follow": "960f54009156e8b0d3b979ea07d6fa6506acd539395b8c102c0b86e82da681ed",
+        "ride": "960f54009156e8b0d3b979ea07d6fa6506acd539395b8c102c0b86e82da681ed"
+      }
+    },
+    "display_geometry": {
+      "pass": true,
+      "values": {
+        "cafe": "5083728db9da82b33459070de28f447dfc4dac40d32a514e956620e02e64dbd1",
+        "focus": "5083728db9da82b33459070de28f447dfc4dac40d32a514e956620e02e64dbd1",
+        "follow": "5083728db9da82b33459070de28f447dfc4dac40d32a514e956620e02e64dbd1",
+        "ride": "5083728db9da82b33459070de28f447dfc4dac40d32a514e956620e02e64dbd1"
+      }
+    },
+    "joystick_geometry": {
+      "pass": true,
+      "values": {
+        "cafe": "0d2ada105e85c34eeffb797fcc5e007de715b812710daf2a29f8c627aaba66a3",
+        "focus": "0d2ada105e85c34eeffb797fcc5e007de715b812710daf2a29f8c627aaba66a3",
+        "follow": "0d2ada105e85c34eeffb797fcc5e007de715b812710daf2a29f8c627aaba66a3",
+        "ride": "0d2ada105e85c34eeffb797fcc5e007de715b812710daf2a29f8c627aaba66a3"
+      }
+    },
+    "seat_geometry": {
+      "pass": true,
+      "values": {
+        "cafe": "e9fe81c328346cc03e556532af5608d0064d54e9efbf7b5eb4835eb4b27016fe",
+        "focus": "e9fe81c328346cc03e556532af5608d0064d54e9efbf7b5eb4835eb4b27016fe",
+        "follow": "e9fe81c328346cc03e556532af5608d0064d54e9efbf7b5eb4835eb4b27016fe",
+        "ride": "e9fe81c328346cc03e556532af5608d0064d54e9efbf7b5eb4835eb4b27016fe"
+      }
+    }
+  },
+  "overall_status": "PASS",
+  "revision": "r14",
+  "schema_version": 1,
+  "scope": "saved Blender exterior appearance only; no STEP/motion/structure/packaging claim",
+  "states": {
+    "cafe": {
+      "blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\states\\r14\\workcore_e6_v11_cafe_r14.blend",
+      "blend_bytes": 812423,
+      "blend_sha256": "0a8f9bde56c79913106bfd736a9ab8a6a3ca5c0876a84e0712f9e4fbf14fb354",
+      "checks": {
+        "a06_trapezoid_and_maillard": {
+          "contact_materials": [
+            "V11_R14_MAT_NATURAL_MAILLARD_ROASTED_CHESTNUT_LEATHER"
+          ],
+          "contact_mesh_hash": "4c5c2b7288ac3bd9d3d829773c8c45be3a572a07348a759e6a5596143de1c2c0",
+          "contact_width_bottom_top_mm": [
+            470.0,
+            346.0
+          ],
+          "pass": true,
+          "shell_mesh_hash": "ea683e4b7467f0f670d3675ad79bec1027d089f5ca70cd8b8441b8cf35b34699",
+          "shell_width_bottom_top_mm": [
+            516.0,
+            400.0
+          ]
+        },
+        "a07_optical_crown": {
+          "crown_dimensions_mm": [
+            60.0,
+            300.0,
+            52.0
+          ],
+          "crown_mesh_hash": "960f54009156e8b0d3b979ea07d6fa6506acd539395b8c102c0b86e82da681ed",
+          "pass": true,
+          "window_dimensions_mm": [
+            2.4,
+            250.0,
+            26.0
+          ],
+          "window_mesh_hash": "8750781acd360b1a55fbcb52219deb99f2cb3625960e6407feed1afb501259d9"
+        },
+        "display_124x86_single_layer": {
+          "forbidden_support_objects": [],
+          "local_dimensions_mm": [
+            124.0,
+            86.0,
+            2.5
+          ],
+          "mesh_hash": "5083728db9da82b33459070de28f447dfc4dac40d32a514e956620e02e64dbd1",
+          "object": "V11_R14_A05_SINGLE_FLUSH_DISPLAY_124X86X2P5",
+          "pass": true,
+          "pitch_deg": 8.0
+        },
+        "lower_external_right_controls": {
+          "authorisation_key_bounds_mm": {
+            "centre": [
+              -216.0,
+              333.0,
+              678.5
+            ],
+            "dimensions": [
+              29.0,
+              28.994,
+              7.0
+            ],
+            "max": [
+              -201.5,
+              347.497,
+              682.0
+            ],
+            "min": [
+              -230.5,
+              318.503,
+              675.0
+            ]
+          },
+          "joystick_bounds_mm": {
+            "centre": [
+              -268.0,
+              333.0,
+              691.0
+            ],
+            "dimensions": [
+              32.0,
+              32.0,
+              34.0
+            ],
+            "max": [
+              -252.0,
+              349.0,
+              708.0
+            ],
+            "min": [
+              -284.0,
+              317.0,
+              674.0
+            ]
+          },
+          "joystick_mesh_hash": "0d2ada105e85c34eeffb797fcc5e007de715b812710daf2a29f8c627aaba66a3",
+          "pass": true,
+          "right_arm_target_top_mm": 674.0
+        },
+        "saved_file_atomicity": {
+          "partial_blends": [],
+          "pass": true
+        },
+        "seat_surface_and_thigh_relief": {
+          "all_top_faces_flat": true,
+          "flat_top_face_count": 9,
+          "front_thigh_relief_extension_mm": 68.0,
+          "pass": true,
+          "seat_materials": [
+            "V11_R14_MAT_NATURAL_MAILLARD_ESPRESSO_LEATHER"
+          ],
+          "seat_mesh_hash": "e9fe81c328346cc03e556532af5608d0064d54e9efbf7b5eb4835eb4b27016fe"
+        }
+      },
+      "partial_blends": [],
+      "state": "cafe"
+    },
+    "focus": {
+      "blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\states\\r14\\workcore_e6_v11_focus_r14.blend",
+      "blend_bytes": 801772,
+      "blend_sha256": "baec5e27699624de9f2cdacccae78272abf8e20af80c3498498e230302a5073b",
+      "checks": {
+        "a06_trapezoid_and_maillard": {
+          "contact_materials": [
+            "V11_R14_MAT_NATURAL_MAILLARD_ROASTED_CHESTNUT_LEATHER"
+          ],
+          "contact_mesh_hash": "4c5c2b7288ac3bd9d3d829773c8c45be3a572a07348a759e6a5596143de1c2c0",
+          "contact_width_bottom_top_mm": [
+            470.0,
+            346.0
+          ],
+          "pass": true,
+          "shell_mesh_hash": "ea683e4b7467f0f670d3675ad79bec1027d089f5ca70cd8b8441b8cf35b34699",
+          "shell_width_bottom_top_mm": [
+            516.0,
+            400.0
+          ]
+        },
+        "a07_optical_crown": {
+          "crown_dimensions_mm": [
+            60.0,
+            300.0,
+            52.0
+          ],
+          "crown_mesh_hash": "960f54009156e8b0d3b979ea07d6fa6506acd539395b8c102c0b86e82da681ed",
+          "pass": true,
+          "window_dimensions_mm": [
+            2.4,
+            250.0,
+            26.0
+          ],
+          "window_mesh_hash": "8750781acd360b1a55fbcb52219deb99f2cb3625960e6407feed1afb501259d9"
+        },
+        "display_124x86_single_layer": {
+          "forbidden_support_objects": [],
+          "local_dimensions_mm": [
+            124.0,
+            86.0,
+            2.5
+          ],
+          "mesh_hash": "5083728db9da82b33459070de28f447dfc4dac40d32a514e956620e02e64dbd1",
+          "object": "V11_R14_A05_SINGLE_FLUSH_DISPLAY_124X86X2P5",
+          "pass": true,
+          "pitch_deg": 8.0
+        },
+        "lower_external_right_controls": {
+          "authorisation_key_bounds_mm": {
+            "centre": [
+              -216.0,
+              333.0,
+              678.5
+            ],
+            "dimensions": [
+              29.0,
+              28.994,
+              7.0
+            ],
+            "max": [
+              -201.5,
+              347.497,
+              682.0
+            ],
+            "min": [
+              -230.5,
+              318.503,
+              675.0
+            ]
+          },
+          "joystick_bounds_mm": {
+            "centre": [
+              -268.0,
+              333.0,
+              691.0
+            ],
+            "dimensions": [
+              32.0,
+              32.0,
+              34.0
+            ],
+            "max": [
+              -252.0,
+              349.0,
+              708.0
+            ],
+            "min": [
+              -284.0,
+              317.0,
+              674.0
+            ]
+          },
+          "joystick_mesh_hash": "0d2ada105e85c34eeffb797fcc5e007de715b812710daf2a29f8c627aaba66a3",
+          "pass": true,
+          "right_arm_target_top_mm": 674.0
+        },
+        "saved_file_atomicity": {
+          "partial_blends": [],
+          "pass": true
+        },
+        "seat_surface_and_thigh_relief": {
+          "all_top_faces_flat": true,
+          "flat_top_face_count": 9,
+          "front_thigh_relief_extension_mm": 68.0,
+          "pass": true,
+          "seat_materials": [
+            "V11_R14_MAT_NATURAL_MAILLARD_ESPRESSO_LEATHER"
+          ],
+          "seat_mesh_hash": "e9fe81c328346cc03e556532af5608d0064d54e9efbf7b5eb4835eb4b27016fe"
+        }
+      },
+      "partial_blends": [],
+      "state": "focus"
+    },
+    "follow": {
+      "blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\states\\r14\\workcore_e6_v11_follow_r14.blend",
+      "blend_bytes": 808558,
+      "blend_sha256": "f42774243a14b9779d61fca7a4e6fe77088849eccad44394054fe492c63d3bed",
+      "checks": {
+        "a06_trapezoid_and_maillard": {
+          "contact_materials": [
+            "V11_R14_MAT_NATURAL_MAILLARD_ROASTED_CHESTNUT_LEATHER"
+          ],
+          "contact_mesh_hash": "4c5c2b7288ac3bd9d3d829773c8c45be3a572a07348a759e6a5596143de1c2c0",
+          "contact_width_bottom_top_mm": [
+            470.0,
+            346.0
+          ],
+          "pass": true,
+          "shell_mesh_hash": "ea683e4b7467f0f670d3675ad79bec1027d089f5ca70cd8b8441b8cf35b34699",
+          "shell_width_bottom_top_mm": [
+            516.0,
+            400.0
+          ]
+        },
+        "a07_optical_crown": {
+          "crown_dimensions_mm": [
+            60.0,
+            300.0,
+            52.0
+          ],
+          "crown_mesh_hash": "960f54009156e8b0d3b979ea07d6fa6506acd539395b8c102c0b86e82da681ed",
+          "pass": true,
+          "window_dimensions_mm": [
+            2.4,
+            250.0,
+            26.0
+          ],
+          "window_mesh_hash": "8750781acd360b1a55fbcb52219deb99f2cb3625960e6407feed1afb501259d9"
+        },
+        "display_124x86_single_layer": {
+          "forbidden_support_objects": [],
+          "local_dimensions_mm": [
+            124.0,
+            86.0,
+            2.5
+          ],
+          "mesh_hash": "5083728db9da82b33459070de28f447dfc4dac40d32a514e956620e02e64dbd1",
+          "object": "V11_R14_A05_SINGLE_FLUSH_DISPLAY_124X86X2P5",
+          "pass": true,
+          "pitch_deg": 8.0
+        },
+        "lower_external_right_controls": {
+          "authorisation_key_bounds_mm": {
+            "centre": [
+              -216.0,
+              333.0,
+              678.5
+            ],
+            "dimensions": [
+              29.0,
+              28.994,
+              7.0
+            ],
+            "max": [
+              -201.5,
+              347.497,
+              682.0
+            ],
+            "min": [
+              -230.5,
+              318.503,
+              675.0
+            ]
+          },
+          "joystick_bounds_mm": {
+            "centre": [
+              -268.0,
+              333.0,
+              691.0
+            ],
+            "dimensions": [
+              32.0,
+              32.0,
+              34.0
+            ],
+            "max": [
+              -252.0,
+              349.0,
+              708.0
+            ],
+            "min": [
+              -284.0,
+              317.0,
+              674.0
+            ]
+          },
+          "joystick_mesh_hash": "0d2ada105e85c34eeffb797fcc5e007de715b812710daf2a29f8c627aaba66a3",
+          "pass": true,
+          "right_arm_target_top_mm": 674.0
+        },
+        "saved_file_atomicity": {
+          "partial_blends": [],
+          "pass": true
+        },
+        "seat_surface_and_thigh_relief": {
+          "all_top_faces_flat": true,
+          "flat_top_face_count": 9,
+          "front_thigh_relief_extension_mm": 68.0,
+          "pass": true,
+          "seat_materials": [
+            "V11_R14_MAT_FOLLOW_SHADOW_LEATHER"
+          ],
+          "seat_mesh_hash": "e9fe81c328346cc03e556532af5608d0064d54e9efbf7b5eb4835eb4b27016fe"
+        }
+      },
+      "partial_blends": [],
+      "state": "follow"
+    },
+    "ride": {
+      "blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\states\\r14\\workcore_e6_v11_ride_r14.blend",
+      "blend_bytes": 805482,
+      "blend_sha256": "0fceadea0072c7c26c69e6e4ff8eb71a946143460931a5b3b9ba329f7a0db402",
+      "checks": {
+        "a06_trapezoid_and_maillard": {
+          "contact_materials": [
+            "V11_R14_MAT_NATURAL_MAILLARD_ROASTED_CHESTNUT_LEATHER"
+          ],
+          "contact_mesh_hash": "4c5c2b7288ac3bd9d3d829773c8c45be3a572a07348a759e6a5596143de1c2c0",
+          "contact_width_bottom_top_mm": [
+            470.0,
+            346.0
+          ],
+          "pass": true,
+          "shell_mesh_hash": "ea683e4b7467f0f670d3675ad79bec1027d089f5ca70cd8b8441b8cf35b34699",
+          "shell_width_bottom_top_mm": [
+            516.0,
+            400.0
+          ]
+        },
+        "a07_optical_crown": {
+          "crown_dimensions_mm": [
+            60.0,
+            300.0,
+            52.0
+          ],
+          "crown_mesh_hash": "960f54009156e8b0d3b979ea07d6fa6506acd539395b8c102c0b86e82da681ed",
+          "pass": true,
+          "window_dimensions_mm": [
+            2.4,
+            250.0,
+            26.0
+          ],
+          "window_mesh_hash": "8750781acd360b1a55fbcb52219deb99f2cb3625960e6407feed1afb501259d9"
+        },
+        "display_124x86_single_layer": {
+          "forbidden_support_objects": [],
+          "local_dimensions_mm": [
+            124.0,
+            86.0,
+            2.5
+          ],
+          "mesh_hash": "5083728db9da82b33459070de28f447dfc4dac40d32a514e956620e02e64dbd1",
+          "object": "V11_R14_A05_SINGLE_FLUSH_DISPLAY_124X86X2P5",
+          "pass": true,
+          "pitch_deg": 8.0
+        },
+        "lower_external_right_controls": {
+          "authorisation_key_bounds_mm": {
+            "centre": [
+              -216.0,
+              333.0,
+              678.5
+            ],
+            "dimensions": [
+              29.0,
+              28.994,
+              7.0
+            ],
+            "max": [
+              -201.5,
+              347.497,
+              682.0
+            ],
+            "min": [
+              -230.5,
+              318.503,
+              675.0
+            ]
+          },
+          "joystick_bounds_mm": {
+            "centre": [
+              -268.0,
+              333.0,
+              691.0
+            ],
+            "dimensions": [
+              32.0,
+              32.0,
+              34.0
+            ],
+            "max": [
+              -252.0,
+              349.0,
+              708.0
+            ],
+            "min": [
+              -284.0,
+              317.0,
+              674.0
+            ]
+          },
+          "joystick_mesh_hash": "0d2ada105e85c34eeffb797fcc5e007de715b812710daf2a29f8c627aaba66a3",
+          "pass": true,
+          "right_arm_target_top_mm": 674.0
+        },
+        "saved_file_atomicity": {
+          "partial_blends": [],
+          "pass": true
+        },
+        "seat_surface_and_thigh_relief": {
+          "all_top_faces_flat": true,
+          "flat_top_face_count": 9,
+          "front_thigh_relief_extension_mm": 68.0,
+          "pass": true,
+          "seat_materials": [
+            "V11_R14_MAT_NATURAL_MAILLARD_ESPRESSO_LEATHER"
+          ],
+          "seat_mesh_hash": "e9fe81c328346cc03e556532af5608d0064d54e9efbf7b5eb4835eb4b27016fe"
+        }
+      },
+      "partial_blends": [],
+      "state": "ride"
+    }
+  },
+  "summary": {
+    "checks": 30,
+    "failed": 0,
+    "failed_check_ids": [],
+    "passed": 30
+  }
+}

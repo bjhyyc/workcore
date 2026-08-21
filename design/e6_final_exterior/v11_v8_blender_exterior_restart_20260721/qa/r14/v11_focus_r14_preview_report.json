@@ -1,0 +1,26 @@
+{
+  "blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\states\\r14\\workcore_e6_v11_focus_r14.blend",
+  "engine": "BLENDER_EEVEE",
+  "renders": [
+    {
+      "bytes": 626521,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\preview\\r14\\focus\\focus_hero.png",
+      "sha256": "90b44745a0ac5cbccd5b07b18260499c5ef94470bc2d44a77ae1dbfcf4715db9",
+      "view": "hero"
+    },
+    {
+      "bytes": 555482,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\preview\\r14\\focus\\focus_front.png",
+      "sha256": "a09a7978bb057bd6cdfc63cd6320d3b6eb5d1c13d89ce6b06e19314efebc16a7",
+      "view": "front"
+    }
+  ],
+  "resolution": [
+    720,
+    720
+  ],
+  "revision": "r14",
+  "schema_version": 1,
+  "state": "focus",
+  "status": "PASS"
+}

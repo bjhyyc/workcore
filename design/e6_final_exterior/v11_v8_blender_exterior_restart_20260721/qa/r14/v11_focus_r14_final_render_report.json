@@ -1,0 +1,83 @@
+{
+  "blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\states\\r14\\workcore_e6_v11_focus_r14.blend",
+  "blend_bytes": 801772,
+  "blend_sha256": "baec5e27699624de9f2cdacccae78272abf8e20af80c3498498e230302a5073b",
+  "engine": "BLENDER_EEVEE",
+  "rendered_at_utc": "2026-07-22T01:32:35.778163+00:00",
+  "renders": [
+    {
+      "bytes": 1893774,
+      "index": 1,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\focus\\01_focus_hero.png",
+      "sha256": "8d8b99d54b2daeec1373dab70b0823eb5f16f43b57cbb9555049cba27bad338c",
+      "view": "hero"
+    },
+    {
+      "bytes": 1870246,
+      "index": 2,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\focus\\02_focus_front_high.png",
+      "sha256": "92b7b31350787cf5e785821017054b4b0c4714054355990dee9688c109f3704a",
+      "view": "front_high"
+    },
+    {
+      "bytes": 1809327,
+      "index": 3,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\focus\\03_focus_rear_oblique.png",
+      "sha256": "6c187572b35395e6607714acecc74c1fa095e3244558e544f675fea744239451",
+      "view": "rear_oblique"
+    },
+    {
+      "bytes": 1709997,
+      "index": 4,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\focus\\04_focus_front.png",
+      "sha256": "cd9a52e8d3396891555911ab52a6375b50ac375ecad48dcf314ec4c1e6fa31c7",
+      "view": "front"
+    },
+    {
+      "bytes": 1705313,
+      "index": 5,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\focus\\05_focus_rear.png",
+      "sha256": "7cda27ec7d9169e93543d3c8c942cfad037348d0ea90b5fe33c19a1a6cf49eb2",
+      "view": "rear"
+    },
+    {
+      "bytes": 1640911,
+      "index": 6,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\focus\\06_focus_left.png",
+      "sha256": "5004766fa5a7ff3e6c2729caa9911303ef30f485a459e1d9a42da4c65bc0ab58",
+      "view": "left"
+    },
+    {
+      "bytes": 1645928,
+      "index": 7,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\focus\\07_focus_right.png",
+      "sha256": "a418a36c1fdb34ac356cbd8e7d3c775787944a48428b315d53e32dfbabf222d8",
+      "view": "right"
+    },
+    {
+      "bytes": 1809560,
+      "index": 8,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\final\\r14\\focus\\08_focus_top.png",
+      "sha256": "e000dfe72eb66c704d39b2c18697b283b80c8ad393bd1c3fb2e251990e62e424",
+      "view": "top"
+    }
+  ],
+  "required_views": [
+    "hero",
+    "front_high",
+    "rear_oblique",
+    "front",
+    "rear",
+    "left",
+    "right",
+    "top"
+  ],
+  "resolution": [
+    1280,
+    1280
+  ],
+  "revision": "r14",
+  "schema_version": 1,
+  "state": "focus",
+  "status": "RENDERED_UNREVIEWED"
+}

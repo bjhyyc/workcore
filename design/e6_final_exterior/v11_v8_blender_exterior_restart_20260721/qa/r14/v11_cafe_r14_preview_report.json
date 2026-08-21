@@ -1,0 +1,26 @@
+{
+  "blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\states\\r14\\workcore_e6_v11_cafe_r14.blend",
+  "engine": "BLENDER_EEVEE",
+  "renders": [
+    {
+      "bytes": 646155,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\preview\\r14\\cafe\\cafe_hero.png",
+      "sha256": "94ecffb7751a9269eaaf4e8b6e2f8532c907971b7bbdd798ac6b7ed6cc5b8b75",
+      "view": "hero"
+    },
+    {
+      "bytes": 630289,
+      "path": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\renders\\preview\\r14\\cafe\\cafe_top.png",
+      "sha256": "bf77edf9f6f22d882ffc6aea754559b5790295fe621af0a25ffcd34ed84ecdea",
+      "view": "top"
+    }
+  ],
+  "resolution": [
+    720,
+    720
+  ],
+  "revision": "r14",
+  "schema_version": 1,
+  "state": "cafe",
+  "status": "PASS"
+}

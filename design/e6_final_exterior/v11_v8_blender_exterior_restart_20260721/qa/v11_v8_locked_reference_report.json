@@ -1,0 +1,158 @@
+{
+  "blender_version": "5.1.2",
+  "pipeline_id": "WORKCORE_E6_V11_V8_RESTART",
+  "reference_blend": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v11_v8_blender_exterior_restart_20260721\\blender\\e6_v11_v8_locked_reference_master.blend",
+  "reference_blend_sha256": "3cd6fec3225fad0668e97288490b090b74b11cf3107d7221e9e2db00b22c7616",
+  "schema_version": 1,
+  "states": {
+    "cafe": {
+      "collections": {
+        "design": "40_V11_NEW_DESIGN.002",
+        "functional": "20_FUNCTIONAL_REFERENCES.002",
+        "locked": "10_LOCKED_HARDPOINTS.002",
+        "qa": "50_QA_HELPERS.002",
+        "replaceable": "30_REPLACEABLE_V8_SKIN.002",
+        "root": "V11__CAFE__ROOT",
+        "studio": "60_STUDIO.002"
+      },
+      "corrected_bounds": {
+        "maximum_m": [
+          0.369165,
+          0.3755,
+          1.072
+        ],
+        "minimum_m": [
+          -0.528,
+          -0.3755,
+          5.9e-05
+        ],
+        "size_m": [
+          0.897165,
+          0.751,
+          1.071941
+        ]
+      },
+      "mesh_count": 116,
+      "occurrence_ids_unique": true,
+      "role_counts": {
+        "FUNCTIONAL_REFERENCE": 48,
+        "LOCKED_HARDPOINT": 8,
+        "REPLACEABLE_V8_SKIN_REFERENCE": 60
+      },
+      "source_glb": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\cafe\\workcore_e6_class_a_cafe.glb",
+      "source_glb_sha256": "918cddc59817004cf3061724e063b727b4c7ca171bbadff9c3d0489f8c05578c"
+    },
+    "focus": {
+      "collections": {
+        "design": "40_V11_NEW_DESIGN.003",
+        "functional": "20_FUNCTIONAL_REFERENCES.003",
+        "locked": "10_LOCKED_HARDPOINTS.003",
+        "qa": "50_QA_HELPERS.003",
+        "replaceable": "30_REPLACEABLE_V8_SKIN.003",
+        "root": "V11__FOCUS__ROOT",
+        "studio": "60_STUDIO.003"
+      },
+      "corrected_bounds": {
+        "maximum_m": [
+          0.369165,
+          0.3755,
+          1.492
+        ],
+        "minimum_m": [
+          -0.62,
+          -0.3755,
+          5.9e-05
+        ],
+        "size_m": [
+          0.989165,
+          0.751,
+          1.491941
+        ]
+      },
+      "mesh_count": 133,
+      "occurrence_ids_unique": true,
+      "role_counts": {
+        "FUNCTIONAL_REFERENCE": 66,
+        "LOCKED_HARDPOINT": 8,
+        "REPLACEABLE_V8_SKIN_REFERENCE": 59
+      },
+      "source_glb": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\focus\\workcore_e6_class_a_focus.glb",
+      "source_glb_sha256": "da2285ebb8b5a5b68ac969c58670e0c4f5119530b683feea25f1d27eedbd742c"
+    },
+    "follow": {
+      "collections": {
+        "design": "40_V11_NEW_DESIGN",
+        "functional": "20_FUNCTIONAL_REFERENCES",
+        "locked": "10_LOCKED_HARDPOINTS",
+        "qa": "50_QA_HELPERS",
+        "replaceable": "30_REPLACEABLE_V8_SKIN",
+        "root": "V11__FOLLOW__ROOT",
+        "studio": "60_STUDIO"
+      },
+      "corrected_bounds": {
+        "maximum_m": [
+          0.352,
+          0.3755,
+          0.731
+        ],
+        "minimum_m": [
+          -0.528,
+          -0.3788,
+          5.9e-05
+        ],
+        "size_m": [
+          0.88,
+          0.7543,
+          0.730941
+        ]
+      },
+      "mesh_count": 111,
+      "occurrence_ids_unique": true,
+      "role_counts": {
+        "FUNCTIONAL_REFERENCE": 41,
+        "LOCKED_HARDPOINT": 10,
+        "REPLACEABLE_V8_SKIN_REFERENCE": 60
+      },
+      "source_glb": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\follow\\workcore_e6_class_a_follow.glb",
+      "source_glb_sha256": "fbe5bd11e7b84022adc1e46f2fbff6ae4a90a0bfa34ca73b0510a273988158b2"
+    },
+    "ride": {
+      "collections": {
+        "design": "40_V11_NEW_DESIGN.001",
+        "functional": "20_FUNCTIONAL_REFERENCES.001",
+        "locked": "10_LOCKED_HARDPOINTS.001",
+        "qa": "50_QA_HELPERS.001",
+        "replaceable": "30_REPLACEABLE_V8_SKIN.001",
+        "root": "V11__RIDE__ROOT",
+        "studio": "60_STUDIO.001"
+      },
+      "corrected_bounds": {
+        "maximum_m": [
+          0.369165,
+          0.3755,
+          1.072
+        ],
+        "minimum_m": [
+          -0.71,
+          -0.3755,
+          5.9e-05
+        ],
+        "size_m": [
+          1.079165,
+          0.751,
+          1.071941
+        ]
+      },
+      "mesh_count": 114,
+      "occurrence_ids_unique": true,
+      "role_counts": {
+        "FUNCTIONAL_REFERENCE": 46,
+        "LOCKED_HARDPOINT": 8,
+        "REPLACEABLE_V8_SKIN_REFERENCE": 60
+      },
+      "source_glb": "C:\\Users\\86135\\Documents\\workcore\\design\\e6_final_exterior\\v8_final_product_original_scheme_release_20260719\\ride\\workcore_e6_class_a_ride.glb",
+      "source_glb_sha256": "d3a09387d6b20cc3142dbe1981a01f89c7b12b4a80cbb3c979a3cbf8694760f1"
+    }
+  },
+  "status": "PASS"
+}
