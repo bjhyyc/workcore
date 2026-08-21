@@ -1,0 +1,12 @@
+{
+  "captured_at_local": "2026-07-15",
+  "scope": "all existing .step and .stp files recursively beneath the workcore workspace before creating this exterior design package",
+  "algorithm": "SHA-256 over sorted records formatted as relative_path|file_sha256|byte_count",
+  "file_count": 1053,
+  "total_bytes": 181388454,
+  "tree_sha256": "DD1F1CB86BDE0E732DABC583CCA9FD70A90FB6E75B972EF27A52BF017EAA9325",
+  "verified_after_design_package": true,
+  "post_package_file_count": 1053,
+  "post_package_tree_sha256": "DD1F1CB86BDE0E732DABC583CCA9FD70A90FB6E75B972EF27A52BF017EAA9325",
+  "policy": "read-only underlay; no existing STEP/STP file may be modified, moved, renamed, or overwritten by this design package"
+}
